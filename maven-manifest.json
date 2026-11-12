@@ -1,0 +1,8 @@
+{
+  "coordinates": "io.github.titancsa:interceptor:1.0.1",
+  "bundle": "distributions/maven/interceptor-1.0.1-central-bundle.zip",
+  "sha256": "3f9366312e79ca81bcbc4a1ffe31e95f28bd8fa80199be25646448bb8af5769f",
+  "public_signing_fingerprint": "596A20404EC4BB7CA14F5152188270D3FB6C4176",
+  "public_key_server": "hkps://keyserver.ubuntu.com",
+  "status": "signed_bundle_prepared_not_published"
+}
