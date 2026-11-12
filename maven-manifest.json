@@ -4,5 +4,6 @@
   "sha256": "de337760dd65ec5d79e2825977cd9bd7e185ed93a5f49c742d7e862954682bfb",
   "public_signing_fingerprint": "6093ECE2E2768AD23EC509EE959901BFB50047A0",
   "public_key_server": "hkps://keyserver.ubuntu.com",
-  "status": "signed_bundle_prepared_not_published"
+  "status": "published_install_verified",
+  "url": "https://central.sonatype.com/artifact/io.github.titancsa/interceptor/1.0.1"
 }

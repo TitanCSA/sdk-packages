@@ -76,3 +76,12 @@ consumer. API guides, usage instructions and license notices are bundled.
 | Windows-Input-Filter.Native | 0.1.0 |
 | Windows-Keyboard-Mouse-Filter.Native | 0.1.0 |
 | Windows-Virtual-Devices.Native | 0.1.0 |
+
+## Current registry status
+
+- PyPI: browser-control-sdk 0.2.1 and interceptor-multilang 1.0.1 published; public pip installs verified.
+- crates.io: interceptor-multilang 1.0.1 published; public Cargo consumer built and executed.
+- Maven Central: io.github.titancsa:interceptor:1.0.1 published; public Maven consumer built and executed. Main JAR, sources and Javadoc hashes verified.
+- NuGet: 39 packages built and tested; publication awaits owner account email confirmation and trusted publishing policy.
+- Conda: two packages are downloadable from the custom conda-channel in this repository and public consumer installation is verified.
+- Official conda-forge catalogue: recipes submitted in conda-forge/staged-recipes#35612 and #35613, pending CI completion and maintainer review.
