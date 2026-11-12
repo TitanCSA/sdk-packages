@@ -1,0 +1,470 @@
+[
+  {
+    "project": "Interceptor-MultiLang",
+    "registry": "nuget",
+    "name": "Interceptor.MultiLang",
+    "version": "1.0.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor.MultiLang.1.0.1.nupkg",
+        "sha256": "956b545dd132587f72e508ec5f5e9ce3079f06399ce72f2b021c52a2c37cfc17"
+      }
+    ]
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "registry": "nuget",
+    "name": "AutoHotInterceptor",
+    "version": "1.0.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/AutoHotInterceptor.1.0.1.nupkg",
+        "sha256": "de70a42f573d8ed19ba4f5724a2833aa57907abd400ecccf00a25de31a158434"
+      }
+    ]
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "registry": "nuget-native",
+    "name": "AutoHotInterceptor.Native",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/AutoHotInterceptor.Native.1.0.0.nupkg",
+        "sha256": "679cab3c2fbb20de23b8fa50ad81d190caf06c564e329c72d110b46db8481f2e"
+      }
+    ]
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "registry": "nuget-native",
+    "name": "Browser-Control-SDK.Native",
+    "version": "0.2.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Browser-Control-SDK.Native.0.2.0.nupkg",
+        "sha256": "3a945a6336985192d85b812a50bcc63e90e166059e99568db5d2125070239be5"
+      }
+    ]
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "registry": "nuget-native",
+    "name": "Changed-Block-Tracking-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Changed-Block-Tracking-SDK.Native.0.1.1.nupkg",
+        "sha256": "319f2314ea3a83c55a14f2cc9ef65136a9a301f0ea5055eafc5384ef17d7df46"
+      }
+    ]
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "registry": "nuget-native",
+    "name": "Cloud-Files-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Cloud-Files-SDK.Native.0.1.1.nupkg",
+        "sha256": "633df897c30e0af9196af23a2e83fe0b4f762dabf2ce6bdd29e74a6058d97c15"
+      }
+    ]
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "registry": "nuget-native",
+    "name": "Connection-Trace-Studio.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Connection-Trace-Studio.Native.0.1.0.nupkg",
+        "sha256": "42c988c8204f75c248997481455d206be8f22ddc6fa10b50c86bd02eb699747d"
+      }
+    ]
+  },
+  {
+    "project": "File-Trace-Studio",
+    "registry": "nuget-native",
+    "name": "File-Trace-Studio.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/File-Trace-Studio.Native.0.1.0.nupkg",
+        "sha256": "a8c1000c81ee16c5dd137e33d592b8a495d18ce80fca952253819351feaa682d"
+      }
+    ]
+  },
+  {
+    "project": "FyraDevice",
+    "registry": "nuget-native",
+    "name": "FyraDevice.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraDevice.Native.0.1.0.nupkg",
+        "sha256": "a550ac553e61d529dbadd616df5df30750c8fe86d676026e61c41003b386243e"
+      }
+    ]
+  },
+  {
+    "project": "FyraInput",
+    "registry": "nuget-native",
+    "name": "FyraInput.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInput.Native.0.1.0.nupkg",
+        "sha256": "208daab3118c058f47e42c19a72ddccb505dbdea19613845ca04616cf85570c8"
+      }
+    ]
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "registry": "nuget-native",
+    "name": "FyraInput-Gamepad.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInput-Gamepad.Native.0.1.0.nupkg",
+        "sha256": "668f5e06435c4065db583698eb283dcb4b914e9189b72b3765831dc6de53e58c"
+      }
+    ]
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "registry": "nuget-native",
+    "name": "FyraInput-Keyboard-Mouse.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInput-Keyboard-Mouse.Native.0.1.0.nupkg",
+        "sha256": "efb62bfa5e8533ff71b0f639d5c1f099e4f2fa5f9ce6a29fc42d31959e33b60d"
+      }
+    ]
+  },
+  {
+    "project": "HID-Access-Control",
+    "registry": "nuget-native",
+    "name": "HID-Access-Control.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/HID-Access-Control.Native.0.1.0.nupkg",
+        "sha256": "471000e1ef829af6c34ed0b5dc7a795551840076b32aa244e3083bb1415fff04"
+      }
+    ]
+  },
+  {
+    "project": "Interception-V2",
+    "registry": "nuget-native",
+    "name": "Interception-V2.Native",
+    "version": "2.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interception-V2.Native.2.0.0.nupkg",
+        "sha256": "f5f9c5318495a0f5a08fa37eda265b34257df7cea502e121ae5de3a54fb9cb53"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor",
+    "registry": "nuget-native",
+    "name": "Interceptor.Native",
+    "version": "1.4.22",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor.Native.1.4.22.nupkg",
+        "sha256": "5dcc5dbad8b435d4391b598e58c731598c3741a0211391235eb46c1829f33dec"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "registry": "nuget-native",
+    "name": "Interceptor-Gamepad-Controller.Native",
+    "version": "1.0.13",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor-Gamepad-Controller.Native.1.0.13.nupkg",
+        "sha256": "08aaec50c68933ce4df3961e58a9bd75f891234b0e8f2f7bb74a882f66f18c1a"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "registry": "nuget-native",
+    "name": "Interceptor-Keyboard-Mouse.Native",
+    "version": "1.0.5",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor-Keyboard-Mouse.Native.1.0.5.nupkg",
+        "sha256": "e7361a7666a386028c7fbb796156a8400b4a988ea121991c01a8491a60ed8af5"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "registry": "nuget-native",
+    "name": "Interceptor-MultiLang.Native",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor-MultiLang.Native.1.0.0.nupkg",
+        "sha256": "e948aaafeb4d52ab879e13610f8c6b63576747a06e3760b40c7aa149c4078362"
+      }
+    ]
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "registry": "nuget-native",
+    "name": "Network-Emulation-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Network-Emulation-SDK.Native.0.1.1.nupkg",
+        "sha256": "cc33017e885c705bb65ef8087f7e484f56538069d5d3c0af3b33b827337a9eb8"
+      }
+    ]
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "registry": "nuget-native",
+    "name": "Packet-Capture-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Packet-Capture-SDK.Native.0.1.1.nupkg",
+        "sha256": "0e9a6a5e40e9ae13f72b063386601e5f0a0e46325344c1a992f91dabbfb8acdd"
+      }
+    ]
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "registry": "nuget-native",
+    "name": "Process-Trace-Studio.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Process-Trace-Studio.Native.0.1.0.nupkg",
+        "sha256": "85a43bea4a14a2e82230545d0d10efcfaecbe3f04a1fcdfa1a8a38bcc3d9e705"
+      }
+    ]
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "registry": "nuget-native",
+    "name": "ProcessGuard-SDK.Native",
+    "version": "0.1.2",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/ProcessGuard-SDK.Native.0.1.2.nupkg",
+        "sha256": "7b47bae3810bacfd18ad9f4cd2b02084ec3b994f9ae000c5c04d6cd8c06a8006"
+      }
+    ]
+  },
+  {
+    "project": "RegistryGuard",
+    "registry": "nuget-native",
+    "name": "RegistryGuard.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/RegistryGuard.Native.0.1.1.nupkg",
+        "sha256": "c41458792618becc27017d15214608883b9b06d5decb8431a27009cfcd04fec9"
+      }
+    ]
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "registry": "nuget-native",
+    "name": "Remote-Workstation-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Remote-Workstation-SDK.Native.0.1.1.nupkg",
+        "sha256": "687fc0b7ffda5262b720783a1ff41e0124517e7453d81f436bbb2a676858be11"
+      }
+    ]
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "registry": "nuget-native",
+    "name": "Storage-IO-Flight-Recorder.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Storage-IO-Flight-Recorder.Native.0.1.1.nupkg",
+        "sha256": "220b13094617b97bab85ca8e208cd51dce2928f59caeb33a376cbe1572b9a6ac"
+      }
+    ]
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "registry": "nuget-native",
+    "name": "Titan-Audio-Link.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Titan-Audio-Link.Native.0.1.1.nupkg",
+        "sha256": "0394288f539790d3592698e458f8bc868a06322b0df306440b1009d72efca2c0"
+      }
+    ]
+  },
+  {
+    "project": "Titan-File-Filter",
+    "registry": "nuget-native",
+    "name": "Titan-File-Filter.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Titan-File-Filter.Native.0.1.0.nupkg",
+        "sha256": "cb8d64597b6898856747511d9735443047148ae7bbe6670748843d17087b6b33"
+      }
+    ]
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "registry": "nuget-native",
+    "name": "Titan-Network-Filter.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Titan-Network-Filter.Native.0.1.1.nupkg",
+        "sha256": "c56299d6cebef61bf9386a2774987884b6e4ff3ecb9302134055e1848e2ab7d1"
+      }
+    ]
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "registry": "nuget-native",
+    "name": "USB-over-IP-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/USB-over-IP-SDK.Native.0.1.1.nupkg",
+        "sha256": "3c886407fbad6b24b3f95273cc46f522d50541bfc81c001b84a170f886392c4e"
+      }
+    ]
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "registry": "nuget-native",
+    "name": "USB-Trace-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/USB-Trace-SDK.Native.0.1.1.nupkg",
+        "sha256": "5ab6054ea77e17c5f425889c18ea1bf59d4c91e25bbe69ec510da433e7905a4a"
+      }
+    ]
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "registry": "nuget-native",
+    "name": "User-Backed-Virtual-Disk-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/User-Backed-Virtual-Disk-SDK.Native.0.1.1.nupkg",
+        "sha256": "ed1699e62eccaec67261a5bea418da4c42806e724e36b63765754a2bd364528d"
+      }
+    ]
+  },
+  {
+    "project": "Vdevice",
+    "registry": "nuget-native",
+    "name": "Vdevice.Native",
+    "version": "1.0.5",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Vdevice.Native.1.0.5.nupkg",
+        "sha256": "9c834d0793c1ec680213eb1074613f4ac212a43913b53bb2ac98709fb417c4d1"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "registry": "nuget-native",
+    "name": "Virtual-Camera-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Virtual-Camera-SDK.Native.0.1.1.nupkg",
+        "sha256": "02cb3db7e84236efafbe98311aac365ddf933c64f390e7c505135224b39dd28d"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "registry": "nuget-native",
+    "name": "Virtual-Network-Adapter-SDK.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Virtual-Network-Adapter-SDK.Native.0.1.1.nupkg",
+        "sha256": "23e40485778c4d78579a88baa3fa7e6c90331afc75abb153c45c376c4dce6e3d"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "registry": "nuget-native",
+    "name": "Virtual-Storage-Fault-Lab.Native",
+    "version": "0.1.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Virtual-Storage-Fault-Lab.Native.0.1.1.nupkg",
+        "sha256": "18c12b6b01c32e224d4057eb959d138d62f9375bf1b956c3d944a85150343c8a"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "registry": "nuget-native",
+    "name": "Windows-Gamepad-Filter.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Windows-Gamepad-Filter.Native.0.1.0.nupkg",
+        "sha256": "92e38212eab4052a7b45bb073aa8c2c6cd0f88763ca6396e5773fa938b1e564e"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "registry": "nuget-native",
+    "name": "Windows-Input-Filter.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Windows-Input-Filter.Native.0.1.0.nupkg",
+        "sha256": "93a11d628b332a4330c41d2b8ee81c27bc55c1242f74c2969d1419e97ae2b4f7"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "registry": "nuget-native",
+    "name": "Windows-Keyboard-Mouse-Filter.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Windows-Keyboard-Mouse-Filter.Native.0.1.0.nupkg",
+        "sha256": "6098a84ae44f0a8e315f940653fa0b8824468d5e203606da739a263e951a41f5"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "registry": "nuget-native",
+    "name": "Windows-Virtual-Devices.Native",
+    "version": "0.1.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Windows-Virtual-Devices.Native.0.1.0.nupkg",
+        "sha256": "f375b06678ce144d3205c00cc202f1f687385de91b5fd21158974f67af4cfb00"
+      }
+    ]
+  }
+]
