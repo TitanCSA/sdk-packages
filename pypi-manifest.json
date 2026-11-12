@@ -1,0 +1,36 @@
+[
+  {
+    "project": "Browser-Control-SDK",
+    "name": "browser-control-sdk",
+    "version": "0.2.1",
+    "workflow": "publish-pypi.yml",
+    "environment": "pypi",
+    "artifacts": [
+      {
+        "path": "distributions/pypi/browser-control-sdk/browser_control_sdk-0.2.1-py3-none-any.whl",
+        "sha256": "1167ad3f817ed164b32ef490ab196e4b6c5c06b28e4cb8f0a685d804d2056fca"
+      },
+      {
+        "path": "distributions/pypi/browser-control-sdk/browser_control_sdk-0.2.1.tar.gz",
+        "sha256": "204b2529facd1b00ce2fbbe99f34c2777bd42039079d6a09bbc8b6d5a64967ca"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "name": "interceptor-multilang",
+    "version": "1.0.1",
+    "workflow": "publish-interceptor-pypi.yml",
+    "environment": "pypi",
+    "artifacts": [
+      {
+        "path": "distributions/pypi/interceptor-multilang/interceptor_multilang-1.0.1-py3-none-win_amd64.whl",
+        "sha256": "58afd5a8f9ba6ac88131fef708f571312a82be40e6cdb98b2d8e31effc3700f7"
+      },
+      {
+        "path": "distributions/pypi/interceptor-multilang/interceptor_multilang-1.0.1.tar.gz",
+        "sha256": "84f249bd7f5fb973d191cda570798621a80467d7248c7a8b0a3214d27cf1112e"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+name: Publish browser-control-sdk to PyPI
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: publish-browser-control-sdk
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/browser-control-sdk/
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify reviewed distribution hashes
+        run: python scripts/verify_distributions.py browser-control-sdk
+      - name: Publish wheel and source distribution using PyPI OIDC
+        uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086
+        with:
+          packages-dir: dist/
