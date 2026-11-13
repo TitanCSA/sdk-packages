@@ -1,0 +1,4 @@
+857f889aeb2491a2faa898e9f42769c036152176609cbf0e35739fd3844cb8f6  windows-input-filter-input-sdks-1.0.0-source.zip
+4658cdf2d93dd0c609a78a2819f901a1e2dda9c5edaa1f1de801086e75f78b95  windows-input-filter-1.0.0.gem
+1605ef99479678007a57929b11c281bd06eba1ba873e4460cf1eb19a86c2c6c5  windows_input_filter-1.0.0-py3-none-win_amd64.whl
+6cee9dfaceb7d82b0f778381357e9c519237c9b9838717464dbcaab24a5af322  windows_input_filter-1.0.0.tar.gz

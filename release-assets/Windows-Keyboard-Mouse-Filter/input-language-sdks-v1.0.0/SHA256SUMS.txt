@@ -1,0 +1,4 @@
+d571d0e95c95f26668032d98982f8617e3d30f052cdf36a9fd6a3960da52d0dd  windows-keyboard-mouse-filter-input-sdks-1.0.0-source.zip
+055460150298c9aa4e75a2b4255f329fa591dbf7ad8a70457fd042ea72f7719b  windows-keyboard-mouse-filter-1.0.0.gem
+c8dc8573495d9b318ed45b7dab7a9054fccf04e288be8bbe451d0ba8723bd2cd  windows_keyboard_mouse_filter-1.0.0-py3-none-win_amd64.whl
+eb4dec9296d6599a3252272d27e288efa495683b7ffcb6b6cc9e0e8fd71a91e6  windows_keyboard_mouse_filter-1.0.0.tar.gz

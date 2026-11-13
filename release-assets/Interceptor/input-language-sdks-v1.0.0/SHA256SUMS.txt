@@ -1,0 +1,4 @@
+19ada3388528aaa18010ffb094464c5dc08e465fe2235edf6ef7c6332ef2a2d5  interceptor-input-sdks-1.0.0-source.zip
+a8b579aa256dfc7cca18ba8103e188da0ed639a60536aa22b875a8b0da7f9076  interceptor-sdk-1.0.0.gem
+b9a5ac133e5f259d895dad9298fbc11f8badf8ab8a9b0b77e265af74c7383f24  interceptor_sdk-1.0.0-py3-none-win_amd64.whl
+56eb696fafb7b37d9f7d435cc042fd19c5573e5e811f638cf1401785e01816cc  interceptor_sdk-1.0.0.tar.gz

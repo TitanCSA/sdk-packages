@@ -1,0 +1,4 @@
+8ead5798c05e99122c95e28ca1676ae08cc558990d338815904376f9235a2e86  interceptor-gamepad-controller-input-sdks-1.0.0-source.zip
+f1b8f9d9a065a57a405e497339a3c06a3b7909b65f2caa4fe098d9199629ab1b  interceptor-gamepad-controller-1.0.0.gem
+0d9b1b0e058893891567a1d3ff986d4cb3bee0dfa339b8434c9b4d00be7e5e8c  interceptor_gamepad_controller-1.0.0-py3-none-win_amd64.whl
+1dbc2a708573e97026755335b4a5fba4e31b45e294ff6ba4bb22d1eaf8d9156d  interceptor_gamepad_controller-1.0.0.tar.gz

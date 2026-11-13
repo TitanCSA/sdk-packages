@@ -1,0 +1,4 @@
+dca6aa3d5439edd56370b7cb7636601e83054b9ee8f74b3b1687336f1270ba84  autohotinterceptor-input-sdks-1.0.0-source.zip
+4777dab813cd25e6c261b9ba876b6341319bcca495ce85dc7aad6b60202cbac2  autohotinterceptor-1.0.0.gem
+109f1fc89a32a59516a54c8b4031a901588f4c8f1d652cad20a86f0594d1f916  autohotinterceptor-1.0.0-py3-none-win_amd64.whl
+1a212aa1df8d8dc60096380f28b6e0c27df209dbb699a9586829344959a9dd60  autohotinterceptor-1.0.0.tar.gz

@@ -1,0 +1,1 @@
+30cbee352d47bbbdc62b4dbc9be6c174b3b460eeea6679c391f473107d90ba58  BrowserControlSDK-PowerShell-0.2.1.zip

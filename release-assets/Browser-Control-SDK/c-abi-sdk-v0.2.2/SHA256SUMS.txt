@@ -1,0 +1,1 @@
+eb1c5d4ebb0cbd1803fe31519bd6ace130612ee21a71919a8372d4f7403ef198  browser-control-sdk-c-0.2.2-win-x64.zip

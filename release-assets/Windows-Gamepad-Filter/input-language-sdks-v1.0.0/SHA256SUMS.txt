@@ -1,0 +1,4 @@
+e9fbc599298897a363de5faa56214e7da6043a821eac465a22e7358ac91de756  windows-gamepad-filter-input-sdks-1.0.0-source.zip
+469b47f4b39eae83e048ce1dc276046553ca8eb0b116588bd14f14f4f564f0eb  windows-gamepad-filter-1.0.0.gem
+5b8075bef874a2896a1792406cfebafba5a77a2197f0bd4390df3084206525b4  windows_gamepad_filter-1.0.0-py3-none-win_amd64.whl
+f3c3458d612c9424ad81547848dea5c965f07cdd8b2c372a8e7c37443f541392  windows_gamepad_filter-1.0.0.tar.gz

@@ -1,0 +1,4 @@
+cffba97a0a605fb12dd8db651ccd36c70e872dff401a44c8b2912f18145e83d5  fyrainput-gamepad-input-sdks-1.0.0-source.zip
+4988093144bf0f3f3009615a070ecad22811f7f9db876366d316901198463923  fyrainput-gamepad-1.0.0.gem
+b9d12fac338c649774aec9a6fd5ff1ec60c1a0158309f7029e8b38a2eec80ab5  fyrainput_gamepad-1.0.0-py3-none-win_amd64.whl
+2ccfba16411dbd38bae74c78276b17f08a4bb4df48d0b0ed2ef5c97287bc20b7  fyrainput_gamepad-1.0.0.tar.gz

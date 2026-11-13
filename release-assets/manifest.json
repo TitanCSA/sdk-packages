@@ -1,0 +1,1794 @@
+[
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/AutoHotInterceptor/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "109f1fc89a32a59516a54c8b4031a901588f4c8f1d652cad20a86f0594d1f916",
+    "size": 157335
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0.gem",
+    "path": "release-assets/AutoHotInterceptor/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0.gem",
+    "sha256": "4777dab813cd25e6c261b9ba876b6341319bcca495ce85dc7aad6b60202cbac2",
+    "size": 158720
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0.tar.gz",
+    "path": "release-assets/AutoHotInterceptor/input-language-sdks-v1.0.0/autohotinterceptor-1.0.0.tar.gz",
+    "sha256": "1a212aa1df8d8dc60096380f28b6e0c27df209dbb699a9586829344959a9dd60",
+    "size": 156563
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/input-language-sdks-v1.0.0/autohotinterceptor-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/AutoHotInterceptor/input-language-sdks-v1.0.0/autohotinterceptor-input-sdks-1.0.0-source.zip",
+    "sha256": "dca6aa3d5439edd56370b7cb7636601e83054b9ee8f74b3b1687336f1270ba84",
+    "size": 394873
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/AutoHotInterceptor/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "a65a0be38f73c20ea7f16b4a7edcdffdccf7e5cd712d72f357e1a37e67e1579a",
+    "size": 420
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
+    "path": "release-assets/AutoHotInterceptor/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
+    "sha256": "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3",
+    "size": 59512
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/TitanCSA.AutoHotInterceptor.1.0.0.nupkg",
+    "path": "release-assets/AutoHotInterceptor/sdk-v1.0.0/TitanCSA.AutoHotInterceptor.1.0.0.nupkg",
+    "sha256": "529f40fa699c7623d0766a3bde4b0e7fbcdfd8d79a3334337e838f3539b82c73",
+    "size": 234278
+  },
+  {
+    "project": "AutoHotInterceptor",
+    "old_url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/TitanCSA.AutoHotInterceptor.Native.1.0.0.nupkg",
+    "path": "release-assets/AutoHotInterceptor/sdk-v1.0.0/TitanCSA.AutoHotInterceptor.Native.1.0.0.nupkg",
+    "sha256": "01d1a04a8886cada408c2dc93ebec1413d8da2b3aa5edd4933ab0e9144ae614b",
+    "size": 62514
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
+    "path": "release-assets/Browser-Control-SDK/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
+    "sha256": "889c5baf8c1595fa392e425f92cd1c270655e045a7721975caebfedc7e63066d",
+    "size": 147904
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser_control_sdk-0.2.0-py3-none-any.whl",
+    "path": "release-assets/Browser-Control-SDK/sdk-v0.2.0/browser_control_sdk-0.2.0-py3-none-any.whl",
+    "sha256": "b8d091131aa0bd5d5027a59dab0f158f0f5d824cd43aabf21ec5b50921e865a6",
+    "size": 11000
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser_control_sdk-0.2.0.tar.gz",
+    "path": "release-assets/Browser-Control-SDK/sdk-v0.2.0/browser_control_sdk-0.2.0.tar.gz",
+    "sha256": "e5b3e6bd2920eb0d95fee823ba3f80cbc96fdae33278fc361289fc8a1c6c7c5f",
+    "size": 11206
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/titancsa-browser-control-sdk-0.2.0.tgz",
+    "path": "release-assets/Browser-Control-SDK/sdk-v0.2.0/titancsa-browser-control-sdk-0.2.0.tgz",
+    "sha256": "573d8efab149920d1d5c22110805f3de054a01d3a849d05d5e60768f7f60da45",
+    "size": 10683
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/TitanCSA.BrowserControlSDK.Native.0.2.0.nupkg",
+    "path": "release-assets/Browser-Control-SDK/sdk-v0.2.0/TitanCSA.BrowserControlSDK.Native.0.2.0.nupkg",
+    "sha256": "b7f1a474315736a4311835a3a21a4890da234b340d1de65e27372e97051f5557",
+    "size": 152563
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/ruby-sdk-v0.2.2/browser-control-sdk-0.2.2.gem",
+    "path": "release-assets/Browser-Control-SDK/ruby-sdk-v0.2.2/browser-control-sdk-0.2.2.gem",
+    "sha256": "bc9ac0480c29f7026eebb9bae6412a2e7366808c802c0d01db467ce0b26c88ae",
+    "size": 221696
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/ruby-sdk-v0.2.1/browser-control-sdk-0.2.1.gem",
+    "path": "release-assets/Browser-Control-SDK/ruby-sdk-v0.2.1/browser-control-sdk-0.2.1.gem",
+    "sha256": "dd7f16ac1ce00d697510fd98e1aa19c4448dbfec302ba0cd0163a1cd8374eab4",
+    "size": 221696
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/powershell-sdk-v0.2.1/Browser-Control-SDK-SHA256SUMS.txt",
+    "path": "release-assets/Browser-Control-SDK/powershell-sdk-v0.2.1/Browser-Control-SDK-SHA256SUMS.txt",
+    "sha256": "dc7da9fd1019e72ab533971f6c989e3b502924821de6e9d47587a4d499833792",
+    "size": 106
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/powershell-sdk-v0.2.1/BrowserControlSDK-PowerShell-0.2.1.zip",
+    "path": "release-assets/Browser-Control-SDK/powershell-sdk-v0.2.1/BrowserControlSDK-PowerShell-0.2.1.zip",
+    "sha256": "30cbee352d47bbbdc62b4dbc9be6c174b3b460eeea6679c391f473107d90ba58",
+    "size": 18142
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/c-abi-sdk-v0.2.2/browser-control-sdk-c-0.2.2-win-x64.zip",
+    "path": "release-assets/Browser-Control-SDK/c-abi-sdk-v0.2.2/browser-control-sdk-c-0.2.2-win-x64.zip",
+    "sha256": "eb1c5d4ebb0cbd1803fe31519bd6ace130612ee21a71919a8372d4f7403ef198",
+    "size": 217788
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "old_url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/c-abi-sdk-v0.2.2/SHA256SUMS.txt",
+    "path": "release-assets/Browser-Control-SDK/c-abi-sdk-v0.2.2/SHA256SUMS.txt",
+    "sha256": "a3f3db6d6ba7aad58463c5c9f316212becf94c9bdc0943c4c7636987b7de9a69",
+    "size": 106
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/language-sdks-v1.0.0/changed-block-tracking-sdk-1.0.0.gem",
+    "path": "release-assets/Changed-Block-Tracking-SDK/language-sdks-v1.0.0/changed-block-tracking-sdk-1.0.0.gem",
+    "sha256": "c16aef613cebeca3085b9427ddcb29f0e262fff1aa8d4701b16c60d73c6c3f9a",
+    "size": 178688
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/language-sdks-v1.0.0/changed-block-tracking-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Changed-Block-Tracking-SDK/language-sdks-v1.0.0/changed-block-tracking-sdk-sdk-source-1.0.0.zip",
+    "sha256": "ba9db67483b15889d2d448023fdf2c484f66e16c51ac4b0752aa343e290ee8c0",
+    "size": 528341
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/language-sdks-v1.0.0/changed_block_tracking_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Changed-Block-Tracking-SDK/language-sdks-v1.0.0/changed_block_tracking_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "21c30a93a203898d2b03f723ac057009169d21719b8d86e14449c9a472965c69",
+    "size": 178533
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/language-sdks-v1.0.0/changed_block_tracking_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Changed-Block-Tracking-SDK/language-sdks-v1.0.0/changed_block_tracking_sdk-1.0.0.tar.gz",
+    "sha256": "20ba372b666d17036b88fdc07e8ffe1b4d96dbc26a2d3aa305d0f904e26b1780",
+    "size": 177609
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/sdk-v0.1.1/changed-block-tracking-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Changed-Block-Tracking-SDK/sdk-v0.1.1/changed-block-tracking-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "414f4544f447eb629b8ecd3ce1722910eb809962fdb2cbb4c36694f0f8025561",
+    "size": 15018
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "old_url": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/sdk-v0.1.1/TitanCSA.ChangedBlockTrackingSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Changed-Block-Tracking-SDK/sdk-v0.1.1/TitanCSA.ChangedBlockTrackingSDK.Native.0.1.1.nupkg",
+    "sha256": "f227d483ba40510a48b351ca7bdb1b3cddc5bf771f814a25ce087c568527759a",
+    "size": 18557
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/language-sdks-v1.0.0/cloud-files-sdk-1.0.0.gem",
+    "path": "release-assets/Cloud-Files-SDK/language-sdks-v1.0.0/cloud-files-sdk-1.0.0.gem",
+    "sha256": "fa2bfb769e71d7f0bd4661934b7a12de96fdb4b0804828d1fb2d8d8f240ad68c",
+    "size": 203264
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/language-sdks-v1.0.0/cloud-files-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Cloud-Files-SDK/language-sdks-v1.0.0/cloud-files-sdk-sdk-source-1.0.0.zip",
+    "sha256": "e98f8416525f8d920ffc72c47f78bf06bfd8402a3f7f9a25660a18f16cc30704",
+    "size": 577343
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/language-sdks-v1.0.0/cloud_files_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Cloud-Files-SDK/language-sdks-v1.0.0/cloud_files_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "39c785c078697302c85a2c9cd2df4b4f909008f354e0dccfa6e65529a9c35783",
+    "size": 202243
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/language-sdks-v1.0.0/cloud_files_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Cloud-Files-SDK/language-sdks-v1.0.0/cloud_files_sdk-1.0.0.tar.gz",
+    "sha256": "4d76a9f681977e1ce9204811609768b0f21e3e5bb943313fb6f2f977c84ef7aa",
+    "size": 201692
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Cloud-Files-SDK/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "ea17e34fb656e40759ec9e0143f5147faffdf5ccb6c6063826b1920c2dd21e31",
+    "size": 18634
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "old_url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/TitanCSA.CloudFilesSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Cloud-Files-SDK/sdk-v0.1.1/TitanCSA.CloudFilesSDK.Native.0.1.1.nupkg",
+    "sha256": "bbce15644aeb851ab95872d1e957e15002e6d060470c3d66d20cb313bd5af274",
+    "size": 21077
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/language-sdks-v1.0.0/connection-trace-studio-1.0.0.gem",
+    "path": "release-assets/Connection-Trace-Studio/language-sdks-v1.0.0/connection-trace-studio-1.0.0.gem",
+    "sha256": "31a8ee47cbdf74ea0ebd464272bd597c3f4f17b8a8b1db18ccb2d329787e14c0",
+    "size": 164352
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/language-sdks-v1.0.0/connection-trace-studio-sdk-source-1.0.0.zip",
+    "path": "release-assets/Connection-Trace-Studio/language-sdks-v1.0.0/connection-trace-studio-sdk-source-1.0.0.zip",
+    "sha256": "98c30abe6934567ad05f9b41105fdb827ed49ad74fe97a6ae3b5dd82ff429b2b",
+    "size": 488134
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/language-sdks-v1.0.0/connection_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Connection-Trace-Studio/language-sdks-v1.0.0/connection_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "feb6df16cb41fc2f28299389441d40452e05f78273d226c0ed6cb5a17d1c44af",
+    "size": 163609
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/language-sdks-v1.0.0/connection_trace_studio-1.0.0.tar.gz",
+    "path": "release-assets/Connection-Trace-Studio/language-sdks-v1.0.0/connection_trace_studio-1.0.0.tar.gz",
+    "sha256": "6e13576e59775768b91dc5f72f2713e19059d5ecc04b00c16a4702ee8552a821",
+    "size": 162719
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/sdk-v0.1.0/connection-trace-studio-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Connection-Trace-Studio/sdk-v0.1.0/connection-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "9a3e0d127d2961c1311873ffbdcd5f7e66a955485ac00cb5afde09c5d6e47e85",
+    "size": 7434
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/sdk-v0.1.0/TitanCSA.ConnectionTraceStudio.Native.0.1.0.nupkg",
+    "path": "release-assets/Connection-Trace-Studio/sdk-v0.1.0/TitanCSA.ConnectionTraceStudio.Native.0.1.0.nupkg",
+    "sha256": "2782610d727fdc14195fa082f8e75dfdbd39e02185874dc3f696d8a1f32d0f75",
+    "size": 8863
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/language-sdks-v1.0.0/file-trace-studio-1.0.0.gem",
+    "path": "release-assets/File-Trace-Studio/language-sdks-v1.0.0/file-trace-studio-1.0.0.gem",
+    "sha256": "f411d208fe22dade1244a9e45a9ab8efc92c0630b463e1bc9c674421a2044d8e",
+    "size": 150016
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/language-sdks-v1.0.0/file-trace-studio-sdk-source-1.0.0.zip",
+    "path": "release-assets/File-Trace-Studio/language-sdks-v1.0.0/file-trace-studio-sdk-source-1.0.0.zip",
+    "sha256": "d77a95b2a4fcfd8ac9b24bf3345fd13b21ae0b70fa491c9871cefb5dcba19527",
+    "size": 456109
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/language-sdks-v1.0.0/file_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/File-Trace-Studio/language-sdks-v1.0.0/file_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "b89239977a0b059676977459c088082a81249234b3839b33205856b83924822d",
+    "size": 149345
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/language-sdks-v1.0.0/file_trace_studio-1.0.0.tar.gz",
+    "path": "release-assets/File-Trace-Studio/language-sdks-v1.0.0/file_trace_studio-1.0.0.tar.gz",
+    "sha256": "a5dbee0dd31c997c47c6c57258a1ae1a9de980164b6572b345d1fe27a0a609e1",
+    "size": 148193
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/sdk-v0.1.0/file-trace-studio-sdk-0.1.0.tar.gz",
+    "path": "release-assets/File-Trace-Studio/sdk-v0.1.0/file-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "0e1d8bfa1b01b4a49591b7c747cc2bfb4bb994d3a90be918eaf3f0ede10e10f2",
+    "size": 4775
+  },
+  {
+    "project": "File-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/File-Trace-Studio/releases/download/sdk-v0.1.0/TitanCSA.FileTraceStudio.Native.0.1.0.nupkg",
+    "path": "release-assets/File-Trace-Studio/sdk-v0.1.0/TitanCSA.FileTraceStudio.Native.0.1.0.nupkg",
+    "sha256": "27171d3d4121a0e5c6672ada5ed583ee54cdf195d335939d2f602834dddea287",
+    "size": 6050
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/language-sdks-v1.0.0/fyradevice-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/FyraDevice/language-sdks-v1.0.0/fyradevice-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "b8fa77ff042b48227b3f5ffd4eaf6ee37de2d67fc5c0b098ce34c22281b32a68",
+    "size": 216644
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/language-sdks-v1.0.0/fyradevice-1.0.0.gem",
+    "path": "release-assets/FyraDevice/language-sdks-v1.0.0/fyradevice-1.0.0.gem",
+    "sha256": "d5cb6e9a1c7def7006ea7fdc5964e33f950ce2eeb4a8a1452d47ce25683938e7",
+    "size": 217088
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/language-sdks-v1.0.0/fyradevice-1.0.0.tar.gz",
+    "path": "release-assets/FyraDevice/language-sdks-v1.0.0/fyradevice-1.0.0.tar.gz",
+    "sha256": "4bdbf7e2b06c586b26bb17d5c1237771457c1cf405f7dea46912df21e8f35201",
+    "size": 215277
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/language-sdks-v1.0.0/fyradevice-sdk-source-1.0.0.zip",
+    "path": "release-assets/FyraDevice/language-sdks-v1.0.0/fyradevice-sdk-source-1.0.0.zip",
+    "sha256": "16e89ece0f72e6a54f8936eb57a3e0530c4d14dd82aff72dfc691b49eeb0c103",
+    "size": 600901
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz",
+    "path": "release-assets/FyraDevice/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz",
+    "sha256": "071794dc564071da1444362323f2e593b57bcfc23c6409b10c79d80f6228be4b",
+    "size": 14751
+  },
+  {
+    "project": "FyraDevice",
+    "old_url": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/sdk-v0.1.0/TitanCSA.FyraDevice.Native.0.1.0.nupkg",
+    "path": "release-assets/FyraDevice/sdk-v0.1.0/TitanCSA.FyraDevice.Native.0.1.0.nupkg",
+    "sha256": "48f2a352ed6de7c5b1e74cc54cf88e41d07c5f1bdd37dfd4024d3c1ae80816ef",
+    "size": 16150
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/FyraInput/input-language-sdks-v1.0.0/fyrainput-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "cb59507e30d82014574d8fe85f7cc58fda57c93a8cb0a9463d72ca232b232674",
+    "size": 201571
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-1.0.0.gem",
+    "path": "release-assets/FyraInput/input-language-sdks-v1.0.0/fyrainput-1.0.0.gem",
+    "sha256": "b9447e362cc3eae32fccff0b7bb7f0c0945209aa61c284230d9525a19e9e40a3",
+    "size": 203776
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-1.0.0.tar.gz",
+    "path": "release-assets/FyraInput/input-language-sdks-v1.0.0/fyrainput-1.0.0.tar.gz",
+    "sha256": "0da8f62c3e63198547433e401d23436c6841bee19ee88b5f06759e95b136ce9f",
+    "size": 201470
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/FyraInput/input-language-sdks-v1.0.0/fyrainput-input-sdks-1.0.0-source.zip",
+    "sha256": "32174a73189404e168e13f481e130c6154d74dc4ce153a4ecc806a66dca3b183",
+    "size": 477311
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/FyraInput/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "77f088a1e810b8a469eaad25798c4ae882b2ac7a3e56106d22cad77d300f42ea",
+    "size": 384
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz",
+    "path": "release-assets/FyraInput/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz",
+    "sha256": "3665b34e5d2530862ffed228d74302d7cc21a09b1045134a95453b035b569208",
+    "size": 55072
+  },
+  {
+    "project": "FyraInput",
+    "old_url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/TitanCSA.FyraInput.Native.0.1.0.nupkg",
+    "path": "release-assets/FyraInput/sdk-v0.1.0/TitanCSA.FyraInput.Native.0.1.0.nupkg",
+    "sha256": "449fed099a4451a67e08e2b5cf4289c20a12cc06cee08c35d73e5bd76c0e9d58",
+    "size": 56878
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-gamepad-1.0.0.gem",
+    "path": "release-assets/FyraInput-Gamepad/input-language-sdks-v1.0.0/fyrainput-gamepad-1.0.0.gem",
+    "sha256": "4988093144bf0f3f3009615a070ecad22811f7f9db876366d316901198463923",
+    "size": 198144
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-gamepad-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/FyraInput-Gamepad/input-language-sdks-v1.0.0/fyrainput-gamepad-input-sdks-1.0.0-source.zip",
+    "sha256": "cffba97a0a605fb12dd8db651ccd36c70e872dff401a44c8b2912f18145e83d5",
+    "size": 467338
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput_gamepad-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/FyraInput-Gamepad/input-language-sdks-v1.0.0/fyrainput_gamepad-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "b9d12fac338c649774aec9a6fd5ff1ec60c1a0158309f7029e8b38a2eec80ab5",
+    "size": 196450
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput_gamepad-1.0.0.tar.gz",
+    "path": "release-assets/FyraInput-Gamepad/input-language-sdks-v1.0.0/fyrainput_gamepad-1.0.0.tar.gz",
+    "sha256": "2ccfba16411dbd38bae74c78276b17f08a4bb4df48d0b0ed2ef5c97287bc20b7",
+    "size": 195833
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/FyraInput-Gamepad/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "646f84ca9e9b4156d85985f74d93ace491012243493872b0c512bf29501e06fe",
+    "size": 416
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/sdk-v0.1.0/fyrainput-gamepad-sdk-0.1.0.tar.gz",
+    "path": "release-assets/FyraInput-Gamepad/sdk-v0.1.0/fyrainput-gamepad-sdk-0.1.0.tar.gz",
+    "sha256": "5da3a98529e99811a4f793e9ae4d544fc495215afeea66dee5771d513c1e142f",
+    "size": 55087
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/sdk-v0.1.0/TitanCSA.FyraInputGamepad.Native.0.1.0.nupkg",
+    "path": "release-assets/FyraInput-Gamepad/sdk-v0.1.0/TitanCSA.FyraInputGamepad.Native.0.1.0.nupkg",
+    "sha256": "50ae888b3dd0708cfd0de910baadefb307ea98d4cfdb816519dcd886c6fd3e28",
+    "size": 56940
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-keyboard-mouse-1.0.0.gem",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/input-language-sdks-v1.0.0/fyrainput-keyboard-mouse-1.0.0.gem",
+    "sha256": "8011311cdd26bd78ffcb8941979cd9ee1b0e74aad17480d80b84457f7bf4053a",
+    "size": 158720
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput-keyboard-mouse-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/input-language-sdks-v1.0.0/fyrainput-keyboard-mouse-input-sdks-1.0.0-source.zip",
+    "sha256": "ba815ac086f1590982df9b71f9df19a9e243d8e3133c94f8c4f2970584f3df94",
+    "size": 388490
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput_keyboard_mouse-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/input-language-sdks-v1.0.0/fyrainput_keyboard_mouse-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "7040ac67bd4621717250dfd4f917dcb70d49644640022420e91289823ca1e203",
+    "size": 157553
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/input-language-sdks-v1.0.0/fyrainput_keyboard_mouse-1.0.0.tar.gz",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/input-language-sdks-v1.0.0/fyrainput_keyboard_mouse-1.0.0.tar.gz",
+    "sha256": "110709bea0e5f661af3cdc768f0442800217aa374e9ae4fa1088936623040382",
+    "size": 156686
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "0766e788d61ad2e1c7cc1271a5b7aabb8b7aa5cc8eb0cc43d5ac8b88e5da9607",
+    "size": 444
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz",
+    "sha256": "e07ca28622d3553f6c3fd17e0ae24af6e2037937ab7777a5dd7ccf4ea64aaa94",
+    "size": 53841
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/sdk-v0.1.0/TitanCSA.FyraInputKeyboardMouse.Native.0.1.0.nupkg",
+    "path": "release-assets/FyraInput-Keyboard-Mouse/sdk-v0.1.0/TitanCSA.FyraInputKeyboardMouse.Native.0.1.0.nupkg",
+    "sha256": "486e38e4e048f6ef0f92acffb0e6adb0c1770422c143d75d177cffa21c2e127a",
+    "size": 55720
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/language-sdks-v1.0.0/hid-access-control-1.0.0.gem",
+    "path": "release-assets/HID-Access-Control/language-sdks-v1.0.0/hid-access-control-1.0.0.gem",
+    "sha256": "8c0ec67bdc8753710a4e54b4bc0cbf858fc61d611c88b264e54297eefe422a0f",
+    "size": 167424
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/language-sdks-v1.0.0/hid-access-control-sdk-source-1.0.0.zip",
+    "path": "release-assets/HID-Access-Control/language-sdks-v1.0.0/hid-access-control-sdk-source-1.0.0.zip",
+    "sha256": "680be671c8dd164629ff8e2d5948aa05e627894565cccccb11122c46cffe3edc",
+    "size": 496475
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/language-sdks-v1.0.0/hid_access_control-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/HID-Access-Control/language-sdks-v1.0.0/hid_access_control-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "1590dc3d12f1b9b97ab99072eced3ced775ca53b882b65e3287d5fdb6b00e4cc",
+    "size": 167246
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/language-sdks-v1.0.0/hid_access_control-1.0.0.tar.gz",
+    "path": "release-assets/HID-Access-Control/language-sdks-v1.0.0/hid_access_control-1.0.0.tar.gz",
+    "sha256": "4899a4f9d1f0ba2163933f3af27702296323229f314325bdc32a3f241d420a91",
+    "size": 165689
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/sdk-v0.1.0/hid-access-control-sdk-0.1.0.tar.gz",
+    "path": "release-assets/HID-Access-Control/sdk-v0.1.0/hid-access-control-sdk-0.1.0.tar.gz",
+    "sha256": "e0de4f804327d3c4513b740c8b0e1f58d33620cb974a8f32c02d631ead6b4ef4",
+    "size": 9088
+  },
+  {
+    "project": "HID-Access-Control",
+    "old_url": "https://github.com/titanfyre/HID-Access-Control/releases/download/sdk-v0.1.0/TitanCSA.HIDAccessControl.Native.0.1.0.nupkg",
+    "path": "release-assets/HID-Access-Control/sdk-v0.1.0/TitanCSA.HIDAccessControl.Native.0.1.0.nupkg",
+    "sha256": "391064313bf3c83db70a99b6c4cd3b12bb818a1cc4ddd9a5432c7b16edb7eef6",
+    "size": 10974
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/language-sdks-v1.0.0/interception-v2-1.0.0.gem",
+    "path": "release-assets/Interception-V2/language-sdks-v1.0.0/interception-v2-1.0.0.gem",
+    "sha256": "bbe64d6b0aca40ce80ea5b0d90f8e8f8645b9feddaaaae7489a8e5367f58f618",
+    "size": 458240
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/language-sdks-v1.0.0/interception-v2-sdk-source-1.0.0.zip",
+    "path": "release-assets/Interception-V2/language-sdks-v1.0.0/interception-v2-sdk-source-1.0.0.zip",
+    "sha256": "61a062ecad9650103db2f3a74fad1e739640edf530a7c5c00b6102badb4927f2",
+    "size": 1145633
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/language-sdks-v1.0.0/interception_v2-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Interception-V2/language-sdks-v1.0.0/interception_v2-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "c4903aa42eae9c6754e09abf838ce37458fd682f1d448220af035f27f04bf86b",
+    "size": 459719
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/language-sdks-v1.0.0/interception_v2-1.0.0.tar.gz",
+    "path": "release-assets/Interception-V2/language-sdks-v1.0.0/interception_v2-1.0.0.tar.gz",
+    "sha256": "fe474428cc5c6ccd6926a4840eba11d896ef2cafa8bafab932f5f11f59862512",
+    "size": 456901
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/sdk-v2.0.0/interception-v2-sdk-2.0.0.tar.gz",
+    "path": "release-assets/Interception-V2/sdk-v2.0.0/interception-v2-sdk-2.0.0.tar.gz",
+    "sha256": "88c4ba2a446305d45d1779b609d86b9307aab8b7cd5ee43e4f02e5c54a0b8a3e",
+    "size": 76731
+  },
+  {
+    "project": "Interception-V2",
+    "old_url": "https://github.com/TitanCSA/Interception-V2/releases/download/sdk-v2.0.0/TitanCSA.InterceptionV2.Native.2.0.0.nupkg",
+    "path": "release-assets/Interception-V2/sdk-v2.0.0/TitanCSA.InterceptionV2.Native.2.0.0.nupkg",
+    "sha256": "65adddbddc0e0f0149b2732b6813cc53e55db329404840e6525949eb3d8036ce",
+    "size": 77438
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/input-language-sdks-v1.0.0/interceptor-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Interceptor/input-language-sdks-v1.0.0/interceptor-input-sdks-1.0.0-source.zip",
+    "sha256": "19ada3388528aaa18010ffb094464c5dc08e465fe2235edf6ef7c6332ef2a2d5",
+    "size": 477666
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/input-language-sdks-v1.0.0/interceptor-sdk-1.0.0.gem",
+    "path": "release-assets/Interceptor/input-language-sdks-v1.0.0/interceptor-sdk-1.0.0.gem",
+    "sha256": "a8b579aa256dfc7cca18ba8103e188da0ed639a60536aa22b875a8b0da7f9076",
+    "size": 203776
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/input-language-sdks-v1.0.0/interceptor_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Interceptor/input-language-sdks-v1.0.0/interceptor_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "b9a5ac133e5f259d895dad9298fbc11f8badf8ab8a9b0b77e265af74c7383f24",
+    "size": 201638
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/input-language-sdks-v1.0.0/interceptor_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Interceptor/input-language-sdks-v1.0.0/interceptor_sdk-1.0.0.tar.gz",
+    "sha256": "56eb696fafb7b37d9f7d435cc042fd19c5573e5e811f638cf1401785e01816cc",
+    "size": 201398
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Interceptor/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "14886c7a54196b1139d9f7d26e1ef701fe6778630184c9ee9c6917fa075afc59",
+    "size": 404
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/binding-namespaces-v2.0.0/interceptor-sdk-2.0.0.gem",
+    "path": "release-assets/Interceptor/binding-namespaces-v2.0.0/interceptor-sdk-2.0.0.gem",
+    "sha256": "f4ab3f80837d397f09afedb3ae26ded0ceafaf18c8618ebbaf581a033caee3da",
+    "size": 203776
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/binding-namespaces-v2.0.0/interceptor_sdk-1.0.1-py3-none-win_amd64.whl",
+    "path": "release-assets/Interceptor/binding-namespaces-v2.0.0/interceptor_sdk-1.0.1-py3-none-win_amd64.whl",
+    "sha256": "203bd1f48fc045c745304a6054c4356619c998b221ac1a14cb4f65fa7acd2d55",
+    "size": 201677
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/binding-namespaces-v2.0.0/interceptor_sdk-1.0.1.tar.gz",
+    "path": "release-assets/Interceptor/binding-namespaces-v2.0.0/interceptor_sdk-1.0.1.tar.gz",
+    "sha256": "5f919981a23a0737da739a6328e118616afdf09eba98d2dfb2a3f7dc27eae9fc",
+    "size": 201423
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz",
+    "path": "release-assets/Interceptor/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz",
+    "sha256": "295b11d19c28a91604d159ead00a30155200b859d5805bf75b95419122436a57",
+    "size": 55267
+  },
+  {
+    "project": "Interceptor",
+    "old_url": "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/TitanCSA.Interceptor.Native.1.4.22.nupkg",
+    "path": "release-assets/Interceptor/sdk-v1.4.22/TitanCSA.Interceptor.Native.1.4.22.nupkg",
+    "sha256": "5aace8315cec9f7cd5078dc53f8291538a9b97b5e02e0f77f29e100cdc63712f",
+    "size": 57170
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/input-language-sdks-v1.0.0/interceptor-gamepad-controller-1.0.0.gem",
+    "path": "release-assets/Interceptor-Gamepad-Controller/input-language-sdks-v1.0.0/interceptor-gamepad-controller-1.0.0.gem",
+    "sha256": "f1b8f9d9a065a57a405e497339a3c06a3b7909b65f2caa4fe098d9199629ab1b",
+    "size": 198144
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/input-language-sdks-v1.0.0/interceptor-gamepad-controller-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Interceptor-Gamepad-Controller/input-language-sdks-v1.0.0/interceptor-gamepad-controller-input-sdks-1.0.0-source.zip",
+    "sha256": "8ead5798c05e99122c95e28ca1676ae08cc558990d338815904376f9235a2e86",
+    "size": 468805
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/input-language-sdks-v1.0.0/interceptor_gamepad_controller-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Interceptor-Gamepad-Controller/input-language-sdks-v1.0.0/interceptor_gamepad_controller-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "0d9b1b0e058893891567a1d3ff986d4cb3bee0dfa339b8434c9b4d00be7e5e8c",
+    "size": 196945
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/input-language-sdks-v1.0.0/interceptor_gamepad_controller-1.0.0.tar.gz",
+    "path": "release-assets/Interceptor-Gamepad-Controller/input-language-sdks-v1.0.0/interceptor_gamepad_controller-1.0.0.tar.gz",
+    "sha256": "1dbc2a708573e97026755335b4a5fba4e31b45e294ff6ba4bb22d1eaf8d9156d",
+    "size": 196011
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Interceptor-Gamepad-Controller/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "3906f5eaf1cba207e8ab6f06eccffe758d8fa82c0a9df0925c29ce47283807b9",
+    "size": 468
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/sdk-v1.0.13/interceptor-gamepad-controller-sdk-1.0.13.tar.gz",
+    "path": "release-assets/Interceptor-Gamepad-Controller/sdk-v1.0.13/interceptor-gamepad-controller-sdk-1.0.13.tar.gz",
+    "sha256": "c053d799ab641791df94eeb8b5f513735a9f78a5a547303179aaec3ffafa5285",
+    "size": 55126
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/sdk-v1.0.13/TitanCSA.InterceptorGamepadController.Native.1.0.13.nupkg",
+    "path": "release-assets/Interceptor-Gamepad-Controller/sdk-v1.0.13/TitanCSA.InterceptorGamepadController.Native.1.0.13.nupkg",
+    "sha256": "5f9bfcfd174bbd4e77525e76312c211f4597f1c7af8acd60eb71181c7ac16924",
+    "size": 57078
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/input-language-sdks-v1.0.0/interceptor-keyboard-mouse-1.0.0.gem",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/input-language-sdks-v1.0.0/interceptor-keyboard-mouse-1.0.0.gem",
+    "sha256": "f06122390129745891cf8436dbdcb982ea6a62a427718a4f3716e8e0f62c5c43",
+    "size": 158720
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/input-language-sdks-v1.0.0/interceptor-keyboard-mouse-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/input-language-sdks-v1.0.0/interceptor-keyboard-mouse-input-sdks-1.0.0-source.zip",
+    "sha256": "d3835e17a24ef9537a71c79429cb0ac47a3824d9c6bc8c52fe4d63d29430b5f9",
+    "size": 388828
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/input-language-sdks-v1.0.0/interceptor_keyboard_mouse-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/input-language-sdks-v1.0.0/interceptor_keyboard_mouse-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "692bce7c22ae0167d7cfa5281cbf0cb4951bfcb774152a43d66df0506830a77f",
+    "size": 157646
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/input-language-sdks-v1.0.0/interceptor_keyboard_mouse-1.0.0.tar.gz",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/input-language-sdks-v1.0.0/interceptor_keyboard_mouse-1.0.0.tar.gz",
+    "sha256": "2fe18e80bbbb4e4ee9f7bb52892bbe710b91ce63b18e55fdbe2f478f060422b8",
+    "size": 156680
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "5011677640f06a92fbd34b174585cd81223b216e3c17daabbb38bc2995f42e1f",
+    "size": 452
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz",
+    "sha256": "74e6a896e563285ba6c37954d91117b490e549efa5bee8a069b065d981f3fb64",
+    "size": 53960
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "old_url": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/sdk-v1.0.5/TitanCSA.InterceptorKeyboardMouse.Native.1.0.5.nupkg",
+    "path": "release-assets/Interceptor-Keyboard-Mouse/sdk-v1.0.5/TitanCSA.InterceptorKeyboardMouse.Native.1.0.5.nupkg",
+    "sha256": "56b974bd08300bd352f567b06c2ec254365d2c8c7cf85bc8634f9473416c671b",
+    "size": 55791
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-1.0.0-javadoc.jar",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-1.0.0-javadoc.jar",
+    "sha256": "9e792d7dec349a2f5e236132c5b7aaf8568bc89b374e5d6faaee5521b09a96ab",
+    "size": 159342
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-1.0.0-sources.jar",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-1.0.0-sources.jar",
+    "sha256": "db68580c2f2dedad9eaa73ca25314fe9dc340746158f267491f4d0b5eeb8cd93",
+    "size": 200090
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-1.0.0.jar",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-1.0.0.jar",
+    "sha256": "928b1eb2834335b2ced435d989cf320bf96559298fefd222f7919253acc61d4d",
+    "size": 216485
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz",
+    "sha256": "c662942a80b6eee137cad044f51ae0639700ff0044941869da50981a52c51105",
+    "size": 63304
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/titancsa-interceptor-1.0.0.crate",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/titancsa-interceptor-1.0.0.crate",
+    "sha256": "248ccaac2755d8d23a088cfaebfa479b0c5219bc83f147ab8a9aa0a68c0fbfd5",
+    "size": 203201
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/titancsa-interceptor-multilang-1.0.0.tgz",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/titancsa-interceptor-multilang-1.0.0.tgz",
+    "sha256": "2aebc263ada99e85f9330bbfc0395b29ffffcbf8fd60640db140e73c70ed4682",
+    "size": 291747
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/TitanCSA.Interceptor.1.0.0.nupkg",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/TitanCSA.Interceptor.1.0.0.nupkg",
+    "sha256": "bad58414fb2f3a120b6ae03c0be5a03b9f491d439912dfc841756753cb40ebb9",
+    "size": 218020
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/TitanCSA.InterceptorMultiLang.Native.1.0.0.nupkg",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/TitanCSA.InterceptorMultiLang.Native.1.0.0.nupkg",
+    "sha256": "b416d204a08fd3ae636a4d10ad286446ff9f0a275c549a40e6a5f5a1eb8fef45",
+    "size": 66323
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/titancsa_interceptor-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/titancsa_interceptor-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "ee047f9114046659b69b3de4eeb513157c8dcb53474daec9a3785a4808f8c712",
+    "size": 199750
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/titancsa_interceptor-1.0.0.tar.gz",
+    "path": "release-assets/Interceptor-MultiLang/sdk-v1.0.0/titancsa_interceptor-1.0.0.tar.gz",
+    "sha256": "9f5f3cfbdcb6c26294b2f2872de862b79e448402516bda68587ae2ed6f2fec9e",
+    "size": 204980
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/additional-language-sdks-v1.0.0/interceptor-multilang-1.0.0.gem",
+    "path": "release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0/interceptor-multilang-1.0.0.gem",
+    "sha256": "3fffb0b08ba7253f7ff9401966f3c8d70d91c973b48e1f976c906ba81645deea",
+    "size": 207872
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/additional-language-sdks-v1.0.0/Interceptor-MultiLang-SHA256SUMS.txt",
+    "path": "release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0/Interceptor-MultiLang-SHA256SUMS.txt",
+    "sha256": "26da9595428973bdaaca202fba0086405d67de56dfd38478e9e60d5709f8af7d",
+    "size": 424
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/additional-language-sdks-v1.0.0/InterceptorMultiLang-PowerShell-1.0.0.zip",
+    "path": "release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0/InterceptorMultiLang-PowerShell-1.0.0.zip",
+    "sha256": "1769d36d73990197d6f9b4ee918768bb79132104900740d6996a81bb6b58c13d",
+    "size": 216395
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/additional-language-sdks-v1.0.0/interceptor_multilang-Dart-1.0.0.zip",
+    "path": "release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0/interceptor_multilang-Dart-1.0.0.zip",
+    "sha256": "2adac85383d78da4d216ede1480c278a1a2aa8a002f032c0ee28f973671ae10e",
+    "size": 206162
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "old_url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/additional-language-sdks-v1.0.0/titancsa-interceptor-multilang-PHP-1.0.0.zip",
+    "path": "release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0/titancsa-interceptor-multilang-PHP-1.0.0.zip",
+    "sha256": "602148b2c8c687d24d355a9008c6e5c03f02b538fe334785901233f4f5b2d46f",
+    "size": 206568
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/language-sdks-v1.0.0/network-emulation-sdk-1.0.0.gem",
+    "path": "release-assets/Network-Emulation-SDK/language-sdks-v1.0.0/network-emulation-sdk-1.0.0.gem",
+    "sha256": "1ceb5f9f5b3caa9642a0454f78ce76a72d500906c2fcffc4941b27db75cdb02f",
+    "size": 157184
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/language-sdks-v1.0.0/network-emulation-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Network-Emulation-SDK/language-sdks-v1.0.0/network-emulation-sdk-sdk-source-1.0.0.zip",
+    "sha256": "f1d12a7094f8912566ee04ea704d4538c72fd31a15fd64c15857e44d259265a2",
+    "size": 475066
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/language-sdks-v1.0.0/network_emulation_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Network-Emulation-SDK/language-sdks-v1.0.0/network_emulation_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "d6ecabb13f93c55ccb131714a87fc7b1a4c384c215d0d192dca191b0b72aaf2e",
+    "size": 157028
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/language-sdks-v1.0.0/network_emulation_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Network-Emulation-SDK/language-sdks-v1.0.0/network_emulation_sdk-1.0.0.tar.gz",
+    "sha256": "31a540e2c1dbdf1190e753e4cfc712fb1021772b3f66efb71fed44f01ba96537",
+    "size": 155471
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/sdk-v0.1.1/network-emulation-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Network-Emulation-SDK/sdk-v0.1.1/network-emulation-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "34e64347deaa7765a89113a48c21a626f9ba73444bf320f70e5d67be45d1667b",
+    "size": 7576
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "old_url": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/sdk-v0.1.1/TitanCSA.NetworkEmulationSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Network-Emulation-SDK/sdk-v0.1.1/TitanCSA.NetworkEmulationSDK.Native.0.1.1.nupkg",
+    "sha256": "e3944262a1c0461758e08d105590ad4e04791fa3e0737a579c3fe6fe996e8f93",
+    "size": 9358
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz",
+    "path": "release-assets/node-interceptor/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz",
+    "sha256": "d3fb2779141ad2982c9865b7076872e9638673b1ea3b5229e2475a5c86b5b1ab",
+    "size": 75148
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/language-sdks-v1.0.0/node-interceptor-1.0.0.gem",
+    "path": "release-assets/node-interceptor/language-sdks-v1.0.0/node-interceptor-1.0.0.gem",
+    "sha256": "fe4153e9bb76653235a9ce799cc0b73b5468eb8d3c4e88de89a7743b7a03e441",
+    "size": 448512
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/language-sdks-v1.0.0/node-interceptor-sdk-source-1.0.0.zip",
+    "path": "release-assets/node-interceptor/language-sdks-v1.0.0/node-interceptor-sdk-source-1.0.0.zip",
+    "sha256": "88220e2da7ced70f77df1708773b9f9c33ef9f104c9fab6c509212ccc0fe1eaf",
+    "size": 1128829
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/language-sdks-v1.0.0/node_interceptor-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/node-interceptor/language-sdks-v1.0.0/node_interceptor-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "07ed20dacf592cdf9663c1f1817ec30e4d7066e9214dbca95c596c85b7976e50",
+    "size": 451375
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/language-sdks-v1.0.0/node_interceptor-1.0.0.tar.gz",
+    "path": "release-assets/node-interceptor/language-sdks-v1.0.0/node_interceptor-1.0.0.tar.gz",
+    "sha256": "887809b4a2dce2098370d1a7dccd6b265eda3a4a34ba2d29d0bcbc4909b3bbe2",
+    "size": 447024
+  },
+  {
+    "project": "node-interceptor",
+    "old_url": "https://github.com/TitanCSA/node-interceptor/releases/download/language-sdk-v1.0.0/titancsa-node-interceptor-1.0.0.tgz",
+    "path": "release-assets/node-interceptor/language-sdk-v1.0.0/titancsa-node-interceptor-1.0.0.tgz",
+    "sha256": "630156e39bd1a19946dbc75e872eb3b9960b4dc52d32713209166f2cf1d098c3",
+    "size": 1316303
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/language-sdks-v1.0.0/packet-capture-sdk-1.0.0.gem",
+    "path": "release-assets/Packet-Capture-SDK/language-sdks-v1.0.0/packet-capture-sdk-1.0.0.gem",
+    "sha256": "9913d848bcb8b28c46c6d1e3f139ef0f5e727ba3e232b32e51ec04d98b00685e",
+    "size": 158208
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/language-sdks-v1.0.0/packet-capture-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Packet-Capture-SDK/language-sdks-v1.0.0/packet-capture-sdk-sdk-source-1.0.0.zip",
+    "sha256": "c75db08a86aa68a9a36daf93da9f555eb683b2143ebcecc0ccbf582ceaa1f007",
+    "size": 477177
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/language-sdks-v1.0.0/packet_capture_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Packet-Capture-SDK/language-sdks-v1.0.0/packet_capture_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "a82e4febc5502a7202ab596fb6b9f4d1905940cf85e8f1985d1564f7b7b77e7a",
+    "size": 158017
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/language-sdks-v1.0.0/packet_capture_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Packet-Capture-SDK/language-sdks-v1.0.0/packet_capture_sdk-1.0.0.tar.gz",
+    "sha256": "1666eb683bd4a83b869bbe0e6b1b688594a0004e1233778e189fce6bf5874293",
+    "size": 156381
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Packet-Capture-SDK/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "937d5626f59113e2cf1fdf88d00b1cd7e6ebb531f1d50ec071901a4e01f67611",
+    "size": 7150
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "old_url": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/sdk-v0.1.1/TitanCSA.PacketCaptureSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Packet-Capture-SDK/sdk-v0.1.1/TitanCSA.PacketCaptureSDK.Native.0.1.1.nupkg",
+    "sha256": "e058530c6b0e46a18e6f3579592950e8956a2c01fc106385eae01678224b3d2c",
+    "size": 9006
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/language-sdks-v1.0.0/process-trace-studio-1.0.0.gem",
+    "path": "release-assets/Process-Trace-Studio/language-sdks-v1.0.0/process-trace-studio-1.0.0.gem",
+    "sha256": "54ca3a0682378a3b8d15f6a1f621b07368b603400f071ebc4ab49de4d27d449e",
+    "size": 201216
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/language-sdks-v1.0.0/process-trace-studio-sdk-source-1.0.0.zip",
+    "path": "release-assets/Process-Trace-Studio/language-sdks-v1.0.0/process-trace-studio-sdk-source-1.0.0.zip",
+    "sha256": "db530051f5a2f646a2d3f772a084bff54753387951d0dd93a4e1098bc9d6696f",
+    "size": 561253
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/language-sdks-v1.0.0/process_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Process-Trace-Studio/language-sdks-v1.0.0/process_trace_studio-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "abd361be1e7c2bcde3678fcd9388bd218be0275a6090d206adeb5de729a9187f",
+    "size": 200611
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/language-sdks-v1.0.0/process_trace_studio-1.0.0.tar.gz",
+    "path": "release-assets/Process-Trace-Studio/language-sdks-v1.0.0/process_trace_studio-1.0.0.tar.gz",
+    "sha256": "60e5dea0b022987c209ffca912d7592abb3d028bab531dfb92d1c345fa86f36a",
+    "size": 199357
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Process-Trace-Studio/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "820fd7c7a4332b55101db7bc7330f2db719cb3b2f16c52906116e363015a0389",
+    "size": 6929
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "old_url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/sdk-v0.1.0/TitanCSA.ProcessTraceStudio.Native.0.1.0.nupkg",
+    "path": "release-assets/Process-Trace-Studio/sdk-v0.1.0/TitanCSA.ProcessTraceStudio.Native.0.1.0.nupkg",
+    "sha256": "b82ae5dc5efba2c332a1be518e30d23edc329b9245587fbc227ca14824e765bd",
+    "size": 8254
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/language-sdks-v1.0.0/processguard-sdk-1.0.0.gem",
+    "path": "release-assets/ProcessGuard-SDK/language-sdks-v1.0.0/processguard-sdk-1.0.0.gem",
+    "sha256": "db5d0cfd1221d70f38b36a4baf780dba0cb9a3f7064b5f43b46ef01941140269",
+    "size": 161792
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/language-sdks-v1.0.0/processguard-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/ProcessGuard-SDK/language-sdks-v1.0.0/processguard-sdk-sdk-source-1.0.0.zip",
+    "sha256": "379f9365e339793e59e1cb7e5705040224eccc29a336d93c02d2f1faa58b1f36",
+    "size": 482271
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/language-sdks-v1.0.0/processguard_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/ProcessGuard-SDK/language-sdks-v1.0.0/processguard_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "84acaafde1b0a450bfac8941a22cee754e8b728f657932dd4b55fbb9cc5a4fb2",
+    "size": 161586
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/language-sdks-v1.0.0/processguard_sdk-1.0.0.tar.gz",
+    "path": "release-assets/ProcessGuard-SDK/language-sdks-v1.0.0/processguard_sdk-1.0.0.tar.gz",
+    "sha256": "0f73a1a7e871bdd0fa08832fa1495dde8a5ef3b6de8b7123fba1062952fb5c9d",
+    "size": 159958
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/sdk-v0.1.2/processguard-sdk-sdk-0.1.2.tar.gz",
+    "path": "release-assets/ProcessGuard-SDK/sdk-v0.1.2/processguard-sdk-sdk-0.1.2.tar.gz",
+    "sha256": "840380a684b0bec2504bf6d74aaf45aae9a20e191b2ff8eedd61cf08811060e7",
+    "size": 6068
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "old_url": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/sdk-v0.1.2/TitanCSA.ProcessGuardSDK.Native.0.1.2.nupkg",
+    "path": "release-assets/ProcessGuard-SDK/sdk-v0.1.2/TitanCSA.ProcessGuardSDK.Native.0.1.2.nupkg",
+    "sha256": "87bc5917f1548195def57ac8017cfa36855496652d55f00335451af14b725928",
+    "size": 7276
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/language-sdks-v1.0.0/registryguard-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/RegistryGuard/language-sdks-v1.0.0/registryguard-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "ca88eda2ce224e20481acb30371f47dcda38444e0d9d8a9ee6f7ecac73f3b1ff",
+    "size": 161321
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/language-sdks-v1.0.0/registryguard-1.0.0.gem",
+    "path": "release-assets/RegistryGuard/language-sdks-v1.0.0/registryguard-1.0.0.gem",
+    "sha256": "2d4b436866f28dc86f491734d251ad66aa5e8ec073283ca9502682e4a5da513a",
+    "size": 161792
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/language-sdks-v1.0.0/registryguard-1.0.0.tar.gz",
+    "path": "release-assets/RegistryGuard/language-sdks-v1.0.0/registryguard-1.0.0.tar.gz",
+    "sha256": "03162561dc7a6e211996f7021a76d44b9a35e6098478377967187ace68ad74af",
+    "size": 159838
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/language-sdks-v1.0.0/registryguard-sdk-source-1.0.0.zip",
+    "path": "release-assets/RegistryGuard/language-sdks-v1.0.0/registryguard-sdk-source-1.0.0.zip",
+    "sha256": "b10ae9c095487de4b4a0f5d6ca3076e929d9bfb75b6e08dc360bac962c74ebb5",
+    "size": 481518
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz",
+    "path": "release-assets/RegistryGuard/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz",
+    "sha256": "d4722de4b46ed9dadc5792ff9ed9777c654f4007ac1f7c4739b7044c631eee37",
+    "size": 5894
+  },
+  {
+    "project": "RegistryGuard",
+    "old_url": "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/TitanCSA.RegistryGuard.Native.0.1.1.nupkg",
+    "path": "release-assets/RegistryGuard/sdk-v0.1.1/TitanCSA.RegistryGuard.Native.0.1.1.nupkg",
+    "sha256": "49c92bc078a8fb1bec651a1d878ea629296234a1993b7b12b86062c95347c223",
+    "size": 7104
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/language-sdks-v1.0.0/remote-workstation-sdk-1.0.0.gem",
+    "path": "release-assets/Remote-Workstation-SDK/language-sdks-v1.0.0/remote-workstation-sdk-1.0.0.gem",
+    "sha256": "c5a5a4edbbae5bb3b100eea2390b22c09a19541cd7ea654fe5f948e2d5618ecb",
+    "size": 187392
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/language-sdks-v1.0.0/remote-workstation-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Remote-Workstation-SDK/language-sdks-v1.0.0/remote-workstation-sdk-sdk-source-1.0.0.zip",
+    "sha256": "75509c49feecb829f1d24ee62ede47b5d7e6764128d8ab53c2fcbb1481103aa3",
+    "size": 550637
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/language-sdks-v1.0.0/remote_workstation_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Remote-Workstation-SDK/language-sdks-v1.0.0/remote_workstation_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "3ff896a5a459be666c6f66f6575fba53c2d49bde50d1797eb022de27da0a5745",
+    "size": 187045
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/language-sdks-v1.0.0/remote_workstation_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Remote-Workstation-SDK/language-sdks-v1.0.0/remote_workstation_sdk-1.0.0.tar.gz",
+    "sha256": "4c34bc7be5da60ff1f5c79a62f3d1e5ac4b88eab07f0a43c7d638c0e2943ee93",
+    "size": 185325
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/sdk-v0.1.1/remote-workstation-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Remote-Workstation-SDK/sdk-v0.1.1/remote-workstation-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "d96d64450a95776c6765213d451abb12d9698a844b4bd114a8c2c3f0ade69e15",
+    "size": 20549
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "old_url": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/sdk-v0.1.1/TitanCSA.RemoteWorkstationSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Remote-Workstation-SDK/sdk-v0.1.1/TitanCSA.RemoteWorkstationSDK.Native.0.1.1.nupkg",
+    "sha256": "80428c9b572d6d599ddc14170bf916dfc9ce29b21a07379999b8282bc0b959b1",
+    "size": 24372
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/language-sdks-v1.0.0/storage-io-flight-recorder-1.0.0.gem",
+    "path": "release-assets/Storage-IO-Flight-Recorder/language-sdks-v1.0.0/storage-io-flight-recorder-1.0.0.gem",
+    "sha256": "01c465c16f4fb1f5e090756f13935a13de2b6eacc967c2efe6626eeb5bc7753c",
+    "size": 165376
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/language-sdks-v1.0.0/storage-io-flight-recorder-sdk-source-1.0.0.zip",
+    "path": "release-assets/Storage-IO-Flight-Recorder/language-sdks-v1.0.0/storage-io-flight-recorder-sdk-source-1.0.0.zip",
+    "sha256": "84a69e8083c335b281989102bfaab546e8269acf7d769ccded48077039ea1a92",
+    "size": 491284
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/language-sdks-v1.0.0/storage_io_flight_recorder-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Storage-IO-Flight-Recorder/language-sdks-v1.0.0/storage_io_flight_recorder-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "3060ce1b87da72b9fe811c93d11ef289964787146cac21668669e070f19944d9",
+    "size": 165255
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/language-sdks-v1.0.0/storage_io_flight_recorder-1.0.0.tar.gz",
+    "path": "release-assets/Storage-IO-Flight-Recorder/language-sdks-v1.0.0/storage_io_flight_recorder-1.0.0.tar.gz",
+    "sha256": "787bba71d79c6c64a81c3bb815f6bee30d8fb028c12946fbd3dd8d3e4b10b140",
+    "size": 163909
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/sdk-v0.1.1/storage-io-flight-recorder-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Storage-IO-Flight-Recorder/sdk-v0.1.1/storage-io-flight-recorder-sdk-0.1.1.tar.gz",
+    "sha256": "53946454ab47eb70bc5b0a9265c4beecfad15681579483e1d52f668b9307404a",
+    "size": 7376
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "old_url": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/sdk-v0.1.1/TitanCSA.StorageIOFlightRecorder.Native.0.1.1.nupkg",
+    "path": "release-assets/Storage-IO-Flight-Recorder/sdk-v0.1.1/TitanCSA.StorageIOFlightRecorder.Native.0.1.1.nupkg",
+    "sha256": "f2b84acb6da8d8b0ae49445547fc93bcc3c2924bd4818c58cf0e0b72e6335765",
+    "size": 8664
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/language-sdks-v1.0.0/titan-audio-link-1.0.0.gem",
+    "path": "release-assets/Titan-Audio-Link/language-sdks-v1.0.0/titan-audio-link-1.0.0.gem",
+    "sha256": "c45b094e3ce38e3ec56349e8fb2e01f5f6105ee40721996b520f1afefc5660fe",
+    "size": 186880
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/language-sdks-v1.0.0/titan-audio-link-sdk-source-1.0.0.zip",
+    "path": "release-assets/Titan-Audio-Link/language-sdks-v1.0.0/titan-audio-link-sdk-source-1.0.0.zip",
+    "sha256": "24fcf346043dc6ea23ec3b907cca6d05cb84413bba68580996c0f0c74daf93b6",
+    "size": 538134
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/language-sdks-v1.0.0/titan_audio_link-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Titan-Audio-Link/language-sdks-v1.0.0/titan_audio_link-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "c614aeee0e7b296f6113bb594b3bc707fc5aa162ccca0c076774f0f5e7d83e75",
+    "size": 186132
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/language-sdks-v1.0.0/titan_audio_link-1.0.0.tar.gz",
+    "path": "release-assets/Titan-Audio-Link/language-sdks-v1.0.0/titan_audio_link-1.0.0.tar.gz",
+    "sha256": "1c52c98c0504db9e330e64d382d604a3539cb1f9c22bd691f667c8901d50e272",
+    "size": 184862
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Titan-Audio-Link/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz",
+    "sha256": "427b8a68f926b1c2e322ba98a8280e1fcdd02ee365a129ccc54264da45a8ec73",
+    "size": 13169
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "old_url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/sdk-v0.1.1/TitanCSA.TitanAudioLink.Native.0.1.1.nupkg",
+    "path": "release-assets/Titan-Audio-Link/sdk-v0.1.1/TitanCSA.TitanAudioLink.Native.0.1.1.nupkg",
+    "sha256": "a0a5bd69257db5811272bbae2f508f324f61a22061b6369ec9a21b71988a2aeb",
+    "size": 14534
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/language-sdks-v1.0.0/titan-file-filter-1.0.0.gem",
+    "path": "release-assets/Titan-File-Filter/language-sdks-v1.0.0/titan-file-filter-1.0.0.gem",
+    "sha256": "ea239d382033060c0567dc4e7f66896682d33f740abf0295d0b3bc373bf416e1",
+    "size": 201216
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/language-sdks-v1.0.0/titan-file-filter-sdk-source-1.0.0.zip",
+    "path": "release-assets/Titan-File-Filter/language-sdks-v1.0.0/titan-file-filter-sdk-source-1.0.0.zip",
+    "sha256": "259e784bff8bbb1c395abf32589b8047130610f7af445e9be2fd09173375e349",
+    "size": 560780
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/language-sdks-v1.0.0/titan_file_filter-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Titan-File-Filter/language-sdks-v1.0.0/titan_file_filter-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "8e075651c8cf1cca9347b5a2089751270f5278dba9c926f0728ab5d8703f97ca",
+    "size": 200499
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/language-sdks-v1.0.0/titan_file_filter-1.0.0.tar.gz",
+    "path": "release-assets/Titan-File-Filter/language-sdks-v1.0.0/titan_file_filter-1.0.0.tar.gz",
+    "sha256": "2ad6bda67b0e7a086d2f8020b634f1a84cccd1ccde8e9ba2ca28e95ef1621c5f",
+    "size": 199319
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Titan-File-Filter/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz",
+    "sha256": "64dbf46da473c0e99ef5537e509541d7a6c062521ae3d99a2d3778a2bece33fe",
+    "size": 6400
+  },
+  {
+    "project": "Titan-File-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/sdk-v0.1.0/TitanCSA.TitanFileFilter.Native.0.1.0.nupkg",
+    "path": "release-assets/Titan-File-Filter/sdk-v0.1.0/TitanCSA.TitanFileFilter.Native.0.1.0.nupkg",
+    "sha256": "58a20c9a41afc326c3441fcf9842a7df149c70f8be63ffae157f25f4ab61d1d3",
+    "size": 7679
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/language-sdks-v1.0.0/titan-network-filter-1.0.0.gem",
+    "path": "release-assets/Titan-Network-Filter/language-sdks-v1.0.0/titan-network-filter-1.0.0.gem",
+    "sha256": "f022e4eb3f27317f485aa8b92c263fbe1cf56b3ca53b932ae0510059b77e11da",
+    "size": 166400
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/language-sdks-v1.0.0/titan-network-filter-sdk-source-1.0.0.zip",
+    "path": "release-assets/Titan-Network-Filter/language-sdks-v1.0.0/titan-network-filter-sdk-source-1.0.0.zip",
+    "sha256": "cf7db413a62149628232f3cdaeea06fade11e81d4e4b898666a68aa6cc847812",
+    "size": 493211
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/language-sdks-v1.0.0/titan_network_filter-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Titan-Network-Filter/language-sdks-v1.0.0/titan_network_filter-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "1a46099a389f7e65d5d22bfd8f4cb22ac38bce5eeb67ae1ed917f401e9e0f4a0",
+    "size": 165784
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/language-sdks-v1.0.0/titan_network_filter-1.0.0.tar.gz",
+    "path": "release-assets/Titan-Network-Filter/language-sdks-v1.0.0/titan_network_filter-1.0.0.tar.gz",
+    "sha256": "d1da2838e63805276d560c54c400e10e516872e72d1a6679caf6f0ed1be71da6",
+    "size": 164528
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/sdk-v0.1.1/titan-network-filter-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Titan-Network-Filter/sdk-v0.1.1/titan-network-filter-sdk-0.1.1.tar.gz",
+    "sha256": "bdc9a3bc3a5bd4457c36d0f8a6370d9a15f19d17da6b0b6d6e7e29d4dac0342b",
+    "size": 7821
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "old_url": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/sdk-v0.1.1/TitanCSA.TitanNetworkFilter.Native.0.1.1.nupkg",
+    "path": "release-assets/Titan-Network-Filter/sdk-v0.1.1/TitanCSA.TitanNetworkFilter.Native.0.1.1.nupkg",
+    "sha256": "ae23816ed30a30e8b0f250830c59908e15d08f4403762820e3575e4d879bd323",
+    "size": 9184
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/language-sdks-v1.0.0/usb-over-ip-sdk-1.0.0.gem",
+    "path": "release-assets/USB-over-IP-SDK/language-sdks-v1.0.0/usb-over-ip-sdk-1.0.0.gem",
+    "sha256": "6e725b15e0ccfb474bb61e14fec21e259021942f7da7112f3447f42b2f4fbf0b",
+    "size": 241152
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/language-sdks-v1.0.0/usb-over-ip-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/USB-over-IP-SDK/language-sdks-v1.0.0/usb-over-ip-sdk-sdk-source-1.0.0.zip",
+    "sha256": "0e1b02c778322a725ded9369aa1b42fbf6f92fa3b8662d44874bc1b79c584c4f",
+    "size": 667828
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/language-sdks-v1.0.0/usb_over_ip_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/USB-over-IP-SDK/language-sdks-v1.0.0/usb_over_ip_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "72f356096a29917dcdf4990fa874edf27450ff432dfb5b78fe1f42a6de7dadd9",
+    "size": 240726
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/language-sdks-v1.0.0/usb_over_ip_sdk-1.0.0.tar.gz",
+    "path": "release-assets/USB-over-IP-SDK/language-sdks-v1.0.0/usb_over_ip_sdk-1.0.0.tar.gz",
+    "sha256": "a2d2a140beef92fb7174a819345ad0cef2a85afa56324b4abc6d960fe46bf73f",
+    "size": 239609
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/sdk-v0.1.1/TitanCSA.USBoverIPSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/USB-over-IP-SDK/sdk-v0.1.1/TitanCSA.USBoverIPSDK.Native.0.1.1.nupkg",
+    "sha256": "d37e888a7485161ca4bbe19babd1d82322cb70844bdb2c123cc65678328bfb9f",
+    "size": 35308
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "old_url": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/USB-over-IP-SDK/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "58054e1f86bbb3b5c11ae3424eee612a6a3d81aacf4cca44169ba23a6e5ce821",
+    "size": 30559
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/language-sdks-v1.0.0/usb-trace-sdk-1.0.0.gem",
+    "path": "release-assets/USB-Trace-SDK/language-sdks-v1.0.0/usb-trace-sdk-1.0.0.gem",
+    "sha256": "41cc3cf83f138a762e5592ed1fbba236d0c43fe12a18707a3aff8dee372f308d",
+    "size": 159744
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/language-sdks-v1.0.0/usb-trace-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/USB-Trace-SDK/language-sdks-v1.0.0/usb-trace-sdk-sdk-source-1.0.0.zip",
+    "sha256": "224332254ee6669688d77fd2472259df3f471a22e4f85dcbb3dd71370cb298ff",
+    "size": 479886
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/language-sdks-v1.0.0/usb_trace_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/USB-Trace-SDK/language-sdks-v1.0.0/usb_trace_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "d5a8fa58ee2847805505efb4818bbec55d7ba36efed027d4d8e5d1c4ca62ca5d",
+    "size": 159502
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/language-sdks-v1.0.0/usb_trace_sdk-1.0.0.tar.gz",
+    "path": "release-assets/USB-Trace-SDK/language-sdks-v1.0.0/usb_trace_sdk-1.0.0.tar.gz",
+    "sha256": "db86b2263e66ffffe1875dd31ff31a4bd9278c46a126c9d7b8719341997e0803",
+    "size": 157989
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/sdk-v0.1.1/TitanCSA.USBTraceSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/USB-Trace-SDK/sdk-v0.1.1/TitanCSA.USBTraceSDK.Native.0.1.1.nupkg",
+    "sha256": "6c627bd2fba5e7ffff24de9ff3457d1d603543619c89564833e84c908b75e1f4",
+    "size": 8864
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "old_url": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/sdk-v0.1.1/usb-trace-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/USB-Trace-SDK/sdk-v0.1.1/usb-trace-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "342267a43acae2529c029698189c9f6469f51bb3251ab7952bbc6316fd6a83c2",
+    "size": 7113
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-1.0.0.gem",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-1.0.0.gem",
+    "sha256": "91bb909a37d16a66895b1c67dbe993398e12047379a600d2fb0b8d37838142d5",
+    "size": 179200
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-sdk-source-1.0.0.zip",
+    "sha256": "0a52a1a6a07bbc4d98be8b05170c14e8dff5b34cda515ce88106cd2ff2c0d84b",
+    "size": 524639
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/language-sdks-v1.0.0/user_backed_virtual_disk_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/language-sdks-v1.0.0/user_backed_virtual_disk_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "6dcca3e675705ecbc39c10cef6b85ae7408f1195e99d34085883e6d3977ef541",
+    "size": 179150
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/language-sdks-v1.0.0/user_backed_virtual_disk_sdk-1.0.0.tar.gz",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/language-sdks-v1.0.0/user_backed_virtual_disk_sdk-1.0.0.tar.gz",
+    "sha256": "050ca6a9ad784573aff6b9e7edda08355670cfba811383cb7eb87c9780153d8b",
+    "size": 177586
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/sdk-v0.1.1/TitanCSA.UserBackedVirtualDiskSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/sdk-v0.1.1/TitanCSA.UserBackedVirtualDiskSDK.Native.0.1.1.nupkg",
+    "sha256": "3ace56671a75a3d369f348b3bfec2b03071bcf95abbb025b6def09692862dfe0",
+    "size": 14148
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "old_url": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/sdk-v0.1.1/user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/User-Backed-Virtual-Disk-SDK/sdk-v0.1.1/user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "b94004f35f0f651ada336be5a60b7e16c984b75e7711a4fe1a1352d78cba5c90",
+    "size": 12320
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/language-sdks-v1.0.0/vdevice-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Vdevice/language-sdks-v1.0.0/vdevice-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "1ce71e9a7e472b0e22a837c2e6762501e7fe17775febdd6a88564dd0b7b41f75",
+    "size": 216458
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/language-sdks-v1.0.0/vdevice-1.0.0.gem",
+    "path": "release-assets/Vdevice/language-sdks-v1.0.0/vdevice-1.0.0.gem",
+    "sha256": "61a611c1571deeaa174b17b6b4a916595ae6f1b53dfd8e67507f706c01c5a88c",
+    "size": 217088
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/language-sdks-v1.0.0/vdevice-1.0.0.tar.gz",
+    "path": "release-assets/Vdevice/language-sdks-v1.0.0/vdevice-1.0.0.tar.gz",
+    "sha256": "188992de359f8b1af4fae9d62757e5a67c0d64496e2f7b733fe96064dce3fb9b",
+    "size": 215149
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/language-sdks-v1.0.0/vdevice-sdk-source-1.0.0.zip",
+    "path": "release-assets/Vdevice/language-sdks-v1.0.0/vdevice-sdk-source-1.0.0.zip",
+    "sha256": "152d669311f9f60b4d886d0cd3c872544ab82ce555b6e164de71c9a2eae2426c",
+    "size": 599947
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/TitanCSA.Vdevice.Native.1.0.5.nupkg",
+    "path": "release-assets/Vdevice/sdk-v1.0.5/TitanCSA.Vdevice.Native.1.0.5.nupkg",
+    "sha256": "5837ea397550fd40303f117f9d78513918103d39dae2c8086fb997a6a0fdf982",
+    "size": 15630
+  },
+  {
+    "project": "Vdevice",
+    "old_url": "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz",
+    "path": "release-assets/Vdevice/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz",
+    "sha256": "091114abb8a31a5c4ab2a0809c6076bf742d0c806dc866adead9be2ec5f8711a",
+    "size": 14292
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/language-sdks-v1.0.0/virtual-camera-sdk-1.0.0.gem",
+    "path": "release-assets/Virtual-Camera-SDK/language-sdks-v1.0.0/virtual-camera-sdk-1.0.0.gem",
+    "sha256": "b15c35e9efb5f0053c2db51d84eff4060297990d27568eb39b38f8190f0d0ca6",
+    "size": 153600
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/language-sdks-v1.0.0/virtual-camera-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Virtual-Camera-SDK/language-sdks-v1.0.0/virtual-camera-sdk-sdk-source-1.0.0.zip",
+    "sha256": "115803eb74d388df64bed002e3fd1ea32f23687f68dd4d0955d6d647b35f0e95",
+    "size": 465830
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/language-sdks-v1.0.0/virtual_camera_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Virtual-Camera-SDK/language-sdks-v1.0.0/virtual_camera_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "f3958086f426eab23abd7405bb5076c2e58c38e0d8c5d07cca97569b756be9f2",
+    "size": 153228
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/language-sdks-v1.0.0/virtual_camera_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Virtual-Camera-SDK/language-sdks-v1.0.0/virtual_camera_sdk-1.0.0.tar.gz",
+    "sha256": "8948420db02b5a07871bbdc0ddcb01065f740a2cce890eb29e603b841820961a",
+    "size": 151931
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/sdk-v0.1.1/TitanCSA.VirtualCameraSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Virtual-Camera-SDK/sdk-v0.1.1/TitanCSA.VirtualCameraSDK.Native.0.1.1.nupkg",
+    "sha256": "947ec4b1cc3a7db5993804099fd5808f9acdd5808e5c07da4fc186a1980b90e8",
+    "size": 8257
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/sdk-v0.1.1/virtual-camera-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Virtual-Camera-SDK/sdk-v0.1.1/virtual-camera-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "752eca34a769da3d492f4fc32122dc92f300f062482761048b7c3e35e97515dc",
+    "size": 6516
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/language-sdks-v1.0.0/virtual-network-adapter-sdk-1.0.0.gem",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/language-sdks-v1.0.0/virtual-network-adapter-sdk-1.0.0.gem",
+    "sha256": "4bf5ec532965aca49c8af0e8db98afff56cffca3864e891377757823a3037633",
+    "size": 154624
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/language-sdks-v1.0.0/virtual-network-adapter-sdk-sdk-source-1.0.0.zip",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/language-sdks-v1.0.0/virtual-network-adapter-sdk-sdk-source-1.0.0.zip",
+    "sha256": "ee22ffa32835a2f87525f7ca0035e9fd0cc87a978ae12263edb05b277042e834",
+    "size": 469698
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/language-sdks-v1.0.0/virtual_network_adapter_sdk-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/language-sdks-v1.0.0/virtual_network_adapter_sdk-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "17f3599693e31a8aa2fd1d9f74fc3d9962ac4277db57539f6de0b13edb9ebbef",
+    "size": 154655
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/language-sdks-v1.0.0/virtual_network_adapter_sdk-1.0.0.tar.gz",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/language-sdks-v1.0.0/virtual_network_adapter_sdk-1.0.0.tar.gz",
+    "sha256": "dc7d176bbc4af0aeb61b88c62612055aa908f5e6eb20f40ec92302e0b54b1d40",
+    "size": 153058
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/sdk-v0.1.1/TitanCSA.VirtualNetworkAdapterSDK.Native.0.1.1.nupkg",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/sdk-v0.1.1/TitanCSA.VirtualNetworkAdapterSDK.Native.0.1.1.nupkg",
+    "sha256": "d175eb9d37f685788f09d0b3a06da8859ef7df6dba17c1d6674c468dbc91b56c",
+    "size": 8608
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "old_url": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/sdk-v0.1.1/virtual-network-adapter-sdk-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Virtual-Network-Adapter-SDK/sdk-v0.1.1/virtual-network-adapter-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "a507ec3402e520f5c1606e66cc8de234c07d718de95b08877e6a4721f5a45066",
+    "size": 6761
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/language-sdks-v1.0.0/virtual-storage-fault-lab-1.0.0.gem",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/language-sdks-v1.0.0/virtual-storage-fault-lab-1.0.0.gem",
+    "sha256": "81d0d6c91d55faa29616c4af4c1e1e60ec836bc7c580ef57a87536f2a55f5668",
+    "size": 159232
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/language-sdks-v1.0.0/virtual-storage-fault-lab-sdk-source-1.0.0.zip",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/language-sdks-v1.0.0/virtual-storage-fault-lab-sdk-source-1.0.0.zip",
+    "sha256": "5a192eb0e9c0715c345c4b0dd5c364fa9f8f570aef6077223661f4e351d1e7b6",
+    "size": 477226
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/language-sdks-v1.0.0/virtual_storage_fault_lab-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/language-sdks-v1.0.0/virtual_storage_fault_lab-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "e8fe4cf1d88eec05306e5e379a9d54aa35c629d02f9389ae7e4606e6d539841c",
+    "size": 158877
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/language-sdks-v1.0.0/virtual_storage_fault_lab-1.0.0.tar.gz",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/language-sdks-v1.0.0/virtual_storage_fault_lab-1.0.0.tar.gz",
+    "sha256": "5a15b6f4a2b958bf26f712cf80f7141806a533edd7cfdaa4040b12f53886ad81",
+    "size": 156988
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/sdk-v0.1.1/TitanCSA.VirtualStorageFaultLab.Native.0.1.1.nupkg",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/sdk-v0.1.1/TitanCSA.VirtualStorageFaultLab.Native.0.1.1.nupkg",
+    "sha256": "7a9720d2d15ff5065b05e1ec165eb8befde4be2dcd65785a740dd249de43d15a",
+    "size": 7737
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "old_url": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/sdk-v0.1.1/virtual-storage-fault-lab-sdk-0.1.1.tar.gz",
+    "path": "release-assets/Virtual-Storage-Fault-Lab/sdk-v0.1.1/virtual-storage-fault-lab-sdk-0.1.1.tar.gz",
+    "sha256": "45a57d77f33eb0013f2a3cbf3522e8d52a810ed8fc3507d05beae724fae79708",
+    "size": 6514
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Windows-Gamepad-Filter/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "5c944c80ef8d839d3a7632732f16b345686571b3af3e8ff791ff6e19d3dd1ac3",
+    "size": 436
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/input-language-sdks-v1.0.0/windows-gamepad-filter-1.0.0.gem",
+    "path": "release-assets/Windows-Gamepad-Filter/input-language-sdks-v1.0.0/windows-gamepad-filter-1.0.0.gem",
+    "sha256": "469b47f4b39eae83e048ce1dc276046553ca8eb0b116588bd14f14f4f564f0eb",
+    "size": 198144
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/input-language-sdks-v1.0.0/windows-gamepad-filter-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Windows-Gamepad-Filter/input-language-sdks-v1.0.0/windows-gamepad-filter-input-sdks-1.0.0-source.zip",
+    "sha256": "e9fbc599298897a363de5faa56214e7da6043a821eac465a22e7358ac91de756",
+    "size": 468139
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/input-language-sdks-v1.0.0/windows_gamepad_filter-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Windows-Gamepad-Filter/input-language-sdks-v1.0.0/windows_gamepad_filter-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "5b8075bef874a2896a1792406cfebafba5a77a2197f0bd4390df3084206525b4",
+    "size": 196676
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/input-language-sdks-v1.0.0/windows_gamepad_filter-1.0.0.tar.gz",
+    "path": "release-assets/Windows-Gamepad-Filter/input-language-sdks-v1.0.0/windows_gamepad_filter-1.0.0.tar.gz",
+    "sha256": "f3c3458d612c9424ad81547848dea5c965f07cdd8b2c372a8e7c37443f541392",
+    "size": 196009
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/sdk-v0.1.0/TitanCSA.WindowsGamepadFilter.Native.0.1.0.nupkg",
+    "path": "release-assets/Windows-Gamepad-Filter/sdk-v0.1.0/TitanCSA.WindowsGamepadFilter.Native.0.1.0.nupkg",
+    "sha256": "8da4aa3623889eec13fce809de9dd7ea8b968b91a89fc1351fe933837b7db31d",
+    "size": 57162
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/sdk-v0.1.0/windows-gamepad-filter-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Windows-Gamepad-Filter/sdk-v0.1.0/windows-gamepad-filter-sdk-0.1.0.tar.gz",
+    "sha256": "3d33466c4d3d37c17cd20072681104b8890a7ae0f747c6c7d81f3d242d9e5e8f",
+    "size": 55227
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Windows-Input-Filter/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "fcc5ec955e85dfb1ec0f7bf04260fc3df50dd1862f6d6d7db5e511d8781cbcc0",
+    "size": 428
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/input-language-sdks-v1.0.0/windows-input-filter-1.0.0.gem",
+    "path": "release-assets/Windows-Input-Filter/input-language-sdks-v1.0.0/windows-input-filter-1.0.0.gem",
+    "sha256": "4658cdf2d93dd0c609a78a2819f901a1e2dda9c5edaa1f1de801086e75f78b95",
+    "size": 203776
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/input-language-sdks-v1.0.0/windows-input-filter-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Windows-Input-Filter/input-language-sdks-v1.0.0/windows-input-filter-input-sdks-1.0.0-source.zip",
+    "sha256": "857f889aeb2491a2faa898e9f42769c036152176609cbf0e35739fd3844cb8f6",
+    "size": 478871
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/input-language-sdks-v1.0.0/windows_input_filter-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Windows-Input-Filter/input-language-sdks-v1.0.0/windows_input_filter-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "1605ef99479678007a57929b11c281bd06eba1ba873e4460cf1eb19a86c2c6c5",
+    "size": 202080
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/input-language-sdks-v1.0.0/windows_input_filter-1.0.0.tar.gz",
+    "path": "release-assets/Windows-Input-Filter/input-language-sdks-v1.0.0/windows_input_filter-1.0.0.tar.gz",
+    "sha256": "6cee9dfaceb7d82b0f778381357e9c519237c9b9838717464dbcaab24a5af322",
+    "size": 201700
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/TitanCSA.WindowsInputFilter.Native.0.1.0.nupkg",
+    "path": "release-assets/Windows-Input-Filter/sdk-v0.1.0/TitanCSA.WindowsInputFilter.Native.0.1.0.nupkg",
+    "sha256": "de4e979c1de60a01d7f4abecb232c2070784a9c9fc6059042405fee97363f569",
+    "size": 57149
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Windows-Input-Filter/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz",
+    "sha256": "bd68addd403e6d97963bdcd35be0c517e5fb6b4f43173a828593de30c3a594b3",
+    "size": 55234
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/input-language-sdks-v1.0.0/SHA256SUMS.txt",
+    "sha256": "f9e373975aaa36b4653501de8bdb810b0d3fc2d832aefb1d5d076df7a0b10a57",
+    "size": 464
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/input-language-sdks-v1.0.0/windows-keyboard-mouse-filter-1.0.0.gem",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/input-language-sdks-v1.0.0/windows-keyboard-mouse-filter-1.0.0.gem",
+    "sha256": "055460150298c9aa4e75a2b4255f329fa591dbf7ad8a70457fd042ea72f7719b",
+    "size": 158720
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/input-language-sdks-v1.0.0/windows-keyboard-mouse-filter-input-sdks-1.0.0-source.zip",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/input-language-sdks-v1.0.0/windows-keyboard-mouse-filter-input-sdks-1.0.0-source.zip",
+    "sha256": "d571d0e95c95f26668032d98982f8617e3d30f052cdf36a9fd6a3960da52d0dd",
+    "size": 389313
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/input-language-sdks-v1.0.0/windows_keyboard_mouse_filter-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/input-language-sdks-v1.0.0/windows_keyboard_mouse_filter-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "c8dc8573495d9b318ed45b7dab7a9054fccf04e288be8bbe451d0ba8723bd2cd",
+    "size": 157773
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/input-language-sdks-v1.0.0/windows_keyboard_mouse_filter-1.0.0.tar.gz",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/input-language-sdks-v1.0.0/windows_keyboard_mouse_filter-1.0.0.tar.gz",
+    "sha256": "eb4dec9296d6599a3252272d27e288efa495683b7ffcb6b6cc9e0e8fd71a91e6",
+    "size": 156818
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/sdk-v0.1.0/TitanCSA.WindowsKeyboardMouseFilter.Native.0.1.0.nupkg",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/sdk-v0.1.0/TitanCSA.WindowsKeyboardMouseFilter.Native.0.1.0.nupkg",
+    "sha256": "0e4290b1e0007dadef9d521cbaa57596169a560271a5b2705d64e5fa80387cbd",
+    "size": 55971
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "old_url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/sdk-v0.1.0/windows-keyboard-mouse-filter-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Windows-Keyboard-Mouse-Filter/sdk-v0.1.0/windows-keyboard-mouse-filter-sdk-0.1.0.tar.gz",
+    "sha256": "1298fc38143cd928354f410213c73888dee3ec26818721fcb1e722839c6e86f7",
+    "size": 54083
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/language-sdks-v1.0.0/windows-virtual-devices-1.0.0.gem",
+    "path": "release-assets/Windows-Virtual-Devices/language-sdks-v1.0.0/windows-virtual-devices-1.0.0.gem",
+    "sha256": "c149390de4272196b386d789b6feea06afcca1cefb3ab9598e3741ccf2d84719",
+    "size": 217088
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/language-sdks-v1.0.0/windows-virtual-devices-sdk-source-1.0.0.zip",
+    "path": "release-assets/Windows-Virtual-Devices/language-sdks-v1.0.0/windows-virtual-devices-sdk-source-1.0.0.zip",
+    "sha256": "863bf1fa4952d3e4e56388581cb591fcb691375d4d4a22ef825ec9fa8cf217a6",
+    "size": 602233
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/language-sdks-v1.0.0/windows_virtual_devices-1.0.0-py3-none-win_amd64.whl",
+    "path": "release-assets/Windows-Virtual-Devices/language-sdks-v1.0.0/windows_virtual_devices-1.0.0-py3-none-win_amd64.whl",
+    "sha256": "bfd6af9810632beaacf58fc01d68bc3ab524a1df73a6c266e1b77a3aacc171ed",
+    "size": 217116
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/language-sdks-v1.0.0/windows_virtual_devices-1.0.0.tar.gz",
+    "path": "release-assets/Windows-Virtual-Devices/language-sdks-v1.0.0/windows_virtual_devices-1.0.0.tar.gz",
+    "sha256": "a9dfabd529ff4e3e3ff2769829d70bc377dfac2e7538d26c1435aeee1c3ac02d",
+    "size": 215339
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/sdk-v0.1.0/TitanCSA.WindowsVirtualDevices.Native.0.1.0.nupkg",
+    "path": "release-assets/Windows-Virtual-Devices/sdk-v0.1.0/TitanCSA.WindowsVirtualDevices.Native.0.1.0.nupkg",
+    "sha256": "7195cf7897db68b3c3e3edf2ed90e094289b9946b513b75985962e46e49acc42",
+    "size": 16265
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "old_url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/sdk-v0.1.0/windows-virtual-devices-sdk-0.1.0.tar.gz",
+    "path": "release-assets/Windows-Virtual-Devices/sdk-v0.1.0/windows-virtual-devices-sdk-0.1.0.tar.gz",
+    "sha256": "75f4086b5f1cc81f55e5e156ef58fb48a15e8efde39362c511d9201cdb7d6a7b",
+    "size": 14798
+  }
+]

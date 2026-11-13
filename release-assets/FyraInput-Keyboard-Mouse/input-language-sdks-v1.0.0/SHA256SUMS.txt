@@ -1,0 +1,4 @@
+ba815ac086f1590982df9b71f9df19a9e243d8e3133c94f8c4f2970584f3df94  fyrainput-keyboard-mouse-input-sdks-1.0.0-source.zip
+8011311cdd26bd78ffcb8941979cd9ee1b0e74aad17480d80b84457f7bf4053a  fyrainput-keyboard-mouse-1.0.0.gem
+7040ac67bd4621717250dfd4f917dcb70d49644640022420e91289823ca1e203  fyrainput_keyboard_mouse-1.0.0-py3-none-win_amd64.whl
+110709bea0e5f661af3cdc768f0442800217aa374e9ae4fa1088936623040382  fyrainput_keyboard_mouse-1.0.0.tar.gz
