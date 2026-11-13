@@ -3,7 +3,7 @@ package:
   name: usb-trace-sdk
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/USB-Trace-SDK/releases/download/language-sdks-v1.0.0/usb-trace-sdk-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/USB-Trace-SDK/language-sdks-v1.0.0/usb-trace-sdk-sdk-source-1.0.0.zip
   sha256: 224332254ee6669688d77fd2472259df3f471a22e4f85dcbb3dd71370cb298ff
 build:
   number: 0

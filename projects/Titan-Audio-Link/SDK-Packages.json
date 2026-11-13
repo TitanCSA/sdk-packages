@@ -100,7 +100,7 @@
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
   "native_source_archive": {
-    "url": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz",
+    "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Titan-Audio-Link/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz",
     "sha256": "427b8a68f926b1c2e322ba98a8280e1fcdd02ee365a129ccc54264da45a8ec73"
   },
   "registry_publications": {

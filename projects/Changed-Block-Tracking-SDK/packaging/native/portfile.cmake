@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/sdk-v0.1.1/changed-block-tracking-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Changed-Block-Tracking-SDK/sdk-v0.1.1/changed-block-tracking-sdk-sdk-0.1.1.tar.gz"
     FILENAME "changed-block-tracking-sdk-sdk-0.1.1.tar.gz"
     SHA512 70939ae4dd7418d22651d356e0cc2aa4385cda9883d9f295854851d6a4bdb7e7dc65a5b93316b8c88b31a709cd39fb0127f990ab0a54e4f2f12ee711d7b88b5c
 )

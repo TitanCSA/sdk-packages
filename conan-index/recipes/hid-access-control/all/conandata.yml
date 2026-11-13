@@ -1,4 +1,4 @@
 sources:
   "0.1.0":
-    url: "https://github.com/titanfyre/HID-Access-Control/releases/download/sdk-v0.1.0/hid-access-control-sdk-0.1.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/HID-Access-Control/sdk-v0.1.0/hid-access-control-sdk-0.1.0.tar.gz"
     sha256: "e0de4f804327d3c4513b740c8b0e1f58d33620cb974a8f32c02d631ead6b4ef4"

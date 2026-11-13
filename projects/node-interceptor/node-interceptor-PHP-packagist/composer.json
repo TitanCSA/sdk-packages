@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/node-interceptor",
+  "description": "Windows x64 node-interceptor direct PHP SDK",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/node-interceptor",
+  "support": {
+    "source": "https://github.com/TitanCSA/node-interceptor-php"
+  }
+}

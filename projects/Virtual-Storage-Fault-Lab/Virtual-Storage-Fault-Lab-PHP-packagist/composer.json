@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/virtual-storage-fault-lab",
+  "description": "Windows x64 Virtual-Storage-Fault-Lab direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab",
+  "support": {
+    "source": "https://github.com/TitanCSA/virtual-storage-fault-lab-php"
+  }
+}

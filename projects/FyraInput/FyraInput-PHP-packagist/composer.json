@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/fyrainput",
+  "description": "Direct Windows x64 PHP FFI SDK for FyraInput",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/FyraInput-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/fyrainput-php"
+  }
+}

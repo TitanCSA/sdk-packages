@@ -3,7 +3,7 @@ package:
   name: usb-over-ip-sdk
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/USB-over-IP-SDK/releases/download/language-sdks-v1.0.0/usb-over-ip-sdk-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/USB-over-IP-SDK/language-sdks-v1.0.0/usb-over-ip-sdk-sdk-source-1.0.0.zip
   sha256: 0e1b02c778322a725ded9369aa1b42fbf6f92fa3b8662d44874bc1b79c584c4f
 build:
   number: 0

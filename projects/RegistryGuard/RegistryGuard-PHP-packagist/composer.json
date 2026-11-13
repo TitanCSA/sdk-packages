@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/registryguard",
+  "description": "Windows x64 RegistryGuard direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/RegistryGuard",
+  "support": {
+    "source": "https://github.com/TitanCSA/registryguard-php"
+  }
+}

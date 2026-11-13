@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Windows-Input-Filter/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz"
     FILENAME "windows-input-filter-sdk-0.1.0.tar.gz"
     SHA512 66c08276616863e8c1d4a4fbb7436beb7fe5033991dbde84b9e382cdd115f805ae381cca91f70360060034598c834b010ca1730fa3778ad2337ba7845c1566d4
 )

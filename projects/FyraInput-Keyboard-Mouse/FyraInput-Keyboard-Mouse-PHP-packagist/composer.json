@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/fyrainput-keyboard-mouse",
+  "description": "Direct Windows x64 PHP FFI SDK for FyraInput-Keyboard-Mouse",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/fyrainput-keyboard-mouse-php"
+  }
+}

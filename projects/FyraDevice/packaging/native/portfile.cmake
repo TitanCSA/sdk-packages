@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/FyraDevice/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz"
     FILENAME "fyradevice-sdk-0.1.0.tar.gz"
     SHA512 fd32e87c88ea6959c2fc113db4c0732b6eceaa924c947370dfcaedfcbc1349f61a684189e4d7f5522d9a8b2ddfaceaf4b5ae5802e28f468529a258b00461f60c
 )

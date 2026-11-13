@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/sdk-v0.1.1/virtual-storage-fault-lab-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Virtual-Storage-Fault-Lab/sdk-v0.1.1/virtual-storage-fault-lab-sdk-0.1.1.tar.gz"
     FILENAME "virtual-storage-fault-lab-sdk-0.1.1.tar.gz"
     SHA512 09b49c5c7e72bef8657ef12839114701dee61d9e74bcf746e9762f0d34cfa7bf5e432afe1128601e075a601df47927d3edaec3fa073e4d15a3d7e2171e9c1bcd
 )

@@ -1,4 +1,4 @@
 sources:
   "0.1.1":
-    url: "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/RegistryGuard/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz"
     sha256: "d4722de4b46ed9dadc5792ff9ed9777c654f4007ac1f7c4739b7044c631eee37"

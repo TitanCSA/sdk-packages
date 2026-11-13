@@ -1,0 +1,3 @@
+<?php
+require dirname(__DIR__)."/src/Client.php";
+$c=new \TitanCSA\Products\Vdevice\Client($argv[1]??null);try{try{$c->call("check");throw new RuntimeException("Invalid config accepted");}catch(\TitanCSA\Products\Vdevice\NativeException){}if(isset($argv[1])){$d=$c->call("connect",["descriptors"=>[["data"=>[1,2,3]]]]);if($d["device_id"]!=="9223372036854775809")throw new RuntimeException("uint64 lost");$c->call("send",["handle"=>$d["handle"],"endpoint"=>129,"data"=>[0,1,255]]);$o=$c->call("receive");$c->call("reply",["reply_handle"=>$o["reply_handle"],"data"=>[0,1,255]]);$c->call("disconnect",["handle"=>$d["handle"]]);}}finally{$c->close();}

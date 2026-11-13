@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/RegistryGuard/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz"
     FILENAME "registryguard-sdk-0.1.1.tar.gz"
     SHA512 5d1cd2f82a16ea0a3f5cbd379c86b39cf3f2da4513e3f8e0b39afebfa0c1cce224de7cdb12e44150f9b284fb7704fd2b03ab8c4d2eacdf7c1b30ebe177f65412
 )

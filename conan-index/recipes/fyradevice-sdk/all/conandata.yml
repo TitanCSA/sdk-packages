@@ -1,4 +1,4 @@
 sources:
   "0.1.0":
-    url: "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/FyraDevice/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz"
     sha256: "071794dc564071da1444362323f2e593b57bcfc23c6409b10c79d80f6228be4b"

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz"
     FILENAME "interceptor-multilang-sdk-1.0.0.tar.gz"
     SHA512 74876d401988b14b61490c72c70db69a2b37fc4c304f5f9efc0ce730aa89057522c9762939745eee114f4dff3622c1535b9c67f557131decf20d703b07a8ab8b
 )

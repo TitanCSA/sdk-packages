@@ -1,4 +1,4 @@
 sources:
   "0.2.0":
-    url: "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Browser-Control-SDK/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz"
     sha256: "889c5baf8c1595fa392e425f92cd1c270655e045a7721975caebfedc7e63066d"

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Process-Trace-Studio/releases/download/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Process-Trace-Studio/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz"
     FILENAME "process-trace-studio-sdk-0.1.0.tar.gz"
     SHA512 559fcf2c5f7bbdbb61fbe0e52591478daf085f67ce6dab4017d890d904cb879f9644fbb759ded384b021fde029943a53fc07f2a3799b03e74ad7b1926f04ec6f
 )

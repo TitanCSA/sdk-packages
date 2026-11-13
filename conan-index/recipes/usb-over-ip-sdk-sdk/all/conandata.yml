@@ -1,4 +1,4 @@
 sources:
   "0.1.1":
-    url: "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/USB-over-IP-SDK/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz"
     sha256: "58054e1f86bbb3b5c11ae3424eee612a6a3d81aacf4cca44169ba23a6e5ce821"

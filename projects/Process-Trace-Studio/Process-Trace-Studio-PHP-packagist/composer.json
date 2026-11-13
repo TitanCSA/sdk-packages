@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/process-trace-studio",
+  "description": "Windows x64 Process-Trace-Studio direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Process-Trace-Studio",
+  "support": {
+    "source": "https://github.com/TitanCSA/process-trace-studio-php"
+  }
+}

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/sdk-v1.0.13/interceptor-gamepad-controller-sdk-1.0.13.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor-Gamepad-Controller/sdk-v1.0.13/interceptor-gamepad-controller-sdk-1.0.13.tar.gz"
     FILENAME "interceptor-gamepad-controller-sdk-1.0.13.tar.gz"
     SHA512 60fe387df29e39be13e0af7189cc4a2f4ea7d16aff08df1960beed938c084ad4058e6695766721b3eb3321cc06dd74667f429a1f51fb6c211faca3d3c0991a43
 )

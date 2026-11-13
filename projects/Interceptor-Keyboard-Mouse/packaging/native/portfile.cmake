@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor-Keyboard-Mouse/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz"
     FILENAME "interceptor-keyboard-mouse-sdk-1.0.5.tar.gz"
     SHA512 051a76f6061768da6b19f939592ec8bf4a04054ffae2935c9989341b06c8a16e2803542c36f8d6e98f693df8910f4083806241fae6ab547057d6ebab7bd716f8
 )

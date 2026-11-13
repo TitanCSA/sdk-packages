@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/node-interceptor/releases/download/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/node-interceptor/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz"
     FILENAME "node-interceptor-sdk-1.0.0.tar.gz"
     SHA512 55c7809b4678af022010d8ef807ab8fc5f3768faa07930feef466c65359ab9bbaaea19b80bcc97263a44fbc39b70b5691dd27c65e34c103075c6b97bfba5601e
 )

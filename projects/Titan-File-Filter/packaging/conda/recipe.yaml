@@ -3,7 +3,7 @@ package:
   name: titan-file-filter
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/Titan-File-Filter/releases/download/language-sdks-v1.0.0/titan-file-filter-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Titan-File-Filter/language-sdks-v1.0.0/titan-file-filter-sdk-source-1.0.0.zip
   sha256: 259e784bff8bbb1c395abf32589b8047130610f7af445e9be2fd09173375e349
 build:
   number: 0

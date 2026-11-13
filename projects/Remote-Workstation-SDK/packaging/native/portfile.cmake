@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/sdk-v0.1.1/remote-workstation-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Remote-Workstation-SDK/sdk-v0.1.1/remote-workstation-sdk-sdk-0.1.1.tar.gz"
     FILENAME "remote-workstation-sdk-sdk-0.1.1.tar.gz"
     SHA512 28e8ffc475178b066276a7ccd77359bedfa87f6c61bac5ce732280baa5caf422317c4386cf90740c09bf4ca999cec73a92564163ce6810e0b18963046b9a3d17
 )

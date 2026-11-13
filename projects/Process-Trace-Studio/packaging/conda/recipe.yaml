@@ -3,7 +3,7 @@ package:
   name: process-trace-studio
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/Process-Trace-Studio/releases/download/language-sdks-v1.0.0/process-trace-studio-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Process-Trace-Studio/language-sdks-v1.0.0/process-trace-studio-sdk-source-1.0.0.zip
   sha256: db530051f5a2f646a2d3f772a084bff54753387951d0dd93a4e1098bc9d6696f
 build:
   number: 0

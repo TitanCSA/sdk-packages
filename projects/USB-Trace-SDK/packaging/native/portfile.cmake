@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/USB-Trace-SDK/releases/download/sdk-v0.1.1/usb-trace-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/USB-Trace-SDK/sdk-v0.1.1/usb-trace-sdk-sdk-0.1.1.tar.gz"
     FILENAME "usb-trace-sdk-sdk-0.1.1.tar.gz"
     SHA512 9439ee33d7e49b2f01f6ff18f536fbb3103bbd1f4b1b64de0435f361c0a9e58326e5dbfc68b2b8a48c0a942de6a42d4ad90880844913b288c01390b3d1028169
 )

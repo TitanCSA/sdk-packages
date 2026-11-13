@@ -57,7 +57,7 @@
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
   "native_source_archive": {
-    "url": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz",
+    "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz",
     "sha256": "c662942a80b6eee137cad044f51ae0639700ff0044941869da50981a52c51105"
   },
   "registry_publications": {
@@ -187,7 +187,7 @@
       "documentation_bundled": true,
       "native_tests_passed": true,
       "protocol_tests_passed": false,
-      "github_downloads": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/tag/additional-language-sdks-v1.0.0",
+      "github_downloads": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0",
       "url": "https://www.powershellgallery.com/packages/InterceptorMultiLang/1.0.0"
     },
     "Dart/pub-dev": {
@@ -199,7 +199,7 @@
       "documentation_bundled": true,
       "native_tests_passed": true,
       "protocol_tests_passed": false,
-      "github_downloads": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/tag/additional-language-sdks-v1.0.0",
+      "github_downloads": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0",
       "url": "https://pub.dev/packages/interceptor_multilang"
     },
     "Ruby/rubygems": {
@@ -211,7 +211,7 @@
       "documentation_bundled": true,
       "native_tests_passed": true,
       "protocol_tests_passed": false,
-      "github_downloads": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/tag/additional-language-sdks-v1.0.0",
+      "github_downloads": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0",
       "url": "https://rubygems.org/gems/interceptor-multilang"
     },
     "PHP/packagist": {
@@ -223,7 +223,7 @@
       "documentation_bundled": true,
       "native_tests_passed": true,
       "protocol_tests_passed": false,
-      "github_downloads": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/tag/additional-language-sdks-v1.0.0",
+      "github_downloads": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Interceptor-MultiLang/additional-language-sdks-v1.0.0",
       "repository": "https://github.com/TitanCSA/interceptor-multilang-php",
       "url": "https://packagist.org/packages/titancsa/interceptor-multilang"
     }

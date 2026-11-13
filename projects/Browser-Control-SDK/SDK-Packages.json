@@ -83,7 +83,7 @@
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
   "native_source_archive": {
-    "url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
+    "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Browser-Control-SDK/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
     "sha256": "889c5baf8c1595fa392e425f92cd1c270655e045a7721975caebfedc7e63066d"
   },
   "c_abi_bridge": "Browser-Control-SDK-C-ffi",
@@ -242,7 +242,7 @@
       "documentation_bundled": true,
       "native_tests_passed": false,
       "protocol_tests_passed": true,
-      "github_downloads": "https://github.com/TitanCSA/Browser-Control-SDK/releases/tag/powershell-sdk-v0.2.1",
+      "github_downloads": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Browser-Control-SDK/powershell-sdk-v0.2.1",
       "url": "https://www.powershellgallery.com/packages/BrowserControlSDK/0.2.1"
     },
     "Dart/pub-dev": {
@@ -284,8 +284,8 @@
   "c_abi_release": {
     "project": "Browser-Control-SDK",
     "status": "published_c_consumer_verified",
-    "release": "https://github.com/TitanCSA/Browser-Control-SDK/releases/tag/c-abi-sdk-v0.2.2",
-    "archive": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/c-abi-sdk-v0.2.2/browser-control-sdk-c-0.2.2-win-x64.zip",
+    "release": "https://github.com/TitanCSA/sdk-packages/tree/main/release-assets/Browser-Control-SDK/c-abi-sdk-v0.2.2",
+    "archive": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Browser-Control-SDK/c-abi-sdk-v0.2.2/browser-control-sdk-c-0.2.2-win-x64.zip",
     "sha256": "eb1c5d4ebb0cbd1803fe31519bd6ace130612ee21a71919a8372d4f7403ef198",
     "version": "0.2.2",
     "c_consumer_compile_link_run_passed": true,

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz"
     FILENAME "interceptor-sdk-1.4.22.tar.gz"
     SHA512 c24e0e62aae47f7d20ae046dba123ed29653bb725fcd9bde527c584493d22485e427d7bbd36d6e1f8bf1f4e30e0d3afc9d3ffa1671574d010d110151f2e7bb40
 )

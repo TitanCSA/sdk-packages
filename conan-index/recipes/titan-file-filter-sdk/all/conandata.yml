@@ -1,4 +1,4 @@
 sources:
   "0.1.0":
-    url: "https://github.com/titanfyre/Titan-File-Filter/releases/download/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Titan-File-Filter/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz"
     sha256: "64dbf46da473c0e99ef5537e509541d7a6c062521ae3d99a2d3778a2bece33fe"

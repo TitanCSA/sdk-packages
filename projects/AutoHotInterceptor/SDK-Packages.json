@@ -72,7 +72,7 @@
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
   "native_source_archive": {
-    "url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
+    "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/AutoHotInterceptor/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
     "sha256": "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3"
   },
   "registry_publications": {

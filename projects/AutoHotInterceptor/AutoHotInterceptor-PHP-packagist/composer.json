@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/autohotinterceptor",
+  "description": "Direct Windows x64 PHP FFI SDK for AutoHotInterceptor",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/AutoHotInterceptor",
+  "support": {
+    "source": "https://github.com/TitanCSA/autohotinterceptor-php"
+  }
+}

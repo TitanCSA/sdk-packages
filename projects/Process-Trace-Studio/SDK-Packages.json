@@ -100,7 +100,7 @@
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
   "native_source_archive": {
-    "url": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz",
+    "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Process-Trace-Studio/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz",
     "sha256": "820fd7c7a4332b55101db7bc7330f2db719cb3b2f16c52906116e363015a0389"
   },
   "registry_publications": {

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/sdk-v0.1.1/user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/User-Backed-Virtual-Disk-SDK/sdk-v0.1.1/user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz"
     FILENAME "user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz"
     SHA512 93b3db288196d7c535c27283ee95739d76a33f24c27e5146904fc2dd476bbf36f43bba1acc7c81fcd51a3bc5961735a95061971d7f5a7fd32c39d35c2cef2503
 )

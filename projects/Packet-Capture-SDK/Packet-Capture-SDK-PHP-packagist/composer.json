@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/packet-capture-sdk",
+  "description": "Windows x64 Packet-Capture-SDK direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Packet-Capture-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/packet-capture-sdk-php"
+  }
+}

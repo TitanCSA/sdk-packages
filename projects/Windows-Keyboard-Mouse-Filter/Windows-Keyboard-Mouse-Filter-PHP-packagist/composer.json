@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/windows-keyboard-mouse-filter",
+  "description": "Direct Windows x64 PHP FFI SDK for Windows-Keyboard-Mouse-Filter",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter",
+  "support": {
+    "source": "https://github.com/TitanCSA/windows-keyboard-mouse-filter-php"
+  }
+}

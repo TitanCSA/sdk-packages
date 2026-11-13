@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/titan-file-filter",
+  "description": "Windows x64 Titan-File-Filter direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Titan-File-Filter",
+  "support": {
+    "source": "https://github.com/TitanCSA/titan-file-filter-php"
+  }
+}

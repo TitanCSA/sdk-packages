@@ -1,4 +1,4 @@
 sources:
   "0.1.0":
-    url: "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/FyraInput-Keyboard-Mouse/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz"
     sha256: "e07ca28622d3553f6c3fd17e0ae24af6e2037937ab7777a5dd7ccf4ea64aaa94"

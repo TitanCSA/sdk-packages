@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Interception-V2/releases/download/sdk-v2.0.0/interception-v2-sdk-2.0.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interception-V2/sdk-v2.0.0/interception-v2-sdk-2.0.0.tar.gz"
     FILENAME "interception-v2-sdk-2.0.0.tar.gz"
     SHA512 0e0e3916d1c77c55f4b6dae6f7e8cce7e64a1f6d928f61d532328d1e1b9bf9c7cd6f71a562b076f522cae1c3ebfd489245ea78c47a443b1c204ee5713abdb930
 )

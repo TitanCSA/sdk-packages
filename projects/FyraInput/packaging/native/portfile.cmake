@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/FyraInput/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz"
     FILENAME "fyrainput-sdk-0.1.0.tar.gz"
     SHA512 33a3bbd4179a5793830f5a8195625c979f225471c466403d05fe09c2e306275488bb05eb0a74aa4f14b40b40a7a4ac3ef8ec9ec012dda35b4bd2ac6e8533e4a9
 )

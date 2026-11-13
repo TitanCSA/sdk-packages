@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Browser-Control-SDK/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz"
     FILENAME "browser-control-sdk-sdk-0.2.0.tar.gz"
     SHA512 273d6c6696092bf480897b788c03f995ca774654b6d326c5040da7a7cb99fabe18b5998c63e0e248cdf7cb581018ad85e8b348d7c6a5392978ffe2c168f25472
 )

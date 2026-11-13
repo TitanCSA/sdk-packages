@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Vdevice/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz"
     FILENAME "vdevice-sdk-1.0.5.tar.gz"
     SHA512 51945c8748460333bd2cda03ecdf8fd4eed8360a8c3e7b30c10c77deb66b72536b32460421517323b2b6289db8c9a9f73d8f4b162366ded6ef153930958afefa
 )

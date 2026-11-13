@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/browser-control-sdk",
+  "description": "Windows x64 Browser-Control-SDK direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/Browser-Control-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/browser-control-sdk-php"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/file-trace-studio",
+  "description": "Windows x64 File-Trace-Studio direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/File-Trace-Studio",
+  "support": {
+    "source": "https://github.com/TitanCSA/file-trace-studio-php"
+  }
+}

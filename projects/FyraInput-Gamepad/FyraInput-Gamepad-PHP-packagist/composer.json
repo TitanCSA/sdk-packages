@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/fyrainput-gamepad",
+  "description": "Direct Windows x64 PHP FFI SDK for FyraInput-Gamepad",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/fyrainput-gamepad-php"
+  }
+}

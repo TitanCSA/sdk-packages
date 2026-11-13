@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/hid-access-control",
+  "description": "Windows x64 HID-Access-Control direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/HID-Access-Control",
+  "support": {
+    "source": "https://github.com/TitanCSA/hid-access-control-php"
+  }
+}

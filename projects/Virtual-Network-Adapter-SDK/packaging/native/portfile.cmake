@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/sdk-v0.1.1/virtual-network-adapter-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Virtual-Network-Adapter-SDK/sdk-v0.1.1/virtual-network-adapter-sdk-sdk-0.1.1.tar.gz"
     FILENAME "virtual-network-adapter-sdk-sdk-0.1.1.tar.gz"
     SHA512 f5272280501f8e71f5b2d1a3babf1ab66ff2be221cea221934e3bd168b2ea4e5eab858685f57443b6f66aa0d1e88790c9243123c3ce543cb7ff5e5fedbce7557
 )

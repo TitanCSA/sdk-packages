@@ -3,7 +3,7 @@ package:
   name: remote-workstation-sdk
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/language-sdks-v1.0.0/remote-workstation-sdk-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Remote-Workstation-SDK/language-sdks-v1.0.0/remote-workstation-sdk-sdk-source-1.0.0.zip
   sha256: 75509c49feecb829f1d24ee62ede47b5d7e6764128d8ab53c2fcbb1481103aa3
 build:
   number: 0

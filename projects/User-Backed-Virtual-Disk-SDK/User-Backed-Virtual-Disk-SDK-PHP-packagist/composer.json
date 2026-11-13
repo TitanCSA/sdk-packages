@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/user-backed-virtual-disk-sdk",
+  "description": "Windows x64 User-Backed-Virtual-Disk-SDK direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/user-backed-virtual-disk-sdk-php"
+  }
+}

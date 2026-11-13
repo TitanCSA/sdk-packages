@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Titan-Network-Filter/releases/download/sdk-v0.1.1/titan-network-filter-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Titan-Network-Filter/sdk-v0.1.1/titan-network-filter-sdk-0.1.1.tar.gz"
     FILENAME "titan-network-filter-sdk-0.1.1.tar.gz"
     SHA512 428999e6cac50a5d8517e5255b9b52b0ebcbe8c112d46902a77f13ddd7a60159b933ba1913fe25fc2e7cf2e50cfc7ab6c285570055a63ff15220e2dd3967ef93
 )

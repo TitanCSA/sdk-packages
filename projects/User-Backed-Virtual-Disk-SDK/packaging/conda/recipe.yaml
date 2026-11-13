@@ -3,7 +3,7 @@ package:
   name: user-backed-virtual-disk-sdk
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/User-Backed-Virtual-Disk-SDK/language-sdks-v1.0.0/user-backed-virtual-disk-sdk-sdk-source-1.0.0.zip
   sha256: 0a52a1a6a07bbc4d98be8b05170c14e8dff5b34cda515ce88106cd2ff2c0d84b
 build:
   number: 0

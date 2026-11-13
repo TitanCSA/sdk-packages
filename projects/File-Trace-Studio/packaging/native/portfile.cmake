@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/File-Trace-Studio/releases/download/sdk-v0.1.0/file-trace-studio-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/File-Trace-Studio/sdk-v0.1.0/file-trace-studio-sdk-0.1.0.tar.gz"
     FILENAME "file-trace-studio-sdk-0.1.0.tar.gz"
     SHA512 5c4710af05e60cdc723692e4ab3c87360cae350fe8b4771df6919c645c2bc2a71ed618a67b72afc7f867661e6c59b446b22e9a9e628a8813a7bfac94a3faca48
 )

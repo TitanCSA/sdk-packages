@@ -3,7 +3,7 @@ package:
   name: virtual-camera-sdk
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/language-sdks-v1.0.0/virtual-camera-sdk-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Virtual-Camera-SDK/language-sdks-v1.0.0/virtual-camera-sdk-sdk-source-1.0.0.zip
   sha256: 115803eb74d388df64bed002e3fd1ea32f23687f68dd4d0955d6d647b35f0e95
 build:
   number: 0

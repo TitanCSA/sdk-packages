@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/windows-gamepad-filter",
+  "description": "Direct Windows x64 PHP FFI SDK for Windows-Gamepad-Filter",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Windows-Gamepad-Filter",
+  "support": {
+    "source": "https://github.com/TitanCSA/windows-gamepad-filter-php"
+  }
+}

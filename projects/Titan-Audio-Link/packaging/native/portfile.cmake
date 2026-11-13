@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Titan-Audio-Link/releases/download/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Titan-Audio-Link/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz"
     FILENAME "titan-audio-link-sdk-0.1.1.tar.gz"
     SHA512 714f5dc638f5428ef67a4aaf230236b55de475c40b7a96aef325c0edebe0c161ba78c8544f3d432f196d6eab8e1316a951e509f8e0487bb1a5698a0bad9312a2
 )

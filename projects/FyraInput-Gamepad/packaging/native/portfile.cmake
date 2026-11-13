@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/sdk-v0.1.0/fyrainput-gamepad-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/FyraInput-Gamepad/sdk-v0.1.0/fyrainput-gamepad-sdk-0.1.0.tar.gz"
     FILENAME "fyrainput-gamepad-sdk-0.1.0.tar.gz"
     SHA512 404190f163dcd8b05b7c50011598b1bde44f75b21c30fe8562195408454d220e8961d7a846ee4ce13882d0cccc41f5ac59139a99b92e2470511f5d340be7b17c
 )

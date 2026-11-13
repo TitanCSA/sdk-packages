@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/titan-audio-link",
+  "description": "Windows x64 Titan-Audio-Link direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Titan-Audio-Link",
+  "support": {
+    "source": "https://github.com/TitanCSA/titan-audio-link-php"
+  }
+}

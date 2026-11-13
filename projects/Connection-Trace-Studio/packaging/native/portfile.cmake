@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/sdk-v0.1.0/connection-trace-studio-sdk-0.1.0.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Connection-Trace-Studio/sdk-v0.1.0/connection-trace-studio-sdk-0.1.0.tar.gz"
     FILENAME "connection-trace-studio-sdk-0.1.0.tar.gz"
     SHA512 7f26b7e6c527134426d4612089f6b6567464566def44c8fee87e156949484892227b6abf7e6ef818efd9f10793d656f71b81b449bf947d71dfd568076c0a3618
 )

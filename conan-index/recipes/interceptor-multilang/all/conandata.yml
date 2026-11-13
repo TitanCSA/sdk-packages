@@ -1,4 +1,4 @@
 sources:
   "1.0.0":
-    url: "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Interceptor-MultiLang/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz"
     sha256: "c662942a80b6eee137cad044f51ae0639700ff0044941869da50981a52c51105"

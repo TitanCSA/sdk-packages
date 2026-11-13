@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/sdk-v0.1.1/network-emulation-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Network-Emulation-SDK/sdk-v0.1.1/network-emulation-sdk-sdk-0.1.1.tar.gz"
     FILENAME "network-emulation-sdk-sdk-0.1.1.tar.gz"
     SHA512 0b9e31a163fcebfea07671783a99525af6a015ed8dc13b3fb93e53a444259d3ec6c37d631ea4868560b3cb25be56c1fd5e816dd2c4e43ec8846d2cae26761f56
 )

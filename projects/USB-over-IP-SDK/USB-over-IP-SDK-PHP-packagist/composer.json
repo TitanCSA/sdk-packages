@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/usb-over-ip-sdk",
+  "description": "Windows x64 USB-over-IP-SDK direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/USB-over-IP-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/usb-over-ip-sdk-php"
+  }
+}

@@ -3,7 +3,7 @@ package:
   name: node-interceptor
   version: 1.0.0
 source:
-  url: https://github.com/TitanCSA/node-interceptor/releases/download/language-sdks-v1.0.0/node-interceptor-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/node-interceptor/language-sdks-v1.0.0/node-interceptor-sdk-source-1.0.0.zip
   sha256: 88220e2da7ced70f77df1708773b9f9c33ef9f104c9fab6c509212ccc0fe1eaf
 build:
   number: 0

@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/windows-input-filter",
+  "description": "Direct Windows x64 PHP FFI SDK for Windows-Input-Filter",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Windows-Input-Filter",
+  "support": {
+    "source": "https://github.com/TitanCSA/windows-input-filter-php"
+  }
+}

@@ -3,7 +3,7 @@ package:
   name: hid-access-control
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/HID-Access-Control/releases/download/language-sdks-v1.0.0/hid-access-control-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/HID-Access-Control/language-sdks-v1.0.0/hid-access-control-sdk-source-1.0.0.zip
   sha256: 680be671c8dd164629ff8e2d5948aa05e627894565cccccb11122c46cffe3edc
 build:
   number: 0

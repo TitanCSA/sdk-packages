@@ -1,4 +1,4 @@
 sources:
   "0.1.1":
-    url: "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz"
+    url: "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Packet-Capture-SDK/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz"
     sha256: "937d5626f59113e2cf1fdf88d00b1cd7e6ebb531f1d50ec071901a4e01f67611"

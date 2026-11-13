@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Packet-Capture-SDK/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz"
     FILENAME "packet-capture-sdk-sdk-0.1.1.tar.gz"
     SHA512 9919d8bc6ce700028f05a8518f007692e7b60ced0d6db929bee02758ad7c0f8af9b7e9fc575e05bd2b8ceef043fe97d3cbbdd8ab31eb27530423be472b4fd7ca
 )

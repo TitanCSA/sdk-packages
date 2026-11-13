@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Cloud-Files-SDK/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz"
     FILENAME "cloud-files-sdk-sdk-0.1.1.tar.gz"
     SHA512 4db29b2b3fa5dec21df7f767a7c49f6f46ad15f938c4a3915957bf6c2dacf4cbe01ea9da8ded02765f19a2b4dfb6ef1ce08a945f6dedc31d65bc6a966275d06d
 )

@@ -1,5 +1,5 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz"
+    URLS "https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/USB-over-IP-SDK/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz"
     FILENAME "usb-over-ip-sdk-sdk-0.1.1.tar.gz"
     SHA512 68dcaadbbe15d7fbd084a4554fee37f351cbd5669962ce135264327c44d9b10bee624d6b8b10e341d8b2c1d876b18989fe51c07a2a31b650ef8457e359fb7faa
 )

@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/interceptor-keyboard-mouse",
+  "description": "Direct Windows x64 PHP FFI SDK for Interceptor-Keyboard-Mouse",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse",
+  "support": {
+    "source": "https://github.com/TitanCSA/interceptor-keyboard-mouse-php"
+  }
+}

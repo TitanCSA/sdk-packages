@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/interceptor-gamepad-controller",
+  "description": "Direct Windows x64 PHP FFI SDK for Interceptor-Gamepad-Controller",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Interceptor.php"
+    ]
+  },
+  "homepage": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller",
+  "support": {
+    "source": "https://github.com/TitanCSA/interceptor-gamepad-controller-php"
+  }
+}

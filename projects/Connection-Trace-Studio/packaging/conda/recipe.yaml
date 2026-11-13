@@ -3,7 +3,7 @@ package:
   name: connection-trace-studio
   version: 1.0.0
 source:
-  url: https://github.com/titanfyre/Connection-Trace-Studio/releases/download/language-sdks-v1.0.0/connection-trace-studio-sdk-source-1.0.0.zip
+  url: https://raw.githubusercontent.com/TitanCSA/sdk-packages/f6abf965e5a3e229c1b450322212aa07ec5a4cfc/release-assets/Connection-Trace-Studio/language-sdks-v1.0.0/connection-trace-studio-sdk-source-1.0.0.zip
   sha256: 98c30abe6934567ad05f9b41105fdb827ed49ad74fe97a6ae3b5dd82ff429b2b
 build:
   number: 0

@@ -1,0 +1,19 @@
+{
+  "name": "titancsa/remote-workstation-sdk",
+  "description": "Windows x64 Remote-Workstation-SDK direct PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-ffi": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/Client.php"
+    ]
+  },
+  "homepage": "https://github.com/titanfyre/Remote-Workstation-SDK",
+  "support": {
+    "source": "https://github.com/TitanCSA/remote-workstation-sdk-php"
+  }
+}
