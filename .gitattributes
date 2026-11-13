@@ -1,3 +1,4 @@
 
 # Preserve imported SDK bytes and license text exactly.
 projects/** -text
+release-assets/** -text
