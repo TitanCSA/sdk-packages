@@ -1,0 +1,3 @@
+Gem::Specification.new do |s|
+ s.name='node-interceptor';s.version='1.0.0';s.summary='Windows x64 node-interceptor direct SDK';s.description='Product native SDK operations through a UTF-8 JSON C ABI; driver installed separately.';s.authors=['TitanCSA'];s.license='LGPL-3.0-or-later';s.homepage='https://github.com/TitanCSA/node-interceptor';s.required_ruby_version='>=3.1';s.files=Dir['lib/**/*','native/*','docs/*','README.md','LICENSE'];s.require_paths=['lib'];s.add_runtime_dependency 'fiddle','>=1.1','<2';s.metadata={'source_code_uri'=>s.homepage,'documentation_uri'=>s.homepage+'/tree/main/node-interceptor-Ruby-rubygems/docs','allowed_push_host'=>'https://rubygems.org'}
+end

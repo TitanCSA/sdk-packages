@@ -1,0 +1,24 @@
+AutoHotInterceptor, user-mode adaptation by TitanCSA.
+
+AutoHotInterception by Clive Galway (evilC), MIT license.
+https://github.com/evilC/AutoHotInterception
+Pinned revision: 311f7362f09af492345b95cf9b771cc79bf85bbb
+Original C# and AutoHotkey public interfaces, CLR helpers, monitor layout and
+examples are retained/adapted with their source and original notices.
+CLR helper headers retain attribution to Lexikos.
+
+Changes: Interceptor Keyboard & Mouse SDK/native compatibility bridge;
+portable launcher and stock runtimes; signed-driver setup packaging; x86/x64
+backend; cancellation, input/device separation, callback failure handling,
+bounded monitor display, subscription lifecycle and scan-code corrections.
+
+Interceptor Keyboard & Mouse user-mode SDK, TitanCSA, MIT license.
+Its driver binaries are separately licensed, Microsoft-signed demo binaries.
+The original oblitum/Interception driver/DLL is not redistributed or installed.
+
+AutoHotkey stock portable runtimes: GPL-2.0; exact official source archives and
+licenses are supplied with releases. Versions/URLs/hashes are recorded in
+licenses/AutoHotkey-Runtimes.json. Stock AutoHotkey is not modified.
+
+This project is independent of evilC, AutoHotkey and Microsoft. A Microsoft
+driver signature does not constitute endorsement or certify wrapper behavior.

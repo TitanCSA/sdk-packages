@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><AllowUnsafeBlocks>true</AllowUnsafeBlocks><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><PackageId>TitanCSA.Interceptor</PackageId><Version>1.0.0</Version><Description>Minimal .NET bindings for the Interceptor Windows input filter driver</Description><PackageLicenseExpression>MIT</PackageLicenseExpression><PackageReadmeFile>README.md</PackageReadmeFile></PropertyGroup>
+  <ItemGroup><None Include="README.md" Pack="true" PackagePath="/" /><None Include="../../LICENSE" Pack="true" PackagePath="/" /></ItemGroup>
+  <ItemGroup><None Include="../../runtimes/win-x64/InterceptorBridge.dll" Link="InterceptorBridge.dll" CopyToOutputDirectory="PreserveNewest" Pack="true" PackagePath="runtimes/win-x64/native/" Condition="Exists('../../runtimes/win-x64/InterceptorBridge.dll')" /></ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+node-interceptor adaptation by TitanCSA.
+
+Original node-interception wrapper: Rami Sabbagh, LGPL-3.0-or-later.
+https://github.com/Rami-Sabbagh/node-interception
+Pinned revision: 181a6f21316119d79e5eee4db7739c4d3d41a0e7
+Original TypeScript API/layouts retained, with device range/lifetime fixes.
+Native addon replaced with validated, cancellable Node-API implementation
+using the Interceptor Keyboard & Mouse demo SDK and compatibility bridge.
+The complete buildable corresponding user-mode source is supplied.
+
+Interceptor SDK and native Bridge.cpp/interception.h: TitanCSA, MIT license.
+The original oblitum/Interception driver or DLL is not redistributed/installed.
+Signed Interceptor Keyboard & Mouse driver: separate binary/demo license.
+node-addon-api: MIT, Node.js contributors; notice in licenses/.
+
+This project is independent of the original authors, Node.js and Microsoft.
+A Microsoft kernel signature is not an endorsement of this addon.

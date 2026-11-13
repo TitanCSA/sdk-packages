@@ -1,0 +1,18 @@
+[package]
+name = "fyrainput"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Windows x64 FyraInput SDK with product-specific native bindings"
+license = "MIT"
+repository = "https://github.com/TitanCSA/FyraInput-SDK"
+readme = "README.md"
+build = "build.rs"
+include = ["src/**", "build.rs", "native/**", "README.md", "LICENSE", "docs/**", "examples/**"]
+
+[lib]
+name = "fyrainput"
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]

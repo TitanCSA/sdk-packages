@@ -1,0 +1,81 @@
+{
+  "name": "interceptor-keyboard-mouse",
+  "version": "1.0.0",
+  "description": "Node.js and TypeScript bindings for the Interceptor Keyboard & Mouse Windows kernel filter driver",
+  "author": "TitanCSA",
+  "contributors": [
+    "Rami Sabbagh (original node-interception)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitanCSA/node-interceptor.git",
+    "directory": "node-interceptor-JavaScript-npm"
+  },
+  "license": "LGPL-3.0-or-later",
+  "main": "dist/cjs/lib/index.js",
+  "types": "dist/cjs/lib/index.d.ts",
+  "bin": {
+    "interceptor-keyboard-mouse": "tools/setup.cjs"
+  },
+  "files": [
+    "dist/cjs/",
+    "prebuilds/",
+    "native/",
+    "src/",
+    "tools/",
+    "driver/",
+    "examples/",
+    "docs/",
+    "test/",
+    "licenses/",
+    "binding.gyp",
+    "CMakeLists.txt",
+    "README.md",
+    "NOTICE",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "install": "node tools/install.cjs",
+    "build": "tsc -p tsconfig.json",
+    "build:addon": "node-gyp rebuild",
+    "test": "node --test test/*.test.cjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-addon-api": "8.5.0",
+    "@types/node": "22.19.7",
+    "node-gyp": "11.5.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32"
+  ],
+  "keywords": [
+    "interceptor",
+    "interception",
+    "keyboard",
+    "mouse",
+    "windows",
+    "kernel",
+    "filter-driver",
+    "typescript",
+    "electron",
+    "napi",
+    "remap",
+    "hid"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/TitanCSA/node-interceptor/tree/main/node-interceptor-JavaScript-npm#readme",
+  "bugs": {
+    "url": "https://github.com/TitanCSA/node-interceptor/issues"
+  }
+}

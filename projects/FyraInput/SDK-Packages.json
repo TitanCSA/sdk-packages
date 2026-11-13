@@ -1,0 +1,296 @@
+{
+  "project": "FyraInput",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.FyraInput.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "FyraInput-Python-pypi",
+      "registry": "pypi",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "FyraInput-Ruby-rubygems",
+      "registry": "rubygems",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "FyraInput-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "FyraInput-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:fyrainput:1.0.0",
+      "jitpack_coordinates": "com.github.TitanCSA:FyraInput-SDK:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
+    },
+    {
+      "directory": "FyraInput-PowerShell-gallery",
+      "registry": "PowerShell Gallery",
+      "name": "FyraInput",
+      "version": "1.0.0",
+      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+    },
+    {
+      "directory": "FyraInput-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules",
+      "version": "v1.0.0",
+      "distribution": "Public Go module with embedded product DLL"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz",
+    "sha256": "3665b34e5d2530862ffed228d74302d7cc21a09b1045134a95453b035b569208"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "fyrainput",
+      "microsoft_curated_registry": false,
+      "legacy_port": "fyrainput-sdk",
+      "registry_selection_packages": [
+        "fyrainput",
+        "fyrainput-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "FyraInput-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "fyrainput",
+      "version": "0.1.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "FyraInput.Native",
+      "version": "0.1.0",
+      "url": "https://www.nuget.org/packages/FyraInput.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "FyraInput.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/FyraInput.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35621",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/fyrainput",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-JavaScript-npm",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/fyrainput",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/fyrainput/1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_",
+      "coordinates": "io.github.titancsa:fyrainput:1.0.0",
+      "java_package": "titancsa.products.fyrainput"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "java-sdk-v1.0.0",
+      "directory": "FyraInput-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/FyraInput-SDK/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_",
+      "coordinates": "com.github.TitanCSA:FyraInput-SDK:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.fyrainput"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "v1.0.0",
+      "directory": "FyraInput-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "FyraInput",
+      "version": "1.0.0",
+      "directory": "FyraInput-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/FyraInput/1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/fyrainput",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_",
+      "cross_isolate_cancellation_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/fyrainput",
+      "public_consumer_verified": true,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/fyrainput",
+      "version": "1.0.0",
+      "directory": "FyraInput-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/fyrainput",
+      "public_consumer_verified": false,
+      "module": "fyrainput",
+      "dll_name": "FyraInputBridge.dll",
+      "api_prefix": "fyrainput_",
+      "repository": "https://github.com/TitanCSA/fyrainput-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "input_c_abi": {
+    "directory": "FyraInput-C-ffi",
+    "dll": "FyraInputBridge.dll",
+    "symbol_prefix": "fyrainput_",
+    "input_mask": 3,
+    "controller_mask": 15,
+    "synthetic_and_production_tests_passed": true
+  }
+}

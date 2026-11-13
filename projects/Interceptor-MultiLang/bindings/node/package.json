@@ -1,0 +1,7 @@
+{
+  "name": "@titancsa/interceptor-multilang", "version": "1.0.0", "main": "index.cjs", "types": "index.d.ts",
+  "description": "Simple JavaScript and TypeScript bindings for the Interceptor Windows input driver",
+  "license": "MIT", "os": ["win32"], "cpu": ["x64"], "engines": {"node": ">=20"},
+  "files": ["index.cjs", "index.d.ts", "prebuilds/"],
+  "repository": "https://github.com/TitanCSA/Interceptor-MultiLang"
+}

@@ -1,0 +1,306 @@
+{
+  "project": "node-interceptor",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": []
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "node-interceptor-JavaScript-npm",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "node-interceptor-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    {
+      "directory": "node-interceptor-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "node-interceptor",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "node_interceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "NodeInterceptor.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "node-interceptor-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "NodeInterceptor",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "node-interceptor",
+      "microsoft_curated_registry": false,
+      "legacy_port": "node-interceptor-sdk",
+      "registry_selection_packages": [
+        "node-interceptor",
+        "node-interceptor-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "node-interceptor-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "NodeInterceptor.Native",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/NodeInterceptor.Native/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "NodeInterceptor.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/NodeInterceptor.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/node-interceptor",
+      "public_consumer_verified": true,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "interceptor-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "node-interceptor-JavaScript-npm",
+      "documentation_bundled": true,
+      "examples_bundled": true,
+      "registry_published": true,
+      "url": "https://www.npmjs.com/package/interceptor-keyboard-mouse"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/node-interceptor/1.0.0",
+      "public_consumer_verified": true,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_",
+      "coordinates": "io.github.titancsa:node-interceptor:1.0.0",
+      "java_package": "titancsa.products.node_interceptor"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "node-interceptor",
+      "version": "java-sdk-v1.0.0",
+      "directory": "node-interceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/node-interceptor/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_",
+      "coordinates": "com.github.TitanCSA:node-interceptor:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.node_interceptor"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "node-interceptor",
+      "version": "v1.0.0",
+      "directory": "node-interceptor-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "NodeInterceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/NodeInterceptor/1.0.0",
+      "public_consumer_verified": true,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "Dart/pub-dev": {
+      "status": "built_fixture_and_production_verified",
+      "name": "node_interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Dart-pub-dev",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/node-interceptor",
+      "public_consumer_verified": true,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/node-interceptor",
+      "version": "1.0.0",
+      "directory": "node-interceptor-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/node-interceptor",
+      "public_consumer_verified": false,
+      "module": "node_interceptor",
+      "dll_name": "nodeinterceptorJsonSDK.dll",
+      "api_prefix": "node_interceptor_json_",
+      "repository": "https://github.com/TitanCSA/node-interceptor-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+}

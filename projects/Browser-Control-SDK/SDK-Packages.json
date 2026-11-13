@@ -1,0 +1,295 @@
+{
+  "project": "Browser-Control-SDK",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.BrowserControlSDK.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Browser-Control-SDK-Python-pypi",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "Browser-Control-SDK-JavaScript-npm",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "Browser-Control-SDK-Ruby-rubygems",
+      "registry": "RubyGems",
+      "name": "browser-control-sdk",
+      "version": "0.2.2",
+      "distribution": "RubyGems and GitHub release"
+    },
+    {
+      "directory": "Browser-Control-SDK-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/TitanCSA/Browser-Control-SDK/Browser-Control-SDK-Go-modules",
+      "version": "v0.2.1",
+      "distribution": "Public Go proxy, with embedded native DLL and documentation"
+    },
+    {
+      "directory": "Browser-Control-SDK-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "browser_control_sdk",
+      "version": "0.2.1",
+      "distribution": "Dart FFI package; Flutter deployment requires bundling the DLL as documented"
+    },
+    {
+      "directory": "Browser-Control-SDK-C-json",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "BrowserControlSDKJsonSDK.dll",
+      "api_prefix": "browser_control_sdk_json_"
+    },
+    {
+      "directory": "Browser-Control-SDK-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "browser-control-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Browser-Control-SDK-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "browser-control-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Browser-Control-SDK-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "BrowserControlSDK.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Browser-Control-SDK-Python-conda-forge",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
+    "sha256": "889c5baf8c1595fa392e425f92cd1c270655e045a7721975caebfedc7e63066d"
+  },
+  "c_abi_bridge": "Browser-Control-SDK-C-ffi",
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "browser-control-sdk",
+      "microsoft_curated_registry": false,
+      "legacy_port": "browser-control-sdk-sdk",
+      "registry_selection_packages": [
+        "browser-control-sdk",
+        "browser-control-sdk-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Browser-Control-SDK-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "browser-control-sdk",
+      "version": "0.2.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Browser-Control-SDK.Native",
+      "version": "0.2.0",
+      "url": "https://www.nuget.org/packages/Browser-Control-SDK.Native/0.2.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "BrowserControlSDK.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/BrowserControlSDK.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "0.2.1",
+      "url": "https://pypi.org/project/browser-control-sdk/0.2.1/",
+      "documentation_bundled": true,
+      "examples_bundled": true,
+      "registry_published": true
+    },
+    "Python/conda-forge": {
+      "status": "submitted_pending_maintainer_review",
+      "name": "browser-control-sdk",
+      "version": "0.2.1",
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35612",
+      "registry_published": false,
+      "conda_build_and_tests_passed": true,
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "Browser-Control-SDK-Python-conda-forge"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "1.0.0",
+      "directory": "Browser-Control-SDK-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/browser-control-sdk",
+      "public_consumer_verified": true,
+      "module": "browser_control_sdk",
+      "dll_name": "BrowserControlSDKJsonSDK.dll",
+      "api_prefix": "browser_control_sdk_json_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "0.2.0",
+      "directory": "Browser-Control-SDK-JavaScript-npm",
+      "documentation_bundled": true,
+      "examples_bundled": true,
+      "registry_published": true,
+      "url": "https://www.npmjs.com/package/browser-control-sdk",
+      "typescript_patch_status": "submitted_requires_indexing",
+      "typescript_patch_version": "0.2.1"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "1.0.0",
+      "directory": "Browser-Control-SDK-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/browser-control-sdk/1.0.0",
+      "public_consumer_verified": true,
+      "module": "browser_control_sdk",
+      "dll_name": "BrowserControlSDKJsonSDK.dll",
+      "api_prefix": "browser_control_sdk_json_",
+      "coordinates": "io.github.titancsa:browser-control-sdk:1.0.0",
+      "java_package": "titancsa.products.browser_control_sdk"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Browser-Control-SDK-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/Browser-Control-SDK/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "browser_control_sdk",
+      "dll_name": "BrowserControlSDKJsonSDK.dll",
+      "api_prefix": "browser_control_sdk_json_",
+      "coordinates": "com.github.TitanCSA:Browser-Control-SDK:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.browser_control_sdk"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "github.com/TitanCSA/Browser-Control-SDK/Browser-Control-SDK-Go-modules",
+      "version": "v0.2.1",
+      "directory": "Browser-Control-SDK-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Browser-Control-SDK/Browser-Control-SDK-Go-modules@v0.2.1",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/Browser-Control-SDK/Browser-Control-SDK-Go-modules"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Browser-Control-SDK/Browser-Control-SDK-Go-modules@v0.2.1"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "BrowserControlSDK",
+      "version": "0.2.1",
+      "directory": "Browser-Control-SDK-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "native_tests_passed": false,
+      "protocol_tests_passed": true,
+      "github_downloads": "https://github.com/TitanCSA/Browser-Control-SDK/releases/tag/powershell-sdk-v0.2.1",
+      "url": "https://www.powershellgallery.com/packages/BrowserControlSDK/0.2.1"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "browser_control_sdk",
+      "version": "0.2.1",
+      "directory": "Browser-Control-SDK-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/browser_control_sdk",
+      "public_consumer_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "browser-control-sdk",
+      "version": "0.2.2",
+      "directory": "Browser-Control-SDK-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/browser-control-sdk",
+      "public_consumer_verified": true
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/browser-control-sdk",
+      "version": "1.0.0",
+      "directory": "Browser-Control-SDK-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/browser-control-sdk",
+      "public_consumer_verified": false,
+      "module": "browser_control_sdk",
+      "dll_name": "BrowserControlSDKJsonSDK.dll",
+      "api_prefix": "browser_control_sdk_json_",
+      "repository": "https://github.com/TitanCSA/browser-control-sdk-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "c_abi_release": {
+    "project": "Browser-Control-SDK",
+    "status": "published_c_consumer_verified",
+    "release": "https://github.com/TitanCSA/Browser-Control-SDK/releases/tag/c-abi-sdk-v0.2.2",
+    "archive": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/c-abi-sdk-v0.2.2/browser-control-sdk-c-0.2.2-win-x64.zip",
+    "sha256": "eb1c5d4ebb0cbd1803fe31519bd6ace130612ee21a71919a8372d4f7403ef198",
+    "version": "0.2.2",
+    "c_consumer_compile_link_run_passed": true,
+    "central_registry": false,
+    "public_archive_consumer_passed": true
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "project": "Cloud-Files-SDK",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.CloudFilesSDK.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Cloud-Files-SDK-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "cloud-files-sdk",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "cloud_files_sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "CloudFilesSDK.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "CloudFilesSDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "ea17e34fb656e40759ec9e0143f5147faffdf5ccb6c6063826b1920c2dd21e31"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "cloud-files-sdk",
+      "microsoft_curated_registry": false,
+      "legacy_port": "cloud-files-sdk-sdk",
+      "registry_selection_packages": [
+        "cloud-files-sdk",
+        "cloud-files-sdk-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Cloud-Files-SDK-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "cloud-files-sdk",
+      "version": "0.1.1",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Cloud-Files-SDK.Native",
+      "version": "0.1.1",
+      "url": "https://www.nuget.org/packages/Cloud-Files-SDK.Native/0.1.1",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "CloudFilesSDK.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/CloudFilesSDK.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/cloud-files-sdk",
+      "public_consumer_verified": true,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "JavaScript/npm": {
+      "status": "stopped_before_submission",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-JavaScript-npm",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/cloud-files-sdk/1.0.0",
+      "public_consumer_verified": true,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_",
+      "coordinates": "io.github.titancsa:cloud-files-sdk:1.0.0",
+      "java_package": "titancsa.products.cloud_files_sdk"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "cloud-files-sdk",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Cloud-Files-SDK-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#titanfyre/Cloud-Files-SDK/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_",
+      "coordinates": "com.github.titanfyre:Cloud-Files-SDK:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.cloud_files_sdk"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "cloud-files-sdk",
+      "version": "v1.0.0",
+      "directory": "Cloud-Files-SDK-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "CloudFilesSDK",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/CloudFilesSDK/1.0.0",
+      "public_consumer_verified": true,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "Dart/pub-dev": {
+      "status": "built_fixture_and_production_verified",
+      "name": "cloud_files_sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Dart-pub-dev",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/cloud-files-sdk",
+      "public_consumer_verified": true,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/cloud-files-sdk",
+      "version": "1.0.0",
+      "directory": "Cloud-Files-SDK-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/cloud-files-sdk",
+      "public_consumer_verified": false,
+      "module": "cloud_files_sdk",
+      "dll_name": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_",
+      "repository": "https://github.com/TitanCSA/cloud-files-sdk-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+}

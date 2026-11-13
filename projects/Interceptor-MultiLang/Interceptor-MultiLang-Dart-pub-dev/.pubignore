@@ -1,0 +1,6 @@
+.dart_tool/
+pubspec.lock
+*.zip
+*.log
+!lib/native/
+!lib/native/InterceptorBridge.dll

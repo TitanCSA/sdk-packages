@@ -1,0 +1,296 @@
+{
+  "project": "FyraInput-Keyboard-Mouse",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.FyraInputKeyboardMouse.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-Python-pypi",
+      "registry": "pypi",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-Ruby-rubygems",
+      "registry": "rubygems",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "fyrainput_keyboard_mouse",
+      "version": "1.0.0",
+      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:fyrainput-keyboard-mouse:1.0.0",
+      "jitpack_coordinates": "com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-PowerShell-gallery",
+      "registry": "PowerShell Gallery",
+      "name": "FyraInputKeyboardMouse",
+      "version": "1.0.0",
+      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+    },
+    {
+      "directory": "FyraInput-Keyboard-Mouse-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules",
+      "version": "v1.0.0",
+      "distribution": "Public Go module with embedded product DLL"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz",
+    "sha256": "e07ca28622d3553f6c3fd17e0ae24af6e2037937ab7777a5dd7ccf4ea64aaa94"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "fyrainput-keyboard-mouse",
+      "microsoft_curated_registry": false,
+      "legacy_port": "fyrainput-keyboard-mouse-sdk",
+      "registry_selection_packages": [
+        "fyrainput-keyboard-mouse",
+        "fyrainput-keyboard-mouse-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "FyraInput-Keyboard-Mouse-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "fyrainput-keyboard-mouse",
+      "version": "0.1.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "FyraInput-Keyboard-Mouse.Native",
+      "version": "0.1.0",
+      "url": "https://www.nuget.org/packages/FyraInput-Keyboard-Mouse.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "FyraInputKeyboardMouse.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/FyraInputKeyboardMouse.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35625",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/fyrainput-keyboard-mouse",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-JavaScript-npm",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/fyrainput-keyboard-mouse",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/fyrainput-keyboard-mouse/1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_",
+      "coordinates": "io.github.titancsa:fyrainput-keyboard-mouse:1.0.0",
+      "java_package": "titancsa.products.fyrainput_keyboard_mouse"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "java-sdk-v1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/FyraInput-Keyboard-Mouse-SDK/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_",
+      "coordinates": "com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.fyrainput_keyboard_mouse"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "v1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "FyraInputKeyboardMouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/FyraInputKeyboardMouse/1.0.0",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "fyrainput_keyboard_mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/fyrainput_keyboard_mouse",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_",
+      "cross_isolate_cancellation_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/fyrainput-keyboard-mouse",
+      "public_consumer_verified": true,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/fyrainput-keyboard-mouse",
+      "version": "1.0.0",
+      "directory": "FyraInput-Keyboard-Mouse-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/fyrainput-keyboard-mouse",
+      "public_consumer_verified": false,
+      "module": "fyrainput_keyboard_mouse",
+      "dll_name": "FyraInputKeyboardMouseBridge.dll",
+      "api_prefix": "fyrainput_keyboard_mouse_",
+      "repository": "https://github.com/TitanCSA/fyrainput-keyboard-mouse-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "input_c_abi": {
+    "directory": "FyraInput-Keyboard-Mouse-C-ffi",
+    "dll": "FyraInputKeyboardMouseBridge.dll",
+    "symbol_prefix": "fyrainput_keyboard_mouse_",
+    "input_mask": 3,
+    "controller_mask": 0,
+    "synthetic_and_production_tests_passed": true
+  }
+}

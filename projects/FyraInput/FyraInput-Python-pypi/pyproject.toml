@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "fyrainput"
+version = "1.0.0"
+description = "Direct Windows x64 FyraInput input SDK with native receive, edit, send, descriptors and cancellation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+[project.urls]
+Repository = "https://github.com/TitanCSA/FyraInput-SDK"
+Documentation = "https://github.com/TitanCSA/FyraInput-SDK/tree/main/FyraInput-Python-pypi/docs"
+[tool.setuptools]
+packages = ["fyrainput"]
+[tool.setuptools.package-data]
+fyrainput = ["FyraInputBridge.dll"]
+[tool.setuptools.data-files]
+"share/doc/fyrainput" = ["docs/API.md", "examples/info.py", "LICENSE"]

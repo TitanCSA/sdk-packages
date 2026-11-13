@@ -1,0 +1,320 @@
+{
+  "project": "Vdevice",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.Vdevice.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Vdevice-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    {
+      "directory": "Vdevice-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "vdevice",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "Vdevice.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Vdevice-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "Vdevice",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz",
+    "sha256": "091114abb8a31a5c4ab2a0809c6076bf742d0c806dc866adead9be2ec5f8711a"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "vdevice",
+      "microsoft_curated_registry": false,
+      "legacy_port": "vdevice-sdk",
+      "registry_selection_packages": [
+        "vdevice",
+        "vdevice-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Vdevice-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "vdevice",
+      "version": "1.0.5",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Vdevice.Native",
+      "version": "1.0.5",
+      "url": "https://www.nuget.org/packages/Vdevice.Native/1.0.5",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "Vdevice.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/Vdevice.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35638",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/vdevice",
+      "public_consumer_verified": true,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "JavaScript/npm": {
+      "status": "registry_rate_limit_wait",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-JavaScript-npm",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/vdevice",
+      "public_consumer_verified": false,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/vdevice/1.0.0",
+      "public_consumer_verified": true,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_",
+      "coordinates": "io.github.titancsa:vdevice:1.0.0",
+      "java_package": "titancsa.products.vdevice"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "vdevice",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Vdevice-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/Vdevice/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_",
+      "coordinates": "com.github.TitanCSA:Vdevice:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.vdevice"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "vdevice",
+      "version": "v1.0.0",
+      "directory": "Vdevice-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Vdevice/Vdevice-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/Vdevice/Vdevice-Go-modules",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Vdevice/Vdevice-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "Vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/Vdevice/1.0.0",
+      "public_consumer_verified": true,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "Dart/pub-dev": {
+      "status": "built_fixture_and_production_verified",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Dart-pub-dev",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/vdevice",
+      "public_consumer_verified": true,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/vdevice",
+      "version": "1.0.0",
+      "directory": "Vdevice-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/vdevice",
+      "public_consumer_verified": false,
+      "module": "vdevice",
+      "dll_name": "VdeviceJsonSDK.dll",
+      "api_prefix": "vdevice_json_",
+      "repository": "https://github.com/TitanCSA/vdevice-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+}

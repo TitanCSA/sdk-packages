@@ -1,0 +1,6 @@
+[package]
+name = "interceptor-remap-example"
+version = "1.0.0"
+edition = "2021"
+[dependencies]
+titancsa-interceptor = { path = "../../bindings/rust" }

@@ -1,0 +1,2 @@
+Node Interceptor native SDK1.0.0.
+CMake: find_package(NodeInterceptorSDK CONFIG REQUIRED), target_link_libraries(app PRIVATE NodeInterceptorSDK::sdk). Include interception.h for the compatibility API or SDK/Interceptor.h for the product SDK. This is the actual node-interceptor native implementation, not the original Interception-V2 driver library. Keyboard/mouse product masks remain unchanged. No Node.js dependency, no installer included. LGPL license and original notices are preserved.

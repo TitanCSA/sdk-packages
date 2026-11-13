@@ -1,0 +1,38 @@
+{
+  "name": "interceptor-multilang",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "description": "Simple JavaScript and TypeScript bindings for the Interceptor Windows input driver",
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "index.cjs",
+    "index.d.ts",
+    "prebuilds/",
+    "LICENSE",
+    "README.md",
+    "docs/",
+    "examples/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitanCSA/Interceptor-MultiLang.git",
+    "directory": "Interceptor-MultiLang-JavaScript-npm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/TitanCSA/Interceptor-MultiLang/tree/main/Interceptor-MultiLang-JavaScript-npm#readme",
+  "bugs": {
+    "url": "https://github.com/TitanCSA/Interceptor-MultiLang/issues"
+  }
+}

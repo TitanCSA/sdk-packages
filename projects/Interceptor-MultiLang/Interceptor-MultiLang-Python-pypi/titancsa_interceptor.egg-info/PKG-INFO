@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: titancsa-interceptor
+Version: 1.0.0
+Summary: Simple Python bindings for the Interceptor Windows input filter driver
+License-Expression: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: NOTICE
+Dynamic: license-file

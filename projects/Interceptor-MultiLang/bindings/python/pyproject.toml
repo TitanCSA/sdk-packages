@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "titancsa-interceptor"
+version = "1.0.0"
+description = "Simple Python bindings for the Interceptor Windows input filter driver"
+requires-python = ">=3.10"
+license = "MIT"
+[tool.setuptools.package-data]
+interceptor = ["InterceptorBridge.dll"]

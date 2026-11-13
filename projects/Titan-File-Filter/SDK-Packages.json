@@ -1,0 +1,319 @@
+{
+  "project": "Titan-File-Filter",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.TitanFileFilter.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Titan-File-Filter-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    {
+      "directory": "Titan-File-Filter-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "titan-file-filter",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "titan_file_filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "TitanFileFilter.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-File-Filter-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "TitanFileFilter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Titan-File-Filter/releases/download/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz",
+    "sha256": "64dbf46da473c0e99ef5537e509541d7a6c062521ae3d99a2d3778a2bece33fe"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "titan-file-filter",
+      "microsoft_curated_registry": false,
+      "legacy_port": "titan-file-filter-sdk",
+      "registry_selection_packages": [
+        "titan-file-filter",
+        "titan-file-filter-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Titan-File-Filter-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "titan-file-filter",
+      "version": "0.1.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Titan-File-Filter.Native",
+      "version": "0.1.0",
+      "url": "https://www.nuget.org/packages/Titan-File-Filter.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "TitanFileFilter.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/TitanFileFilter.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/titan-file-filter",
+      "public_consumer_verified": true,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "JavaScript/npm": {
+      "status": "stopped_before_submission",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-JavaScript-npm",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/titan-file-filter/1.0.0",
+      "public_consumer_verified": true,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_",
+      "coordinates": "io.github.titancsa:titan-file-filter:1.0.0",
+      "java_package": "titancsa.products.titan_file_filter"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "titan-file-filter",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Titan-File-Filter-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#titanfyre/Titan-File-Filter/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_",
+      "coordinates": "com.github.titanfyre:Titan-File-Filter:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.titan_file_filter"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "titan-file-filter",
+      "version": "v1.0.0",
+      "directory": "Titan-File-Filter-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/titanfyre/Titan-File-Filter/Titan-File-Filter-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/titanfyre/Titan-File-Filter/Titan-File-Filter-Go-modules",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/titanfyre/Titan-File-Filter/Titan-File-Filter-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "TitanFileFilter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/TitanFileFilter/1.0.0",
+      "public_consumer_verified": true,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "Dart/pub-dev": {
+      "status": "built_fixture_and_production_verified",
+      "name": "titan_file_filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Dart-pub-dev",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/titan-file-filter",
+      "public_consumer_verified": true,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/titan-file-filter",
+      "version": "1.0.0",
+      "directory": "Titan-File-Filter-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/titan-file-filter",
+      "public_consumer_verified": false,
+      "module": "titan_file_filter",
+      "dll_name": "TitanFileFilterJsonSDK.dll",
+      "api_prefix": "titan_file_filter_json_",
+      "repository": "https://github.com/TitanCSA/titan-file-filter-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+}

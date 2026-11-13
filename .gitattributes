@@ -1,0 +1,3 @@
+
+# Preserve imported SDK bytes and license text exactly.
+projects/** -text

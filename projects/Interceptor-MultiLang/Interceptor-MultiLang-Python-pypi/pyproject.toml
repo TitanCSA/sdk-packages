@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "interceptor-multilang"
+version = "1.0.1"
+readme = "README.md"
+description = "Simple Python bindings for the Interceptor Windows input filter driver"
+requires-python = ">=3.10"
+license = "MIT"
+[tool.setuptools.package-data]
+interceptor = ["InterceptorBridge.dll"]
+
+[project.urls]
+Repository = "https://github.com/TitanCSA/Interceptor-MultiLang"
+Documentation = "https://github.com/TitanCSA/Interceptor-MultiLang/blob/main/docs/API.md"
+
+[tool.setuptools]
+packages = ["interceptor"]
+
+[tool.setuptools.data-files]
+"share/doc/interceptor-multilang" = ["docs/API.md", "examples/info.py", "LICENSE"]

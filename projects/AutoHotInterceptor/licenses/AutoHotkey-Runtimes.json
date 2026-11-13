@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "v2.0.31",
+    "binary_url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.31/AutoHotkey_2.0.31.zip",
+    "binary_sha256": "ca1a595aca4528755d8d4cd7fed23d497a37bd9a0b6892072612d68dee1bd00a",
+    "source_url": "https://github.com/AutoHotkey/AutoHotkey/archive/refs/tags/v2.0.31.zip",
+    "source_sha256": "c002ad1cfc7acb44ae3a55a721ae4975a90312fb001d7e4e42cf382efeb26e60"
+  },
+  {
+    "tag": "v1.1.37.02",
+    "binary_url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v1.1.37.02/AutoHotkey_1.1.37.02.zip",
+    "binary_sha256": "6f3663f7cdd25063c8c8728f5d9b07813ced8780522fd1f124ba539e2854215f",
+    "source_url": "https://github.com/AutoHotkey/AutoHotkey/archive/refs/tags/v1.1.37.02.zip",
+    "source_sha256": "2b1d94e5d9b94b6a6dc3a2565bc65e74fef93ac2c34bb57fe182ffb4ab20fe92"
+  }
+]

@@ -1,0 +1,296 @@
+{
+  "project": "Interceptor",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.Interceptor.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Interceptor-Python-pypi",
+      "registry": "pypi",
+      "name": "interceptor-sdk",
+      "version": "1.0.1",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "Interceptor-Ruby-rubygems",
+      "registry": "rubygems",
+      "name": "interceptor-sdk",
+      "version": "2.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "Interceptor-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "interceptor",
+      "version": "1.0.0",
+      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "Interceptor-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:interceptor-sdk:1.0.0",
+      "jitpack_coordinates": "com.github.TitanCSA:Interceptor:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
+    },
+    {
+      "directory": "Interceptor-PowerShell-gallery",
+      "registry": "PowerShell Gallery",
+      "name": "Interceptor",
+      "version": "1.0.0",
+      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+    },
+    {
+      "directory": "Interceptor-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/TitanCSA/Interceptor/Interceptor-Go-modules",
+      "version": "v1.0.0",
+      "distribution": "Public Go module with embedded product DLL"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz",
+    "sha256": "295b11d19c28a91604d159ead00a30155200b859d5805bf75b95419122436a57"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "interceptor",
+      "microsoft_curated_registry": false,
+      "legacy_port": "interceptor-sdk",
+      "registry_selection_packages": [
+        "interceptor",
+        "interceptor-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Interceptor-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "interceptor",
+      "version": "1.4.22",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Interceptor.Native",
+      "version": "1.4.22",
+      "url": "https://www.nuget.org/packages/Interceptor.Native/1.4.22",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "Interceptor.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/Interceptor.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "interceptor-sdk",
+      "version": "1.0.1",
+      "directory": "Interceptor-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "interceptor_sdk",
+      "dll_name": "InterceptorBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "interceptor-sdk",
+      "version": "1.0.1",
+      "directory": "Interceptor-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "interceptor_sdk",
+      "dll_name": "InterceptorBridge.dll",
+      "api_prefix": "interceptor_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35627",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "interceptor-sdk",
+      "version": "1.0.0",
+      "directory": "Interceptor-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/interceptor-sdk",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "interceptor-sdk",
+      "version": "1.0.0",
+      "directory": "Interceptor-JavaScript-npm",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/interceptor-sdk",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "interceptor-sdk",
+      "version": "1.0.0",
+      "directory": "Interceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/interceptor-sdk/1.0.0",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_",
+      "coordinates": "io.github.titancsa:interceptor-sdk:1.0.0",
+      "java_package": "titancsa.products.interceptor"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "interceptor-sdk",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Interceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/Interceptor/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_",
+      "coordinates": "com.github.TitanCSA:Interceptor:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.interceptor"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "interceptor",
+      "version": "v1.0.0",
+      "directory": "Interceptor-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Interceptor/Interceptor-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/Interceptor/Interceptor-Go-modules",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/Interceptor/Interceptor-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "Interceptor",
+      "version": "1.0.0",
+      "directory": "Interceptor-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/Interceptor/1.0.0",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "interceptor",
+      "version": "1.0.0",
+      "directory": "Interceptor-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/interceptor",
+      "public_consumer_verified": true,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_",
+      "cross_isolate_cancellation_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "interceptor-sdk",
+      "version": "2.0.0",
+      "directory": "Interceptor-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/interceptor-sdk",
+      "public_consumer_verified": true,
+      "module": "interceptor_sdk",
+      "dll_name": "InterceptorBridge.dll",
+      "api_prefix": "interceptor_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/interceptor",
+      "version": "1.0.0",
+      "directory": "Interceptor-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/interceptor",
+      "public_consumer_verified": false,
+      "module": "interceptor",
+      "dll_name": "InterceptorSDKBridge.dll",
+      "api_prefix": "interceptor_",
+      "repository": "https://github.com/TitanCSA/interceptor-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "input_c_abi": {
+    "directory": "Interceptor-C-ffi",
+    "dll": "InterceptorBridge.dll",
+    "symbol_prefix": "interceptor_",
+    "input_mask": 3,
+    "controller_mask": 15,
+    "synthetic_and_production_tests_passed": true
+  }
+}

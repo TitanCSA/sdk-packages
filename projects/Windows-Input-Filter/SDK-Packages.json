@@ -1,0 +1,296 @@
+{
+  "project": "Windows-Input-Filter",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.WindowsInputFilter.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Windows-Input-Filter-Python-pypi",
+      "registry": "pypi",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "Windows-Input-Filter-Ruby-rubygems",
+      "registry": "rubygems",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "Windows-Input-Filter-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "windows_input_filter",
+      "version": "1.0.0",
+      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "Windows-Input-Filter-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:windows-input-filter:1.0.0",
+      "jitpack_coordinates": "com.github.titanfyre:Windows-Input-Filter:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
+    },
+    {
+      "directory": "Windows-Input-Filter-PowerShell-gallery",
+      "registry": "PowerShell Gallery",
+      "name": "WindowsInputFilter",
+      "version": "1.0.0",
+      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+    },
+    {
+      "directory": "Windows-Input-Filter-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules",
+      "version": "v1.0.0",
+      "distribution": "Public Go module with embedded product DLL"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz",
+    "sha256": "bd68addd403e6d97963bdcd35be0c517e5fb6b4f43173a828593de30c3a594b3"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "windows-input-filter",
+      "microsoft_curated_registry": false,
+      "legacy_port": "windows-input-filter-sdk",
+      "registry_selection_packages": [
+        "windows-input-filter",
+        "windows-input-filter-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Windows-Input-Filter-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "windows-input-filter",
+      "version": "0.1.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Windows-Input-Filter.Native",
+      "version": "0.1.0",
+      "url": "https://www.nuget.org/packages/Windows-Input-Filter.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "WindowsInputFilter.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/WindowsInputFilter.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35631",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/windows-input-filter",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "JavaScript/npm": {
+      "status": "registry_rate_limit_wait",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-JavaScript-npm",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/windows-input-filter/1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_",
+      "coordinates": "io.github.titancsa:windows-input-filter:1.0.0",
+      "java_package": "titancsa.products.windows_input_filter"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "windows-input-filter",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Windows-Input-Filter-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#titanfyre/Windows-Input-Filter/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_",
+      "coordinates": "com.github.titanfyre:Windows-Input-Filter:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.windows_input_filter"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "windows-input-filter",
+      "version": "v1.0.0",
+      "directory": "Windows-Input-Filter-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "WindowsInputFilter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/WindowsInputFilter/1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "windows_input_filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/windows_input_filter",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_",
+      "cross_isolate_cancellation_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/windows-input-filter",
+      "public_consumer_verified": true,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/windows-input-filter",
+      "version": "1.0.0",
+      "directory": "Windows-Input-Filter-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/windows-input-filter",
+      "public_consumer_verified": false,
+      "module": "windows_input_filter",
+      "dll_name": "WindowsInputFilterBridge.dll",
+      "api_prefix": "windows_input_filter_",
+      "repository": "https://github.com/TitanCSA/windows-input-filter-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "input_c_abi": {
+    "directory": "Windows-Input-Filter-C-ffi",
+    "dll": "WindowsInputFilterBridge.dll",
+    "symbol_prefix": "windows_input_filter_",
+    "input_mask": 3,
+    "controller_mask": 15,
+    "synthetic_and_production_tests_passed": true
+  }
+}

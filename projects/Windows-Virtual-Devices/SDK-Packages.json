@@ -1,0 +1,320 @@
+{
+  "project": "Windows-Virtual-Devices",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.WindowsVirtualDevices.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "windows-virtual-devices",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "windows_virtual_devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "WindowsVirtualDevices.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Windows-Virtual-Devices-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "WindowsVirtualDevices",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/sdk-v0.1.0/windows-virtual-devices-sdk-0.1.0.tar.gz",
+    "sha256": "75f4086b5f1cc81f55e5e156ef58fb48a15e8efde39362c511d9201cdb7d6a7b"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "windows-virtual-devices",
+      "microsoft_curated_registry": false,
+      "legacy_port": "windows-virtual-devices-sdk",
+      "registry_selection_packages": [
+        "windows-virtual-devices",
+        "windows-virtual-devices-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "Windows-Virtual-Devices-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "windows-virtual-devices",
+      "version": "0.1.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "Windows-Virtual-Devices.Native",
+      "version": "0.1.0",
+      "url": "https://www.nuget.org/packages/Windows-Virtual-Devices.Native/0.1.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "WindowsVirtualDevices.SDK",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/WindowsVirtualDevices.SDK/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35639",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/windows-virtual-devices",
+      "public_consumer_verified": true,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "JavaScript/npm": {
+      "status": "registry_rate_limit_wait",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-JavaScript-npm",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/windows-virtual-devices",
+      "public_consumer_verified": false,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/windows-virtual-devices/1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_",
+      "coordinates": "io.github.titancsa:windows-virtual-devices:1.0.0",
+      "java_package": "titancsa.products.windows_virtual_devices"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "windows-virtual-devices",
+      "version": "java-sdk-v1.0.0",
+      "directory": "Windows-Virtual-Devices-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#titanfyre/Windows-Virtual-Devices/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_",
+      "coordinates": "com.github.titanfyre:Windows-Virtual-Devices:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.windows_virtual_devices"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "windows-virtual-devices",
+      "version": "v1.0.0",
+      "directory": "Windows-Virtual-Devices-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "WindowsVirtualDevices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/WindowsVirtualDevices/1.0.0",
+      "public_consumer_verified": true,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "Dart/pub-dev": {
+      "status": "built_fixture_and_production_verified",
+      "name": "windows_virtual_devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Dart-pub-dev",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/windows-virtual-devices",
+      "public_consumer_verified": true,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/windows-virtual-devices",
+      "version": "1.0.0",
+      "directory": "Windows-Virtual-Devices-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/windows-virtual-devices",
+      "public_consumer_verified": false,
+      "module": "windows_virtual_devices",
+      "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
+      "api_prefix": "windows_virtual_devices_json_",
+      "repository": "https://github.com/TitanCSA/windows-virtual-devices-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+}

@@ -107,3 +107,52 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 | NodeInterceptor.SDK | 1.0.0 |
 | BrowserControlSDK.SDK | 1.0.0 |
 | NodeInterceptor.Native | 1.0.0 |
+
+<!-- centralized-sdk-catalog:start -->
+## Catalogue des SDK
+
+Un dossier par projet rassemble les sources SDK, recettes, licences, documentation et exemples. Les depots des produits gardent leur code produit ; les versions publiees restent immuables.
+
+| Projet | Langages et commandes d installation |
+| --- | --- |
+| AutoHotInterceptor | [Guide et sources](projects/AutoHotInterceptor/README.md) |
+| Browser-Control-SDK | [Guide et sources](projects/Browser-Control-SDK/README.md) |
+| Changed-Block-Tracking-SDK | [Guide et sources](projects/Changed-Block-Tracking-SDK/README.md) |
+| Cloud-Files-SDK | [Guide et sources](projects/Cloud-Files-SDK/README.md) |
+| Connection-Trace-Studio | [Guide et sources](projects/Connection-Trace-Studio/README.md) |
+| File-Trace-Studio | [Guide et sources](projects/File-Trace-Studio/README.md) |
+| FyraDevice | [Guide et sources](projects/FyraDevice/README.md) |
+| FyraInput | [Guide et sources](projects/FyraInput/README.md) |
+| FyraInput-Gamepad | [Guide et sources](projects/FyraInput-Gamepad/README.md) |
+| FyraInput-Keyboard-Mouse | [Guide et sources](projects/FyraInput-Keyboard-Mouse/README.md) |
+| HID-Access-Control | [Guide et sources](projects/HID-Access-Control/README.md) |
+| Interception-V2 | [Guide et sources](projects/Interception-V2/README.md) |
+| Interceptor | [Guide et sources](projects/Interceptor/README.md) |
+| Interceptor-Gamepad-Controller | [Guide et sources](projects/Interceptor-Gamepad-Controller/README.md) |
+| Interceptor-Keyboard-Mouse | [Guide et sources](projects/Interceptor-Keyboard-Mouse/README.md) |
+| Interceptor-MultiLang | [Guide et sources](projects/Interceptor-MultiLang/README.md) |
+| Network-Emulation-SDK | [Guide et sources](projects/Network-Emulation-SDK/README.md) |
+| node-interceptor | [Guide et sources](projects/node-interceptor/README.md) |
+| Packet-Capture-SDK | [Guide et sources](projects/Packet-Capture-SDK/README.md) |
+| Process-Trace-Studio | [Guide et sources](projects/Process-Trace-Studio/README.md) |
+| ProcessGuard-SDK | [Guide et sources](projects/ProcessGuard-SDK/README.md) |
+| RegistryGuard | [Guide et sources](projects/RegistryGuard/README.md) |
+| Remote-Workstation-SDK | [Guide et sources](projects/Remote-Workstation-SDK/README.md) |
+| Storage-IO-Flight-Recorder | [Guide et sources](projects/Storage-IO-Flight-Recorder/README.md) |
+| Titan-Audio-Link | [Guide et sources](projects/Titan-Audio-Link/README.md) |
+| Titan-File-Filter | [Guide et sources](projects/Titan-File-Filter/README.md) |
+| Titan-Network-Filter | [Guide et sources](projects/Titan-Network-Filter/README.md) |
+| USB-over-IP-SDK | [Guide et sources](projects/USB-over-IP-SDK/README.md) |
+| USB-Trace-SDK | [Guide et sources](projects/USB-Trace-SDK/README.md) |
+| User-Backed-Virtual-Disk-SDK | [Guide et sources](projects/User-Backed-Virtual-Disk-SDK/README.md) |
+| Vdevice | [Guide et sources](projects/Vdevice/README.md) |
+| Virtual-Camera-SDK | [Guide et sources](projects/Virtual-Camera-SDK/README.md) |
+| Virtual-Network-Adapter-SDK | [Guide et sources](projects/Virtual-Network-Adapter-SDK/README.md) |
+| Virtual-Storage-Fault-Lab | [Guide et sources](projects/Virtual-Storage-Fault-Lab/README.md) |
+| Windows-Gamepad-Filter | [Guide et sources](projects/Windows-Gamepad-Filter/README.md) |
+| Windows-Input-Filter | [Guide et sources](projects/Windows-Input-Filter/README.md) |
+| Windows-Keyboard-Mouse-Filter | [Guide et sources](projects/Windows-Keyboard-Mouse-Filter/README.md) |
+| Windows-Virtual-Devices | [Guide et sources](projects/Windows-Virtual-Devices/README.md) |
+
+Les4 depots dont le proprietaire est suspendu restent exclus de cette migration. Les20 applications exclues sur demande ne sont pas modifiees.
+<!-- centralized-sdk-catalog:end -->

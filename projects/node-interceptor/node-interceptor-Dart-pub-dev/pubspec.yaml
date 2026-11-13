@@ -1,0 +1,9 @@
+name: node_interceptor
+description: Direct Windows x64 node-interceptor SDK with native operations and exact uint64 identifiers.
+version: 1.0.0
+homepage: https://github.com/TitanCSA/node-interceptor
+repository: https://github.com/TitanCSA/node-interceptor
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+platforms:
+  windows:

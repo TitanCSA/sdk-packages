@@ -1,0 +1,18 @@
+[build-system]
+requires=["setuptools>=77","wheel>=0.43"]
+build-backend="setuptools.build_meta"
+[project]
+name="node-interceptor"
+version="1.0.0"
+description="Windows x64 node-interceptor direct SDK"
+requires-python=">=3.10"
+license="LGPL-3.0-or-later"
+readme="README.md"
+[project.urls]
+Repository="https://github.com/TitanCSA/node-interceptor"
+[tool.setuptools]
+packages=["node_interceptor"]
+[tool.setuptools.package-data]
+node_interceptor=["*.dll"]
+[tool.setuptools.data-files]
+"share/node-interceptor/docs"=["docs/*","LICENSE"]

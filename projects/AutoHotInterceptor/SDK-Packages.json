@@ -1,0 +1,301 @@
+{
+  "project": "AutoHotInterceptor",
+  "packages": [
+    {
+      "directory": "packaging/native",
+      "build_system": "CMake",
+      "registry_recipes": {
+        "vcpkg": "packaging/native/portfile.cmake",
+        "Conan": "packaging/native/conanfile.py",
+        "NuGet": [
+          "packaging/native/TitanCSA.AutoHotInterceptor.Native.nuspec"
+        ]
+      },
+      "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "AutoHotInterceptor-NET-nuget",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "AutoHotInterceptor-Python-pypi",
+      "registry": "pypi",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "AutoHotInterceptor-Ruby-rubygems",
+      "registry": "rubygems",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "distribution": "Source and GitHub release; registry publication tracked separately"
+    },
+    {
+      "directory": "AutoHotInterceptor-Dart-pub-dev",
+      "registry": "pub.dev",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "distribution": "Native Dart FFI SDK; explicit DLL bundling for deployed Flutter apps"
+    },
+    {
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registries": [
+        "Maven Central",
+        "JitPack"
+      ],
+      "coordinates": "io.github.titancsa:autohotinterceptor:1.0.0",
+      "jitpack_coordinates": "com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0",
+      "distribution": "One Java source directory with registry-specific POM descriptors"
+    },
+    {
+      "directory": "AutoHotInterceptor-PowerShell-gallery",
+      "registry": "PowerShell Gallery",
+      "name": "AutoHotInterceptor",
+      "version": "1.0.0",
+      "distribution": "Compiled helper, native DLL, cmdlet help and API documentation"
+    },
+    {
+      "directory": "AutoHotInterceptor-Go-modules",
+      "registry": "Go Modules",
+      "module": "github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules",
+      "version": "v1.0.0",
+      "distribution": "Public Go module with embedded product DLL"
+    },
+    {
+      "directory": "packaging/conda",
+      "language": "Python",
+      "registry": "conda-forge",
+      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
+    "sha256": "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3"
+  },
+  "registry_publications": {
+    "CPP/vcpkg": {
+      "status": "published_custom_registry",
+      "registry": "https://github.com/TitanCSA/vcpkg-registry",
+      "baseline": "9a706cf6992544778eb26a8b4244e303292f1ce6",
+      "port": "autohotinterceptor",
+      "microsoft_curated_registry": false,
+      "legacy_port": "autohotinterceptor-sdk",
+      "registry_selection_packages": [
+        "autohotinterceptor",
+        "autohotinterceptor-sdk"
+      ]
+    },
+    "CPP/conan": {
+      "status": "published_custom_source_index",
+      "conan_center": false,
+      "directory": "AutoHotInterceptor-CPP-conan",
+      "local_recipe_consumer_verified": true,
+      "minimum_cppstd": 17,
+      "registry_published": true,
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "url": "https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index",
+      "index_type": "local-recipes-index",
+      "index_commit": "089bc73095aa8eda89bacbe10d0b9e58394b0207",
+      "github_directory": "packaging/native"
+    },
+    "CPP/nuget": {
+      "status": "published_payload_verified",
+      "name": "AutoHotInterceptor.Native",
+      "version": "1.0.0",
+      "url": "https://www.nuget.org/packages/AutoHotInterceptor.Native/1.0.0",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "NET/nuget": {
+      "status": "published_payload_verified",
+      "name": "AutoHotInterceptor",
+      "version": "1.0.1",
+      "url": "https://www.nuget.org/packages/AutoHotInterceptor/1.0.1",
+      "public_payload_verified": true,
+      "public_consumer_verified": false,
+      "local_consumer_verified": true,
+      "registry_published": true,
+      "documentation_bundled": true,
+      "publication_on_hold_by_owner": false
+    },
+    "Python/pypi": {
+      "status": "built_fixture_and_production_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Python-pypi",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": null,
+      "public_consumer_verified": false,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "Python/conda-forge": {
+      "status": "custom_channel_install_verified_requires_conda_forge_review",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Python-conda-forge",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "public_consumer_verified": false,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_",
+      "custom_channel": "https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel",
+      "custom_channel_install_verified": true,
+      "custom_channel_is_conda_forge": false,
+      "recipe_format": "v1",
+      "v1_source_build_tests_passed": true,
+      "personal_maintainer_confirmation_required": true,
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35622",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
+      "github_directory": "packaging/conda"
+    },
+    "Rust/cargo": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Rust-cargo",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://crates.io/crates/autohotinterceptor",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "JavaScript/npm": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-JavaScript-npm",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.npmjs.com/package/autohotinterceptor",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "Java/maven": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://central.sonatype.com/artifact/io.github.titancsa/autohotinterceptor/1.0.0",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_",
+      "coordinates": "io.github.titancsa:autohotinterceptor:1.0.0",
+      "java_package": "titancsa.products.autohotinterceptor"
+    },
+    "Java/jitpack": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "java-sdk-v1.0.0",
+      "directory": "AutoHotInterceptor-Java-maven",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://jitpack.io/#TitanCSA/AutoHotInterceptor/java-sdk-v1.0.0",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_",
+      "coordinates": "com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0",
+      "java_package": "titancsa.products.autohotinterceptor"
+    },
+    "Go/modules": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "v1.0.0",
+      "directory": "AutoHotInterceptor-Go-modules",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0",
+      "public_consumer_verified": true,
+      "module": "github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "Go/pkg-go-dev": {
+      "status": "indexed_verified",
+      "url": "https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0"
+    },
+    "PowerShell/gallery": {
+      "status": "published_install_verified",
+      "name": "AutoHotInterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-PowerShell-gallery",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://www.powershellgallery.com/packages/AutoHotInterceptor/1.0.0",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "Dart/pub-dev": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Dart-pub-dev",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://pub.dev/packages/autohotinterceptor",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_",
+      "cross_isolate_cancellation_verified": true
+    },
+    "Ruby/rubygems": {
+      "status": "published_install_verified",
+      "name": "autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-Ruby-rubygems",
+      "registry_published": true,
+      "documentation_bundled": true,
+      "url": "https://rubygems.org/gems/autohotinterceptor",
+      "public_consumer_verified": true,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_"
+    },
+    "PHP/packagist": {
+      "status": "composer_source_and_tag_published",
+      "name": "titancsa/autohotinterceptor",
+      "version": "1.0.0",
+      "directory": "AutoHotInterceptor-PHP-packagist",
+      "registry_published": false,
+      "documentation_bundled": true,
+      "url": "https://packagist.org/packages/titancsa/autohotinterceptor",
+      "public_consumer_verified": false,
+      "module": "autohotinterceptor",
+      "dll_name": "AutoHotInterceptorBridge.dll",
+      "api_prefix": "autohotinterceptor_",
+      "repository": "https://github.com/TitanCSA/autohotinterceptor-php"
+    }
+  },
+  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",
+  "input_c_abi": {
+    "directory": "AutoHotInterceptor-C-ffi",
+    "dll": "AutoHotInterceptorBridge.dll",
+    "symbol_prefix": "autohotinterceptor_",
+    "input_mask": 3,
+    "controller_mask": 0,
+    "synthetic_and_production_tests_passed": true
+  }
+}

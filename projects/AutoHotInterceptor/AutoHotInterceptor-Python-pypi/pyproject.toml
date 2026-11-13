@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "autohotinterceptor"
+version = "1.0.0"
+description = "Direct Windows x64 AutoHotInterceptor input SDK with native receive, edit, send, descriptors and cancellation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+[project.urls]
+Repository = "https://github.com/TitanCSA/AutoHotInterceptor"
+Documentation = "https://github.com/TitanCSA/AutoHotInterceptor/tree/main/AutoHotInterceptor-Python-pypi/docs"
+[tool.setuptools]
+packages = ["autohotinterceptor"]
+[tool.setuptools.package-data]
+autohotinterceptor = ["AutoHotInterceptorBridge.dll"]
+[tool.setuptools.data-files]
+"share/doc/autohotinterceptor" = ["docs/API.md", "examples/info.py", "LICENSE"]

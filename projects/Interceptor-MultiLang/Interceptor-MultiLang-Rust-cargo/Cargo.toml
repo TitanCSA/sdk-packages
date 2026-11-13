@@ -1,0 +1,18 @@
+[package]
+name = "interceptor-multilang"
+version = "1.0.1"
+edition = "2021"
+rust-version = "1.82"
+description = "Minimal Rust bindings for the Interceptor Windows input filter driver"
+license = "MIT"
+build = "build.rs"
+repository = "https://github.com/TitanCSA/Interceptor-MultiLang"
+readme = "README.md"
+include = ["src/**", "build.rs", "native/**", "README.md", "LICENSE", "docs/**", "examples/**"]
+
+[lib]
+name = "interceptor"
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]

@@ -1,0 +1,20 @@
+{
+    "Schema":  1,
+    "Product":  "Interceptor-Gamepad-Controller",
+    "DriverVersion":  "1.0.13.0",
+    "SdkVersion":  "1.0.13.0",
+    "BundleVersion":  "1.0.13.0",
+    "InstallerVersion":  "1.0.13.0",
+    "ViewerVersion":  "1.0.13.0",
+    "SigningPending":  false,
+    "TrialSeconds":  3600,
+    "TrialStorage":  "Kernel resident per-boot clock",
+    "ClockRequired":  true,
+    "InstalledFamilies":  [
+                              "HID",
+                              "XUSB",
+                              "XInputHID",
+                              "GIP"
+                          ],
+    "Note":  "Microsoft-signed production driver and resident one-hour demo clock; matching current two-file SDK, rebuilt installers, viewer and console examples."
+}

@@ -1,0 +1,9 @@
+{
+  "product": "Interceptor",
+  "version": "1.4.22.0",
+  "upstream": "https://github.com/TitanCSA/Interceptor",
+  "architecture": "windows-x64",
+  "driver_abi": 4,
+  "demo_seconds": 3600,
+  "kernel_modified": false
+}

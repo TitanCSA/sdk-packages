@@ -1,0 +1,10 @@
+name: fyrainput_gamepad
+description: Direct native Windows x64 FyraInput-Gamepad SDK with typed input edits, bounded ownership, partial sends and isolate cancellation.
+version: 1.0.0
+homepage: https://github.com/TitanCSA/FyraInput-Gamepad-SDK
+repository: https://github.com/TitanCSA/FyraInput-Gamepad-SDK
+documentation: https://github.com/TitanCSA/FyraInput-Gamepad-SDK/tree/main/FyraInput-Gamepad-Dart-pub-dev/doc
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+platforms:
+  windows:

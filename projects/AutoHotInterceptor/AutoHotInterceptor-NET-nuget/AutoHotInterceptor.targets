@@ -1,0 +1,8 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Target Name="CopyAutoHotInterceptorNativeSDK" AfterTargets="Build">
+  <ItemGroup>
+    <AutoHotNative Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\InterceptorBridge.dll"><Architecture>x64</Architecture></AutoHotNative>
+    <AutoHotNative Include="$(MSBuildThisFileDirectory)..\runtimes\win-x86\native\InterceptorBridge.dll"><Architecture>x86</Architecture></AutoHotNative>
+  </ItemGroup>
+  <Copy SourceFiles="@(AutoHotNative)" DestinationFiles="@(AutoHotNative->'$(TargetDir)%(Architecture)\InterceptorBridge.dll')" SkipUnchangedFiles="true" />
+</Target></Project>

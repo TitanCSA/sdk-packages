@@ -1,0 +1,14 @@
+Interceptor MultiLang
+Copyright (c) 2026 TitanCSA
+
+The user-mode files sdk/Interceptor.cpp and sdk/Interceptor.h are unchanged
+from the Interceptor 1.4.22.0 SDK, published by TitanCSA under the MIT license.
+The wrapper, bindings and examples are also MIT licensed. See LICENSE.
+
+The Microsoft-signed Interceptor driver included in downloadable packages is
+separately licensed prebuilt software. Its one-hour demo restriction is unchanged.
+See licenses/BINARY-LICENSE.txt and licenses/NOTICE for its terms and attribution.
+Demo kernel source is documented in [driver/README.md](driver/README.md); full/commercial implementation and driver signing credentials are excluded.
+
+Third-party language runtimes and build tools are not redistributed by the
+source repository. Use their respective official distributions and licenses.

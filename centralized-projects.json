@@ -1,0 +1,233 @@
+{
+  "generated_utc": "2026-11-13T15:23:18.259770+00:00",
+  "projects": [
+    {
+      "project": "AutoHotInterceptor",
+      "original_repository": "https://github.com/TitanCSA/AutoHotInterceptor",
+      "original_commit": "f9f5386fc859ab974e27bbadcffe87c88e863368",
+      "central_directory": "projects/AutoHotInterceptor"
+    },
+    {
+      "project": "Browser-Control-SDK",
+      "original_repository": "https://github.com/TitanCSA/Browser-Control-SDK",
+      "original_commit": "977ea215fe2236d3613184f702df3cfebb9c9502",
+      "central_directory": "projects/Browser-Control-SDK"
+    },
+    {
+      "project": "Changed-Block-Tracking-SDK",
+      "original_repository": "https://github.com/titanfyre/Changed-Block-Tracking-SDK",
+      "original_commit": "2ae738528e4a1dfad45f23043fbd0181f6b67add",
+      "central_directory": "projects/Changed-Block-Tracking-SDK"
+    },
+    {
+      "project": "Cloud-Files-SDK",
+      "original_repository": "https://github.com/titanfyre/Cloud-Files-SDK",
+      "original_commit": "dac561012d7246518a6a8433dd74ede1390aeaac",
+      "central_directory": "projects/Cloud-Files-SDK"
+    },
+    {
+      "project": "Connection-Trace-Studio",
+      "original_repository": "https://github.com/titanfyre/Connection-Trace-Studio",
+      "original_commit": "400934e524288f1e07617ac84a7da923664e1284",
+      "central_directory": "projects/Connection-Trace-Studio"
+    },
+    {
+      "project": "File-Trace-Studio",
+      "original_repository": "https://github.com/titanfyre/File-Trace-Studio",
+      "original_commit": "56a67e0f0b37977e7ee507a53c7bfef510e8adea",
+      "central_directory": "projects/File-Trace-Studio"
+    },
+    {
+      "project": "FyraDevice",
+      "original_repository": "https://github.com/TitanCSA/FyraDevice-SDK",
+      "original_commit": "d9835ae90a1427394a088d014b7ecb72e3fb977b",
+      "central_directory": "projects/FyraDevice"
+    },
+    {
+      "project": "FyraInput",
+      "original_repository": "https://github.com/TitanCSA/FyraInput-SDK",
+      "original_commit": "0432eab997b0975fb464fa7ee679fe7d70f6fc1c",
+      "central_directory": "projects/FyraInput"
+    },
+    {
+      "project": "FyraInput-Gamepad",
+      "original_repository": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK",
+      "original_commit": "b5d77f4246b23ae3f63da4a42276a017383f1fcf",
+      "central_directory": "projects/FyraInput-Gamepad"
+    },
+    {
+      "project": "FyraInput-Keyboard-Mouse",
+      "original_repository": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK",
+      "original_commit": "37663bb26ece26ed00af4323dba0daac12c1d2fe",
+      "central_directory": "projects/FyraInput-Keyboard-Mouse"
+    },
+    {
+      "project": "HID-Access-Control",
+      "original_repository": "https://github.com/titanfyre/HID-Access-Control",
+      "original_commit": "904027408746bb9e2540a4a1af3f3a43493d1a27",
+      "central_directory": "projects/HID-Access-Control"
+    },
+    {
+      "project": "Interception-V2",
+      "original_repository": "https://github.com/TitanCSA/Interception-V2",
+      "original_commit": "f3abecf1e652869ce9263b8a438e4424580bfb44",
+      "central_directory": "projects/Interception-V2"
+    },
+    {
+      "project": "Interceptor",
+      "original_repository": "https://github.com/TitanCSA/Interceptor",
+      "original_commit": "1ac0f5f43fa8f02b222ed319c70bd7376da24d10",
+      "central_directory": "projects/Interceptor"
+    },
+    {
+      "project": "Interceptor-Gamepad-Controller",
+      "original_repository": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller",
+      "original_commit": "252f953cf74dfcf833b73439f1f87e5f8ad216f0",
+      "central_directory": "projects/Interceptor-Gamepad-Controller"
+    },
+    {
+      "project": "Interceptor-Keyboard-Mouse",
+      "original_repository": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse",
+      "original_commit": "646d743e6d89869598c376d3f8367767c57f9304",
+      "central_directory": "projects/Interceptor-Keyboard-Mouse"
+    },
+    {
+      "project": "Interceptor-MultiLang",
+      "original_repository": "https://github.com/TitanCSA/Interceptor-MultiLang",
+      "original_commit": "c5a1d095abca5290183ffc8622d41a3f1ecf14a8",
+      "central_directory": "projects/Interceptor-MultiLang"
+    },
+    {
+      "project": "Network-Emulation-SDK",
+      "original_repository": "https://github.com/titanfyre/Network-Emulation-SDK",
+      "original_commit": "4f649e5b1badeacdea3be9bc692b4b06d5e5705f",
+      "central_directory": "projects/Network-Emulation-SDK"
+    },
+    {
+      "project": "node-interceptor",
+      "original_repository": "https://github.com/TitanCSA/node-interceptor",
+      "original_commit": "844d3c45d430dc1ce91b0f130d072c971f5acae2",
+      "central_directory": "projects/node-interceptor"
+    },
+    {
+      "project": "Packet-Capture-SDK",
+      "original_repository": "https://github.com/titanfyre/Packet-Capture-SDK",
+      "original_commit": "dd46bfa65d30648befd75e0bda46cdc1e6524d30",
+      "central_directory": "projects/Packet-Capture-SDK"
+    },
+    {
+      "project": "Process-Trace-Studio",
+      "original_repository": "https://github.com/titanfyre/Process-Trace-Studio",
+      "original_commit": "9cd0324ad19b38bb696ad9f576d2315bdd0bc3ef",
+      "central_directory": "projects/Process-Trace-Studio"
+    },
+    {
+      "project": "ProcessGuard-SDK",
+      "original_repository": "https://github.com/titanfyre/ProcessGuard-SDK",
+      "original_commit": "4503b2ddc0678d901e5c286c0e329b1fa4fed2f3",
+      "central_directory": "projects/ProcessGuard-SDK"
+    },
+    {
+      "project": "RegistryGuard",
+      "original_repository": "https://github.com/titanfyre/RegistryGuard",
+      "original_commit": "065af98e21f1f7afe56bd2368ba0a30cd5973d28",
+      "central_directory": "projects/RegistryGuard"
+    },
+    {
+      "project": "Remote-Workstation-SDK",
+      "original_repository": "https://github.com/titanfyre/Remote-Workstation-SDK",
+      "original_commit": "e44c7419a251421569d030c9286b2944a26b7767",
+      "central_directory": "projects/Remote-Workstation-SDK"
+    },
+    {
+      "project": "Storage-IO-Flight-Recorder",
+      "original_repository": "https://github.com/titanfyre/Storage-IO-Flight-Recorder",
+      "original_commit": "be3ec69b8f04159e40890f45063c940eb32ab3b6",
+      "central_directory": "projects/Storage-IO-Flight-Recorder"
+    },
+    {
+      "project": "Titan-Audio-Link",
+      "original_repository": "https://github.com/titanfyre/Titan-Audio-Link",
+      "original_commit": "6241984c775973d7a305b3726e03ba433f006135",
+      "central_directory": "projects/Titan-Audio-Link"
+    },
+    {
+      "project": "Titan-File-Filter",
+      "original_repository": "https://github.com/titanfyre/Titan-File-Filter",
+      "original_commit": "f93641346d3b03bd79fe94ea6849f928a53ab337",
+      "central_directory": "projects/Titan-File-Filter"
+    },
+    {
+      "project": "Titan-Network-Filter",
+      "original_repository": "https://github.com/titanfyre/Titan-Network-Filter",
+      "original_commit": "3f31c2776770b121924815a04be39119818fb7a9",
+      "central_directory": "projects/Titan-Network-Filter"
+    },
+    {
+      "project": "USB-over-IP-SDK",
+      "original_repository": "https://github.com/titanfyre/USB-over-IP-SDK",
+      "original_commit": "d267ff4c75dfccd19281f678d77e45c8640f0d79",
+      "central_directory": "projects/USB-over-IP-SDK"
+    },
+    {
+      "project": "USB-Trace-SDK",
+      "original_repository": "https://github.com/titanfyre/USB-Trace-SDK",
+      "original_commit": "0527bdb672d1249edd2f8451d104a471f6ff8725",
+      "central_directory": "projects/USB-Trace-SDK"
+    },
+    {
+      "project": "User-Backed-Virtual-Disk-SDK",
+      "original_repository": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK",
+      "original_commit": "1d38ba61258c6d7baa4f4fb49b2708b7f6100dc9",
+      "central_directory": "projects/User-Backed-Virtual-Disk-SDK"
+    },
+    {
+      "project": "Vdevice",
+      "original_repository": "https://github.com/TitanCSA/Vdevice",
+      "original_commit": "b062c9871c426aac062bd101edab3838af0d0837",
+      "central_directory": "projects/Vdevice"
+    },
+    {
+      "project": "Virtual-Camera-SDK",
+      "original_repository": "https://github.com/titanfyre/Virtual-Camera-SDK",
+      "original_commit": "ff48cbd14d13cbec1f80af1575b8c22e38d3857f",
+      "central_directory": "projects/Virtual-Camera-SDK"
+    },
+    {
+      "project": "Virtual-Network-Adapter-SDK",
+      "original_repository": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK",
+      "original_commit": "71858e7ab49511b9ac76ef0e022c5806a2b51a09",
+      "central_directory": "projects/Virtual-Network-Adapter-SDK"
+    },
+    {
+      "project": "Virtual-Storage-Fault-Lab",
+      "original_repository": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab",
+      "original_commit": "b2b05cdd4b4d282f89f7e0e7092fffaf95de9251",
+      "central_directory": "projects/Virtual-Storage-Fault-Lab"
+    },
+    {
+      "project": "Windows-Gamepad-Filter",
+      "original_repository": "https://github.com/titanfyre/Windows-Gamepad-Filter",
+      "original_commit": "086b8716b1027d2cb248968580164a988218940a",
+      "central_directory": "projects/Windows-Gamepad-Filter"
+    },
+    {
+      "project": "Windows-Input-Filter",
+      "original_repository": "https://github.com/titanfyre/Windows-Input-Filter",
+      "original_commit": "cf58bfae142f03b7f8f8387a63cb11c696b6c36a",
+      "central_directory": "projects/Windows-Input-Filter"
+    },
+    {
+      "project": "Windows-Keyboard-Mouse-Filter",
+      "original_repository": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter",
+      "original_commit": "d097cfc00323b25cb0bb207e3cae704f57417ccd",
+      "central_directory": "projects/Windows-Keyboard-Mouse-Filter"
+    },
+    {
+      "project": "Windows-Virtual-Devices",
+      "original_repository": "https://github.com/titanfyre/Windows-Virtual-Devices",
+      "original_commit": "7db628584790db34a5998953afabf970b0e940e7",
+      "central_directory": "projects/Windows-Virtual-Devices"
+    }
+  ]
+}

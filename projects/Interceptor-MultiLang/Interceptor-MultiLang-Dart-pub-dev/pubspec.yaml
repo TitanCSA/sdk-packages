@@ -1,0 +1,9 @@
+name: interceptor_multilang
+description: Direct Windows x64 FFI input SDK for Dart and Flutter desktop; matching driver installed separately.
+version: 1.0.0
+repository: https://github.com/TitanCSA/Interceptor-MultiLang
+homepage: https://github.com/TitanCSA/Interceptor-MultiLang
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+platforms:
+  windows:

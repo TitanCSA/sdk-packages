@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "fyrainput-keyboard-mouse"
+version = "1.0.0"
+description = "Direct Windows x64 FyraInput-Keyboard-Mouse input SDK with native receive, edit, send, descriptors and cancellation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+[project.urls]
+Repository = "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK"
+Documentation = "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/tree/main/FyraInput-Keyboard-Mouse-Python-pypi/docs"
+[tool.setuptools]
+packages = ["fyrainput_keyboard_mouse"]
+[tool.setuptools.package-data]
+fyrainput_keyboard_mouse = ["FyraInputKeyboardMouseBridge.dll"]
+[tool.setuptools.data-files]
+"share/doc/fyrainput-keyboard-mouse" = ["docs/API.md", "examples/info.py", "LICENSE"]
