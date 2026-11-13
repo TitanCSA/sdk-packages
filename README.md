@@ -55,13 +55,13 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 | ProcessGuard-SDK.Native | 0.1.2 |
 | RegistryGuard.Native | 0.1.1 |
 | TitanCSA.RemoteWorkstation.Native | 0.1.1 |
-| Storage-IO-Flight-Recorder.Native | 0.1.1 |
+| TitanCSA.StorageIOFlightRecorder.Native | 0.1.1 |
 | Titan-Audio-Link.Native | 0.1.1 |
 | Titan-File-Filter.Native | 0.1.0 |
 | Titan-Network-Filter.Native | 0.1.1 |
 | USB-over-IP-SDK.Native | 0.1.1 |
 | USB-Trace-SDK.Native | 0.1.1 |
-| User-Backed-Virtual-Disk-SDK.Native | 0.1.1 |
+| TitanCSA.UserBackedVirtualDisk.Native | 0.1.1 |
 | Vdevice.Native | 1.0.5 |
 | Virtual-Camera-SDK.Native | 0.1.1 |
 | Virtual-Network-Adapter-SDK.Native | 0.1.1 |

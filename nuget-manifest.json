@@ -290,12 +290,12 @@
   {
     "project": "Storage-IO-Flight-Recorder",
     "registry": "nuget-native",
-    "name": "Storage-IO-Flight-Recorder.Native",
+    "name": "TitanCSA.StorageIOFlightRecorder.Native",
     "version": "0.1.1",
     "artifacts": [
       {
-        "path": "distributions/nuget/Storage-IO-Flight-Recorder.Native.0.1.1.nupkg",
-        "sha256": "220b13094617b97bab85ca8e208cd51dce2928f59caeb33a376cbe1572b9a6ac"
+        "path": "distributions/nuget/TitanCSA.StorageIOFlightRecorder.Native.0.1.1.nupkg",
+        "sha256": "f800163f4c917e9e3826709904859c3b5d26bde4e269793ba29e94a115bd29d6"
       }
     ]
   },
@@ -362,12 +362,12 @@
   {
     "project": "User-Backed-Virtual-Disk-SDK",
     "registry": "nuget-native",
-    "name": "User-Backed-Virtual-Disk-SDK.Native",
+    "name": "TitanCSA.UserBackedVirtualDisk.Native",
     "version": "0.1.1",
     "artifacts": [
       {
-        "path": "distributions/nuget/User-Backed-Virtual-Disk-SDK.Native.0.1.1.nupkg",
-        "sha256": "ed1699e62eccaec67261a5bea418da4c42806e724e36b63765754a2bd364528d"
+        "path": "distributions/nuget/TitanCSA.UserBackedVirtualDisk.Native.0.1.1.nupkg",
+        "sha256": "5f061c897c6d788856e21e893036a98e7fc8f10ecd5b75356bfd328704505905"
       }
     ]
   },
