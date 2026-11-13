@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `autohotinterceptor` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install autohotinterceptor:x64-windows` |
-| `autohotinterceptor` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=autohotinterceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `AutoHotInterceptor.Native` | NuGet | Publie et verifie | `Install-Package AutoHotInterceptor.Native -Version 1.0.0` |
-| `AutoHotInterceptor` | NuGet | Publie et verifie | `dotnet add package AutoHotInterceptor --version 1.0.1` |
-| `autohotinterceptor` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install autohotinterceptor==1.0.0` |
-| `autohotinterceptor` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge autohotinterceptor` |
-| `autohotinterceptor` | crates.io | Publie et verifie | `cargo add autohotinterceptor@1.0.0` |
-| `autohotinterceptor` | npm | Publie et verifie | `npm install autohotinterceptor@1.0.0` |
-| `io.github.titancsa:autohotinterceptor` | Maven Central | Publie et verifie | `io.github.titancsa:autohotinterceptor:1.0.0 (pom.xml / Gradle)` |
-| `com.github.TitanCSA:AutoHotInterceptor` | JitPack | Publie et verifie | `com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | Go Modules | Publie et verifie | `go get github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
-| `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
-| `autohotinterceptor` | PowerShell Gallery | Publie et verifie | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `autohotinterceptor` | pub.dev | Publie et verifie | `dart pub add autohotinterceptor:1.0.0` |
-| `autohotinterceptor` | RubyGems | Publie et verifie | `gem install autohotinterceptor -v 1.0.0` |
-| `autohotinterceptor` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `autohotinterceptor` | `vcpkg install autohotinterceptor:x64-windows` |
+| Conan | `autohotinterceptor` | `conan install --requires=autohotinterceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `AutoHotInterceptor.Native` | `Install-Package AutoHotInterceptor.Native -Version 1.0.0` |
+| NuGet | `AutoHotInterceptor` | `dotnet add package AutoHotInterceptor --version 1.0.1` |
+| PyPI | `autohotinterceptor` | Commande prevue apres publication : `python -m pip install autohotinterceptor==1.0.0` |
+| Conda | `autohotinterceptor` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge autohotinterceptor` (canal TitanCSA) |
+| crates.io | `autohotinterceptor` | `cargo add autohotinterceptor@1.0.0` |
+| npm | `autohotinterceptor` | `npm install autohotinterceptor@1.0.0` |
+| Maven Central | `io.github.titancsa:autohotinterceptor` | `io.github.titancsa:autohotinterceptor:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.TitanCSA:AutoHotInterceptor` | `com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `go get github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
+| PowerShell Gallery | `autohotinterceptor` | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `autohotinterceptor` | `dart pub add autohotinterceptor:1.0.0` |
+| RubyGems | `autohotinterceptor` | `gem install autohotinterceptor -v 1.0.0` |
+| Packagist | `autohotinterceptor` | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

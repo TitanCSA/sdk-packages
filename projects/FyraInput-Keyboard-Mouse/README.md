@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `fyrainput-keyboard-mouse` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install fyrainput-keyboard-mouse:x64-windows` |
-| `fyrainput-keyboard-mouse` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=fyrainput-keyboard-mouse/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `FyraInput-Keyboard-Mouse.Native` | NuGet | Publie et verifie | `Install-Package FyraInput-Keyboard-Mouse.Native -Version 0.1.0` |
-| `FyraInputKeyboardMouse.SDK` | NuGet | Publie et verifie | `dotnet add package FyraInputKeyboardMouse.SDK --version 1.0.0` |
-| `fyrainput_keyboard_mouse` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install fyrainput-keyboard-mouse==1.0.0` |
-| `fyrainput-keyboard-mouse` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge fyrainput-keyboard-mouse` |
-| `fyrainput_keyboard_mouse` | crates.io | Publie et verifie | `cargo add fyrainput-keyboard-mouse@1.0.0` |
-| `fyrainput_keyboard_mouse` | npm | Publie et verifie | `npm install fyrainput-keyboard-mouse@1.0.0` |
-| `io.github.titancsa:fyrainput-keyboard-mouse` | Maven Central | Publie et verifie | `io.github.titancsa:fyrainput-keyboard-mouse:1.0.0 (pom.xml / Gradle)` |
-| `com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK` | JitPack | Publie et verifie | `com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules` | Go Modules | Publie et verifie | `go get github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0` |
-| `github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0` |
-| `fyrainput_keyboard_mouse` | PowerShell Gallery | Publie et verifie | `Install-Module FyraInputKeyboardMouse -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `fyrainput_keyboard_mouse` | pub.dev | Publie et verifie | `dart pub add fyrainput_keyboard_mouse:1.0.0` |
-| `fyrainput_keyboard_mouse` | RubyGems | Publie et verifie | `gem install fyrainput-keyboard-mouse -v 1.0.0` |
-| `fyrainput_keyboard_mouse` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/fyrainput-keyboard-mouse:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `fyrainput-keyboard-mouse` | `vcpkg install fyrainput-keyboard-mouse:x64-windows` |
+| Conan | `fyrainput-keyboard-mouse` | `conan install --requires=fyrainput-keyboard-mouse/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `FyraInput-Keyboard-Mouse.Native` | `Install-Package FyraInput-Keyboard-Mouse.Native -Version 0.1.0` |
+| NuGet | `FyraInputKeyboardMouse.SDK` | `dotnet add package FyraInputKeyboardMouse.SDK --version 1.0.0` |
+| PyPI | `fyrainput_keyboard_mouse` | Commande prevue apres publication : `python -m pip install fyrainput-keyboard-mouse==1.0.0` |
+| Conda | `fyrainput-keyboard-mouse` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge fyrainput-keyboard-mouse` (canal TitanCSA) |
+| crates.io | `fyrainput_keyboard_mouse` | `cargo add fyrainput-keyboard-mouse@1.0.0` |
+| npm | `fyrainput_keyboard_mouse` | `npm install fyrainput-keyboard-mouse@1.0.0` |
+| Maven Central | `io.github.titancsa:fyrainput-keyboard-mouse` | `io.github.titancsa:fyrainput-keyboard-mouse:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK` | `com.github.TitanCSA:FyraInput-Keyboard-Mouse-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules` | `go get github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/FyraInput-Keyboard-Mouse-Go-modules@v1.0.0` |
+| PowerShell Gallery | `fyrainput_keyboard_mouse` | `Install-Module FyraInputKeyboardMouse -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `fyrainput_keyboard_mouse` | `dart pub add fyrainput_keyboard_mouse:1.0.0` |
+| RubyGems | `fyrainput_keyboard_mouse` | `gem install fyrainput-keyboard-mouse -v 1.0.0` |
+| Packagist | `fyrainput_keyboard_mouse` | Commande prevue apres publication : `composer require titancsa/fyrainput-keyboard-mouse:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

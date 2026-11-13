@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `interceptor-multilang` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install interceptor-multilang:x64-windows` |
-| `interceptor-multilang` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=interceptor-multilang/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `Interceptor-MultiLang.Native` | NuGet | Publie et verifie | `Install-Package Interceptor-MultiLang.Native -Version 1.0.0` |
-| `Interceptor.MultiLang` | NuGet | Publie et verifie | `dotnet add package Interceptor.MultiLang --version 1.0.1` |
-| `interceptor-multilang` | PyPI | Publie et verifie | `python -m pip install interceptor-multilang==1.0.1` |
-| `interceptor-multilang` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interceptor-multilang` |
-| `interceptor-multilang` | crates.io | Publie et verifie | `cargo add interceptor-multilang@1.0.1` |
-| `interceptor-multilang` | npm | Publie et verifie | `npm install interceptor-multilang@1.0.0` |
-| `io.github.titancsa:interceptor` | Maven Central | Publie et verifie | `io.github.titancsa:interceptor:1.0.1 (pom.xml / Gradle)` |
-| `com.github.TitanCSA:Interceptor-MultiLang` | JitPack | Publie et verifie | `com.github.TitanCSA:Interceptor-MultiLang:java-sdk-v1.0.1 (avec le depot JitPack)` |
-| `github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules` | Go Modules | Publie et verifie | `go get github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules@v1.0.0` |
-| `github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules@v1.0.0` |
-| `InterceptorMultiLang` | PowerShell Gallery | Publie et verifie | `Install-Module InterceptorMultiLang -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `interceptor_multilang` | pub.dev | Publie et verifie | `dart pub add interceptor_multilang:1.0.0` |
-| `interceptor-multilang` | RubyGems | Publie et verifie | `gem install interceptor-multilang -v 1.0.0` |
-| `titancsa/interceptor-multilang` | Packagist | Publie et verifie | `composer require titancsa/interceptor-multilang:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `interceptor-multilang` | `vcpkg install interceptor-multilang:x64-windows` |
+| Conan | `interceptor-multilang` | `conan install --requires=interceptor-multilang/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `Interceptor-MultiLang.Native` | `Install-Package Interceptor-MultiLang.Native -Version 1.0.0` |
+| NuGet | `Interceptor.MultiLang` | `dotnet add package Interceptor.MultiLang --version 1.0.1` |
+| PyPI | `interceptor-multilang` | `python -m pip install interceptor-multilang==1.0.1` |
+| Conda | `interceptor-multilang` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interceptor-multilang` (canal TitanCSA) |
+| crates.io | `interceptor-multilang` | `cargo add interceptor-multilang@1.0.1` |
+| npm | `interceptor-multilang` | `npm install interceptor-multilang@1.0.0` |
+| Maven Central | `io.github.titancsa:interceptor` | `io.github.titancsa:interceptor:1.0.1 (pom.xml / Gradle)` |
+| JitPack | `com.github.TitanCSA:Interceptor-MultiLang` | `com.github.TitanCSA:Interceptor-MultiLang:java-sdk-v1.0.1 (avec le depot JitPack)` |
+| Go Modules | `github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules` | `go get github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/Interceptor-MultiLang/Interceptor-MultiLang-Go-modules@v1.0.0` |
+| PowerShell Gallery | `InterceptorMultiLang` | `Install-Module InterceptorMultiLang -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `interceptor_multilang` | `dart pub add interceptor_multilang:1.0.0` |
+| RubyGems | `interceptor-multilang` | `gem install interceptor-multilang -v 1.0.0` |
+| Packagist | `titancsa/interceptor-multilang` | `composer require titancsa/interceptor-multilang:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

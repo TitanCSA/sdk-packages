@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `node-interceptor` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install node-interceptor:x64-windows` |
-| `node-interceptor` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=node-interceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `NodeInterceptor.Native` | NuGet | Publie et verifie | `Install-Package NodeInterceptor.Native -Version 1.0.0` |
-| `NodeInterceptor.SDK` | NuGet | Publie et verifie | `dotnet add package NodeInterceptor.SDK --version 1.0.0` |
-| `node_interceptor` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install node-interceptor==1.0.0` |
-| `node-interceptor` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge node-interceptor` |
-| `node_interceptor` | crates.io | Publie et verifie | `cargo add node-interceptor@1.0.0` |
-| `interceptor-keyboard-mouse` | npm | Publie et verifie | `npm install interceptor-keyboard-mouse@1.0.0` |
-| `io.github.titancsa:node-interceptor` | Maven Central | Publie et verifie | `io.github.titancsa:node-interceptor:1.0.0 (pom.xml / Gradle)` |
-| `com.github.TitanCSA:node-interceptor` | JitPack | Publie et verifie | `com.github.TitanCSA:node-interceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | Go Modules | Publie et verifie | `go get github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
-| `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
-| `node_interceptor` | PowerShell Gallery | Publie et verifie | `Install-Module NodeInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `node_interceptor` | pub.dev | Pas encore disponible / validation en cours | Commande prevue apres publication : `dart pub add node_interceptor:1.0.0` |
-| `node_interceptor` | RubyGems | Publie et verifie | `gem install node-interceptor -v 1.0.0` |
-| `node_interceptor` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/node-interceptor:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `node-interceptor` | `vcpkg install node-interceptor:x64-windows` |
+| Conan | `node-interceptor` | `conan install --requires=node-interceptor/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `NodeInterceptor.Native` | `Install-Package NodeInterceptor.Native -Version 1.0.0` |
+| NuGet | `NodeInterceptor.SDK` | `dotnet add package NodeInterceptor.SDK --version 1.0.0` |
+| PyPI | `node_interceptor` | Commande prevue apres publication : `python -m pip install node-interceptor==1.0.0` |
+| Conda | `node-interceptor` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge node-interceptor` (canal TitanCSA) |
+| crates.io | `node_interceptor` | `cargo add node-interceptor@1.0.0` |
+| npm | `interceptor-keyboard-mouse` | `npm install interceptor-keyboard-mouse@1.0.0` |
+| Maven Central | `io.github.titancsa:node-interceptor` | `io.github.titancsa:node-interceptor:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.TitanCSA:node-interceptor` | `com.github.TitanCSA:node-interceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | `go get github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/node-interceptor/node-interceptor-Go-modules@v1.0.0` |
+| PowerShell Gallery | `node_interceptor` | `Install-Module NodeInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `node_interceptor` | Commande prevue apres publication : `dart pub add node_interceptor:1.0.0` |
+| RubyGems | `node_interceptor` | `gem install node-interceptor -v 1.0.0` |
+| Packagist | `node_interceptor` | Commande prevue apres publication : `composer require titancsa/node-interceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
