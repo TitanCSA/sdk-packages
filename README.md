@@ -54,7 +54,7 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 | Process-Trace-Studio.Native | 0.1.0 |
 | ProcessGuard-SDK.Native | 0.1.2 |
 | RegistryGuard.Native | 0.1.1 |
-| Remote-Workstation-SDK.Native | 0.1.1 |
+| TitanCSA.RemoteWorkstation.Native | 0.1.1 |
 | Storage-IO-Flight-Recorder.Native | 0.1.1 |
 | Titan-Audio-Link.Native | 0.1.1 |
 | Titan-File-Filter.Native | 0.1.0 |

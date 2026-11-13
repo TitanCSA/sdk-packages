@@ -278,12 +278,12 @@
   {
     "project": "Remote-Workstation-SDK",
     "registry": "nuget-native",
-    "name": "Remote-Workstation-SDK.Native",
+    "name": "TitanCSA.RemoteWorkstation.Native",
     "version": "0.1.1",
     "artifacts": [
       {
-        "path": "distributions/nuget/Remote-Workstation-SDK.Native.0.1.1.nupkg",
-        "sha256": "687fc0b7ffda5262b720783a1ff41e0124517e7453d81f436bbb2a676858be11"
+        "path": "distributions/nuget/TitanCSA.RemoteWorkstation.Native.0.1.1.nupkg",
+        "sha256": "304fab76d2f32a8ee43880078838214577938d692dd5aa9a393517bafb9a1039"
       }
     ]
   },
