@@ -466,5 +466,449 @@
         "sha256": "f375b06678ce144d3205c00cc202f1f687385de91b5fd21158974f67af4cfb00"
       }
     ]
+  },
+  {
+    "project": "FyraInput",
+    "registry": "nuget",
+    "name": "FyraInput.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInput.SDK.1.0.0.nupkg",
+        "sha256": "1a526dbdbf7c2f3a7135ea68a747cee3d170bcee5aa88b907238420a3f5c1292"
+      }
+    ]
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "registry": "nuget",
+    "name": "FyraInputGamepad.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInputGamepad.SDK.1.0.0.nupkg",
+        "sha256": "57cfb5b0ba949178d0e6ea4583f01c07807266c7f7e8efb0bafc54fed90ec30c"
+      }
+    ]
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "registry": "nuget",
+    "name": "FyraInputKeyboardMouse.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraInputKeyboardMouse.SDK.1.0.0.nupkg",
+        "sha256": "d588881580b2c4c133336eb4c61a112cf537454aca046a6f7aec27ff3da9fb55"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor",
+    "registry": "nuget",
+    "name": "Interceptor.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor.SDK.1.0.0.nupkg",
+        "sha256": "ad969af2052b03e639a64b2ee5e132e441e3e2ae5a9e3e697468791a3afd6307"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "registry": "nuget",
+    "name": "InterceptorGamepadController.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/InterceptorGamepadController.SDK.1.0.0.nupkg",
+        "sha256": "b2c889e9dec645fdb47e7c001e537ecce60651aa234c649c7104a8de0f65fb0d"
+      }
+    ]
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "registry": "nuget",
+    "name": "InterceptorKeyboardMouse.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/InterceptorKeyboardMouse.SDK.1.0.0.nupkg",
+        "sha256": "5adc02c51f133915cb48d10e40604699edd81a62c2ab5fb35085e04624737736"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "registry": "nuget",
+    "name": "WindowsGamepadFilter.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/WindowsGamepadFilter.SDK.1.0.0.nupkg",
+        "sha256": "34b38fc97c5c6c801aeeacad03900c0db4ff4a2df964f8d5f9095ddf2ef707f4"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "registry": "nuget",
+    "name": "WindowsInputFilter.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/WindowsInputFilter.SDK.1.0.0.nupkg",
+        "sha256": "dff8c3e5a49d8955071093a2c9401fe690f2fe0f94bd51cfbddc08e1fff94183"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "registry": "nuget",
+    "name": "WindowsKeyboardMouseFilter.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/WindowsKeyboardMouseFilter.SDK.1.0.0.nupkg",
+        "sha256": "0ca04ac675f8f4d101d6c0e0dfee82400c6ce8c01e3df5ab61e39d5c1467e816"
+      }
+    ]
+  },
+  {
+    "project": "FyraDevice",
+    "registry": "nuget",
+    "name": "FyraDevice.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FyraDevice.SDK.1.0.0.nupkg",
+        "sha256": "aff7b0b57ab267d1f0a258a72e986af655e5d2215494de813be73c7061c0b2c0"
+      }
+    ]
+  },
+  {
+    "project": "Vdevice",
+    "registry": "nuget",
+    "name": "Vdevice.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Vdevice.SDK.1.0.0.nupkg",
+        "sha256": "3e5affac768291f217ca46abd1dc1e1e0e47503f162f8092f80e5404d4e8d8dc"
+      }
+    ]
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "registry": "nuget",
+    "name": "WindowsVirtualDevices.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/WindowsVirtualDevices.SDK.1.0.0.nupkg",
+        "sha256": "e1201aa6d245f9b7dcbc5edd1efd414d69cf6a1d09399f8568b94569c5679de5"
+      }
+    ]
+  },
+  {
+    "project": "File-Trace-Studio",
+    "registry": "nuget",
+    "name": "FileTraceStudio.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/FileTraceStudio.SDK.1.0.0.nupkg",
+        "sha256": "5158d92b00cd65a50253d75dcda60544738b7c854bf242727483eb9efd6945b9"
+      }
+    ]
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "registry": "nuget",
+    "name": "ConnectionTraceStudio.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/ConnectionTraceStudio.SDK.1.0.0.nupkg",
+        "sha256": "29e929c91f6482fa8958ed56b5686898faf3d113e1d91a0c3bf194ca70223d44"
+      }
+    ]
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "registry": "nuget",
+    "name": "ProcessTraceStudio.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/ProcessTraceStudio.SDK.1.0.0.nupkg",
+        "sha256": "df93abf8ff474762eacc42741372e64c8b70565323f069bdd5714bb7df791c8f"
+      }
+    ]
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "registry": "nuget",
+    "name": "ProcessGuardSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/ProcessGuardSDK.SDK.1.0.0.nupkg",
+        "sha256": "b0e3782e2bdb801349869897015794a681f770303069a3469e3ccae195359627"
+      }
+    ]
+  },
+  {
+    "project": "RegistryGuard",
+    "registry": "nuget",
+    "name": "RegistryGuard.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/RegistryGuard.SDK.1.0.0.nupkg",
+        "sha256": "1ff8d621a7adfe28151a2219afc1a77623707dccec18066574517c112841c7ee"
+      }
+    ]
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "registry": "nuget",
+    "name": "StorageIOFlightRecorder.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/StorageIOFlightRecorder.SDK.1.0.0.nupkg",
+        "sha256": "d01efee30e54be47fcacb4ed5ec0814fe367ebd161f1d1cf2ec1ffc600cabb16"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "registry": "nuget",
+    "name": "VirtualStorageFaultLab.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/VirtualStorageFaultLab.SDK.1.0.0.nupkg",
+        "sha256": "bccc0ed711be00a61b2fa293a4294b8f2c48094e40756745d10808a01deba920"
+      }
+    ]
+  },
+  {
+    "project": "Titan-File-Filter",
+    "registry": "nuget",
+    "name": "TitanFileFilter.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/TitanFileFilter.SDK.1.0.0.nupkg",
+        "sha256": "f4a136215cde38d64a032ad77d8745450027368a92fd77a4ad05b8c8fdadf6b3"
+      }
+    ]
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "registry": "nuget",
+    "name": "TitanNetworkFilter.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/TitanNetworkFilter.SDK.1.0.0.nupkg",
+        "sha256": "4226a6ba9c43e63601d509cb33966087081c8069cd3a54d38257f68fad70a994"
+      }
+    ]
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "registry": "nuget",
+    "name": "NetworkEmulationSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/NetworkEmulationSDK.SDK.1.0.0.nupkg",
+        "sha256": "ff825131077f1519f66fe2040fb8a528d49ef8757245a7ac9159e48742e32241"
+      }
+    ]
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "registry": "nuget",
+    "name": "PacketCaptureSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/PacketCaptureSDK.SDK.1.0.0.nupkg",
+        "sha256": "4f9dabe3dab815397090beb25478adb4f3db94bffa219ca164dc2ffedc5eac20"
+      }
+    ]
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "registry": "nuget",
+    "name": "USBTraceSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/USBTraceSDK.SDK.1.0.0.nupkg",
+        "sha256": "111d75d9d6a89fd718d8790421124894a952827af5e12500f0f614e4875452a4"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "registry": "nuget",
+    "name": "VirtualNetworkAdapterSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/VirtualNetworkAdapterSDK.SDK.1.0.0.nupkg",
+        "sha256": "b6a95ed1956ccd75898a6898c160abc04d5c31f9bac51dd427a97b9d4c39529d"
+      }
+    ]
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "registry": "nuget",
+    "name": "VirtualCameraSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/VirtualCameraSDK.SDK.1.0.0.nupkg",
+        "sha256": "2ad4bb7b8350b871cfc1d991e4aa26caab52cd0a11f0416ddff73d8e9f0ad2f4"
+      }
+    ]
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "registry": "nuget",
+    "name": "ChangedBlockTrackingSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/ChangedBlockTrackingSDK.SDK.1.0.0.nupkg",
+        "sha256": "72a5b3a63348f0c3667d3b20aece6b07994d8a68465b483b149c60179ea687f1"
+      }
+    ]
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "registry": "nuget",
+    "name": "CloudFilesSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/CloudFilesSDK.SDK.1.0.0.nupkg",
+        "sha256": "f3da6d488078925e7cd86b539e13b04b72936d66c6dcfc35e1fae513734c8571"
+      }
+    ]
+  },
+  {
+    "project": "HID-Access-Control",
+    "registry": "nuget",
+    "name": "HIDAccessControl.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/HIDAccessControl.SDK.1.0.0.nupkg",
+        "sha256": "cd4bcc0557b5b0ac2e55503e7178ca1d809a236f392e6ef8824a3608a96052c6"
+      }
+    ]
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "registry": "nuget",
+    "name": "USBoverIPSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/USBoverIPSDK.SDK.1.0.0.nupkg",
+        "sha256": "b4f39dd7f32d3282b369569bab6c201fdb3fa32a15e7bbe43276089ac45caf8b"
+      }
+    ]
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "registry": "nuget",
+    "name": "UserBackedVirtualDiskSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/UserBackedVirtualDiskSDK.SDK.1.0.0.nupkg",
+        "sha256": "b20493dead11c42e8b8edfc4c11715630048db0250fa4a8ba5ec92afd2d0a326"
+      }
+    ]
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "registry": "nuget",
+    "name": "RemoteWorkstationSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/RemoteWorkstationSDK.SDK.1.0.0.nupkg",
+        "sha256": "b79d73585cab75967e185d9213d381c6f12b26d03978fac2a7be3455c63f2c86"
+      }
+    ]
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "registry": "nuget",
+    "name": "TitanAudioLink.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/TitanAudioLink.SDK.1.0.0.nupkg",
+        "sha256": "30da837c180fb99cf09ce3c0a90afe398660ab4e31c656b126a9ace5438046c0"
+      }
+    ]
+  },
+  {
+    "project": "Interception-V2",
+    "registry": "nuget",
+    "name": "InterceptionV2.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/InterceptionV2.SDK.1.0.0.nupkg",
+        "sha256": "14ebbcafe2b3381aae03da138a2765d138a39c27a5b044a24a436c8ca3e659e4"
+      }
+    ]
+  },
+  {
+    "project": "node-interceptor",
+    "registry": "nuget",
+    "name": "NodeInterceptor.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/NodeInterceptor.SDK.1.0.0.nupkg",
+        "sha256": "b55475791b58ba76d666e848b901961eb1791ad119058f5dbc93f9371670f725"
+      }
+    ]
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "registry": "nuget",
+    "name": "BrowserControlSDK.SDK",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/BrowserControlSDK.SDK.1.0.0.nupkg",
+        "sha256": "e462a7742c3af04102c0cb7fffd93a653d80fab1a11c185f22e2f4e9656f598e"
+      }
+    ]
+  },
+  {
+    "project": "node-interceptor",
+    "registry": "nuget-native",
+    "name": "NodeInterceptor.Native",
+    "version": "1.0.0",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/NodeInterceptor.Native.1.0.0.nupkg",
+        "sha256": "f757176d205a103e50bb94052b9cfd1976fdd493de1bfba9acac38d51a158df3"
+      }
+    ]
   }
 ]

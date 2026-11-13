@@ -6,6 +6,10 @@ on:
         description: NuGet.org profile name (not email)
         required: true
         default: titancsa
+      check_only:
+        description: Verify the publisher policy without submitting packages
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -24,7 +28,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
       - name: Verify all reviewed package hashes
         run: python scripts/verify_nuget.py
       - name: Exchange GitHub identity for short-lived NuGet key
@@ -33,6 +37,10 @@ jobs:
         with:
           user: ${{ inputs.username }}
       - name: Publish reviewed packages
+        if: ${{ !inputs.check_only }}
         env:
           NUGET_API_KEY: ${{ steps.login.outputs.NUGET_API_KEY }}
         run: python scripts/push_nuget.py
+      - name: Verify published package payloads
+        if: ${{ !inputs.check_only }}
+        run: python scripts/verify_public_nuget.py

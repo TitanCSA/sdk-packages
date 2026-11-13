@@ -25,18 +25,12 @@ Licenses are specific to each package and included inside its distributions.
 
 ## NuGet distributions
 
-The `publish-nuget.yml` workflow verifies the hashes in `nuget-manifest.json`,
-then exchanges its GitHub identity for a short-lived NuGet publishing credential.
-The NuGet account must first authorize this repository, workflow and `nuget`
-environment in Trusted Publishing. There are 2 managed .NET SDKs and 37 native
-C/C++ source packages. Four unavailable upstream projects are excluded.
+76 reviewed packages:38 managed SDKs and38 native source SDKs. Four unavailable upstream repositories remain excluded. The workflow verifies every archive hash before requesting a short-lived publishing key. It skips only versions whose public content matches the reviewed package and never replaces an existing version. Source licenses and driver/application prerequisites are retained. Native source packages are compiled by the consuming Visual C++ project.
 
-Native packages use `.Native` to distinguish them from managed assemblies.
-Each was restored through NuGet and compiled as a Windows x64 Visual C++
-consumer. API guides, usage instructions and license notices are bundled.
+Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `sdk-packages`, workflow `publish-nuget.yml`, environment `nuget`; enable new packages and new versions for the intended package IDs. The workflow uses the policy creator profile name, not an email.
 
 | Package | Version |
-|---|---|
+| --- | --- |
 | Interceptor.MultiLang | 1.0.1 |
 | AutoHotInterceptor | 1.0.1 |
 | AutoHotInterceptor.Native | 1.0.0 |
@@ -76,12 +70,40 @@ consumer. API guides, usage instructions and license notices are bundled.
 | Windows-Input-Filter.Native | 0.1.0 |
 | Windows-Keyboard-Mouse-Filter.Native | 0.1.0 |
 | Windows-Virtual-Devices.Native | 0.1.0 |
-
-## Current registry status
-
-- PyPI: browser-control-sdk 0.2.1 and interceptor-multilang 1.0.1 published; public pip installs verified.
-- crates.io: interceptor-multilang 1.0.1 published; public Cargo consumer built and executed.
-- Maven Central: io.github.titancsa:interceptor:1.0.1 published; public Maven consumer built and executed. Main JAR, sources and Javadoc hashes verified.
-- NuGet: 39 packages built and tested; publication awaits owner account email confirmation and trusted publishing policy.
-- Conda: two packages are downloadable from the custom conda-channel in this repository and public consumer installation is verified.
-- Official conda-forge catalogue: recipes submitted in conda-forge/staged-recipes#35612 and #35613, pending CI completion and maintainer review.
+| FyraInput.SDK | 1.0.0 |
+| FyraInputGamepad.SDK | 1.0.0 |
+| FyraInputKeyboardMouse.SDK | 1.0.0 |
+| Interceptor.SDK | 1.0.0 |
+| InterceptorGamepadController.SDK | 1.0.0 |
+| InterceptorKeyboardMouse.SDK | 1.0.0 |
+| WindowsGamepadFilter.SDK | 1.0.0 |
+| WindowsInputFilter.SDK | 1.0.0 |
+| WindowsKeyboardMouseFilter.SDK | 1.0.0 |
+| FyraDevice.SDK | 1.0.0 |
+| Vdevice.SDK | 1.0.0 |
+| WindowsVirtualDevices.SDK | 1.0.0 |
+| FileTraceStudio.SDK | 1.0.0 |
+| ConnectionTraceStudio.SDK | 1.0.0 |
+| ProcessTraceStudio.SDK | 1.0.0 |
+| ProcessGuardSDK.SDK | 1.0.0 |
+| RegistryGuard.SDK | 1.0.0 |
+| StorageIOFlightRecorder.SDK | 1.0.0 |
+| VirtualStorageFaultLab.SDK | 1.0.0 |
+| TitanFileFilter.SDK | 1.0.0 |
+| TitanNetworkFilter.SDK | 1.0.0 |
+| NetworkEmulationSDK.SDK | 1.0.0 |
+| PacketCaptureSDK.SDK | 1.0.0 |
+| USBTraceSDK.SDK | 1.0.0 |
+| VirtualNetworkAdapterSDK.SDK | 1.0.0 |
+| VirtualCameraSDK.SDK | 1.0.0 |
+| ChangedBlockTrackingSDK.SDK | 1.0.0 |
+| CloudFilesSDK.SDK | 1.0.0 |
+| HIDAccessControl.SDK | 1.0.0 |
+| USBoverIPSDK.SDK | 1.0.0 |
+| UserBackedVirtualDiskSDK.SDK | 1.0.0 |
+| RemoteWorkstationSDK.SDK | 1.0.0 |
+| TitanAudioLink.SDK | 1.0.0 |
+| InterceptionV2.SDK | 1.0.0 |
+| NodeInterceptor.SDK | 1.0.0 |
+| BrowserControlSDK.SDK | 1.0.0 |
+| NodeInterceptor.Native | 1.0.0 |
