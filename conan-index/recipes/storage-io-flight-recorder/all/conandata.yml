@@ -1,0 +1,4 @@
+sources:
+  "0.1.1":
+    url: "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/sdk-v0.1.1/storage-io-flight-recorder-sdk-0.1.1.tar.gz"
+    sha256: "53946454ab47eb70bc5b0a9265c4beecfad15681579483e1d52f668b9307404a"

@@ -1,0 +1,4 @@
+sources:
+  "1.0.0":
+    url: "https://github.com/TitanCSA/node-interceptor/releases/download/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz"
+    sha256: "d3fb2779141ad2982c9865b7076872e9638673b1ea3b5229e2475a5c86b5b1ab"

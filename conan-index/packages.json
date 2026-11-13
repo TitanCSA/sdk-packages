@@ -1,0 +1,382 @@
+[
+  {
+    "project": "AutoHotInterceptor",
+    "name": "autohotinterceptor",
+    "legacy_name": "autohotinterceptor-sdk",
+    "version": "1.0.0",
+    "source": "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz",
+    "sha256": "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3",
+    "cmake_name": "AutoHotInterceptorSDK",
+    "target": "TitanAutoHotInterceptor"
+  },
+  {
+    "project": "Browser-Control-SDK",
+    "name": "browser-control-sdk",
+    "legacy_name": "browser-control-sdk-sdk",
+    "version": "0.2.0",
+    "source": "https://github.com/TitanCSA/Browser-Control-SDK/releases/download/sdk-v0.2.0/browser-control-sdk-sdk-0.2.0.tar.gz",
+    "sha256": "889c5baf8c1595fa392e425f92cd1c270655e045a7721975caebfedc7e63066d",
+    "cmake_name": "BrowserControlSDK",
+    "target": "TitanBrowserControlSDK"
+  },
+  {
+    "project": "Changed-Block-Tracking-SDK",
+    "name": "changed-block-tracking-sdk",
+    "legacy_name": "changed-block-tracking-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Changed-Block-Tracking-SDK/releases/download/sdk-v0.1.1/changed-block-tracking-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "414f4544f447eb629b8ecd3ce1722910eb809962fdb2cbb4c36694f0f8025561",
+    "cmake_name": "ChangedBlockTrackingSDK",
+    "target": "TitanChangedBlockTrackingSDK"
+  },
+  {
+    "project": "Cloud-Files-SDK",
+    "name": "cloud-files-sdk",
+    "legacy_name": "cloud-files-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "ea17e34fb656e40759ec9e0143f5147faffdf5ccb6c6063826b1920c2dd21e31",
+    "cmake_name": "CloudFilesSDK",
+    "target": "TitanCloudFilesSDK"
+  },
+  {
+    "project": "Connection-Trace-Studio",
+    "name": "connection-trace-studio",
+    "legacy_name": "connection-trace-studio-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Connection-Trace-Studio/releases/download/sdk-v0.1.0/connection-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "9a3e0d127d2961c1311873ffbdcd5f7e66a955485ac00cb5afde09c5d6e47e85",
+    "cmake_name": "ConnectionTraceStudioSDK",
+    "target": "TitanConnectionTraceStudio"
+  },
+  {
+    "project": "File-Trace-Studio",
+    "name": "file-trace-studio",
+    "legacy_name": "file-trace-studio-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/File-Trace-Studio/releases/download/sdk-v0.1.0/file-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "0e1d8bfa1b01b4a49591b7c747cc2bfb4bb994d3a90be918eaf3f0ede10e10f2",
+    "cmake_name": "FileTraceStudioSDK",
+    "target": "TitanFileTraceStudio"
+  },
+  {
+    "project": "FyraDevice",
+    "name": "fyradevice",
+    "legacy_name": "fyradevice-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/TitanCSA/FyraDevice-SDK/releases/download/sdk-v0.1.0/fyradevice-sdk-0.1.0.tar.gz",
+    "sha256": "071794dc564071da1444362323f2e593b57bcfc23c6409b10c79d80f6228be4b",
+    "cmake_name": "FyraDeviceSDK",
+    "target": "TitanFyraDevice"
+  },
+  {
+    "project": "FyraInput",
+    "name": "fyrainput",
+    "legacy_name": "fyrainput-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz",
+    "sha256": "3665b34e5d2530862ffed228d74302d7cc21a09b1045134a95453b035b569208",
+    "cmake_name": "FyraInputSDK",
+    "target": "TitanFyraInput"
+  },
+  {
+    "project": "FyraInput-Gamepad",
+    "name": "fyrainput-gamepad",
+    "legacy_name": "fyrainput-gamepad-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/TitanCSA/FyraInput-Gamepad-SDK/releases/download/sdk-v0.1.0/fyrainput-gamepad-sdk-0.1.0.tar.gz",
+    "sha256": "5da3a98529e99811a4f793e9ae4d544fc495215afeea66dee5771d513c1e142f",
+    "cmake_name": "FyraInputGamepadSDK",
+    "target": "TitanFyraInputGamepad"
+  },
+  {
+    "project": "FyraInput-Keyboard-Mouse",
+    "name": "fyrainput-keyboard-mouse",
+    "legacy_name": "fyrainput-keyboard-mouse-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/TitanCSA/FyraInput-Keyboard-Mouse-SDK/releases/download/sdk-v0.1.0/fyrainput-keyboard-mouse-sdk-0.1.0.tar.gz",
+    "sha256": "e07ca28622d3553f6c3fd17e0ae24af6e2037937ab7777a5dd7ccf4ea64aaa94",
+    "cmake_name": "FyraInputKeyboardMouseSDK",
+    "target": "TitanFyraInputKeyboardMouse"
+  },
+  {
+    "project": "HID-Access-Control",
+    "name": "hid-access-control",
+    "legacy_name": "hid-access-control-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/HID-Access-Control/releases/download/sdk-v0.1.0/hid-access-control-sdk-0.1.0.tar.gz",
+    "sha256": "e0de4f804327d3c4513b740c8b0e1f58d33620cb974a8f32c02d631ead6b4ef4",
+    "cmake_name": "HIDAccessControlSDK",
+    "target": "TitanHIDAccessControl"
+  },
+  {
+    "project": "Interception-V2",
+    "name": "interception-v2",
+    "legacy_name": "interception-v2-sdk",
+    "version": "2.0.0",
+    "source": "https://github.com/TitanCSA/Interception-V2/releases/download/sdk-v2.0.0/interception-v2-sdk-2.0.0.tar.gz",
+    "sha256": "88c4ba2a446305d45d1779b609d86b9307aab8b7cd5ee43e4f02e5c54a0b8a3e",
+    "cmake_name": "InterceptionV2SDK",
+    "target": "TitanInterceptionV2"
+  },
+  {
+    "project": "Interceptor",
+    "name": "interceptor",
+    "legacy_name": "interceptor-sdk",
+    "version": "1.4.22",
+    "source": "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz",
+    "sha256": "295b11d19c28a91604d159ead00a30155200b859d5805bf75b95419122436a57",
+    "cmake_name": "InterceptorSDK",
+    "target": "TitanInterceptor"
+  },
+  {
+    "project": "Interceptor-Gamepad-Controller",
+    "name": "interceptor-gamepad-controller",
+    "legacy_name": "interceptor-gamepad-controller-sdk",
+    "version": "1.0.13",
+    "source": "https://github.com/TitanCSA/Interceptor-Gamepad-Controller/releases/download/sdk-v1.0.13/interceptor-gamepad-controller-sdk-1.0.13.tar.gz",
+    "sha256": "c053d799ab641791df94eeb8b5f513735a9f78a5a547303179aaec3ffafa5285",
+    "cmake_name": "InterceptorGamepadControllerSDK",
+    "target": "TitanInterceptorGamepadController"
+  },
+  {
+    "project": "Interceptor-Keyboard-Mouse",
+    "name": "interceptor-keyboard-mouse",
+    "legacy_name": "interceptor-keyboard-mouse-sdk",
+    "version": "1.0.5",
+    "source": "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz",
+    "sha256": "74e6a896e563285ba6c37954d91117b490e549efa5bee8a069b065d981f3fb64",
+    "cmake_name": "InterceptorKeyboardMouseSDK",
+    "target": "TitanInterceptorKeyboardMouse"
+  },
+  {
+    "project": "Interceptor-MultiLang",
+    "name": "interceptor-multilang",
+    "legacy_name": "interceptor-multilang-sdk",
+    "version": "1.0.0",
+    "source": "https://github.com/TitanCSA/Interceptor-MultiLang/releases/download/sdk-v1.0.0/interceptor-multilang-sdk-1.0.0.tar.gz",
+    "sha256": "c662942a80b6eee137cad044f51ae0639700ff0044941869da50981a52c51105",
+    "cmake_name": "InterceptorMultiLangSDK",
+    "target": "TitanInterceptorMultiLang"
+  },
+  {
+    "project": "Network-Emulation-SDK",
+    "name": "network-emulation-sdk",
+    "legacy_name": "network-emulation-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Network-Emulation-SDK/releases/download/sdk-v0.1.1/network-emulation-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "34e64347deaa7765a89113a48c21a626f9ba73444bf320f70e5d67be45d1667b",
+    "cmake_name": "NetworkEmulationSDK",
+    "target": "TitanNetworkEmulationSDK"
+  },
+  {
+    "project": "Packet-Capture-SDK",
+    "name": "packet-capture-sdk",
+    "legacy_name": "packet-capture-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Packet-Capture-SDK/releases/download/sdk-v0.1.1/packet-capture-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "937d5626f59113e2cf1fdf88d00b1cd7e6ebb531f1d50ec071901a4e01f67611",
+    "cmake_name": "PacketCaptureSDK",
+    "target": "TitanPacketCaptureSDK"
+  },
+  {
+    "project": "Process-Trace-Studio",
+    "name": "process-trace-studio",
+    "legacy_name": "process-trace-studio-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Process-Trace-Studio/releases/download/sdk-v0.1.0/process-trace-studio-sdk-0.1.0.tar.gz",
+    "sha256": "820fd7c7a4332b55101db7bc7330f2db719cb3b2f16c52906116e363015a0389",
+    "cmake_name": "ProcessTraceStudioSDK",
+    "target": "TitanProcessTraceStudio"
+  },
+  {
+    "project": "ProcessGuard-SDK",
+    "name": "processguard-sdk",
+    "legacy_name": "processguard-sdk-sdk",
+    "version": "0.1.2",
+    "source": "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/sdk-v0.1.2/processguard-sdk-sdk-0.1.2.tar.gz",
+    "sha256": "840380a684b0bec2504bf6d74aaf45aae9a20e191b2ff8eedd61cf08811060e7",
+    "cmake_name": "ProcessGuardSDK",
+    "target": "TitanProcessGuardSDK"
+  },
+  {
+    "project": "RegistryGuard",
+    "name": "registryguard",
+    "legacy_name": "registryguard-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz",
+    "sha256": "d4722de4b46ed9dadc5792ff9ed9777c654f4007ac1f7c4739b7044c631eee37",
+    "cmake_name": "RegistryGuardSDK",
+    "target": "TitanRegistryGuard"
+  },
+  {
+    "project": "Remote-Workstation-SDK",
+    "name": "remote-workstation-sdk",
+    "legacy_name": "remote-workstation-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Remote-Workstation-SDK/releases/download/sdk-v0.1.1/remote-workstation-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "d96d64450a95776c6765213d451abb12d9698a844b4bd114a8c2c3f0ade69e15",
+    "cmake_name": "RemoteWorkstationSDK",
+    "target": "TitanRemoteWorkstationSDK"
+  },
+  {
+    "project": "Storage-IO-Flight-Recorder",
+    "name": "storage-io-flight-recorder",
+    "legacy_name": "storage-io-flight-recorder-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Storage-IO-Flight-Recorder/releases/download/sdk-v0.1.1/storage-io-flight-recorder-sdk-0.1.1.tar.gz",
+    "sha256": "53946454ab47eb70bc5b0a9265c4beecfad15681579483e1d52f668b9307404a",
+    "cmake_name": "StorageIOFlightRecorderSDK",
+    "target": "TitanStorageIOFlightRecorder"
+  },
+  {
+    "project": "Titan-Audio-Link",
+    "name": "titan-audio-link",
+    "legacy_name": "titan-audio-link-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Titan-Audio-Link/releases/download/sdk-v0.1.1/titan-audio-link-sdk-0.1.1.tar.gz",
+    "sha256": "427b8a68f926b1c2e322ba98a8280e1fcdd02ee365a129ccc54264da45a8ec73",
+    "cmake_name": "TitanAudioLinkSDK",
+    "target": "TitanTitanAudioLink"
+  },
+  {
+    "project": "Titan-File-Filter",
+    "name": "titan-file-filter",
+    "legacy_name": "titan-file-filter-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Titan-File-Filter/releases/download/sdk-v0.1.0/titan-file-filter-sdk-0.1.0.tar.gz",
+    "sha256": "64dbf46da473c0e99ef5537e509541d7a6c062521ae3d99a2d3778a2bece33fe",
+    "cmake_name": "TitanFileFilterSDK",
+    "target": "TitanTitanFileFilter"
+  },
+  {
+    "project": "Titan-Network-Filter",
+    "name": "titan-network-filter",
+    "legacy_name": "titan-network-filter-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Titan-Network-Filter/releases/download/sdk-v0.1.1/titan-network-filter-sdk-0.1.1.tar.gz",
+    "sha256": "bdc9a3bc3a5bd4457c36d0f8a6370d9a15f19d17da6b0b6d6e7e29d4dac0342b",
+    "cmake_name": "TitanNetworkFilterSDK",
+    "target": "TitanTitanNetworkFilter"
+  },
+  {
+    "project": "USB-over-IP-SDK",
+    "name": "usb-over-ip-sdk",
+    "legacy_name": "usb-over-ip-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/USB-over-IP-SDK/releases/download/sdk-v0.1.1/usb-over-ip-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "58054e1f86bbb3b5c11ae3424eee612a6a3d81aacf4cca44169ba23a6e5ce821",
+    "cmake_name": "USBoverIPSDK",
+    "target": "TitanUSBoverIPSDK"
+  },
+  {
+    "project": "USB-Trace-SDK",
+    "name": "usb-trace-sdk",
+    "legacy_name": "usb-trace-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/USB-Trace-SDK/releases/download/sdk-v0.1.1/usb-trace-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "342267a43acae2529c029698189c9f6469f51bb3251ab7952bbc6316fd6a83c2",
+    "cmake_name": "USBTraceSDK",
+    "target": "TitanUSBTraceSDK"
+  },
+  {
+    "project": "User-Backed-Virtual-Disk-SDK",
+    "name": "user-backed-virtual-disk-sdk",
+    "legacy_name": "user-backed-virtual-disk-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/User-Backed-Virtual-Disk-SDK/releases/download/sdk-v0.1.1/user-backed-virtual-disk-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "b94004f35f0f651ada336be5a60b7e16c984b75e7711a4fe1a1352d78cba5c90",
+    "cmake_name": "UserBackedVirtualDiskSDK",
+    "target": "TitanUserBackedVirtualDiskSDK"
+  },
+  {
+    "project": "Vdevice",
+    "name": "vdevice",
+    "legacy_name": "vdevice-sdk",
+    "version": "1.0.5",
+    "source": "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz",
+    "sha256": "091114abb8a31a5c4ab2a0809c6076bf742d0c806dc866adead9be2ec5f8711a",
+    "cmake_name": "VdeviceSDK",
+    "target": "TitanVdevice"
+  },
+  {
+    "project": "Virtual-Camera-SDK",
+    "name": "virtual-camera-sdk",
+    "legacy_name": "virtual-camera-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Virtual-Camera-SDK/releases/download/sdk-v0.1.1/virtual-camera-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "752eca34a769da3d492f4fc32122dc92f300f062482761048b7c3e35e97515dc",
+    "cmake_name": "VirtualCameraSDK",
+    "target": "TitanVirtualCameraSDK"
+  },
+  {
+    "project": "Virtual-Network-Adapter-SDK",
+    "name": "virtual-network-adapter-sdk",
+    "legacy_name": "virtual-network-adapter-sdk-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Virtual-Network-Adapter-SDK/releases/download/sdk-v0.1.1/virtual-network-adapter-sdk-sdk-0.1.1.tar.gz",
+    "sha256": "a507ec3402e520f5c1606e66cc8de234c07d718de95b08877e6a4721f5a45066",
+    "cmake_name": "VirtualNetworkAdapterSDK",
+    "target": "TitanVirtualNetworkAdapterSDK"
+  },
+  {
+    "project": "Virtual-Storage-Fault-Lab",
+    "name": "virtual-storage-fault-lab",
+    "legacy_name": "virtual-storage-fault-lab-sdk",
+    "version": "0.1.1",
+    "source": "https://github.com/titanfyre/Virtual-Storage-Fault-Lab/releases/download/sdk-v0.1.1/virtual-storage-fault-lab-sdk-0.1.1.tar.gz",
+    "sha256": "45a57d77f33eb0013f2a3cbf3522e8d52a810ed8fc3507d05beae724fae79708",
+    "cmake_name": "VirtualStorageFaultLabSDK",
+    "target": "TitanVirtualStorageFaultLab"
+  },
+  {
+    "project": "Windows-Gamepad-Filter",
+    "name": "windows-gamepad-filter",
+    "legacy_name": "windows-gamepad-filter-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Windows-Gamepad-Filter/releases/download/sdk-v0.1.0/windows-gamepad-filter-sdk-0.1.0.tar.gz",
+    "sha256": "3d33466c4d3d37c17cd20072681104b8890a7ae0f747c6c7d81f3d242d9e5e8f",
+    "cmake_name": "WindowsGamepadFilterSDK",
+    "target": "TitanWindowsGamepadFilter"
+  },
+  {
+    "project": "Windows-Input-Filter",
+    "name": "windows-input-filter",
+    "legacy_name": "windows-input-filter-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Windows-Input-Filter/releases/download/sdk-v0.1.0/windows-input-filter-sdk-0.1.0.tar.gz",
+    "sha256": "bd68addd403e6d97963bdcd35be0c517e5fb6b4f43173a828593de30c3a594b3",
+    "cmake_name": "WindowsInputFilterSDK",
+    "target": "TitanWindowsInputFilter"
+  },
+  {
+    "project": "Windows-Keyboard-Mouse-Filter",
+    "name": "windows-keyboard-mouse-filter",
+    "legacy_name": "windows-keyboard-mouse-filter-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/sdk-v0.1.0/windows-keyboard-mouse-filter-sdk-0.1.0.tar.gz",
+    "sha256": "1298fc38143cd928354f410213c73888dee3ec26818721fcb1e722839c6e86f7",
+    "cmake_name": "WindowsKeyboardMouseFilterSDK",
+    "target": "TitanWindowsKeyboardMouseFilter"
+  },
+  {
+    "project": "Windows-Virtual-Devices",
+    "name": "windows-virtual-devices",
+    "legacy_name": "windows-virtual-devices-sdk",
+    "version": "0.1.0",
+    "source": "https://github.com/titanfyre/Windows-Virtual-Devices/releases/download/sdk-v0.1.0/windows-virtual-devices-sdk-0.1.0.tar.gz",
+    "sha256": "75f4086b5f1cc81f55e5e156ef58fb48a15e8efde39362c511d9201cdb7d6a7b",
+    "cmake_name": "WindowsVirtualDevicesSDK",
+    "target": "TitanWindowsVirtualDevices"
+  },
+  {
+    "project": "node-interceptor",
+    "name": "node-interceptor",
+    "legacy_name": "node-interceptor-sdk",
+    "version": "1.0.0",
+    "source": "https://github.com/TitanCSA/node-interceptor/releases/download/sdk-native-v1.0.0/node-interceptor-sdk-1.0.0.tar.gz",
+    "sha256": "d3fb2779141ad2982c9865b7076872e9638673b1ea3b5229e2475a5c86b5b1ab",
+    "cmake_name": "NodeInterceptorSDK",
+    "target": "TitanNodeInterceptor"
+  }
+]

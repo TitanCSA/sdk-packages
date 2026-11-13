@@ -1,0 +1,4 @@
+sources:
+  "1.0.5":
+    url: "https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/releases/download/sdk-v1.0.5/interceptor-keyboard-mouse-sdk-1.0.5.tar.gz"
+    sha256: "74e6a896e563285ba6c37954d91117b490e549efa5bee8a069b065d981f3fb64"

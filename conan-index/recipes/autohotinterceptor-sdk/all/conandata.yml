@@ -1,0 +1,4 @@
+sources:
+  "1.0.0":
+    url: "https://github.com/TitanCSA/AutoHotInterceptor/releases/download/sdk-v1.0.0/autohotinterceptor-sdk-1.0.0.tar.gz"
+    sha256: "0f26e0ca6ec3273a58f66d50dd6579ef7be68e130223438b2f86cee5b6136dd3"

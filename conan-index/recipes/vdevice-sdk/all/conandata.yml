@@ -1,0 +1,4 @@
+sources:
+  "1.0.5":
+    url: "https://github.com/TitanCSA/Vdevice/releases/download/sdk-v1.0.5/vdevice-sdk-1.0.5.tar.gz"
+    sha256: "091114abb8a31a5c4ab2a0809c6076bf742d0c806dc866adead9be2ec5f8711a"

@@ -1,0 +1,4 @@
+sources:
+  "1.4.22":
+    url: "https://github.com/TitanCSA/Interceptor/releases/download/sdk-v1.4.22/interceptor-sdk-1.4.22.tar.gz"
+    sha256: "295b11d19c28a91604d159ead00a30155200b859d5805bf75b95419122436a57"

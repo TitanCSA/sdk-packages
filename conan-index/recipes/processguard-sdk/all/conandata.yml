@@ -1,0 +1,4 @@
+sources:
+  "0.1.2":
+    url: "https://github.com/titanfyre/ProcessGuard-SDK/releases/download/sdk-v0.1.2/processguard-sdk-sdk-0.1.2.tar.gz"
+    sha256: "840380a684b0bec2504bf6d74aaf45aae9a20e191b2ff8eedd61cf08811060e7"

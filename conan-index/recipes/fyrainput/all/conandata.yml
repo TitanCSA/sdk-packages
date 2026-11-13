@@ -1,0 +1,4 @@
+sources:
+  "0.1.0":
+    url: "https://github.com/TitanCSA/FyraInput-SDK/releases/download/sdk-v0.1.0/fyrainput-sdk-0.1.0.tar.gz"
+    sha256: "3665b34e5d2530862ffed228d74302d7cc21a09b1045134a95453b035b569208"
