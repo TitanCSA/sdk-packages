@@ -113,7 +113,7 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 
 Un dossier par projet rassemble les sources SDK, recettes, licences, documentation et exemples. Les depots des produits gardent leur code produit ; les versions publiees restent immuables.
 
-| Projet | Langages et commandes d installation |
+| Projet | Paquets et commandes d installation |
 | --- | --- |
 | AutoHotInterceptor | [Guide et sources](projects/AutoHotInterceptor/README.md) |
 | Browser-Control-SDK | [Guide et sources](projects/Browser-Control-SDK/README.md) |
