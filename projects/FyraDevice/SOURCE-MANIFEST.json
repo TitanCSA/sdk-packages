@@ -324,14 +324,14 @@
       "api_prefix": "fyradevice_json_"
     },
     "Dart/pub-dev": {
-      "status": "registry_rate_limited_retry_later",
+      "status": "published_install_verified",
       "name": "fyradevice",
       "version": "1.0.0",
       "directory": "FyraDevice-Dart-pub-dev",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://pub.dev/packages/fyradevice",
-      "public_consumer_verified": false,
+      "public_consumer_verified": true,
       "module": "fyradevice",
       "dll_name": "FyraDeviceJsonSDK.dll",
       "api_prefix": "fyradevice_json_"
