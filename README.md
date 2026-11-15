@@ -1,5 +1,17 @@
 # TitanCSA SDK package distribution
 
+This repository collects SDK sources, package recipes, examples and installation guides for 38 Windows integration projects.
+
+## Find your package
+
+1. Open the [SDK catalogue](#catalogue-des-sdk) and choose your project.
+2. Follow that project's guide for the exact package name, registry and installation command. Some recipes use a TitanCSA registry or channel; use the documented setup rather than assuming a community registry.
+3. Check the prerequisites and license before running the example. A package may need a separate application or matching driver; installing an SDK does not install that component.
+
+Looking for an application rather than an SDK? The [complete project guide](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md) covers all 58 public projects and explains what each one does.
+
+## Distribution and publishing notes
+
 Reviewed user-mode SDK distributions and registry publishing workflows.
 No registry credentials are stored in this repository. PyPI publishing uses
 GitHub OIDC with one workflow per pending PyPI project.
