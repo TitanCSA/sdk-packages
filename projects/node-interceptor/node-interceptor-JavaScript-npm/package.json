@@ -8,8 +8,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TitanCSA/node-interceptor.git",
-    "directory": "node-interceptor-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/node-interceptor/node-interceptor-JavaScript-npm"
   },
   "license": "LGPL-3.0-or-later",
   "main": "dist/cjs/lib/index.js",
@@ -32,7 +32,8 @@
     "CMakeLists.txt",
     "README.md",
     "NOTICE",
-    "tsconfig.json"
+    "tsconfig.json",
+    "lib/"
   ],
   "scripts": {
     "install": "node tools/install.cjs",
@@ -74,7 +75,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/TitanCSA/node-interceptor/tree/main/node-interceptor-JavaScript-npm#readme",
+  "homepage": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/node-interceptor/node-interceptor-JavaScript-npm#readme",
   "bugs": {
     "url": "https://github.com/TitanCSA/node-interceptor/issues"
   }
