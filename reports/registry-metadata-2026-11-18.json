@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-11-18T14:57:17.484397+00:00",
+  "generated_utc": "2026-11-18T15:20:47.543946+00:00",
   "project_count": 38,
   "metadata_checks": 456,
-  "scope": "Dated public metadata/POM/module/listing checks and37cleanComposer installs. Not independent endorsement, runtime compatibility, driver operation, security certification or a count of distinct products. Go proxy and pkg.go.dev are separate checks for the same modules. Existing immutable package versions are retained.",
+  "scope": "Dated public metadata/POM/module/listing checks and37cleanComposer installs. Not independent endorsement, runtime compatibility, driver operation, security certification or a count of distinct products. Go proxy and pkg.go.dev are separate checks for the same modules. Existing immutable package versions are retained. Four additional Dart archives and one npm archive were verified after publication; no native SDK execution.",
   "excluded_live_registry_checks": [
     "vcpkg custom registry",
     "Conan source index",
@@ -223,24 +223,26 @@
       "registry": "JavaScript/npm",
       "name": "changed-block-tracking-sdk",
       "url": "https://registry.npmjs.org/changed-block-tracking-sdk",
-      "http_status": 404,
-      "status": "http_error",
-      "expected_version_found": null,
-      "declared_registry_published": false,
+      "http_status": 200,
+      "status": "metadata_reachable",
+      "expected_version_found": true,
+      "declared_registry_published": true,
       "version": "1.0.0",
-      "checked_utc": "2026-11-18T14:05:48.483681+00:00"
+      "checked_utc": "2026-11-18T15:19:40.992126+00:00",
+      "public_archive_verified": true
     },
     {
       "project": "Changed-Block-Tracking-SDK",
       "registry": "Dart/pub-dev",
       "name": "changed_block_tracking_sdk",
       "url": "https://pub.dev/api/packages/changed_block_tracking_sdk",
-      "http_status": 404,
-      "status": "http_error",
-      "expected_version_found": null,
-      "declared_registry_published": false,
+      "http_status": 200,
+      "status": "metadata_reachable",
+      "expected_version_found": true,
+      "declared_registry_published": true,
       "version": "1.0.0",
-      "checked_utc": "2026-11-18T14:05:48.623688+00:00"
+      "checked_utc": "2026-11-18T15:14:25.799012+00:00",
+      "public_archive_verified": true
     },
     {
       "project": "Changed-Block-Tracking-SDK",
@@ -321,12 +323,13 @@
       "registry": "Dart/pub-dev",
       "name": "cloud_files_sdk",
       "url": "https://pub.dev/api/packages/cloud_files_sdk",
-      "http_status": 404,
-      "status": "http_error",
-      "expected_version_found": null,
-      "declared_registry_published": false,
+      "http_status": 200,
+      "status": "metadata_reachable",
+      "expected_version_found": true,
+      "declared_registry_published": true,
       "version": "1.0.0",
-      "checked_utc": "2026-11-18T14:05:49.399504+00:00"
+      "checked_utc": "2026-11-18T15:14:41.430622+00:00",
+      "public_archive_verified": true
     },
     {
       "project": "Cloud-Files-SDK",
@@ -923,12 +926,13 @@
       "registry": "Dart/pub-dev",
       "name": "hid_access_control",
       "url": "https://pub.dev/api/packages/hid_access_control",
-      "http_status": 404,
-      "status": "http_error",
-      "expected_version_found": null,
-      "declared_registry_published": false,
+      "http_status": 200,
+      "status": "metadata_reachable",
+      "expected_version_found": true,
+      "declared_registry_published": true,
       "version": "1.0.0",
-      "checked_utc": "2026-11-18T14:05:54.197407+00:00"
+      "checked_utc": "2026-11-18T15:14:53.676709+00:00",
+      "public_archive_verified": true
     },
     {
       "project": "HID-Access-Control",
@@ -1437,12 +1441,13 @@
       "registry": "Dart/pub-dev",
       "name": "network_emulation_sdk",
       "url": "https://pub.dev/api/packages/network_emulation_sdk",
-      "http_status": 404,
-      "status": "http_error",
-      "expected_version_found": null,
-      "declared_registry_published": false,
+      "http_status": 200,
+      "status": "metadata_reachable",
+      "expected_version_found": true,
+      "declared_registry_published": true,
       "version": "1.0.0",
-      "checked_utc": "2026-11-18T14:05:58.286932+00:00"
+      "checked_utc": "2026-11-18T15:15:05.189083+00:00",
+      "public_archive_verified": true
     },
     {
       "project": "Network-Emulation-SDK",
@@ -5556,5 +5561,6 @@
       "version": "1.0.0",
       "checked_utc": "2026-11-18T14:26:59.211762+00:00"
     }
-  ]
+  ],
+  "campaign_stop": "User requested finishing current operations and stopping; no further publication scheduled."
 }

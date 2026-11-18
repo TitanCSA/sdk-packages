@@ -17,7 +17,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Go/modules | published_install_verified | [hid-access-control](https://pkg.go.dev/github.com/titanfyre/HID-Access-Control/HID-Access-Control-Go-modules@v1.0.0) [Source](HID-Access-Control-Go-modules/) |
 | Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/HID-Access-Control/HID-Access-Control-Go-modules@v1.0.0) |
 | PowerShell/gallery | published_install_verified | [HIDAccessControl](https://www.powershellgallery.com/packages/HIDAccessControl/1.0.0) [Source](HID-Access-Control-PowerShell-gallery/) |
-| Dart/pub-dev | built_fixture_and_production_verified | hid_access_control [Source](HID-Access-Control-Dart-pub-dev/) |
+| Dart/pub-dev | published_payload_verified | hid_access_control [Source](HID-Access-Control-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [hid-access-control](https://rubygems.org/gems/hid-access-control) [Source](HID-Access-Control-Ruby-rubygems/) |
 | PHP/packagist | published_composer_install_verified | [titancsa/hid-access-control](https://packagist.org/packages/titancsa/hid-access-control) |
 

@@ -275,17 +275,21 @@
       "api_prefix": "cloud_files_sdk_json_"
     },
     "Dart/pub-dev": {
-      "status": "built_fixture_and_production_verified",
+      "status": "published_payload_verified",
       "name": "cloud_files_sdk",
       "version": "1.0.0",
       "directory": "Cloud-Files-SDK-Dart-pub-dev",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": null,
       "public_consumer_verified": false,
       "module": "cloud_files_sdk",
       "dll_name": "CloudFilesSDKJsonSDK.dll",
-      "api_prefix": "cloud_files_sdk_json_"
+      "api_prefix": "cloud_files_sdk_json_",
+      "public_payload_verified": true,
+      "publication_checked_utc": "2026-11-18T15:14:41.430622+00:00",
+      "public_verification_scope": "Public version metadata, canonical source, archive integrity and exact shipped file bytes. No native DLL loaded or driver operation performed.",
+      "public_archive_sha256": "bce90e914a0a64bacb586f3007f68d63678c01a5e721687180491d92ee62e59f"
     },
     "Ruby/rubygems": {
       "status": "published_install_verified",

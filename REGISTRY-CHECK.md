@@ -8,8 +8,8 @@ Public version metadata was found for every package that the manifests mark as p
 | --- | ---: | ---: |
 | NuGet | 76 | 76 |
 | PyPI | 38 | 2 |
-| npm | 38 | 10 |
-| pub.dev | 38 | 24 |
+| npm | 38 | 11 |
+| pub.dev | 38 | 28 |
 | RubyGems | 38 | 38 |
 | Packagist | 38 | 38 |
 | crates.io | 38 | 38 |
@@ -28,13 +28,13 @@ The following names returned HTTP404 at their recorded check time. Their guides 
 
 `autohotinterceptor`, `changed-block-tracking-sdk`, `cloud-files-sdk`, `connection-trace-studio`, `file-trace-studio`, `fyradevice`, `fyrainput`, `fyrainput-gamepad`, `fyrainput-keyboard-mouse`, `hid-access-control`, `interception-v2`, `interceptor-sdk`, `interceptor-gamepad-controller`, `interceptor-keyboard-mouse`, `network-emulation-sdk`, `node-interceptor`, `packet-capture-sdk`, `process-trace-studio`, `processguard-sdk`, `registryguard`, `remote-workstation-sdk`, `storage-io-flight-recorder`, `titan-audio-link`, `titan-file-filter`, `titan-network-filter`, `usb-over-ip-sdk`, `usb-trace-sdk`, `user-backed-virtual-disk-sdk`, `vdevice`, `virtual-camera-sdk`, `virtual-network-adapter-sdk`, `virtual-storage-fault-lab`, `windows-gamepad-filter`, `windows-input-filter`, `windows-keyboard-mouse-filter`, `windows-virtual-devices`.
 
-### npm — 28 names
+### npm — 27 names
 
-`changed-block-tracking-sdk`, `cloud-files-sdk`, `connection-trace-studio`, `file-trace-studio`, `fyradevice`, `hid-access-control`, `interception-v2`, `network-emulation-sdk`, `packet-capture-sdk`, `process-trace-studio`, `processguard-sdk`, `registryguard`, `remote-workstation-sdk`, `storage-io-flight-recorder`, `titan-audio-link`, `titan-file-filter`, `titan-network-filter`, `usb-over-ip-sdk`, `usb-trace-sdk`, `user-backed-virtual-disk-sdk`, `vdevice`, `virtual-camera-sdk`, `virtual-network-adapter-sdk`, `virtual-storage-fault-lab`, `windows-gamepad-filter`, `windows-input-filter`, `windows-keyboard-mouse-filter`, `windows-virtual-devices`.
+`cloud-files-sdk`, `connection-trace-studio`, `file-trace-studio`, `fyradevice`, `hid-access-control`, `interception-v2`, `network-emulation-sdk`, `packet-capture-sdk`, `process-trace-studio`, `processguard-sdk`, `registryguard`, `remote-workstation-sdk`, `storage-io-flight-recorder`, `titan-audio-link`, `titan-file-filter`, `titan-network-filter`, `usb-over-ip-sdk`, `usb-trace-sdk`, `user-backed-virtual-disk-sdk`, `vdevice`, `virtual-camera-sdk`, `virtual-network-adapter-sdk`, `virtual-storage-fault-lab`, `windows-gamepad-filter`, `windows-input-filter`, `windows-keyboard-mouse-filter`, `windows-virtual-devices`.
 
-### pub.dev — 14 names
+### pub.dev — 10 names
 
-`changed_block_tracking_sdk`, `cloud_files_sdk`, `hid_access_control`, `interception_v2`, `network_emulation_sdk`, `node_interceptor`, `packet_capture_sdk`, `remote_workstation_sdk`, `titan_audio_link`, `usb_over_ip_sdk`, `usb_trace_sdk`, `user_backed_virtual_disk_sdk`, `virtual_camera_sdk`, `virtual_network_adapter_sdk`.
+`interception_v2`, `node_interceptor`, `packet_capture_sdk`, `remote_workstation_sdk`, `titan_audio_link`, `usb_over_ip_sdk`, `usb_trace_sdk`, `user_backed_virtual_disk_sdk`, `virtual_camera_sdk`, `virtual_network_adapter_sdk`.
 
 ## Scope and evidence
 
@@ -43,3 +43,5 @@ The [machine-readable check](reports/registry-metadata-2026-11-18.json) records 
 vcpkg and Conan use the TitanCSA registries documented in each guide. The TitanCSA Conda channel is separate from official conda-forge acceptance. JitPack build status, those custom registries/channels and community-review acceptance were not newly live-qualified by this report. Existing publication receipts remain separate evidence.
 
 A registry package installs a user-mode client, source or recipe. Matching application/driver installation, Windows x64 requirements, FFI permissions, edition compatibility, preview restrictions and licensing remain those stated by the project. Successful metadata retrieval or package extraction does not establish live driver behavior.
+
+Four newly published pub.dev archives and one npm archive were also checked byte-for-byte. Further Dart creation was stopped when pub.dev reported its short-term rate limit (four in the last few minutes). The remaining prepared packages were not submitted after the user requested stopping.

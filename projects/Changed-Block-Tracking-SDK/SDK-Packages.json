@@ -202,17 +202,21 @@
       "api_prefix": "changed_block_tracking_sdk_json_"
     },
     "JavaScript/npm": {
-      "status": "stopped_before_submission",
+      "status": "published_payload_verified",
       "name": "changed-block-tracking-sdk",
       "version": "1.0.0",
       "directory": "Changed-Block-Tracking-SDK-JavaScript-npm",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": null,
       "public_consumer_verified": false,
       "module": "changed_block_tracking_sdk",
       "dll_name": "ChangedBlockTrackingSDKJsonSDK.dll",
-      "api_prefix": "changed_block_tracking_sdk_json_"
+      "api_prefix": "changed_block_tracking_sdk_json_",
+      "public_payload_verified": true,
+      "publication_checked_utc": "2026-11-18T15:19:40.992126+00:00",
+      "public_verification_scope": "Publisher identity and exact public archive bytes; no addon executed or driver operation performed.",
+      "public_archive_sha256": "07e228e87b8c900adb985a4a000b30a221f6caba096a641f53ea3fdd6b1be6ae"
     },
     "Java/maven": {
       "status": "published_install_verified",
@@ -275,17 +279,21 @@
       "api_prefix": "changed_block_tracking_sdk_json_"
     },
     "Dart/pub-dev": {
-      "status": "built_fixture_and_production_verified",
+      "status": "published_payload_verified",
       "name": "changed_block_tracking_sdk",
       "version": "1.0.0",
       "directory": "Changed-Block-Tracking-SDK-Dart-pub-dev",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": null,
       "public_consumer_verified": false,
       "module": "changed_block_tracking_sdk",
       "dll_name": "ChangedBlockTrackingSDKJsonSDK.dll",
-      "api_prefix": "changed_block_tracking_sdk_json_"
+      "api_prefix": "changed_block_tracking_sdk_json_",
+      "public_payload_verified": true,
+      "publication_checked_utc": "2026-11-18T15:14:25.799012+00:00",
+      "public_verification_scope": "Public version metadata, canonical source, archive integrity and exact shipped file bytes. No native DLL loaded or driver operation performed.",
+      "public_archive_sha256": "40a6ce0e82662f386e8451e89349fe6c87f34880facb5efdd6b516a94b7fdc9f"
     },
     "Ruby/rubygems": {
       "status": "published_install_verified",

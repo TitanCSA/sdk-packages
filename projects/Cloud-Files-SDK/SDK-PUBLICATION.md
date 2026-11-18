@@ -17,7 +17,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Go/modules | published_install_verified | [cloud-files-sdk](https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0) [Source](Cloud-Files-SDK-Go-modules/) |
 | Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0) |
 | PowerShell/gallery | published_install_verified | [CloudFilesSDK](https://www.powershellgallery.com/packages/CloudFilesSDK/1.0.0) [Source](Cloud-Files-SDK-PowerShell-gallery/) |
-| Dart/pub-dev | built_fixture_and_production_verified | cloud_files_sdk [Source](Cloud-Files-SDK-Dart-pub-dev/) |
+| Dart/pub-dev | published_payload_verified | cloud_files_sdk [Source](Cloud-Files-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [cloud-files-sdk](https://rubygems.org/gems/cloud-files-sdk) [Source](Cloud-Files-SDK-Ruby-rubygems/) |
 | PHP/packagist | published_composer_install_verified | [titancsa/cloud-files-sdk](https://packagist.org/packages/titancsa/cloud-files-sdk) |
 

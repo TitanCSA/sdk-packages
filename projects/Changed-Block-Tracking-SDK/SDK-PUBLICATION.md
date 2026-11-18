@@ -11,13 +11,13 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Python/pypi | built_fixture_and_production_verified | changed-block-tracking-sdk [Source](Changed-Block-Tracking-SDK-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [changed-block-tracking-sdk](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [changed-block-tracking-sdk](https://crates.io/crates/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-Rust-cargo/) |
-| JavaScript/npm | stopped_before_submission | changed-block-tracking-sdk [Source](Changed-Block-Tracking-SDK-JavaScript-npm/) |
+| JavaScript/npm | published_payload_verified | changed-block-tracking-sdk [Source](Changed-Block-Tracking-SDK-JavaScript-npm/) |
 | Java/maven | published_install_verified | [changed-block-tracking-sdk](https://central.sonatype.com/artifact/io.github.titancsa/changed-block-tracking-sdk/1.0.0) [Source](Changed-Block-Tracking-SDK-Java-maven/) |
 | Java/jitpack | published_install_verified | [changed-block-tracking-sdk](https://jitpack.io/#titanfyre/Changed-Block-Tracking-SDK/java-sdk-v1.0.0) [Source](Changed-Block-Tracking-SDK-Java-maven/) |
 | Go/modules | published_install_verified | [changed-block-tracking-sdk](https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0) [Source](Changed-Block-Tracking-SDK-Go-modules/) |
 | Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0) |
 | PowerShell/gallery | published_install_verified | [ChangedBlockTrackingSDK](https://www.powershellgallery.com/packages/ChangedBlockTrackingSDK/1.0.0) [Source](Changed-Block-Tracking-SDK-PowerShell-gallery/) |
-| Dart/pub-dev | built_fixture_and_production_verified | changed_block_tracking_sdk [Source](Changed-Block-Tracking-SDK-Dart-pub-dev/) |
+| Dart/pub-dev | published_payload_verified | changed_block_tracking_sdk [Source](Changed-Block-Tracking-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [changed-block-tracking-sdk](https://rubygems.org/gems/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-Ruby-rubygems/) |
 | PHP/packagist | published_composer_install_verified | [titancsa/changed-block-tracking-sdk](https://packagist.org/packages/titancsa/changed-block-tracking-sdk) |
 

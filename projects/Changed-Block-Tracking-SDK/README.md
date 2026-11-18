@@ -15,13 +15,13 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PyPI | `changed-block-tracking-sdk` | Commande prevue apres publication : `python -m pip install changed-block-tracking-sdk==1.0.0` |
 | Conda | `changed-block-tracking-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge changed-block-tracking-sdk` (canal TitanCSA) |
 | crates.io | `changed-block-tracking-sdk` | `cargo add changed-block-tracking-sdk@1.0.0` |
-| npm | `changed-block-tracking-sdk` | Commande prevue apres publication : `npm install changed-block-tracking-sdk@1.0.0` |
+| npm | `changed-block-tracking-sdk` | `npm install changed-block-tracking-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:changed-block-tracking-sdk` | `io.github.titancsa:changed-block-tracking-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Changed-Block-Tracking-SDK` | `com.github.titanfyre:Changed-Block-Tracking-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules` | `go get github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-Go-modules@v1.0.0` |
 | PowerShell Gallery | `ChangedBlockTrackingSDK` | `Install-Module ChangedBlockTrackingSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `changed_block_tracking_sdk` | Commande prevue apres publication : `dart pub add changed_block_tracking_sdk:1.0.0` |
+| pub.dev | `changed_block_tracking_sdk` | `dart pub add changed_block_tracking_sdk:1.0.0` |
 | RubyGems | `changed-block-tracking-sdk` | `gem install changed-block-tracking-sdk -v 1.0.0` |
 | Packagist | `titancsa/changed-block-tracking-sdk` | `composer require titancsa/changed-block-tracking-sdk:1.0.0` |
 

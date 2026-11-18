@@ -275,17 +275,21 @@
       "api_prefix": "network_emulation_sdk_json_"
     },
     "Dart/pub-dev": {
-      "status": "built_fixture_and_production_verified",
+      "status": "published_payload_verified",
       "name": "network_emulation_sdk",
       "version": "1.0.0",
       "directory": "Network-Emulation-SDK-Dart-pub-dev",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": null,
       "public_consumer_verified": false,
       "module": "network_emulation_sdk",
       "dll_name": "NetworkEmulationSDKJsonSDK.dll",
-      "api_prefix": "network_emulation_sdk_json_"
+      "api_prefix": "network_emulation_sdk_json_",
+      "public_payload_verified": true,
+      "publication_checked_utc": "2026-11-18T15:15:05.189083+00:00",
+      "public_verification_scope": "Public version metadata, canonical source, archive integrity and exact shipped file bytes. No native DLL loaded or driver operation performed.",
+      "public_archive_sha256": "ab02e6b52d82edfecb12f204fddef0662fe2699850df0f4641c4a1a8c8a62919"
     },
     "Ruby/rubygems": {
       "status": "published_install_verified",

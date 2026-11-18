@@ -275,17 +275,21 @@
       "api_prefix": "hid_access_control_json_"
     },
     "Dart/pub-dev": {
-      "status": "built_fixture_and_production_verified",
+      "status": "published_payload_verified",
       "name": "hid_access_control",
       "version": "1.0.0",
       "directory": "HID-Access-Control-Dart-pub-dev",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": null,
       "public_consumer_verified": false,
       "module": "hid_access_control",
       "dll_name": "HIDAccessControlJsonSDK.dll",
-      "api_prefix": "hid_access_control_json_"
+      "api_prefix": "hid_access_control_json_",
+      "public_payload_verified": true,
+      "publication_checked_utc": "2026-11-18T15:14:53.676709+00:00",
+      "public_verification_scope": "Public version metadata, canonical source, archive integrity and exact shipped file bytes. No native DLL loaded or driver operation performed.",
+      "public_archive_sha256": "9cc49126f256dbd31c3ea267a0e369debda29e751d3f9c7fc92dfc4d7ad37804"
     },
     "Ruby/rubygems": {
       "status": "published_install_verified",
