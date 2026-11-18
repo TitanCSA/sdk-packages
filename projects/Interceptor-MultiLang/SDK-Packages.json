@@ -20,8 +20,8 @@
     },
     {
       "directory": "Interceptor-MultiLang-JavaScript-npm",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "central_registry_status": "published",
+      "distribution": "Public registry package; exact version and qualification scope are reported in registry_publications"
     },
     {
       "directory": "Interceptor-MultiLang-NET-nuget",

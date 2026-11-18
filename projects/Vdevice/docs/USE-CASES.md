@@ -1,5 +1,7 @@
 # What a virtual USB device is useful for
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Vdevice). For central SDK installation, start with the [package guide](../README.md).
+
 Vdevice runs on the Windows PC. Your application supplies descriptors and reports
 and keeps a virtual device alive. It does not modify a physical keyboard, flash
 an Arduino, or automatically translate serial messages from a board.
@@ -45,7 +47,7 @@ A separate UMDF HID implementation must be diagnosed in its own architecture.
 Vdevice's KMDF/UdeCx example is not a demonstrated fix for every UMDF keyboard.
 
 Live use requires the matching installed driver and administrator access. Public
-user-mode source is MIT; demo/evaluation driver source is documented in [driver/README.md](../driver/README.md). The public driver has a one-hour
+user-mode source is MIT; demo/evaluation driver source is documented in [driver/README.md](https://github.com/TitanCSA/Vdevice/blob/main/driver/README.md). The public driver has a one-hour
 per-kernel-boot evaluation; unrestricted use has separately agreed commercial terms.
 
-[Raw API/lifecycle](API.md) · [control panels](../Examples/UI/README.md)
+[Raw API/lifecycle](API.md) · [control panels](https://github.com/TitanCSA/Vdevice/blob/main/Examples/UI/README.md)

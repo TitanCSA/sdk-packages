@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `TitanAudioLink` | `Install-Module TitanAudioLink -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `titan_audio_link` | Commande prevue apres publication : `dart pub add titan_audio_link:1.0.0` |
 | RubyGems | `titan-audio-link` | `gem install titan-audio-link -v 1.0.0` |
-| Packagist | `titancsa/titan-audio-link` | Commande prevue apres publication : `composer require titancsa/titan-audio-link:1.0.0` |
+| Packagist | `titancsa/titan-audio-link` | `composer require titancsa/titan-audio-link:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

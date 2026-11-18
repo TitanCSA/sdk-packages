@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `AutoHotInterceptor` | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `autohotinterceptor` | `dart pub add autohotinterceptor:1.0.0` |
 | RubyGems | `autohotinterceptor` | `gem install autohotinterceptor -v 1.0.0` |
-| Packagist | `titancsa/autohotinterceptor` | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
+| Packagist | `titancsa/autohotinterceptor` | `composer require titancsa/autohotinterceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

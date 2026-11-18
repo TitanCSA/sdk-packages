@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `NodeInterceptor` | `Install-Module NodeInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `node_interceptor` | Commande prevue apres publication : `dart pub add node_interceptor:1.0.0` |
 | RubyGems | `node-interceptor` | `gem install node-interceptor -v 1.0.0` |
-| Packagist | `titancsa/node-interceptor` | Commande prevue apres publication : `composer require titancsa/node-interceptor:1.0.0` |
+| Packagist | `titancsa/node-interceptor` | `composer require titancsa/node-interceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

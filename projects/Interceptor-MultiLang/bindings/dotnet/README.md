@@ -1,5 +1,7 @@
 # TitanCSA.Interceptor
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor-MultiLang). For central SDK installation, start with the [package guide](../../README.md).
+
 Windows x64 .NET 8+ wrapper for the Interceptor keyboard, mouse and gamepad driver.
 
 Install the Microsoft-signed driver from the [complete release](https://github.com/TitanCSA/Interceptor-MultiLang/releases/latest), then run your capture application as administrator.
@@ -17,4 +19,4 @@ while (true) {
 
 Receiving consumes input. Forward every family, or set `Blocked` to deliberately suppress an entry. Dispose the client to restore passthrough. The existing one-hour-per-boot driver demo applies; contact **titancsa** on Discord for unrestricted licensing.
 
-The native wrapper is MIT licensed and included in this package. The kernel driver is distributed separately under its binary demo terms; its demo source and source-license notes are documented in [driver/README.md](../../driver/README.md).
+The native wrapper is MIT licensed and included in this package. The kernel driver is distributed separately under its binary demo terms; its demo source and source-license notes are documented in [driver/README.md](https://github.com/TitanCSA/Interceptor-MultiLang/blob/main/driver/README.md).

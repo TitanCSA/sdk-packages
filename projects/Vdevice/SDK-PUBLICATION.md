@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [Vdevice](https://www.powershellgallery.com/packages/Vdevice/1.0.0) [Source](Vdevice-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | vdevice [Source](Vdevice-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [vdevice](https://rubygems.org/gems/vdevice) [Source](Vdevice-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/vdevice](https://packagist.org/packages/titancsa/vdevice) |
+| PHP/packagist | published_composer_install_verified | [titancsa/vdevice](https://packagist.org/packages/titancsa/vdevice) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

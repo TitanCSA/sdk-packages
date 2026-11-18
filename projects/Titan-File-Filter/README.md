@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `TitanFileFilter` | `Install-Module TitanFileFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `titan_file_filter` | Commande prevue apres publication : `dart pub add titan_file_filter:1.0.0` |
 | RubyGems | `titan-file-filter` | `gem install titan-file-filter -v 1.0.0` |
-| Packagist | `titancsa/titan-file-filter` | Commande prevue apres publication : `composer require titancsa/titan-file-filter:1.0.0` |
+| Packagist | `titancsa/titan-file-filter` | `composer require titancsa/titan-file-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

@@ -1,12 +1,14 @@
 # C++ SDK
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor). For central SDK installation, start with the [package guide](../README.md).
+
 The library targets Windows x64 and C++17. It consists of exactly two files:
-[`Interceptor.h`](../Interceptor/Interceptor.h) and
-[`Interceptor.cpp`](../Interceptor/Interceptor.cpp). Include the header and
+[`Interceptor.h`](../packaging/native/sdk/Interceptor/Interceptor.h) and
+[`Interceptor.cpp`](../packaging/native/sdk/Interceptor/Interceptor.cpp). Include the header and
 compile the source once with your application. Public functions are in
 `namespace Interceptor`. Install the signed kernel driver before capturing input.
 
-The **1.4.17.0** SDK requires the matching Microsoft-signed 1.4.17.0 driver.
+The packaged **1.4.22.0** SDK requires the matching 1.4.22.0 driver and client files.
 Do not combine this SDK or its viewer with an older release.
 The public API remains automatic: initialization, session ownership, source tokens
 and type-specific forwarding do not require user-managed contexts.
@@ -58,7 +60,7 @@ const auto sent = Interceptor::Send_Input(inputs);
 // Check sent.error; sent.accepted counts entries accepted by this call.
 ```
 
-Use the [complete minimal example](../Examples/Console/08_Keyboard_Minimal.cpp) for
+Use the [complete minimal example](https://github.com/TitanCSA/Interceptor/blob/main/Examples/Console/08_Keyboard_Minimal.cpp) for
 initialization failure and exception handling.
 
 `Get_Input_With_Timeout(timeout = INFINITE, stopEvent = nullptr)` opens the internal

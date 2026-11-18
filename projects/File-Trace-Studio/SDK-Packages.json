@@ -302,18 +302,23 @@
       "api_prefix": "file_trace_studio_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/file-trace-studio",
       "version": "1.0.0",
       "directory": "File-Trace-Studio-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/file-trace-studio",
       "public_consumer_verified": false,
       "module": "file_trace_studio",
       "dll_name": "FileTraceStudioJsonSDK.dll",
       "api_prefix": "file_trace_studio_json_",
-      "repository": "https://github.com/TitanCSA/file-trace-studio-php"
+      "repository": "https://github.com/TitanCSA/file-trace-studio-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:49:25.358895+00:00",
+      "public_source_commit": "472b82c1f1ab10045b0658fa2cb0512977a85aba",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

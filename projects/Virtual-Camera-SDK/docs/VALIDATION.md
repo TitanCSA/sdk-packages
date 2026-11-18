@@ -1,6 +1,8 @@
 # Validation
 
-Application/SDK 0.1.1; returned Microsoft-signed driver 0.1.0.0, Windows x64, AVStream. The signed INF matches the submission, the SYS protected-image digest matches the submitted candidate, and Microsoft catalog trust plus INF/SYS membership pass. Demo/evaluation driver source is documented in [driver/README.md](../driver/README.md).
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Virtual-Camera-SDK). For central SDK installation, start with the [package guide](../README.md).
+
+Application/SDK 0.1.1; returned Microsoft-signed driver 0.1.0.0, Windows x64, AVStream. The signed INF matches the submission, the SYS protected-image digest matches the submitted candidate, and Microsoft catalog trust plus INF/SYS membership pass. Demo/evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/Virtual-Camera-SDK/blob/main/driver/README.md).
 
 ## Signed distribution and offline checks
 

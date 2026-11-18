@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `RemoteWorkstationSDK` | `Install-Module RemoteWorkstationSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `remote_workstation_sdk` | Commande prevue apres publication : `dart pub add remote_workstation_sdk:1.0.0` |
 | RubyGems | `remote-workstation-sdk` | `gem install remote-workstation-sdk -v 1.0.0` |
-| Packagist | `titancsa/remote-workstation-sdk` | Commande prevue apres publication : `composer require titancsa/remote-workstation-sdk:1.0.0` |
+| Packagist | `titancsa/remote-workstation-sdk` | `composer require titancsa/remote-workstation-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

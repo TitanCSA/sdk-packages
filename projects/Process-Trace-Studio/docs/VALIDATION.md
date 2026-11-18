@@ -1,5 +1,7 @@
 # Validation status
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Process-Trace-Studio). For central SDK installation, start with the [package guide](../README.md).
+
 ## Returned Microsoft package (2026-10-25)
 
 The Microsoft Hardware Compatibility Publisher catalog, SYS/INF membership and
@@ -44,7 +46,7 @@ The second campaign repeated process create/exit identity, expected exit `17`, o
 
 Both campaigns used guest-only test signing with Secure Boot off. HVCI/Memory Integrity was not validated. Actual operating-system PID reuse was not forced; reused PID values are covered only by offline identity tests. No arbitrary kernel image was loaded, so kernel-image-load coverage is not claimed. Windows 11, the self-contained installers, long-duration/failure stress and production performance benchmarks still require separate coverage.
 
-Private evidence binds the exact unsigned source-package SYS hash to the separately test-signed guest copy. Adding the test signature changes the installed SYS hash; the two hashes are deliberately not represented as identical. The submission CAB itself remains unsigned and unchanged by the guest test. Evaluation driver source is documented in [driver/README.md](../driver/README.md). Full/commercial implementation, private reports and guest signing material are excluded.
+Private evidence binds the exact unsigned source-package SYS hash to the separately test-signed guest copy. Adding the test signature changes the installed SYS hash; the two hashes are deliberately not represented as identical. The submission CAB itself remains unsigned and unchanged by the guest test. Evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/Process-Trace-Studio/blob/main/driver/README.md). Full/commercial implementation, private reports and guest signing material are excluded.
 
 Required after signing, before calling the driver production-ready:
 

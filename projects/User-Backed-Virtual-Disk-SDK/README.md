@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `UserBackedVirtualDiskSDK` | `Install-Module UserBackedVirtualDiskSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `user_backed_virtual_disk_sdk` | Commande prevue apres publication : `dart pub add user_backed_virtual_disk_sdk:1.0.0` |
 | RubyGems | `user-backed-virtual-disk-sdk` | `gem install user-backed-virtual-disk-sdk -v 1.0.0` |
-| Packagist | `titancsa/user-backed-virtual-disk-sdk` | Commande prevue apres publication : `composer require titancsa/user-backed-virtual-disk-sdk:1.0.0` |
+| Packagist | `titancsa/user-backed-virtual-disk-sdk` | `composer require titancsa/user-backed-virtual-disk-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

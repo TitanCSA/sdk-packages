@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `FyraInput` | `Install-Module FyraInput -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyrainput` | `dart pub add fyrainput:1.0.0` |
 | RubyGems | `fyrainput` | `gem install fyrainput -v 1.0.0` |
-| Packagist | `titancsa/fyrainput` | Commande prevue apres publication : `composer require titancsa/fyrainput:1.0.0` |
+| Packagist | `titancsa/fyrainput` | `composer require titancsa/fyrainput:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [VirtualStorageFaultLab](https://www.powershellgallery.com/packages/VirtualStorageFaultLab/1.0.0) [Source](Virtual-Storage-Fault-Lab-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | virtual_storage_fault_lab [Source](Virtual-Storage-Fault-Lab-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [virtual-storage-fault-lab](https://rubygems.org/gems/virtual-storage-fault-lab) [Source](Virtual-Storage-Fault-Lab-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/virtual-storage-fault-lab](https://packagist.org/packages/titancsa/virtual-storage-fault-lab) |
+| PHP/packagist | published_composer_install_verified | [titancsa/virtual-storage-fault-lab](https://packagist.org/packages/titancsa/virtual-storage-fault-lab) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

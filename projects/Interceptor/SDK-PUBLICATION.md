@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [Interceptor](https://www.powershellgallery.com/packages/Interceptor/1.0.0) [Source](Interceptor-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [interceptor](https://pub.dev/packages/interceptor) [Source](Interceptor-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [interceptor-sdk](https://rubygems.org/gems/interceptor-sdk) [Source](Interceptor-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/interceptor](https://packagist.org/packages/titancsa/interceptor) |
+| PHP/packagist | published_composer_install_verified | [titancsa/interceptor](https://packagist.org/packages/titancsa/interceptor) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

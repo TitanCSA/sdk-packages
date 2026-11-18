@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [NetworkEmulationSDK](https://www.powershellgallery.com/packages/NetworkEmulationSDK/1.0.0) [Source](Network-Emulation-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | network_emulation_sdk [Source](Network-Emulation-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [network-emulation-sdk](https://rubygems.org/gems/network-emulation-sdk) [Source](Network-Emulation-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/network-emulation-sdk](https://packagist.org/packages/titancsa/network-emulation-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/network-emulation-sdk](https://packagist.org/packages/titancsa/network-emulation-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

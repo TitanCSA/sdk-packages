@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `HIDAccessControl` | `Install-Module HIDAccessControl -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `hid_access_control` | Commande prevue apres publication : `dart pub add hid_access_control:1.0.0` |
 | RubyGems | `hid-access-control` | `gem install hid-access-control -v 1.0.0` |
-| Packagist | `titancsa/hid-access-control` | Commande prevue apres publication : `composer require titancsa/hid-access-control:1.0.0` |
+| Packagist | `titancsa/hid-access-control` | `composer require titancsa/hid-access-control:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

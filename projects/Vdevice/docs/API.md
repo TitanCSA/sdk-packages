@@ -1,5 +1,7 @@
 # Raw C++ API and USB mounting guide
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Vdevice). For central SDK installation, start with the [package guide](../README.md).
+
 Use `Vdevice.h` and `Vdevice.cpp` together in a Windows C++17 application. The SDK transports exact descriptors and raw reports; it contains no device presets, typed states or encoders. Keyboard, mouse, gamepad, composite and custom protocols follow the same flow:
 
 1. Assemble `Device_Config` from descriptor bytes and optional control rules.
@@ -9,7 +11,7 @@ Use `Vdevice.h` and `Vdevice.cpp` together in a Windows C++17 application. The S
 5. `Send_Input(device, endpoint, bytes)` and keep consuming host outputs/controls.
 6. Send the protocol's release/neutral report if needed, then `Delete_Device(device)`.
 
-The [graphical examples](../Examples/UI) contain complete independent descriptor construction and this lifecycle. Their local construction functions are example code, not SDK operations. The [raw JSON sample](../Examples/UI/CustomDevice.json) is another editable description; see its [workshop instructions](../Examples/UI/README.md).
+The [graphical examples](https://github.com/TitanCSA/Vdevice/tree/main/Examples/UI) contain complete independent descriptor construction and this lifecycle. Their local construction functions are example code, not SDK operations. The [raw JSON sample](https://github.com/TitanCSA/Vdevice/blob/main/Examples/UI/CustomDevice.json) is another editable description; see its [workshop instructions](https://github.com/TitanCSA/Vdevice/blob/main/Examples/UI/README.md).
 
 ## Seven operations
 

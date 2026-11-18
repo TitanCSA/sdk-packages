@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `TitanNetworkFilter` | `Install-Module TitanNetworkFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `titan_network_filter` | Commande prevue apres publication : `dart pub add titan_network_filter:1.0.0` |
 | RubyGems | `titan-network-filter` | `gem install titan-network-filter -v 1.0.0` |
-| Packagist | `titancsa/titan-network-filter` | Commande prevue apres publication : `composer require titancsa/titan-network-filter:1.0.0` |
+| Packagist | `titancsa/titan-network-filter` | `composer require titancsa/titan-network-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

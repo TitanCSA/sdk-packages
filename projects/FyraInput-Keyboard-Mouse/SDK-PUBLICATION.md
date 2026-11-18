@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [FyraInputKeyboardMouse](https://www.powershellgallery.com/packages/FyraInputKeyboardMouse/1.0.0) [Source](FyraInput-Keyboard-Mouse-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [fyrainput_keyboard_mouse](https://pub.dev/packages/fyrainput_keyboard_mouse) [Source](FyraInput-Keyboard-Mouse-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [fyrainput-keyboard-mouse](https://rubygems.org/gems/fyrainput-keyboard-mouse) [Source](FyraInput-Keyboard-Mouse-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/fyrainput-keyboard-mouse](https://packagist.org/packages/titancsa/fyrainput-keyboard-mouse) |
+| PHP/packagist | published_composer_install_verified | [titancsa/fyrainput-keyboard-mouse](https://packagist.org/packages/titancsa/fyrainput-keyboard-mouse) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

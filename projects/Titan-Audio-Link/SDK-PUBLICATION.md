@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [TitanAudioLink](https://www.powershellgallery.com/packages/TitanAudioLink/1.0.0) [Source](Titan-Audio-Link-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | titan_audio_link [Source](Titan-Audio-Link-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [titan-audio-link](https://rubygems.org/gems/titan-audio-link) [Source](Titan-Audio-Link-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/titan-audio-link](https://packagist.org/packages/titancsa/titan-audio-link) |
+| PHP/packagist | published_composer_install_verified | [titancsa/titan-audio-link](https://packagist.org/packages/titancsa/titan-audio-link) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

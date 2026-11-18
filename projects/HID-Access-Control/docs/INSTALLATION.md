@@ -1,10 +1,12 @@
 # Installation and removal
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/HID-Access-Control). For central SDK installation, start with the [package guide](../README.md).
+
 Windows 10 2004+ / Windows 11 x64 is the target. Installation and live configuration require administrator rights. Windows kernel filter association changes take effect when device stacks are rebuilt; use Windows Restart when setup requests it.
 
 ## Complete release bundle
 
-The release ZIP contains the application, example, both setup EXEs, public C++ sources and the Microsoft-signed driver package. Each setup EXE embeds the complete package and can install it on its own. No separate driver download, test mode or developer certificate is needed. Evaluation driver source is documented in [driver/README.md](../driver/README.md).
+The release ZIP contains the application, example, both setup EXEs, public C++ sources and the Microsoft-signed driver package. Each setup EXE embeds the complete package and can install it on its own. No separate driver download, test mode or developer certificate is needed. Evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/HID-Access-Control/blob/main/driver/README.md).
 
 Keep the app, SDK and driver from the same product release. `HidAccessApp.exe --preview` is an optional labelled synthetic interface; it does not test physical-device compatibility or enable a driver session.
 

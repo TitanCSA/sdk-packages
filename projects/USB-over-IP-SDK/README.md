@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `USBoverIPSDK` | `Install-Module USBoverIPSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `usb_over_ip_sdk` | Commande prevue apres publication : `dart pub add usb_over_ip_sdk:1.0.0` |
 | RubyGems | `usb-over-ip-sdk` | `gem install usb-over-ip-sdk -v 1.0.0` |
-| Packagist | `titancsa/usb-over-ip-sdk` | Commande prevue apres publication : `composer require titancsa/usb-over-ip-sdk:1.0.0` |
+| Packagist | `titancsa/usb-over-ip-sdk` | `composer require titancsa/usb-over-ip-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

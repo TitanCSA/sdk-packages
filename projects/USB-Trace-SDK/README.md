@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `USBTraceSDK` | `Install-Module USBTraceSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `usb_trace_sdk` | Commande prevue apres publication : `dart pub add usb_trace_sdk:1.0.0` |
 | RubyGems | `usb-trace-sdk` | `gem install usb-trace-sdk -v 1.0.0` |
-| Packagist | `titancsa/usb-trace-sdk` | Commande prevue apres publication : `composer require titancsa/usb-trace-sdk:1.0.0` |
+| Packagist | `titancsa/usb-trace-sdk` | `composer require titancsa/usb-trace-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

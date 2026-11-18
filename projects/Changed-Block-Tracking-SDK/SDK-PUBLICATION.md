@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [ChangedBlockTrackingSDK](https://www.powershellgallery.com/packages/ChangedBlockTrackingSDK/1.0.0) [Source](Changed-Block-Tracking-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | changed_block_tracking_sdk [Source](Changed-Block-Tracking-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [changed-block-tracking-sdk](https://rubygems.org/gems/changed-block-tracking-sdk) [Source](Changed-Block-Tracking-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/changed-block-tracking-sdk](https://packagist.org/packages/titancsa/changed-block-tracking-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/changed-block-tracking-sdk](https://packagist.org/packages/titancsa/changed-block-tracking-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

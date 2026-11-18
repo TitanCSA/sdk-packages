@@ -1,7 +1,9 @@
 # Validation and storage boundaries
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Changed-Block-Tracking-SDK). For central SDK installation, start with the [package guide](../README.md).
+
 This document describes the current signed demo/full implementation and its
-release qualification. The separate [demo-only source preview](../driver/README.md)
+release qualification. The separate [demo-only source preview](https://github.com/titanfyre/Changed-Block-Tracking-SDK/blob/main/driver/README.md)
 uses new identities and has compile/link plus ABI-rejection checks only.
 The runtime and hardware results below do not qualify that new preview.
 

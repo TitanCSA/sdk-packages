@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [AutoHotInterceptor](https://www.powershellgallery.com/packages/AutoHotInterceptor/1.0.0) [Source](AutoHotInterceptor-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [autohotinterceptor](https://pub.dev/packages/autohotinterceptor) [Source](AutoHotInterceptor-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [autohotinterceptor](https://rubygems.org/gems/autohotinterceptor) [Source](AutoHotInterceptor-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/autohotinterceptor](https://packagist.org/packages/titancsa/autohotinterceptor) |
+| PHP/packagist | published_composer_install_verified | [titancsa/autohotinterceptor](https://packagist.org/packages/titancsa/autohotinterceptor) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

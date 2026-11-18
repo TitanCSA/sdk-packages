@@ -1,5 +1,7 @@
 # Validation status
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Connection-Trace-Studio). For central SDK installation, start with the [package guide](../README.md).
+
 ## Returned Microsoft package (2026-10-25)
 
 The Microsoft Hardware Compatibility Publisher catalog, SYS/INF membership and
@@ -65,7 +67,7 @@ These checks never open
 a sensor or WFP session and cannot prove kernel runtime stability.
 
 Private build validation uses WDK 26100, W4/WX, PREfast, CFG, InfVerif /w and /u,
-Inf2Cat, and SHA-256 verification of expanded submission payloads. Demo/evaluation driver source is documented in [driver/README.md](../driver/README.md). The installer verifies Microsoft catalog trust, exact package
+Inf2Cat, and SHA-256 verification of expanded submission payloads. Demo/evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/Connection-Trace-Studio/blob/main/driver/README.md). The installer verifies Microsoft catalog trust, exact package
 identity and INF/SYS catalog membership. The signed evaluation package is now included in the release installers.
 
 Required next validation: the signed package on Windows 11 x64,

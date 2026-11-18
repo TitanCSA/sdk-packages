@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [PacketCaptureSDK](https://www.powershellgallery.com/packages/PacketCaptureSDK/1.0.0) [Source](Packet-Capture-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | packet_capture_sdk [Source](Packet-Capture-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [packet-capture-sdk](https://rubygems.org/gems/packet-capture-sdk) [Source](Packet-Capture-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/packet-capture-sdk](https://packagist.org/packages/titancsa/packet-capture-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/packet-capture-sdk](https://packagist.org/packages/titancsa/packet-capture-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

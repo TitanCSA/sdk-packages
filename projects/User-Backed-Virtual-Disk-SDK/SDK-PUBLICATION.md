@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [UserBackedVirtualDiskSDK](https://www.powershellgallery.com/packages/UserBackedVirtualDiskSDK/1.0.0) [Source](User-Backed-Virtual-Disk-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | user_backed_virtual_disk_sdk [Source](User-Backed-Virtual-Disk-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [user-backed-virtual-disk-sdk](https://rubygems.org/gems/user-backed-virtual-disk-sdk) [Source](User-Backed-Virtual-Disk-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/user-backed-virtual-disk-sdk](https://packagist.org/packages/titancsa/user-backed-virtual-disk-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/user-backed-virtual-disk-sdk](https://packagist.org/packages/titancsa/user-backed-virtual-disk-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

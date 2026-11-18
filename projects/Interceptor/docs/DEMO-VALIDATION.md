@@ -1,5 +1,7 @@
 # Validation scope - 1.4.22.0
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor). For central SDK installation, start with the [package guide](../README.md).
+
 The embedded driver and required demo clock carry valid Microsoft Windows
 Hardware Compatibility Publisher signatures. Their executable bodies and INF
 files match the frozen production candidates. Kernel catalog membership is
@@ -20,4 +22,4 @@ or zero-latency claim is made.
 
 The demo remains 3,600 seconds per product per Windows kernel boot, shared by
 applications. The existing trial clock policy and expiry behavior are unchanged.
-Use Windows Restart after setup requests it. Demo driver source is documented separately in [driver/README.md](../driver/README.md). Full/commercial implementation and private signing material are excluded from this user-mode SDK distribution.
+Use Windows Restart after setup requests it. Demo driver source is documented separately in [driver/README.md](https://github.com/TitanCSA/Interceptor/blob/main/driver/README.md). Full/commercial implementation and private signing material are excluded from this user-mode SDK distribution.

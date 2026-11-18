@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `InterceptionV2` | `Install-Module InterceptionV2 -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `interception_v2` | Commande prevue apres publication : `dart pub add interception_v2:1.0.0` |
 | RubyGems | `interception-v2` | `gem install interception-v2 -v 1.0.0` |
-| Packagist | `titancsa/interception-v2` | Commande prevue apres publication : `composer require titancsa/interception-v2:1.0.0` |
+| Packagist | `titancsa/interception-v2` | `composer require titancsa/interception-v2:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [StorageIOFlightRecorder](https://www.powershellgallery.com/packages/StorageIOFlightRecorder/1.0.0) [Source](Storage-IO-Flight-Recorder-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | storage_io_flight_recorder [Source](Storage-IO-Flight-Recorder-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [storage-io-flight-recorder](https://rubygems.org/gems/storage-io-flight-recorder) [Source](Storage-IO-Flight-Recorder-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/storage-io-flight-recorder](https://packagist.org/packages/titancsa/storage-io-flight-recorder) |
+| PHP/packagist | published_composer_install_verified | [titancsa/storage-io-flight-recorder](https://packagist.org/packages/titancsa/storage-io-flight-recorder) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

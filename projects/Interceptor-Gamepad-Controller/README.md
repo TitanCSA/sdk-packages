@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `InterceptorGamepadController` | `Install-Module InterceptorGamepadController -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `interceptor_gamepad_controller` | `dart pub add interceptor_gamepad_controller:1.0.0` |
 | RubyGems | `interceptor-gamepad-controller` | `gem install interceptor-gamepad-controller -v 1.0.0` |
-| Packagist | `titancsa/interceptor-gamepad-controller` | Commande prevue apres publication : `composer require titancsa/interceptor-gamepad-controller:1.0.0` |
+| Packagist | `titancsa/interceptor-gamepad-controller` | `composer require titancsa/interceptor-gamepad-controller:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

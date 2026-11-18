@@ -270,18 +270,23 @@
       "api_prefix": "windows_gamepad_filter_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/windows-gamepad-filter",
       "version": "1.0.0",
       "directory": "Windows-Gamepad-Filter-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/windows-gamepad-filter",
       "public_consumer_verified": false,
       "module": "windows_gamepad_filter",
       "dll_name": "WindowsGamepadFilterBridge.dll",
       "api_prefix": "windows_gamepad_filter_",
-      "repository": "https://github.com/TitanCSA/windows-gamepad-filter-php"
+      "repository": "https://github.com/TitanCSA/windows-gamepad-filter-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:50:55.314744+00:00",
+      "public_source_commit": "fd18b3ecf4c0d0cd0960a73403fa89f8e0074de3",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",

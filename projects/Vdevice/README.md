@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `Vdevice` | `Install-Module Vdevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `vdevice` | `dart pub add vdevice:1.0.0` |
 | RubyGems | `vdevice` | `gem install vdevice -v 1.0.0` |
-| Packagist | `titancsa/vdevice` | Commande prevue apres publication : `composer require titancsa/vdevice:1.0.0` |
+| Packagist | `titancsa/vdevice` | `composer require titancsa/vdevice:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

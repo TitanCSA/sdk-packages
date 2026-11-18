@@ -302,18 +302,23 @@
       "api_prefix": "windows_virtual_devices_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/windows-virtual-devices",
       "version": "1.0.0",
       "directory": "Windows-Virtual-Devices-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/windows-virtual-devices",
       "public_consumer_verified": false,
       "module": "windows_virtual_devices",
       "dll_name": "WindowsVirtualDevicesJsonSDK.dll",
       "api_prefix": "windows_virtual_devices_json_",
-      "repository": "https://github.com/TitanCSA/windows-virtual-devices-php"
+      "repository": "https://github.com/TitanCSA/windows-virtual-devices-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:51:05.195305+00:00",
+      "public_source_commit": "896fa3f1fab5f2819b1a9c3cdd2922dbddc49066",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

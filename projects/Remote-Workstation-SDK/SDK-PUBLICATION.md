@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [RemoteWorkstationSDK](https://www.powershellgallery.com/packages/RemoteWorkstationSDK/1.0.0) [Source](Remote-Workstation-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | remote_workstation_sdk [Source](Remote-Workstation-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [remote-workstation-sdk](https://rubygems.org/gems/remote-workstation-sdk) [Source](Remote-Workstation-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/remote-workstation-sdk](https://packagist.org/packages/titancsa/remote-workstation-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/remote-workstation-sdk](https://packagist.org/packages/titancsa/remote-workstation-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [ProcessTraceStudio](https://www.powershellgallery.com/packages/ProcessTraceStudio/1.0.0) [Source](Process-Trace-Studio-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | process_trace_studio [Source](Process-Trace-Studio-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [process-trace-studio](https://rubygems.org/gems/process-trace-studio) [Source](Process-Trace-Studio-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/process-trace-studio](https://packagist.org/packages/titancsa/process-trace-studio) |
+| PHP/packagist | published_composer_install_verified | [titancsa/process-trace-studio](https://packagist.org/packages/titancsa/process-trace-studio) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

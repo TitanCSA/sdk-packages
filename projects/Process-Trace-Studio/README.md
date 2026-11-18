@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `ProcessTraceStudio` | `Install-Module ProcessTraceStudio -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `process_trace_studio` | Commande prevue apres publication : `dart pub add process_trace_studio:1.0.0` |
 | RubyGems | `process-trace-studio` | `gem install process-trace-studio -v 1.0.0` |
-| Packagist | `titancsa/process-trace-studio` | Commande prevue apres publication : `composer require titancsa/process-trace-studio:1.0.0` |
+| Packagist | `titancsa/process-trace-studio` | `composer require titancsa/process-trace-studio:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

@@ -301,18 +301,23 @@
       "api_prefix": "cloud_files_sdk_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/cloud-files-sdk",
       "version": "1.0.0",
       "directory": "Cloud-Files-SDK-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/cloud-files-sdk",
       "public_consumer_verified": false,
       "module": "cloud_files_sdk",
       "dll_name": "CloudFilesSDKJsonSDK.dll",
       "api_prefix": "cloud_files_sdk_json_",
-      "repository": "https://github.com/TitanCSA/cloud-files-sdk-php"
+      "repository": "https://github.com/TitanCSA/cloud-files-sdk-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:49:19.100182+00:00",
+      "public_source_commit": "72ab393803eced607dfbfb71126a621294b3daf6",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

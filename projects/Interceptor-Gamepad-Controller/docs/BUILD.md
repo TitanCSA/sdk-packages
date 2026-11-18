@@ -1,5 +1,7 @@
 # Build the SDK and applications
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor-Gamepad-Controller). For central SDK installation, start with the [package guide](../README.md).
+
 Use Windows x64, Visual Studio 2022 or Build Tools with **Desktop development
 with C++**, a Windows SDK and CMake. The UI uses .NET Framework 4.6, included in
 Windows 10/11. The build downloads hash-verified Microsoft .NET reference
@@ -30,7 +32,7 @@ also build their respective installer independently.
 Each build compiles user-mode code only. Installers embed the supplied
 Microsoft-signed demo driver package and the precompiled product-specific
 recovery binaries from `Installer/UI/Package/`. SHA-256 manifests are verified
-before packaging. Driver and recovery binaries are not rebuilt by this user-mode build. Demo driver source is documented in [driver/README.md](../driver/README.md); recovery implementation source and private signing material remain excluded. Building does not install a
+before packaging. Driver and recovery binaries are not rebuilt by this user-mode build. Demo driver source is documented in [driver/README.md](https://github.com/TitanCSA/Interceptor-Gamepad-Controller/blob/main/driver/README.md); recovery implementation source and private signing material remain excluded. Building does not install a
 driver, capture input or change Windows settings.
 
 The diagnostic worker, installer and viewer self-tests verify user-mode

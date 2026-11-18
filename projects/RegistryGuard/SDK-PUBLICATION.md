@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [RegistryGuard](https://www.powershellgallery.com/packages/RegistryGuard/1.0.0) [Source](RegistryGuard-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | registryguard [Source](RegistryGuard-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [registryguard](https://rubygems.org/gems/registryguard) [Source](RegistryGuard-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/registryguard](https://packagist.org/packages/titancsa/registryguard) |
+| PHP/packagist | published_composer_install_verified | [titancsa/registryguard](https://packagist.org/packages/titancsa/registryguard) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

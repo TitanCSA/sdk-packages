@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [WindowsVirtualDevices](https://www.powershellgallery.com/packages/WindowsVirtualDevices/1.0.0) [Source](Windows-Virtual-Devices-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | windows_virtual_devices [Source](Windows-Virtual-Devices-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [windows-virtual-devices](https://rubygems.org/gems/windows-virtual-devices) [Source](Windows-Virtual-Devices-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/windows-virtual-devices](https://packagist.org/packages/titancsa/windows-virtual-devices) |
+| PHP/packagist | published_composer_install_verified | [titancsa/windows-virtual-devices](https://packagist.org/packages/titancsa/windows-virtual-devices) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

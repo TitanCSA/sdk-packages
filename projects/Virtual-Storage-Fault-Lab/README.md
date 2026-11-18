@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `VirtualStorageFaultLab` | `Install-Module VirtualStorageFaultLab -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `virtual_storage_fault_lab` | Commande prevue apres publication : `dart pub add virtual_storage_fault_lab:1.0.0` |
 | RubyGems | `virtual-storage-fault-lab` | `gem install virtual-storage-fault-lab -v 1.0.0` |
-| Packagist | `titancsa/virtual-storage-fault-lab` | Commande prevue apres publication : `composer require titancsa/virtual-storage-fault-lab:1.0.0` |
+| Packagist | `titancsa/virtual-storage-fault-lab` | `composer require titancsa/virtual-storage-fault-lab:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

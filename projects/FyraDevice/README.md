@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `FyraDevice` | `Install-Module FyraDevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyradevice` | `dart pub add fyradevice:1.0.0` |
 | RubyGems | `fyradevice` | `gem install fyradevice -v 1.0.0` |
-| Packagist | `titancsa/fyradevice` | Commande prevue apres publication : `composer require titancsa/fyradevice:1.0.0` |
+| Packagist | `titancsa/fyradevice` | `composer require titancsa/fyradevice:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

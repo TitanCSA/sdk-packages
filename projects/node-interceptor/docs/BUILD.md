@@ -1,5 +1,7 @@
 # Build and test
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/node-interceptor). For central SDK installation, start with the [package guide](../README.md).
+
 Use Node.js 20+, Visual Studio 2022 C++ tools, Python and a Windows SDK:
 
 ```powershell
@@ -12,6 +14,6 @@ The addon uses Node-API 8, avoiding a V8-version-specific binding. `binding.gyp`
 
 For deterministic tests, configure CMake with `-DINTERCEPTOR_TEST_BACKEND=ON`, `-DNODE_HEADERS=...`, `-DNODE_LIBRARY=...` into **obj/Test**, then build Release and run `npm test`. Test source uses the synthetic SDK in `test/native`; it never accesses physical input. Production binaries must be built with the test backend **off**. The test-only `testPushKey`/`testPushMouse` exports must never appear in release addons.
 
-The source distribution includes the addon, JS/TypeScript wrapper and Interceptor SDK. Static MSVC runtime linkage removes the need for a separate VC runtime installer. Only the existing signed driver installers are redistributed; Demo/evaluation driver source is documented in [driver/README.md](../driver/README.md).
+The source distribution includes the addon, JS/TypeScript wrapper and Interceptor SDK. Static MSVC runtime linkage removes the need for a separate VC runtime installer. Only the existing signed driver installers are redistributed; Demo/evaluation driver source is documented in [driver/README.md](https://github.com/TitanCSA/node-interceptor/blob/main/driver/README.md).
 
 Use the release `.tgz` for deployment without compiler tools. To produce it from source, build both architectures into `prebuilds/win32-x64` and `prebuilds/win32-ia32`, compile TypeScript, then `npm pack`. `npm install` checks that a prebuilt addon exists and never requests elevation. `/install`, `/uninstall` and `--ui` explicitly request driver setup through UAC.

@@ -301,18 +301,23 @@
       "api_prefix": "storage_io_flight_recorder_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/storage-io-flight-recorder",
       "version": "1.0.0",
       "directory": "Storage-IO-Flight-Recorder-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/storage-io-flight-recorder",
       "public_consumer_verified": false,
       "module": "storage_io_flight_recorder",
       "dll_name": "StorageIOFlightRecorderJsonSDK.dll",
       "api_prefix": "storage_io_flight_recorder_json_",
-      "repository": "https://github.com/TitanCSA/storage-io-flight-recorder-php"
+      "repository": "https://github.com/TitanCSA/storage-io-flight-recorder-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:50:20.755377+00:00",
+      "public_source_commit": "1e89c6c11383aeb45fd4d7f0c26ea2d365cc8f5a",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

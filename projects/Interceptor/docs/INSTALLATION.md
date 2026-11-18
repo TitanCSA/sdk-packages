@@ -1,5 +1,7 @@
 # Install, use and remove the Interceptor kernel driver
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor). For central SDK installation, start with the [package guide](../README.md).
+
 ## Requirements
 
 - Windows 10 or Windows 11, **x64**.
@@ -75,7 +77,7 @@ Inputs are forwarded while being displayed; **Stop** ends capture.
 Close other capture applications first. An idle controller is not an installation
 failure, and an unavailable protocol profile is reported separately.
 
-The [console examples](../Examples/Console/README.md) demonstrate H/J swapping,
+The [console examples](https://github.com/TitanCSA/Interceptor/blob/main/Examples/Console/README.md) demonstrate H/J swapping,
 Ctrl+H typing `hello`, mouse axis
 inversion, combined keyboard/mouse mapping, keyboard/mouse blocking monitors,
 HID controller axis inversion and a minimal batch loop. Blocking monitors

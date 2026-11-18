@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `FyraInputGamepad` | `Install-Module FyraInputGamepad -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyrainput_gamepad` | `dart pub add fyrainput_gamepad:1.0.0` |
 | RubyGems | `fyrainput-gamepad` | `gem install fyrainput-gamepad -v 1.0.0` |
-| Packagist | `titancsa/fyrainput-gamepad` | Commande prevue apres publication : `composer require titancsa/fyrainput-gamepad:1.0.0` |
+| Packagist | `titancsa/fyrainput-gamepad` | `composer require titancsa/fyrainput-gamepad:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

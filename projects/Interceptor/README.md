@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `Interceptor` | `Install-Module Interceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `interceptor` | `dart pub add interceptor:1.0.0` |
 | RubyGems | `interceptor-sdk` | `gem install interceptor-sdk -v 2.0.0` |
-| Packagist | `titancsa/interceptor` | Commande prevue apres publication : `composer require titancsa/interceptor:1.0.0` |
+| Packagist | `titancsa/interceptor` | `composer require titancsa/interceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

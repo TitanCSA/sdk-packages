@@ -301,18 +301,23 @@
       "api_prefix": "usb_over_ip_sdk_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/usb-over-ip-sdk",
       "version": "1.0.0",
       "directory": "USB-over-IP-SDK-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/usb-over-ip-sdk",
       "public_consumer_verified": false,
       "module": "usb_over_ip_sdk",
       "dll_name": "USBoverIPSDKJsonSDK.dll",
       "api_prefix": "usb_over_ip_sdk_json_",
-      "repository": "https://github.com/TitanCSA/usb-over-ip-sdk-php"
+      "repository": "https://github.com/TitanCSA/usb-over-ip-sdk-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:50:33.404676+00:00",
+      "public_source_commit": "a9818e716543575a12425137db9d9c1dbb8af309",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

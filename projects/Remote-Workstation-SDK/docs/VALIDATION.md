@@ -1,7 +1,9 @@
 # Validation and boundaries
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Remote-Workstation-SDK). For central SDK installation, start with the [package guide](../README.md).
+
 This document describes the current signed demo/full implementation and its
-release qualification. The separate [demo-only source preview](../driver/README.md)
+release qualification. The separate [demo-only source preview](https://github.com/titanfyre/Remote-Workstation-SDK/blob/main/driver/README.md)
 uses new identities and has compile/link plus ABI-rejection checks only.
 The runtime and hardware results below do not qualify that new preview.
 
@@ -107,6 +109,6 @@ APIs and independent user-mode reimplementations remain usable outside it. A
 public-source user-mode implementation is not unbreakable licensing enforcement.
 
 Kernel source for the current signed/full-activation runtime remains excluded.
-The separate [demo-only source preview](../driver/README.md) is included in
+The separate [demo-only source preview](https://github.com/titanfyre/Remote-Workstation-SDK/blob/main/driver/README.md) is included in
 `driver/`. CABs, PDBs, private lab probes, signing credentials and customer keys
 remain excluded from public repositories and downloads.

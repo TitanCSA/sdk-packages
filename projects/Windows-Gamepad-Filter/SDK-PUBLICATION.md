@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [WindowsGamepadFilter](https://www.powershellgallery.com/packages/WindowsGamepadFilter/1.0.0) [Source](Windows-Gamepad-Filter-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [windows_gamepad_filter](https://pub.dev/packages/windows_gamepad_filter) [Source](Windows-Gamepad-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [windows-gamepad-filter](https://rubygems.org/gems/windows-gamepad-filter) [Source](Windows-Gamepad-Filter-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/windows-gamepad-filter](https://packagist.org/packages/titancsa/windows-gamepad-filter) |
+| PHP/packagist | published_composer_install_verified | [titancsa/windows-gamepad-filter](https://packagist.org/packages/titancsa/windows-gamepad-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

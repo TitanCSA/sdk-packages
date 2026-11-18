@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [USBTraceSDK](https://www.powershellgallery.com/packages/USBTraceSDK/1.0.0) [Source](USB-Trace-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | usb_trace_sdk [Source](USB-Trace-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [usb-trace-sdk](https://rubygems.org/gems/usb-trace-sdk) [Source](USB-Trace-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/usb-trace-sdk](https://packagist.org/packages/titancsa/usb-trace-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/usb-trace-sdk](https://packagist.org/packages/titancsa/usb-trace-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [WindowsKeyboardMouseFilter](https://www.powershellgallery.com/packages/WindowsKeyboardMouseFilter/1.0.0) [Source](Windows-Keyboard-Mouse-Filter-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [windows_keyboard_mouse_filter](https://pub.dev/packages/windows_keyboard_mouse_filter) [Source](Windows-Keyboard-Mouse-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [windows-keyboard-mouse-filter](https://rubygems.org/gems/windows-keyboard-mouse-filter) [Source](Windows-Keyboard-Mouse-Filter-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/windows-keyboard-mouse-filter](https://packagist.org/packages/titancsa/windows-keyboard-mouse-filter) |
+| PHP/packagist | published_composer_install_verified | [titancsa/windows-keyboard-mouse-filter](https://packagist.org/packages/titancsa/windows-keyboard-mouse-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

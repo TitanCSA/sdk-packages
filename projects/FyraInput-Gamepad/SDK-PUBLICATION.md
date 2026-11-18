@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [FyraInputGamepad](https://www.powershellgallery.com/packages/FyraInputGamepad/1.0.0) [Source](FyraInput-Gamepad-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [fyrainput_gamepad](https://pub.dev/packages/fyrainput_gamepad) [Source](FyraInput-Gamepad-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [fyrainput-gamepad](https://rubygems.org/gems/fyrainput-gamepad) [Source](FyraInput-Gamepad-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/fyrainput-gamepad](https://packagist.org/packages/titancsa/fyrainput-gamepad) |
+| PHP/packagist | published_composer_install_verified | [titancsa/fyrainput-gamepad](https://packagist.org/packages/titancsa/fyrainput-gamepad) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

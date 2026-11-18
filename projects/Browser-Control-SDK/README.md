@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `BrowserControlSDK` | `Install-Module BrowserControlSDK -RequiredVersion 0.2.1 -Scope CurrentUser` |
 | pub.dev | `browser_control_sdk` | `dart pub add browser_control_sdk:0.2.1` |
 | RubyGems | `browser-control-sdk` | `gem install browser-control-sdk -v 0.2.2` |
-| Packagist | `titancsa/browser-control-sdk` | Commande prevue apres publication : `composer require titancsa/browser-control-sdk:1.0.0` |
+| Packagist | `titancsa/browser-control-sdk` | `composer require titancsa/browser-control-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

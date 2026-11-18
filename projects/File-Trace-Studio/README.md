@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `FileTraceStudio` | `Install-Module FileTraceStudio -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `file_trace_studio` | `dart pub add file_trace_studio:1.0.0` |
 | RubyGems | `file-trace-studio` | `gem install file-trace-studio -v 1.0.0` |
-| Packagist | `titancsa/file-trace-studio` | Commande prevue apres publication : `composer require titancsa/file-trace-studio:1.0.0` |
+| Packagist | `titancsa/file-trace-studio` | `composer require titancsa/file-trace-studio:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

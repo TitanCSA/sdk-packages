@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [CloudFilesSDK](https://www.powershellgallery.com/packages/CloudFilesSDK/1.0.0) [Source](Cloud-Files-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | cloud_files_sdk [Source](Cloud-Files-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [cloud-files-sdk](https://rubygems.org/gems/cloud-files-sdk) [Source](Cloud-Files-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/cloud-files-sdk](https://packagist.org/packages/titancsa/cloud-files-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/cloud-files-sdk](https://packagist.org/packages/titancsa/cloud-files-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

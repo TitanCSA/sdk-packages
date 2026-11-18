@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [InterceptorKeyboardMouse](https://www.powershellgallery.com/packages/InterceptorKeyboardMouse/1.0.0) [Source](Interceptor-Keyboard-Mouse-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [interceptor_keyboard_mouse](https://pub.dev/packages/interceptor_keyboard_mouse) [Source](Interceptor-Keyboard-Mouse-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [interceptor-keyboard-mouse](https://rubygems.org/gems/interceptor-keyboard-mouse) [Source](Interceptor-Keyboard-Mouse-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/interceptor-keyboard-mouse](https://packagist.org/packages/titancsa/interceptor-keyboard-mouse) |
+| PHP/packagist | published_composer_install_verified | [titancsa/interceptor-keyboard-mouse](https://packagist.org/packages/titancsa/interceptor-keyboard-mouse) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

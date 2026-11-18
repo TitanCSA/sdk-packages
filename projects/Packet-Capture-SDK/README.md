@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `PacketCaptureSDK` | `Install-Module PacketCaptureSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `packet_capture_sdk` | Commande prevue apres publication : `dart pub add packet_capture_sdk:1.0.0` |
 | RubyGems | `packet-capture-sdk` | `gem install packet-capture-sdk -v 1.0.0` |
-| Packagist | `titancsa/packet-capture-sdk` | Commande prevue apres publication : `composer require titancsa/packet-capture-sdk:1.0.0` |
+| Packagist | `titancsa/packet-capture-sdk` | `composer require titancsa/packet-capture-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

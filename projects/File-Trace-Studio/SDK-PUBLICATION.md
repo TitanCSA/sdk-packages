@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [FileTraceStudio](https://www.powershellgallery.com/packages/FileTraceStudio/1.0.0) [Source](File-Trace-Studio-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | file_trace_studio [Source](File-Trace-Studio-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [file-trace-studio](https://rubygems.org/gems/file-trace-studio) [Source](File-Trace-Studio-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/file-trace-studio](https://packagist.org/packages/titancsa/file-trace-studio) |
+| PHP/packagist | published_composer_install_verified | [titancsa/file-trace-studio](https://packagist.org/packages/titancsa/file-trace-studio) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

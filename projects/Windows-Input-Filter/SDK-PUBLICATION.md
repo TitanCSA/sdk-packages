@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [WindowsInputFilter](https://www.powershellgallery.com/packages/WindowsInputFilter/1.0.0) [Source](Windows-Input-Filter-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [windows_input_filter](https://pub.dev/packages/windows_input_filter) [Source](Windows-Input-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [windows-input-filter](https://rubygems.org/gems/windows-input-filter) [Source](Windows-Input-Filter-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/windows-input-filter](https://packagist.org/packages/titancsa/windows-input-filter) |
+| PHP/packagist | published_composer_install_verified | [titancsa/windows-input-filter](https://packagist.org/packages/titancsa/windows-input-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

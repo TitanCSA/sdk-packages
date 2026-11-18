@@ -301,18 +301,23 @@
       "api_prefix": "connection_trace_studio_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/connection-trace-studio",
       "version": "1.0.0",
       "directory": "Connection-Trace-Studio-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/connection-trace-studio",
       "public_consumer_verified": false,
       "module": "connection_trace_studio",
       "dll_name": "ConnectionTraceStudioJsonSDK.dll",
       "api_prefix": "connection_trace_studio_json_",
-      "repository": "https://github.com/TitanCSA/connection-trace-studio-php"
+      "repository": "https://github.com/TitanCSA/connection-trace-studio-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:49:22.211543+00:00",
+      "public_source_commit": "a726afd0a631daee8753b1a5889a2109f23663d1",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

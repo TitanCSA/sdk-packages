@@ -19,8 +19,8 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [NodeInterceptor](https://www.powershellgallery.com/packages/NodeInterceptor/1.0.0) [Source](node-interceptor-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | node_interceptor [Source](node-interceptor-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [node-interceptor](https://rubygems.org/gems/node-interceptor) [Source](node-interceptor-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/node-interceptor](https://packagist.org/packages/titancsa/node-interceptor) |
+| PHP/packagist | published_composer_install_verified | [titancsa/node-interceptor](https://packagist.org/packages/titancsa/node-interceptor) |
 
-Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
+Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/README.txt). Previous release archives and tags remain unchanged.
 
 Application and driver prerequisites and original licensing remain those documented by each SDK. No driver installer is bundled with these source packages.

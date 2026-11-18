@@ -301,18 +301,23 @@
       "api_prefix": "virtual_storage_fault_lab_json_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/virtual-storage-fault-lab",
       "version": "1.0.0",
       "directory": "Virtual-Storage-Fault-Lab-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/virtual-storage-fault-lab",
       "public_consumer_verified": false,
       "module": "virtual_storage_fault_lab",
       "dll_name": "VirtualStorageFaultLabJsonSDK.dll",
       "api_prefix": "virtual_storage_fault_lab_json_",
-      "repository": "https://github.com/TitanCSA/virtual-storage-fault-lab-php"
+      "repository": "https://github.com/TitanCSA/virtual-storage-fault-lab-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:50:52.162381+00:00",
+      "public_source_commit": "2273d535f215b8988c26a4235a296e8fde3f5e6d",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."

@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [FyraDevice](https://www.powershellgallery.com/packages/FyraDevice/1.0.0) [Source](FyraDevice-PowerShell-gallery/) |
 | Dart/pub-dev | registry_rate_limited_retry_later | [fyradevice](https://pub.dev/packages/fyradevice) [Source](FyraDevice-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [fyradevice](https://rubygems.org/gems/fyradevice) [Source](FyraDevice-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/fyradevice](https://packagist.org/packages/titancsa/fyradevice) |
+| PHP/packagist | published_composer_install_verified | [titancsa/fyradevice](https://packagist.org/packages/titancsa/fyradevice) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

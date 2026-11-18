@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [USBoverIPSDK](https://www.powershellgallery.com/packages/USBoverIPSDK/1.0.0) [Source](USB-over-IP-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | usb_over_ip_sdk [Source](USB-over-IP-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [usb-over-ip-sdk](https://rubygems.org/gems/usb-over-ip-sdk) [Source](USB-over-IP-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/usb-over-ip-sdk](https://packagist.org/packages/titancsa/usb-over-ip-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/usb-over-ip-sdk](https://packagist.org/packages/titancsa/usb-over-ip-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

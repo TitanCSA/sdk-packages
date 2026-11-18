@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `WindowsInputFilter` | `Install-Module WindowsInputFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_input_filter` | `dart pub add windows_input_filter:1.0.0` |
 | RubyGems | `windows-input-filter` | `gem install windows-input-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-input-filter` | Commande prevue apres publication : `composer require titancsa/windows-input-filter:1.0.0` |
+| Packagist | `titancsa/windows-input-filter` | `composer require titancsa/windows-input-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

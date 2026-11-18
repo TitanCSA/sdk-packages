@@ -1,5 +1,9 @@
 # Combined driver synchronization
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor). For central SDK installation, start with the [package guide](../README.md).
+
+This is the historical integration record for **1.4.17.0**. Current 1.4.22.0 release qualification is recorded in [DEMO-VALIDATION.md](DEMO-VALIDATION.md); the version-specific claims below are retained for provenance.
+
 Version **1.4.17.0** combines keyboard/mouse capture with the controller fixes in
 Interceptor Gamepad & Controller kernel **1.0.5.0**, SDK **1.0.4.2** and installer
 revision **1.0.7.0**. Product names, service identity, device-interface identifiers
@@ -7,7 +11,7 @@ and supported-family masks remain those of the combined Interceptor product.
 
 The public SDK is exactly `Interceptor/Interceptor.h` and `Interceptor.cpp`.
 All eight console examples, the viewer and both installers use these same files.
-Demo driver source is documented in [driver/README.md](../driver/README.md); full/commercial implementation and private signing material are excluded.
+Demo driver source is documented in [driver/README.md](https://github.com/TitanCSA/Interceptor/blob/main/driver/README.md); full/commercial implementation and private signing material are excluded.
 
 The Microsoft-signed return matches the submitted executable body and all three
 INF files. Both installers embed the same verified signed driver package. Build

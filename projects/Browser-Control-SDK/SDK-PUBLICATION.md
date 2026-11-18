@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [BrowserControlSDK](https://www.powershellgallery.com/packages/BrowserControlSDK/0.2.1) [Source](Browser-Control-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [browser_control_sdk](https://pub.dev/packages/browser_control_sdk) [Source](Browser-Control-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [browser-control-sdk](https://rubygems.org/gems/browser-control-sdk) [Source](Browser-Control-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/browser-control-sdk](https://packagist.org/packages/titancsa/browser-control-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/browser-control-sdk](https://packagist.org/packages/titancsa/browser-control-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

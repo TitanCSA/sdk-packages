@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `WindowsVirtualDevices` | `Install-Module WindowsVirtualDevices -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_virtual_devices` | `dart pub add windows_virtual_devices:1.0.0` |
 | RubyGems | `windows-virtual-devices` | `gem install windows-virtual-devices -v 1.0.0` |
-| Packagist | `titancsa/windows-virtual-devices` | Commande prevue apres publication : `composer require titancsa/windows-virtual-devices:1.0.0` |
+| Packagist | `titancsa/windows-virtual-devices` | `composer require titancsa/windows-virtual-devices:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

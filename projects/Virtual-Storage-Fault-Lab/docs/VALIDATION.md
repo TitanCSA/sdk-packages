@@ -1,6 +1,8 @@
 # Validation and scope
 
-Application/SDK 0.1.1; Microsoft-signed Storport driver 0.1.0.0, Windows x64. The returned INF matches the submission, the protected PE image matches the qualified private candidate, and Microsoft catalog trust plus INF/SYS membership pass. Demo/evaluation driver source is documented in [driver/README.md](../driver/README.md).
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/Virtual-Storage-Fault-Lab). For central SDK installation, start with the [package guide](../README.md).
+
+Application/SDK 0.1.1; Microsoft-signed Storport driver 0.1.0.0, Windows x64. The returned INF matches the submission, the protected PE image matches the qualified private candidate, and Microsoft catalog trust plus INF/SYS membership pass. Demo/evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/Virtual-Storage-Fault-Lab/blob/main/driver/README.md).
 
 ## Signed bundle checks
 

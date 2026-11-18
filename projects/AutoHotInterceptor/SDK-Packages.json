@@ -275,18 +275,23 @@
       "api_prefix": "autohotinterceptor_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/autohotinterceptor",
       "version": "1.0.0",
       "directory": "AutoHotInterceptor-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/autohotinterceptor",
       "public_consumer_verified": false,
       "module": "autohotinterceptor",
       "dll_name": "AutoHotInterceptorBridge.dll",
       "api_prefix": "autohotinterceptor_",
-      "repository": "https://github.com/TitanCSA/autohotinterceptor-php"
+      "repository": "https://github.com/TitanCSA/autohotinterceptor-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:42:11.588107+00:00",
+      "public_source_commit": "cc4ebced074e3fcb465e4b057bc6110255b5c19e",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",

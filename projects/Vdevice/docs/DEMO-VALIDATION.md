@@ -1,9 +1,11 @@
 # Signed demo validation - 1.0.5.0
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Vdevice). For central SDK installation, start with the [package guide](../README.md).
+
 The main driver and required `TitanDemoClock.sys` have valid Microsoft Windows
 Hardware Compatibility Publisher signatures. Every returned executable body and
 INF matches the prepared production candidate; kernel catalog membership was
-checked before integration. Demo driver source is documented in [driver/README.md](../driver/README.md). Full/commercial implementation and signing credentials remain private.
+checked before integration. Demo driver source is documented in [driver/README.md](https://github.com/TitanCSA/Vdevice/blob/main/driver/README.md). Full/commercial implementation and signing credentials remain private.
 
 The allowance is **3,600 seconds per product per Windows kernel boot**, shared
 across applications. First capture, controller monitor subscription or raw GIP

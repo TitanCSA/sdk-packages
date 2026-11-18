@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [TitanNetworkFilter](https://www.powershellgallery.com/packages/TitanNetworkFilter/1.0.0) [Source](Titan-Network-Filter-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | titan_network_filter [Source](Titan-Network-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [titan-network-filter](https://rubygems.org/gems/titan-network-filter) [Source](Titan-Network-Filter-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/titan-network-filter](https://packagist.org/packages/titancsa/titan-network-filter) |
+| PHP/packagist | published_composer_install_verified | [titancsa/titan-network-filter](https://packagist.org/packages/titancsa/titan-network-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

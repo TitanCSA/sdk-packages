@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [InterceptionV2](https://www.powershellgallery.com/packages/InterceptionV2/1.0.0) [Source](Interception-V2-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | interception_v2 [Source](Interception-V2-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [interception-v2](https://rubygems.org/gems/interception-v2) [Source](Interception-V2-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/interception-v2](https://packagist.org/packages/titancsa/interception-v2) |
+| PHP/packagist | published_composer_install_verified | [titancsa/interception-v2](https://packagist.org/packages/titancsa/interception-v2) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

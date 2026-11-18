@@ -1,7 +1,9 @@
 # Validation and boundaries
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/titanfyre/USB-over-IP-SDK). For central SDK installation, start with the [package guide](../README.md).
+
 This document describes the current signed demo/full implementation and its
-release qualification. The separate [demo-only source preview](../driver/README.md)
+release qualification. The separate [demo-only source preview](https://github.com/titanfyre/USB-over-IP-SDK/blob/main/driver/README.md)
 uses new identities and has compile/link plus ABI-rejection checks only.
 The runtime and hardware results below do not qualify that new preview.
 
@@ -127,6 +129,6 @@ low-resource simulation and prolonged throughput/latency measurements remain
 separate qualification. These tests establish neither universal USB support nor
 zero overhead nor WHQL certification. Kernel source for the current signed
 implementation with full activation remains excluded. The separate
-[demo-only source preview](../driver/README.md) is included in `driver/`. Private
+[demo-only source preview](https://github.com/titanfyre/USB-over-IP-SDK/blob/main/driver/README.md) is included in `driver/`. Private
 lab probes/grants, signing credentials, PDBs and CABs remain excluded from
 public downloads.

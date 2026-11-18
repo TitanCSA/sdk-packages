@@ -1,5 +1,7 @@
 # Input access, signing and trust
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse). For central SDK installation, start with the [package guide](../README.md).
+
 ## What an authorized capture application can do
 
 For ordinary software-generated keystrokes, consider Windows `SendInput` first.
@@ -33,7 +35,7 @@ signature is distinct from authorship, independent security review, and WHQL/HLK
 certification. No additional certification or independent audit is claimed here.
 Installer and example EXEs have their own signature status.
 
-The SDK/example/installer source is public; demo/evaluation driver source is documented in [driver/README.md](../driver/README.md) and the
+The SDK/example/installer source is public; demo/evaluation driver source is documented in [driver/README.md](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse/blob/main/driver/README.md) and the
 driver binaries have separate terms. Reviewing the public SDK does not audit the
 whole stack. See the [published validation scope](DEMO-VALIDATION.md) and
 [installation/recovery instructions](INSTALLATION.md). Those results must not be

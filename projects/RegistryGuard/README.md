@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `RegistryGuard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `registryguard` | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
 | RubyGems | `registryguard` | `gem install registryguard -v 1.0.0` |
-| Packagist | `titancsa/registryguard` | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
+| Packagist | `titancsa/registryguard` | `composer require titancsa/registryguard:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

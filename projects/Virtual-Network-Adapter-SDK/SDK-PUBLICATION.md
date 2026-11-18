@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [VirtualNetworkAdapterSDK](https://www.powershellgallery.com/packages/VirtualNetworkAdapterSDK/1.0.0) [Source](Virtual-Network-Adapter-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | virtual_network_adapter_sdk [Source](Virtual-Network-Adapter-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [virtual-network-adapter-sdk](https://rubygems.org/gems/virtual-network-adapter-sdk) [Source](Virtual-Network-Adapter-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/virtual-network-adapter-sdk](https://packagist.org/packages/titancsa/virtual-network-adapter-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/virtual-network-adapter-sdk](https://packagist.org/packages/titancsa/virtual-network-adapter-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

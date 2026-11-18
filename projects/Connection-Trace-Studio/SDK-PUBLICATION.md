@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [ConnectionTraceStudio](https://www.powershellgallery.com/packages/ConnectionTraceStudio/1.0.0) [Source](Connection-Trace-Studio-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | connection_trace_studio [Source](Connection-Trace-Studio-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [connection-trace-studio](https://rubygems.org/gems/connection-trace-studio) [Source](Connection-Trace-Studio-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/connection-trace-studio](https://packagist.org/packages/titancsa/connection-trace-studio) |
+| PHP/packagist | published_composer_install_verified | [titancsa/connection-trace-studio](https://packagist.org/packages/titancsa/connection-trace-studio) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

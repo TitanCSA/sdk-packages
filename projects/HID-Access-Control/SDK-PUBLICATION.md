@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [HIDAccessControl](https://www.powershellgallery.com/packages/HIDAccessControl/1.0.0) [Source](HID-Access-Control-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | hid_access_control [Source](HID-Access-Control-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [hid-access-control](https://rubygems.org/gems/hid-access-control) [Source](HID-Access-Control-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/hid-access-control](https://packagist.org/packages/titancsa/hid-access-control) |
+| PHP/packagist | published_composer_install_verified | [titancsa/hid-access-control](https://packagist.org/packages/titancsa/hid-access-control) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

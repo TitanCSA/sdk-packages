@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [InterceptorGamepadController](https://www.powershellgallery.com/packages/InterceptorGamepadController/1.0.0) [Source](Interceptor-Gamepad-Controller-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [interceptor_gamepad_controller](https://pub.dev/packages/interceptor_gamepad_controller) [Source](Interceptor-Gamepad-Controller-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [interceptor-gamepad-controller](https://rubygems.org/gems/interceptor-gamepad-controller) [Source](Interceptor-Gamepad-Controller-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/interceptor-gamepad-controller](https://packagist.org/packages/titancsa/interceptor-gamepad-controller) |
+| PHP/packagist | published_composer_install_verified | [titancsa/interceptor-gamepad-controller](https://packagist.org/packages/titancsa/interceptor-gamepad-controller) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

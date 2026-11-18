@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `StorageIOFlightRecorder` | `Install-Module StorageIOFlightRecorder -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `storage_io_flight_recorder` | Commande prevue apres publication : `dart pub add storage_io_flight_recorder:1.0.0` |
 | RubyGems | `storage-io-flight-recorder` | `gem install storage-io-flight-recorder -v 1.0.0` |
-| Packagist | `titancsa/storage-io-flight-recorder` | Commande prevue apres publication : `composer require titancsa/storage-io-flight-recorder:1.0.0` |
+| Packagist | `titancsa/storage-io-flight-recorder` | `composer require titancsa/storage-io-flight-recorder:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

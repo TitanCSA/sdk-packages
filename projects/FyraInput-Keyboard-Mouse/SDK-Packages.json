@@ -270,18 +270,23 @@
       "api_prefix": "fyrainput_keyboard_mouse_"
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/fyrainput-keyboard-mouse",
       "version": "1.0.0",
       "directory": "FyraInput-Keyboard-Mouse-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/fyrainput-keyboard-mouse",
       "public_consumer_verified": false,
       "module": "fyrainput_keyboard_mouse",
       "dll_name": "FyraInputKeyboardMouseBridge.dll",
       "api_prefix": "fyrainput_keyboard_mouse_",
-      "repository": "https://github.com/TitanCSA/fyrainput-keyboard-mouse-php"
+      "repository": "https://github.com/TitanCSA/fyrainput-keyboard-mouse-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:49:39.767135+00:00",
+      "public_source_commit": "9004f988a3472f001d476a3d81e7f97c1e5a1273",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",

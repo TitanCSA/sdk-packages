@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [TitanFileFilter](https://www.powershellgallery.com/packages/TitanFileFilter/1.0.0) [Source](Titan-File-Filter-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | titan_file_filter [Source](Titan-File-Filter-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [titan-file-filter](https://rubygems.org/gems/titan-file-filter) [Source](Titan-File-Filter-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/titan-file-filter](https://packagist.org/packages/titancsa/titan-file-filter) |
+| PHP/packagist | published_composer_install_verified | [titancsa/titan-file-filter](https://packagist.org/packages/titancsa/titan-file-filter) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

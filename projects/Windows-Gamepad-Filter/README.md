@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `WindowsGamepadFilter` | `Install-Module WindowsGamepadFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_gamepad_filter` | `dart pub add windows_gamepad_filter:1.0.0` |
 | RubyGems | `windows-gamepad-filter` | `gem install windows-gamepad-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-gamepad-filter` | Commande prevue apres publication : `composer require titancsa/windows-gamepad-filter:1.0.0` |
+| Packagist | `titancsa/windows-gamepad-filter` | `composer require titancsa/windows-gamepad-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

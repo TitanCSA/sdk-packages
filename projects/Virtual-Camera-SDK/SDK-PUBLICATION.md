@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [VirtualCameraSDK](https://www.powershellgallery.com/packages/VirtualCameraSDK/1.0.0) [Source](Virtual-Camera-SDK-PowerShell-gallery/) |
 | Dart/pub-dev | built_fixture_and_production_verified | virtual_camera_sdk [Source](Virtual-Camera-SDK-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [virtual-camera-sdk](https://rubygems.org/gems/virtual-camera-sdk) [Source](Virtual-Camera-SDK-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/virtual-camera-sdk](https://packagist.org/packages/titancsa/virtual-camera-sdk) |
+| PHP/packagist | published_composer_install_verified | [titancsa/virtual-camera-sdk](https://packagist.org/packages/titancsa/virtual-camera-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

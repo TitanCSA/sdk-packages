@@ -19,7 +19,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | PowerShell/gallery | published_install_verified | [FyraInput](https://www.powershellgallery.com/packages/FyraInput/1.0.0) [Source](FyraInput-PowerShell-gallery/) |
 | Dart/pub-dev | published_install_verified | [fyrainput](https://pub.dev/packages/fyrainput) [Source](FyraInput-Dart-pub-dev/) |
 | Ruby/rubygems | published_install_verified | [fyrainput](https://rubygems.org/gems/fyrainput) [Source](FyraInput-Ruby-rubygems/) |
-| PHP/packagist | composer_source_and_tag_published | [titancsa/fyrainput](https://packagist.org/packages/titancsa/fyrainput) |
+| PHP/packagist | published_composer_install_verified | [titancsa/fyrainput](https://packagist.org/packages/titancsa/fyrainput) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 

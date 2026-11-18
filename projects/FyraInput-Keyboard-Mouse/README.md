@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `FyraInputKeyboardMouse` | `Install-Module FyraInputKeyboardMouse -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyrainput_keyboard_mouse` | `dart pub add fyrainput_keyboard_mouse:1.0.0` |
 | RubyGems | `fyrainput-keyboard-mouse` | `gem install fyrainput-keyboard-mouse -v 1.0.0` |
-| Packagist | `titancsa/fyrainput-keyboard-mouse` | Commande prevue apres publication : `composer require titancsa/fyrainput-keyboard-mouse:1.0.0` |
+| Packagist | `titancsa/fyrainput-keyboard-mouse` | `composer require titancsa/fyrainput-keyboard-mouse:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

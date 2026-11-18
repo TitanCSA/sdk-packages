@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `WindowsKeyboardMouseFilter` | `Install-Module WindowsKeyboardMouseFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_keyboard_mouse_filter` | `dart pub add windows_keyboard_mouse_filter:1.0.0` |
 | RubyGems | `windows-keyboard-mouse-filter` | `gem install windows-keyboard-mouse-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-keyboard-mouse-filter` | Commande prevue apres publication : `composer require titancsa/windows-keyboard-mouse-filter:1.0.0` |
+| Packagist | `titancsa/windows-keyboard-mouse-filter` | `composer require titancsa/windows-keyboard-mouse-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

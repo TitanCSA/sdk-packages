@@ -20,8 +20,8 @@
     },
     {
       "directory": "Browser-Control-SDK-JavaScript-npm",
-      "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "central_registry_status": "published",
+      "distribution": "Public registry package; exact version and qualification scope are reported in registry_publications"
     },
     {
       "directory": "Browser-Control-SDK-Ruby-rubygems",
@@ -266,18 +266,23 @@
       "public_consumer_verified": true
     },
     "PHP/packagist": {
-      "status": "composer_source_and_tag_published",
+      "status": "published_composer_install_verified",
       "name": "titancsa/browser-control-sdk",
       "version": "1.0.0",
       "directory": "Browser-Control-SDK-PHP-packagist",
-      "registry_published": false,
+      "registry_published": true,
       "documentation_bundled": true,
       "url": "https://packagist.org/packages/titancsa/browser-control-sdk",
       "public_consumer_verified": false,
       "module": "browser_control_sdk",
       "dll_name": "BrowserControlSDKJsonSDK.dll",
       "api_prefix": "browser_control_sdk_json_",
-      "repository": "https://github.com/TitanCSA/browser-control-sdk-php"
+      "repository": "https://github.com/TitanCSA/browser-control-sdk-php",
+      "composer_install_verified": true,
+      "public_metadata_verified": true,
+      "publication_checked_utc": "2026-11-18T14:42:14.493421+00:00",
+      "public_source_commit": "b2d59d8b5aa2f981d3f3f27a8e97ccde142d35a8",
+      "public_consumer_scope": "Composer resolve/download/install and payload inspection only; no native DLL loaded or driver operation executed"
     }
   },
   "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained.",

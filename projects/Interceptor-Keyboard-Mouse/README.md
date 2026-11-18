@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `InterceptorKeyboardMouse` | `Install-Module InterceptorKeyboardMouse -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `interceptor_keyboard_mouse` | `dart pub add interceptor_keyboard_mouse:1.0.0` |
 | RubyGems | `interceptor-keyboard-mouse` | `gem install interceptor-keyboard-mouse -v 1.0.0` |
-| Packagist | `titancsa/interceptor-keyboard-mouse` | Commande prevue apres publication : `composer require titancsa/interceptor-keyboard-mouse:1.0.0` |
+| Packagist | `titancsa/interceptor-keyboard-mouse` | `composer require titancsa/interceptor-keyboard-mouse:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

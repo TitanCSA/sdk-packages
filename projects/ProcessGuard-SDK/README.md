@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `ProcessGuardSDK` | `Install-Module ProcessGuardSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `processguard_sdk` | Commande prevue apres publication : `dart pub add processguard_sdk:1.0.0` |
 | RubyGems | `processguard-sdk` | `gem install processguard-sdk -v 1.0.0` |
-| Packagist | `titancsa/processguard-sdk` | Commande prevue apres publication : `composer require titancsa/processguard-sdk:1.0.0` |
+| Packagist | `titancsa/processguard-sdk` | `composer require titancsa/processguard-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

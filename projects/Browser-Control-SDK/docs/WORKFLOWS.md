@@ -1,5 +1,7 @@
 # Sessions, human checkpoints and explicit tabs
 
+> Product documentation: repository-root build commands, drivers and application examples refer to the [public product repository](https://github.com/TitanCSA/Browser-Control-SDK). For central SDK installation, start with the [package guide](../README.md).
+
 ## Sign in once, reconnect later
 
 1. Open the intended persistent profile and sign in normally on an authorized site.
@@ -55,7 +57,7 @@ up only its own tabs. No external account or website is used.
 MCP calls with omitted `tab` select the active tab at the start of each call.
 Carry the ID from `browser_observe` into subsequent calls and use its URL/generation
 guards when appropriate. A batch keeps the ID but does not prevent manual navigation.
-[Multiple profiles and instances](../MCP/README.md#profiles-and-instances).
+[Multiple profiles and instances](https://github.com/TitanCSA/Browser-Control-SDK/blob/main/MCP/README.md#profiles-and-instances).
 
 ## Uncertain submissions
 

@@ -12,6 +12,8 @@ Browse the [project portal](https://titancsa.github.io/) for use-case filters an
 
 Looking for an application rather than an SDK? The [complete project guide](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md) covers all 60 curated public project and SDK entries and explains what each one does.
 
+The [dated registry check](REGISTRY-CHECK.md) lists confirmed metadata, the new Composer install checks and names still awaiting publication.
+
 ## Distribution and publishing notes
 
 Reviewed user-mode SDK distributions and registry publishing workflows.

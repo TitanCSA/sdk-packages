@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `ConnectionTraceStudio` | `Install-Module ConnectionTraceStudio -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `connection_trace_studio` | Commande prevue apres publication : `dart pub add connection_trace_studio:1.0.0` |
 | RubyGems | `connection-trace-studio` | `gem install connection-trace-studio -v 1.0.0` |
-| Packagist | `titancsa/connection-trace-studio` | Commande prevue apres publication : `composer require titancsa/connection-trace-studio:1.0.0` |
+| Packagist | `titancsa/connection-trace-studio` | `composer require titancsa/connection-trace-studio:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
