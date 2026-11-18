@@ -2,7 +2,7 @@ name: usb_over_ip_sdk
 description: Direct Windows x64 USB-over-IP-SDK SDK with native operations and exact uint64 identifiers.
 version: 1.0.0
 homepage: https://github.com/titanfyre/USB-over-IP-SDK
-repository: https://github.com/titanfyre/USB-over-IP-SDK
+repository: https://github.com/TitanCSA/sdk-packages/tree/main/projects/USB-over-IP-SDK/USB-over-IP-SDK-Dart-pub-dev
 environment:
   sdk: ">=3.4.0 <4.0.0"
 platforms:

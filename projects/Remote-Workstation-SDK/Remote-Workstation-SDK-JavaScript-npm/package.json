@@ -24,10 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/Remote-Workstation-SDK.git",
-    "directory": "Remote-Workstation-SDK-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/Remote-Workstation-SDK/Remote-Workstation-SDK-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "remote-workstation-sdk"
+  ]
 }

@@ -24,10 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/Changed-Block-Tracking-SDK.git",
-    "directory": "Changed-Block-Tracking-SDK-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/Changed-Block-Tracking-SDK/Changed-Block-Tracking-SDK-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "changed-block-tracking-sdk"
+  ]
 }

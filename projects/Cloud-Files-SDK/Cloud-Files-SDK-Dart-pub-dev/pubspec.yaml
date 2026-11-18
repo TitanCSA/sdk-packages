@@ -2,7 +2,7 @@ name: cloud_files_sdk
 description: Direct Windows x64 Cloud-Files-SDK SDK with native operations and exact uint64 identifiers.
 version: 1.0.0
 homepage: https://github.com/titanfyre/Cloud-Files-SDK
-repository: https://github.com/titanfyre/Cloud-Files-SDK
+repository: https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Dart-pub-dev
 environment:
   sdk: ">=3.4.0 <4.0.0"
 platforms:

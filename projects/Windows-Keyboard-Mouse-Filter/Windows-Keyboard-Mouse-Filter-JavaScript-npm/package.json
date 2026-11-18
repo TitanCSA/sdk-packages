@@ -25,8 +25,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter.git",
-    "directory": "Windows-Keyboard-Mouse-Filter-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
@@ -34,5 +34,11 @@
   "homepage": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/tree/main/Windows-Keyboard-Mouse-Filter-JavaScript-npm#readme",
   "bugs": {
     "url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/issues"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "windows-keyboard-mouse-filter"
+  ]
 }

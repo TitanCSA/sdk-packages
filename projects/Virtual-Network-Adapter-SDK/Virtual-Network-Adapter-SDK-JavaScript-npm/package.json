@@ -24,10 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/Virtual-Network-Adapter-SDK.git",
-    "directory": "Virtual-Network-Adapter-SDK-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/Virtual-Network-Adapter-SDK/Virtual-Network-Adapter-SDK-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "virtual-network-adapter-sdk"
+  ]
 }

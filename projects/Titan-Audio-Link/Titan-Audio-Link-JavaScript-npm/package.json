@@ -24,10 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/Titan-Audio-Link.git",
-    "directory": "Titan-Audio-Link-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/Titan-Audio-Link/Titan-Audio-Link-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "titan-audio-link"
+  ]
 }

@@ -24,10 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/titanfyre/USB-Trace-SDK.git",
-    "directory": "USB-Trace-SDK-JavaScript-npm"
+    "url": "git+https://github.com/TitanCSA/sdk-packages.git",
+    "directory": "projects/USB-Trace-SDK/USB-Trace-SDK-JavaScript-npm"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "windows",
+    "sdk",
+    "native-addon",
+    "usb-trace-sdk"
+  ]
 }
