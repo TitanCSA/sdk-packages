@@ -8,7 +8,9 @@ This repository collects SDK sources, package recipes, examples and installation
 2. Follow that project's guide for the exact package name, registry and installation command. Some recipes use a TitanCSA registry or channel; use the documented setup rather than assuming a community registry.
 3. Check the prerequisites and license before running the example. A package may need a separate application or matching driver; installing an SDK does not install that component.
 
-Looking for an application rather than an SDK? The [complete project guide](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md) covers all 58 public projects and explains what each one does.
+Browse the [project portal](https://titancsa.github.io/) for use-case filters and first-run guides.
+
+Looking for an application rather than an SDK? The [complete project guide](https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md) covers all 60 curated public project and SDK entries and explains what each one does.
 
 ## Distribution and publishing notes
 

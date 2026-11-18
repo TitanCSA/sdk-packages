@@ -20,10 +20,10 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | JitPack | `com.github.titanfyre:RegistryGuard` | `com.github.titanfyre:RegistryGuard:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `go get github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
-| PowerShell Gallery | `registryguard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `RegistryGuard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `registryguard` | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
 | RubyGems | `registryguard` | `gem install registryguard -v 1.0.0` |
-| Packagist | `registryguard` | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
+| Packagist | `titancsa/registryguard` | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

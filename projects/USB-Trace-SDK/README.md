@@ -12,18 +12,18 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `usb-trace-sdk` | `conan install --requires=usb-trace-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `USB-Trace-SDK.Native` | `Install-Package USB-Trace-SDK.Native -Version 0.1.1` |
 | NuGet | `USBTraceSDK.SDK` | `dotnet add package USBTraceSDK.SDK --version 1.0.0` |
-| PyPI | `usb_trace_sdk` | Commande prevue apres publication : `python -m pip install usb-trace-sdk==1.0.0` |
+| PyPI | `usb-trace-sdk` | Commande prevue apres publication : `python -m pip install usb-trace-sdk==1.0.0` |
 | Conda | `usb-trace-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge usb-trace-sdk` (canal TitanCSA) |
-| crates.io | `usb_trace_sdk` | `cargo add usb-trace-sdk@1.0.0` |
-| npm | `usb_trace_sdk` | Commande prevue apres publication : `npm install usb-trace-sdk@1.0.0` |
+| crates.io | `usb-trace-sdk` | `cargo add usb-trace-sdk@1.0.0` |
+| npm | `usb-trace-sdk` | Commande prevue apres publication : `npm install usb-trace-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:usb-trace-sdk` | `io.github.titancsa:usb-trace-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:USB-Trace-SDK` | `com.github.titanfyre:USB-Trace-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/USB-Trace-SDK/USB-Trace-SDK-Go-modules` | `go get github.com/titanfyre/USB-Trace-SDK/USB-Trace-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/USB-Trace-SDK/USB-Trace-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/USB-Trace-SDK/USB-Trace-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `usb_trace_sdk` | `Install-Module USBTraceSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `USBTraceSDK` | `Install-Module USBTraceSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `usb_trace_sdk` | Commande prevue apres publication : `dart pub add usb_trace_sdk:1.0.0` |
-| RubyGems | `usb_trace_sdk` | `gem install usb-trace-sdk -v 1.0.0` |
-| Packagist | `usb_trace_sdk` | Commande prevue apres publication : `composer require titancsa/usb-trace-sdk:1.0.0` |
+| RubyGems | `usb-trace-sdk` | `gem install usb-trace-sdk -v 1.0.0` |
+| Packagist | `titancsa/usb-trace-sdk` | Commande prevue apres publication : `composer require titancsa/usb-trace-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

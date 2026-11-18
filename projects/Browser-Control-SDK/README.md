@@ -14,7 +14,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | NuGet | `BrowserControlSDK.SDK` | `dotnet add package BrowserControlSDK.SDK --version 1.0.0` |
 | PyPI | `browser-control-sdk` | `python -m pip install browser-control-sdk==0.2.1` |
 | Conda | `browser-control-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge browser-control-sdk` (canal TitanCSA) |
-| crates.io | `browser_control_sdk` | `cargo add browser-control-sdk@1.0.0` |
+| crates.io | `browser-control-sdk` | `cargo add browser-control-sdk@1.0.0` |
 | npm | `browser-control-sdk` | `npm install browser-control-sdk@0.2.1` |
 | Maven Central | `io.github.titancsa:browser-control-sdk` | `io.github.titancsa:browser-control-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.TitanCSA:Browser-Control-SDK` | `com.github.TitanCSA:Browser-Control-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
@@ -23,7 +23,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | PowerShell Gallery | `BrowserControlSDK` | `Install-Module BrowserControlSDK -RequiredVersion 0.2.1 -Scope CurrentUser` |
 | pub.dev | `browser_control_sdk` | `dart pub add browser_control_sdk:0.2.1` |
 | RubyGems | `browser-control-sdk` | `gem install browser-control-sdk -v 0.2.2` |
-| Packagist | `browser_control_sdk` | Commande prevue apres publication : `composer require titancsa/browser-control-sdk:1.0.0` |
+| Packagist | `titancsa/browser-control-sdk` | Commande prevue apres publication : `composer require titancsa/browser-control-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

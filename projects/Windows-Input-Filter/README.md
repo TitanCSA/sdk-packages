@@ -12,18 +12,18 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `windows-input-filter` | `conan install --requires=windows-input-filter/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Windows-Input-Filter.Native` | `Install-Package Windows-Input-Filter.Native -Version 0.1.0` |
 | NuGet | `WindowsInputFilter.SDK` | `dotnet add package WindowsInputFilter.SDK --version 1.0.0` |
-| PyPI | `windows_input_filter` | Commande prevue apres publication : `python -m pip install windows-input-filter==1.0.0` |
+| PyPI | `windows-input-filter` | Commande prevue apres publication : `python -m pip install windows-input-filter==1.0.0` |
 | Conda | `windows-input-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge windows-input-filter` (canal TitanCSA) |
-| crates.io | `windows_input_filter` | `cargo add windows-input-filter@1.0.0` |
-| npm | `windows_input_filter` | Commande prevue apres publication : `npm install windows-input-filter@1.0.0` |
+| crates.io | `windows-input-filter` | `cargo add windows-input-filter@1.0.0` |
+| npm | `windows-input-filter` | Commande prevue apres publication : `npm install windows-input-filter@1.0.0` |
 | Maven Central | `io.github.titancsa:windows-input-filter` | `io.github.titancsa:windows-input-filter:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Windows-Input-Filter` | `com.github.titanfyre:Windows-Input-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules` | `go get github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Windows-Input-Filter/Windows-Input-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `windows_input_filter` | `Install-Module WindowsInputFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `WindowsInputFilter` | `Install-Module WindowsInputFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_input_filter` | `dart pub add windows_input_filter:1.0.0` |
-| RubyGems | `windows_input_filter` | `gem install windows-input-filter -v 1.0.0` |
-| Packagist | `windows_input_filter` | Commande prevue apres publication : `composer require titancsa/windows-input-filter:1.0.0` |
+| RubyGems | `windows-input-filter` | `gem install windows-input-filter -v 1.0.0` |
+| Packagist | `titancsa/windows-input-filter` | Commande prevue apres publication : `composer require titancsa/windows-input-filter:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

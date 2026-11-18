@@ -20,10 +20,10 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | JitPack | `com.github.TitanCSA:FyraInput-SDK` | `com.github.TitanCSA:FyraInput-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules` | `go get github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/FyraInput-SDK/FyraInput-Go-modules@v1.0.0` |
-| PowerShell Gallery | `fyrainput` | `Install-Module FyraInput -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `FyraInput` | `Install-Module FyraInput -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `fyrainput` | `dart pub add fyrainput:1.0.0` |
 | RubyGems | `fyrainput` | `gem install fyrainput -v 1.0.0` |
-| Packagist | `fyrainput` | Commande prevue apres publication : `composer require titancsa/fyrainput:1.0.0` |
+| Packagist | `titancsa/fyrainput` | Commande prevue apres publication : `composer require titancsa/fyrainput:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

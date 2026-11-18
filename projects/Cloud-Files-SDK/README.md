@@ -12,18 +12,18 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `cloud-files-sdk` | `conan install --requires=cloud-files-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Cloud-Files-SDK.Native` | `Install-Package Cloud-Files-SDK.Native -Version 0.1.1` |
 | NuGet | `CloudFilesSDK.SDK` | `dotnet add package CloudFilesSDK.SDK --version 1.0.0` |
-| PyPI | `cloud_files_sdk` | Commande prevue apres publication : `python -m pip install cloud-files-sdk==1.0.0` |
+| PyPI | `cloud-files-sdk` | Commande prevue apres publication : `python -m pip install cloud-files-sdk==1.0.0` |
 | Conda | `cloud-files-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge cloud-files-sdk` (canal TitanCSA) |
-| crates.io | `cloud_files_sdk` | `cargo add cloud-files-sdk@1.0.0` |
-| npm | `cloud_files_sdk` | Commande prevue apres publication : `npm install cloud-files-sdk@1.0.0` |
+| crates.io | `cloud-files-sdk` | `cargo add cloud-files-sdk@1.0.0` |
+| npm | `cloud-files-sdk` | Commande prevue apres publication : `npm install cloud-files-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:cloud-files-sdk` | `io.github.titancsa:cloud-files-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Cloud-Files-SDK` | `com.github.titanfyre:Cloud-Files-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `go get github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `cloud_files_sdk` | `Install-Module CloudFilesSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `CloudFilesSDK` | `Install-Module CloudFilesSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `cloud_files_sdk` | Commande prevue apres publication : `dart pub add cloud_files_sdk:1.0.0` |
-| RubyGems | `cloud_files_sdk` | `gem install cloud-files-sdk -v 1.0.0` |
-| Packagist | `cloud_files_sdk` | Commande prevue apres publication : `composer require titancsa/cloud-files-sdk:1.0.0` |
+| RubyGems | `cloud-files-sdk` | `gem install cloud-files-sdk -v 1.0.0` |
+| Packagist | `titancsa/cloud-files-sdk` | Commande prevue apres publication : `composer require titancsa/cloud-files-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

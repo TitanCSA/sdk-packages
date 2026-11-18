@@ -12,18 +12,18 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `usb-over-ip-sdk` | `conan install --requires=usb-over-ip-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `USB-over-IP-SDK.Native` | `Install-Package USB-over-IP-SDK.Native -Version 0.1.1` |
 | NuGet | `USBoverIPSDK.SDK` | `dotnet add package USBoverIPSDK.SDK --version 1.0.0` |
-| PyPI | `usb_over_ip_sdk` | Commande prevue apres publication : `python -m pip install usb-over-ip-sdk==1.0.0` |
+| PyPI | `usb-over-ip-sdk` | Commande prevue apres publication : `python -m pip install usb-over-ip-sdk==1.0.0` |
 | Conda | `usb-over-ip-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge usb-over-ip-sdk` (canal TitanCSA) |
-| crates.io | `usb_over_ip_sdk` | `cargo add usb-over-ip-sdk@1.0.0` |
-| npm | `usb_over_ip_sdk` | Commande prevue apres publication : `npm install usb-over-ip-sdk@1.0.0` |
+| crates.io | `usb-over-ip-sdk` | `cargo add usb-over-ip-sdk@1.0.0` |
+| npm | `usb-over-ip-sdk` | Commande prevue apres publication : `npm install usb-over-ip-sdk@1.0.0` |
 | Maven Central | `io.github.titancsa:usb-over-ip-sdk` | `io.github.titancsa:usb-over-ip-sdk:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:USB-over-IP-SDK` | `com.github.titanfyre:USB-over-IP-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/USB-over-IP-SDK/USB-over-IP-SDK-Go-modules` | `go get github.com/titanfyre/USB-over-IP-SDK/USB-over-IP-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/USB-over-IP-SDK/USB-over-IP-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/USB-over-IP-SDK/USB-over-IP-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `usb_over_ip_sdk` | `Install-Module USBoverIPSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `USBoverIPSDK` | `Install-Module USBoverIPSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `usb_over_ip_sdk` | Commande prevue apres publication : `dart pub add usb_over_ip_sdk:1.0.0` |
-| RubyGems | `usb_over_ip_sdk` | `gem install usb-over-ip-sdk -v 1.0.0` |
-| Packagist | `usb_over_ip_sdk` | Commande prevue apres publication : `composer require titancsa/usb-over-ip-sdk:1.0.0` |
+| RubyGems | `usb-over-ip-sdk` | `gem install usb-over-ip-sdk -v 1.0.0` |
+| Packagist | `titancsa/usb-over-ip-sdk` | Commande prevue apres publication : `composer require titancsa/usb-over-ip-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

@@ -20,10 +20,10 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | JitPack | `com.github.TitanCSA:AutoHotInterceptor` | `com.github.TitanCSA:AutoHotInterceptor:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `go get github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/AutoHotInterceptor/AutoHotInterceptor-Go-modules@v1.0.0` |
-| PowerShell Gallery | `autohotinterceptor` | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `AutoHotInterceptor` | `Install-Module AutoHotInterceptor -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `autohotinterceptor` | `dart pub add autohotinterceptor:1.0.0` |
 | RubyGems | `autohotinterceptor` | `gem install autohotinterceptor -v 1.0.0` |
-| Packagist | `autohotinterceptor` | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
+| Packagist | `titancsa/autohotinterceptor` | Commande prevue apres publication : `composer require titancsa/autohotinterceptor:1.0.0` |
 
 ## Configuration vcpkg et Conan
 

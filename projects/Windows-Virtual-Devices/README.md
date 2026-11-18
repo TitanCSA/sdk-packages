@@ -12,18 +12,18 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `windows-virtual-devices` | `conan install --requires=windows-virtual-devices/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Windows-Virtual-Devices.Native` | `Install-Package Windows-Virtual-Devices.Native -Version 0.1.0` |
 | NuGet | `WindowsVirtualDevices.SDK` | `dotnet add package WindowsVirtualDevices.SDK --version 1.0.0` |
-| PyPI | `windows_virtual_devices` | Commande prevue apres publication : `python -m pip install windows-virtual-devices==1.0.0` |
+| PyPI | `windows-virtual-devices` | Commande prevue apres publication : `python -m pip install windows-virtual-devices==1.0.0` |
 | Conda | `windows-virtual-devices` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge windows-virtual-devices` (canal TitanCSA) |
-| crates.io | `windows_virtual_devices` | `cargo add windows-virtual-devices@1.0.0` |
-| npm | `windows_virtual_devices` | Commande prevue apres publication : `npm install windows-virtual-devices@1.0.0` |
+| crates.io | `windows-virtual-devices` | `cargo add windows-virtual-devices@1.0.0` |
+| npm | `windows-virtual-devices` | Commande prevue apres publication : `npm install windows-virtual-devices@1.0.0` |
 | Maven Central | `io.github.titancsa:windows-virtual-devices` | `io.github.titancsa:windows-virtual-devices:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Windows-Virtual-Devices` | `com.github.titanfyre:Windows-Virtual-Devices:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules` | `go get github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Windows-Virtual-Devices/Windows-Virtual-Devices-Go-modules@v1.0.0` |
-| PowerShell Gallery | `windows_virtual_devices` | `Install-Module WindowsVirtualDevices -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `WindowsVirtualDevices` | `Install-Module WindowsVirtualDevices -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_virtual_devices` | `dart pub add windows_virtual_devices:1.0.0` |
-| RubyGems | `windows_virtual_devices` | `gem install windows-virtual-devices -v 1.0.0` |
-| Packagist | `windows_virtual_devices` | Commande prevue apres publication : `composer require titancsa/windows-virtual-devices:1.0.0` |
+| RubyGems | `windows-virtual-devices` | `gem install windows-virtual-devices -v 1.0.0` |
+| Packagist | `titancsa/windows-virtual-devices` | Commande prevue apres publication : `composer require titancsa/windows-virtual-devices:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
