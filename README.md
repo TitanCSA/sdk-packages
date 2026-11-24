@@ -23,7 +23,7 @@ GitHub OIDC with one workflow per pending PyPI project.
 | Package | Version | Install | Workflow |
 |---|---|---|---|
 | browser-control-sdk | 0.2.1 | `python -m pip install browser-control-sdk` | publish-pypi.yml |
-| interceptor-multilang | 1.0.1 | `python -m pip install interceptor-multilang` | publish-interceptor-pypi.yml |
+| interceptor-multilang | 1.0.2 | `python -m pip install interceptor-multilang` | publish-interceptor-pypi.yml |
 
 Commands become available after a successful registry publication. Workflow logs
 and the registry itself determine publication status; committing an archive does
