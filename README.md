@@ -47,7 +47,7 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 
 | Package | Version |
 | --- | --- |
-| Interceptor.MultiLang | 1.0.1 |
+| Interceptor.MultiLang | [1.0.2](https://www.nuget.org/packages/Interceptor.MultiLang/1.0.2) |
 | AutoHotInterceptor | 1.0.1 |
 | AutoHotInterceptor.Native | 1.0.0 |
 | Browser-Control-SDK.Native | 0.2.0 |

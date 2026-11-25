@@ -257,10 +257,10 @@
     "NET/nuget": {
       "status": "published_payload_verified",
       "name": "Interceptor.MultiLang",
-      "version": "1.0.1",
-      "url": "https://www.nuget.org/packages/Interceptor.MultiLang/1.0.1",
+      "version": "1.0.2",
+      "url": "https://www.nuget.org/packages/Interceptor.MultiLang/1.0.2",
       "public_payload_verified": true,
-      "public_consumer_verified": false,
+      "public_consumer_verified": true,
       "local_consumer_verified": true,
       "registry_published": true,
       "documentation_bundled": true,
@@ -269,8 +269,8 @@
     "Python/pypi": {
       "status": "published_install_verified",
       "name": "interceptor-multilang",
-      "version": "1.0.1",
-      "url": "https://pypi.org/project/interceptor-multilang/1.0.1/",
+      "version": "1.0.2",
+      "url": "https://pypi.org/project/interceptor-multilang/1.0.2/",
       "documentation_bundled": true,
       "examples_bundled": true,
       "registry_published": true

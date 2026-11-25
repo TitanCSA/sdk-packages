@@ -194,10 +194,10 @@
     "CPP/nuget": {
       "status": "published_payload_verified",
       "name": "Vdevice.Native",
-      "version": "1.0.5",
-      "url": "https://www.nuget.org/packages/Vdevice.Native/1.0.5",
+      "version": "1.0.6",
+      "url": "https://www.nuget.org/packages/Vdevice.Native/1.0.6",
       "public_payload_verified": true,
-      "public_consumer_verified": false,
+      "public_consumer_verified": true,
       "local_consumer_verified": true,
       "registry_published": true,
       "documentation_bundled": true,

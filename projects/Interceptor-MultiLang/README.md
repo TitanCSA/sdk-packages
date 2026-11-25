@@ -11,8 +11,8 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | vcpkg | `interceptor-multilang` | `vcpkg install interceptor-multilang:x64-windows` |
 | Conan | `interceptor-multilang` | `conan install --requires=interceptor-multilang/1.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Interceptor-MultiLang.Native` | `Install-Package Interceptor-MultiLang.Native -Version 1.0.0` |
-| NuGet | `Interceptor.MultiLang` | `dotnet add package Interceptor.MultiLang --version 1.0.1` |
-| PyPI | `interceptor-multilang` | `python -m pip install interceptor-multilang==1.0.1` |
+| NuGet | `Interceptor.MultiLang` | `dotnet add package Interceptor.MultiLang --version 1.0.2` |
+| PyPI | `interceptor-multilang` | `python -m pip install interceptor-multilang==1.0.2` |
 | Conda | `interceptor-multilang` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interceptor-multilang` (canal TitanCSA) |
 | crates.io | `interceptor-multilang` | `cargo add interceptor-multilang@1.0.1` |
 | npm | `interceptor-multilang` | `npm install interceptor-multilang@1.0.0` |
