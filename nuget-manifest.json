@@ -180,6 +180,18 @@
     ]
   },
   {
+    "project": "Interception-V2",
+    "registry": "nuget-native",
+    "name": "Interception-V2.Native",
+    "version": "2.0.1",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interception-V2.Native.2.0.1.nupkg",
+        "sha256": "553d2b679aa3c723f7e7b2e8bd099c8d0bdbef521a94a509b6692d31fca254de"
+      }
+    ]
+  },
+  {
     "project": "Interceptor",
     "registry": "nuget-native",
     "name": "Interceptor.Native",

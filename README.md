@@ -6,6 +6,8 @@ Find install commands for TitanCSA libraries.
 **Start here.** Pick your product and language in the package table. Follow that package’s first example.
 <!-- simple-start:end -->
 
+On Windows, clone into a short folder such as `C:\sdk-packages`. For a deeper path, use `git -c core.longpaths=true clone https://github.com/TitanCSA/sdk-packages.git`.
+
 > [!IMPORTANT]
 > **Request the full driver without the one-hour demo limit**
 >
@@ -54,7 +56,9 @@ Licenses are specific to each package and included inside its distributions.
 
 ## NuGet distributions
 
-78 reviewed versions across 76 package IDs, with 38 managed and 38 native source SDK IDs. Four unavailable upstream repositories remain excluded. The workflow verifies every archive hash before requesting a short-lived publishing key. It skips only versions whose public content matches the reviewed package and never replaces an existing version. Source licenses and driver/application prerequisites are retained. Native source packages are compiled by the consuming Visual C++ project.
+79 reviewed versions across 76 package IDs, with 38 managed and 38 native source SDK IDs. Four unavailable upstream repositories remain excluded. The workflow verifies every archive hash before requesting a short-lived publishing key. It skips only versions whose public content matches the reviewed package and never replaces an existing version. Source licenses and driver/application prerequisites are retained. Native source packages are compiled by the consuming Visual C++ project.
+
+Before publishing, the workflow restores the reviewed Interception V2 native SDK and builds a small Win32 and x64 app with `/W4 /WX`. Run the same check locally with `powershell -File scripts/test_interception_v2_native.ps1 -NuGet C:\Tools\nuget.exe`. See the [V2 native packaging guide](projects/Interception-V2/packaging/native/LAYOUT.md).
 
 Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `sdk-packages`, workflow `publish-nuget.yml`, environment `nuget`; enable new packages and new versions for the intended package IDs. The workflow uses the policy creator profile name, not an email.
 

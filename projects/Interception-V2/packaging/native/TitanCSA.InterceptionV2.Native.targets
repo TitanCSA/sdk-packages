@@ -4,6 +4,10 @@
     <Link><AdditionalDependencies>;%(AdditionalDependencies)</AdditionalDependencies></Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)sdk\library\interception.c"><ObjectFileName>$(IntDir)TitanInterceptionV2_%(Filename).obj</ObjectFileName></ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)sdk\library\interception.c">
+      <ObjectFileName>$(IntDir)TitanInterceptionV2_%(Filename).obj</ObjectFileName>
+      <!-- Match the upstream SDK build for its unmodified use of sprintf. -->
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
   </ItemGroup>
 </Project>

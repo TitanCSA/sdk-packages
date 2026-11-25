@@ -16,8 +16,19 @@ concurrency:
   group: publish-nuget
   cancel-in-progress: false
 jobs:
+  native-consumer:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Restore and compile the Interception V2 SDK as a consumer
+        shell: powershell
+        run: .\scripts\test_interception_v2_native.ps1
   publish:
     runs-on: windows-latest
+    needs: native-consumer
     environment: nuget
     permissions:
       contents: read
