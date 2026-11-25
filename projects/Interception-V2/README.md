@@ -10,7 +10,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | --- | --- | --- |
 | vcpkg | `interception-v2` | `vcpkg install interception-v2:x64-windows` |
 | Conan | `interception-v2` | `conan install --requires=interception-v2/2.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `Interception-V2.Native` | `Install-Package Interception-V2.Native -Version 2.0.0` |
+| NuGet | `Interception-V2.Native` | `Install-Package Interception-V2.Native -Version 2.0.1` |
 | NuGet | `InterceptionV2.SDK` | `dotnet add package InterceptionV2.SDK --version 1.0.0` |
 | PyPI | `interception-v2` | Commande prevue apres publication : `python -m pip install interception-v2==1.0.0` |
 | Conda | `interception-v2` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interception-v2` (canal TitanCSA) |

@@ -269,10 +269,10 @@
     "CPP/nuget": {
       "status": "published_payload_verified",
       "name": "Interception-V2.Native",
-      "version": "2.0.0",
-      "url": "https://www.nuget.org/packages/Interception-V2.Native/2.0.0",
+      "version": "2.0.1",
+      "url": "https://www.nuget.org/packages/Interception-V2.Native/2.0.1",
       "public_payload_verified": true,
-      "public_consumer_verified": false,
+      "public_consumer_verified": true,
       "local_consumer_verified": true,
       "registry_published": true,
       "documentation_bundled": true,

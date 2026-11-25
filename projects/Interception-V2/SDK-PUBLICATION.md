@@ -6,7 +6,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | interception-v2 |
 | CPP/conan | published_custom_source_index | [interception-v2](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | published_payload_verified | [Interception-V2.Native](https://www.nuget.org/packages/Interception-V2.Native/2.0.0) |
+| CPP/nuget | published_install_verified | [Interception-V2.Native 2.0.1](https://www.nuget.org/packages/Interception-V2.Native/2.0.1) |
 | NET/nuget | published_payload_verified | [InterceptionV2.SDK](https://www.nuget.org/packages/InterceptionV2.SDK/1.0.0) |
 | Python/pypi | built_fixture_and_production_verified | interception-v2 [Source](Interception-V2-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [interception-v2](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |

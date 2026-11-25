@@ -77,7 +77,7 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 | FyraInput-Gamepad.Native | 0.1.0 |
 | FyraInput-Keyboard-Mouse.Native | 0.1.0 |
 | HID-Access-Control.Native | 0.1.0 |
-| Interception-V2.Native | 2.0.0 |
+| Interception-V2.Native | [2.0.1](https://www.nuget.org/packages/Interception-V2.Native/2.0.1) |
 | Interceptor.Native | 1.4.22 |
 | Interceptor-Gamepad-Controller.Native | 1.0.13 |
 | Interceptor-Keyboard-Mouse.Native | 1.0.5 |
