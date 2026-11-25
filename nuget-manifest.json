@@ -384,6 +384,18 @@
     ]
   },
   {
+    "project": "Vdevice",
+    "registry": "nuget-native",
+    "name": "Vdevice.Native",
+    "version": "1.0.6",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Vdevice.Native.1.0.6.nupkg",
+        "sha256": "8ffb14c19130224d036d743e9f921b2bd79bf0150e7ca7fb6aee6976851ff89c"
+      }
+    ]
+  },
+  {
     "project": "Virtual-Camera-SDK",
     "registry": "nuget-native",
     "name": "Virtual-Camera-SDK.Native",
