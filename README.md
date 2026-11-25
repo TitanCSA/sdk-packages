@@ -78,7 +78,7 @@ Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `
 | USB-over-IP-SDK.Native | 0.1.1 |
 | USB-Trace-SDK.Native | 0.1.1 |
 | TitanCSA.UserBackedVirtualDisk.Native | 0.1.1 |
-| Vdevice.Native | 1.0.5 |
+| Vdevice.Native | [1.0.6](https://www.nuget.org/packages/Vdevice.Native/1.0.6) |
 | Virtual-Camera-SDK.Native | 0.1.1 |
 | Virtual-Network-Adapter-SDK.Native | 0.1.1 |
 | Virtual-Storage-Fault-Lab.Native | 0.1.1 |
