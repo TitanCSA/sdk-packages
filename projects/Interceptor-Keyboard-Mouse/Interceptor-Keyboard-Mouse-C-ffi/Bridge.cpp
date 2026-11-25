@@ -35,14 +35,16 @@ uint32_t Error(interceptor_keyboard_mouse_error *out, DWORD code, const char *ac
         out->accepted = accepted;
         if (code) {
             char text[512]{};
-            FormatMessageA(FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, nullptr,
-                           code, MAKELANGID(LANG_ENGLISH, SUBLANG_ENGLISH_US), text, sizeof(text),
-                           nullptr);
+            DWORD length = FormatMessageA(FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
+                                          nullptr, code, MAKELANGID(LANG_ENGLISH, SUBLANG_ENGLISH_US),
+                                          text, sizeof(text), nullptr);
+            while (length && (text[length - 1] == '\r' || text[length - 1] == '\n'))
+                text[--length] = '\0';
             _snprintf_s(out->message, sizeof(out->message), _TRUNCATE,
                         "%s: %s (Windows error %lu).%s", action, *text ? text : "Operation failed",
                         static_cast<unsigned long>(code),
                         (code == ERROR_FILE_NOT_FOUND || code == ERROR_PATH_NOT_FOUND)
-                            ? " Install the matching Interceptor driver with Install.cmd first."
+                            ? " Run InterceptorSetup.exe from the matching Interceptor Keyboard & Mouse driver package. Restart Windows if requested."
                             : "");
         }
     }
