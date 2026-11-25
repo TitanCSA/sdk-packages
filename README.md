@@ -31,6 +31,8 @@ The [dated registry check](REGISTRY-CHECK.md) lists confirmed metadata, the new 
 
 ## Distribution and publishing notes
 
+For project layout, first-run documentation and release updates, see the [maintenance guide](CONTRIBUTING.md).
+
 Reviewed user-mode SDK distributions and registry publishing workflows.
 No registry credentials are stored in this repository. PyPI publishing uses
 GitHub OIDC with one workflow per pending PyPI project.
