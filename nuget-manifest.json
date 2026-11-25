@@ -12,6 +12,18 @@
     ]
   },
   {
+    "project": "Interceptor-MultiLang",
+    "registry": "nuget",
+    "name": "Interceptor.MultiLang",
+    "version": "1.0.2",
+    "artifacts": [
+      {
+        "path": "distributions/nuget/Interceptor.MultiLang.1.0.2.nupkg",
+        "sha256": "3f4236150ec777e2960583682257f10a7a76978d4a54cc8c14d4acaf6c1ac62b"
+      }
+    ]
+  },
+  {
     "project": "AutoHotInterceptor",
     "registry": "nuget",
     "name": "AutoHotInterceptor",

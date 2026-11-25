@@ -1,28 +1,24 @@
 # Interceptor.MultiLang
 
-Windows x64 .NET 8+ wrapper for the Interceptor keyboard, mouse and gamepad driver.
+Windows x64 .NET 8+ wrapper for the combined Interceptor keyboard, mouse and gamepad driver.
 
-Install the Microsoft-signed driver from the [complete release](https://github.com/TitanCSA/Interceptor-MultiLang/releases/latest), then run your capture application as administrator.
+## Install the driver and the .NET package
 
-```csharp
-using TitanCSA.Interceptor;
-using var io = new Interceptor();
-while (true) {
-    var inputs = io.Receive();
-    foreach (var input in inputs)
-        if (input.Kind == "mouse" && (input.State["flags"] & 1) == 0) input.State["y"] = -input.State["y"];
-    io.Send(inputs);
-}
-```
+Use the [Microsoft-signed combined Interceptor demo 1.4.22.0](https://github.com/TitanCSA/Interceptor/releases/tag/v1.4.22.0-demo). Run InterceptorSetup.exe and restart Windows if the installer requests it. The [complete MultiLang ZIP](https://github.com/TitanCSA/Interceptor-MultiLang/releases/latest) also supplies Install.cmd.
 
-Receiving consumes input. Forward every family, or set `Blocked` to deliberately suppress an entry. Dispose the client to restore passthrough. The existing one-hour-per-boot driver demo applies; contact **titancsa** on Discord for unrestricted licensing.
+    dotnet add package Interceptor.MultiLang --version 1.0.2
 
-The native wrapper is MIT licensed and included in this package. The kernel driver is distributed separately under its binary demo terms; its source is private.
+The NuGet package includes the Windows x64 native bridge. It reports the matching installer when Windows error 2 indicates a missing driver.
 
-## Install from NuGet
+## Read driver status
 
-```sh
-dotnet add package Interceptor.MultiLang --version 1.0.1
-```
+    using TitanCSA.Interceptor;
 
-[Source and API](https://github.com/TitanCSA/Interceptor-MultiLang)
+    using var io = new Interceptor();
+    Console.WriteLine(io.GetInfo());
+
+The status query leaves input capture off. When implementing capture, forward every input family or set Blocked to deliberately suppress entries. Dispose the client to restore passthrough. See the [API guide and examples](https://github.com/TitanCSA/Interceptor-MultiLang/blob/main/docs/API.md).
+
+The one-hour demo allowance begins after the first documented capture or controller-monitor operation. See the [edition comparison](https://titancsa.github.io/guides/windows-input-release-compare/) for exact limits and the commercial Release.
+
+The wrapper is MIT licensed. The signed Windows driver is distributed separately under its binary demo terms.
