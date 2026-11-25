@@ -1,5 +1,10 @@
 # TitanCSA SDK package distribution
 
+> [!IMPORTANT]
+> **Request the full driver without the one-hour demo limit**
+>
+> On [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send the project name. Mention the matching driver or edition. TitanCSA shares purchase details privately.
+
 This repository collects SDK sources, package recipes, examples and installation guides for 38 Windows integration projects.
 
 ## Find your package
