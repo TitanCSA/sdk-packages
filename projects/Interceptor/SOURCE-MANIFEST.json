@@ -253,7 +253,14 @@
       "public_consumer_verified": true,
       "module": "interceptor",
       "dll_name": "InterceptorSDKBridge.dll",
-      "api_prefix": "interceptor_"
+      "api_prefix": "interceptor_",
+      "github_release": {
+        "version": "1.0.1",
+        "url": "https://github.com/TitanCSA/sdk-packages/releases/tag/node-input-sdk-v1.0.1",
+        "asset": "https://github.com/TitanCSA/sdk-packages/releases/download/node-input-sdk-v1.0.1/interceptor-sdk-1.0.1.tgz",
+        "sha256": "62322263c604fc1729ea54e99d3dae55c864af90fca256704cbbc86763ac3229",
+        "windows_11_secure_boot_demo_status_verified": true
+      }
     },
     "Java/maven": {
       "status": "published_install_verified",

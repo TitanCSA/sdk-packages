@@ -14,6 +14,8 @@ Looking for an application rather than an SDK? The [complete project guide](http
 
 The [dated registry check](REGISTRY-CHECK.md) lists confirmed metadata, the new Composer install checks and names still awaiting publication.
 
+[Windows input Node.js SDKs 1.0.1](https://github.com/TitanCSA/sdk-packages/releases/tag/node-input-sdk-v1.0.1) are available as GitHub downloads with checksums and matching driver setup links.
+
 ## Distribution and publishing notes
 
 Reviewed user-mode SDK distributions and registry publishing workflows.
@@ -41,7 +43,7 @@ Licenses are specific to each package and included inside its distributions.
 
 ## NuGet distributions
 
-76 reviewed packages:38 managed SDKs and38 native source SDKs. Four unavailable upstream repositories remain excluded. The workflow verifies every archive hash before requesting a short-lived publishing key. It skips only versions whose public content matches the reviewed package and never replaces an existing version. Source licenses and driver/application prerequisites are retained. Native source packages are compiled by the consuming Visual C++ project.
+78 reviewed versions across 76 package IDs, with 38 managed and 38 native source SDK IDs. Four unavailable upstream repositories remain excluded. The workflow verifies every archive hash before requesting a short-lived publishing key. It skips only versions whose public content matches the reviewed package and never replaces an existing version. Source licenses and driver/application prerequisites are retained. Native source packages are compiled by the consuming Visual C++ project.
 
 Configure NuGet Trusted Publishing for repository owner `TitanCSA`, repository `sdk-packages`, workflow `publish-nuget.yml`, environment `nuget`; enable new packages and new versions for the intended package IDs. The workflow uses the policy creator profile name, not an email.
 

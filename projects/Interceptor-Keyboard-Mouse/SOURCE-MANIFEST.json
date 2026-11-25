@@ -254,7 +254,14 @@
       "public_consumer_verified": true,
       "module": "interceptor_keyboard_mouse",
       "dll_name": "InterceptorKeyboardMouseBridge.dll",
-      "api_prefix": "interceptor_keyboard_mouse_"
+      "api_prefix": "interceptor_keyboard_mouse_",
+      "github_release": {
+        "version": "1.0.1",
+        "url": "https://github.com/TitanCSA/sdk-packages/releases/tag/node-input-sdk-v1.0.1",
+        "asset": "https://github.com/TitanCSA/sdk-packages/releases/download/node-input-sdk-v1.0.1/interceptor-keyboard-mouse-sdk-1.0.1.tgz",
+        "sha256": "ac81046be34106bd5132a0fff1148400ee6cc06ee2f70ed8bf858ff567c1bd8b",
+        "windows_11_secure_boot_demo_status_verified": true
+      }
     },
     "Java/maven": {
       "status": "published_install_verified",

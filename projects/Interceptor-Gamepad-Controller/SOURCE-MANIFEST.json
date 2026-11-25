@@ -254,7 +254,14 @@
       "public_consumer_verified": true,
       "module": "interceptor_gamepad_controller",
       "dll_name": "InterceptorGamepadControllerBridge.dll",
-      "api_prefix": "interceptor_gamepad_controller_"
+      "api_prefix": "interceptor_gamepad_controller_",
+      "github_release": {
+        "version": "1.0.1",
+        "url": "https://github.com/TitanCSA/sdk-packages/releases/tag/node-input-sdk-v1.0.1",
+        "asset": "https://github.com/TitanCSA/sdk-packages/releases/download/node-input-sdk-v1.0.1/interceptor-gamepad-controller-1.0.1.tgz",
+        "sha256": "6a8fadfe52d982199579f85d73344d4937c35f3d928dc8a03a334e88f6179d8c",
+        "windows_11_secure_boot_demo_status_verified": true
+      }
     },
     "Java/maven": {
       "status": "published_install_verified",
