@@ -43,4 +43,4 @@ jobs:
         run: python scripts/push_nuget.py
       - name: Verify published package payloads
         if: ${{ !inputs.check_only }}
-        run: python scripts/verify_public_nuget.py
+        run: python scripts/verify_public_nuget.py --wait-seconds 900
