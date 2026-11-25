@@ -7,12 +7,14 @@ on:
       - '.github/workflows/project-catalogue.yml'
       - 'centralized-projects.json'
       - 'projects/**/README.md'
+      - 'projects/*/SOURCE-MANIFEST.json'
       - 'scripts/verify_project_catalogue.py'
   pull_request:
     paths:
       - '.github/workflows/project-catalogue.yml'
       - 'centralized-projects.json'
       - 'projects/**/README.md'
+      - 'projects/*/SOURCE-MANIFEST.json'
       - 'scripts/verify_project_catalogue.py'
 
 permissions:

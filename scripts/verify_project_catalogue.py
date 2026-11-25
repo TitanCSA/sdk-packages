@@ -27,6 +27,13 @@ def verify_catalogue(root):
         guide = root / directory / "README.md"
         if not guide.is_file() or row["original_repository"] not in guide.read_text(encoding="utf-8"):
             raise ValueError(f"{project}: {guide.relative_to(root)} must link to the product repository")
+        manifest_path = guide.with_name("SOURCE-MANIFEST.json")
+        if not manifest_path.is_file():
+            raise ValueError(f"{project}: missing central SDK manifest")
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        fields = ("project", "original_repository", "central_directory")
+        if any(manifest.get(field) != row[field] for field in fields) or not manifest.get("registry_publications"):
+            raise ValueError(f"{project}: central SDK manifest and index do not agree")
         repositories.add(repo.path.casefold())
         directories.add(directory.casefold())
     project_guides = {
