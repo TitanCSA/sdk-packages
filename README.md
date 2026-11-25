@@ -1,5 +1,11 @@
 # TitanCSA SDK package distribution
 
+<!-- simple-start:start -->
+Find install commands for TitanCSA libraries.
+
+**Start here.** Pick your product and language in the package table. Follow that package’s first example.
+<!-- simple-start:end -->
+
 > [!IMPORTANT]
 > **Request the full driver without the one-hour demo limit**
 >
