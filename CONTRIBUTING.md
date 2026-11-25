@@ -8,6 +8,21 @@
 
 An installer configures the product. A driver is loaded by Windows. An SDK is used in another application. Say which parts are required for the first example. For a driver sold without the one-hour demo limit, direct the reader to **titancsa** on Discord for private purchase details.
 
+## Find the source and build files
+
+Start at the product's root `README.md` and use its build instructions. For the four related input demos, the public source uses the same layout.
+
+| Task | Where to work |
+| --- | --- |
+| Build the demo and see its targets | `Build.ps1` and `CMakeLists.txt` |
+| Change the Windows driver | `driver/` |
+| Change setup | `Installer/UI/` for the setup window, `Installer/Console/` for command-line setup |
+| Change an example | `Examples/` |
+| Update installation or API instructions | `docs/` |
+| Update a language binding or registry package | The product's folder under `projects/` in this repository |
+
+The [Interceptor](https://github.com/TitanCSA/Interceptor#readme), [Keyboard & Mouse](https://github.com/TitanCSA/Interceptor-Keyboard-Mouse#readme), [Gamepad & Controller](https://github.com/TitanCSA/Interceptor-Gamepad-Controller#readme) and [Vdevice](https://github.com/TitanCSA/Vdevice#readme) repositories use these paths. For older layouts, follow the product's documented entry points and preserve paths used by existing builds and SDK imports. Keep temporary build output outside the source directories.
+
 ## Update an SDK or release
 
 1. Find the project with `centralized-projects.json`. Change the package source, recipe or example in its existing central directory. Keep published package names and versioned imports usable.
