@@ -146,7 +146,7 @@
     "packaging/native/VdeviceSDKConfig.cmake.in": "1f43842905f7f6c6546f8a12c2211f2f1de35f2492a85ee6f45947e72c01dd9f",
     "packaging/native/conanfile.py": "89861f059b22ffad89a2816c59894613867d23b46dd75bdcf279b0f02e146b3e",
     "packaging/native/portfile.cmake": "d17e50f31285fffddaaa528a20ea92a3df96fb0b67b58f9a8d5a63fbae396b6b",
-    "packaging/native/sdk/Vdevice/Vdevice.cpp": "e5267d82f7331a2912f142a91a2029ee83576c83086f451354d9eb66000a3895",
+    "packaging/native/sdk/Vdevice/Vdevice.cpp": "2185b3d3772dced926848a88d71e7b6bc0c73bb95f64218303793f58bdd5ee2d",
     "packaging/native/sdk/Vdevice/Vdevice.h": "80902040a1727d21e46c775a14fcfc8782a8a66436854b57dc3a6c3d235830e0",
     "packaging/native/vcpkg.json": "72a54ec5c6c8175c62882b3b8feb394ecbc6a7fd2b410a54e05183eff85553c5"
   },
