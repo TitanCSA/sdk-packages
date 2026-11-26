@@ -14,7 +14,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | NuGet | `InterceptionV2.SDK` | `dotnet add package InterceptionV2.SDK --version 1.0.0` |
 | PyPI | `interception-v2` | Commande prevue apres publication : `python -m pip install interception-v2==1.0.0` |
 | Conda | `interception-v2` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interception-v2` (canal TitanCSA) |
-| crates.io | `interception-v2` | `cargo add interception-v2@1.0.0` |
+| GitHub | [Rust 1.0.1 quickstart ZIP](https://github.com/TitanCSA/sdk-packages/releases/download/rust-quickstarts-v1.0.1/interception-v2-1.0.1-rust-first-check.zip) | Extract the ZIP, then run `cargo run --locked` in its folder. |
 | npm | `interception-v2` | Commande prevue apres publication : `npm install interception-v2@1.0.0` |
 | Maven Central | `io.github.titancsa:interception-v2` | `io.github.titancsa:interception-v2:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.TitanCSA:Interception-V2` | `com.github.TitanCSA:Interception-V2:java-sdk-v1.0.0 (avec le depot JitPack)` |
@@ -22,7 +22,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | pkg.go.dev | `github.com/TitanCSA/Interception-V2/Interception-V2-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/Interception-V2/Interception-V2-Go-modules@v1.0.0` |
 | PowerShell Gallery | `InterceptionV2` | `Install-Module InterceptionV2 -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `interception_v2` | Commande prevue apres publication : `dart pub add interception_v2:1.0.0` |
-| RubyGems | `interception-v2` | `gem install interception-v2 -v 1.0.0` |
+| RubyGems | `interception-v2` | `gem install interception-v2 -v 1.0.1` |
 | Packagist | `titancsa/interception-v2` | `composer require titancsa/interception-v2:1.0.0` |
 
 ## Configuration vcpkg et Conan
