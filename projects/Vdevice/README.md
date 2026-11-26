@@ -14,7 +14,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | NuGet | `Vdevice.SDK` | `dotnet add package Vdevice.SDK --version 1.0.0` |
 | PyPI | `vdevice` | Commande prevue apres publication : `python -m pip install vdevice==1.0.0` |
 | Conda | `vdevice` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge vdevice` (canal TitanCSA) |
-| crates.io | `vdevice` | `cargo add vdevice@1.0.0` |
+| crates.io | `vdevice` | `cargo add vdevice@=1.0.1` |
 | npm | `vdevice` | Commande prevue apres publication : `npm install vdevice@1.0.0` |
 | Maven Central | `io.github.titancsa:vdevice` | `io.github.titancsa:vdevice:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.TitanCSA:Vdevice` | `com.github.TitanCSA:Vdevice:java-sdk-v1.0.0 (avec le depot JitPack)` |
@@ -22,7 +22,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | pkg.go.dev | `github.com/TitanCSA/Vdevice/Vdevice-Go-modules` | `Documentation : https://pkg.go.dev/github.com/TitanCSA/Vdevice/Vdevice-Go-modules@v1.0.0` |
 | PowerShell Gallery | `Vdevice` | `Install-Module Vdevice -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `vdevice` | `dart pub add vdevice:1.0.0` |
-| RubyGems | `vdevice` | `gem install vdevice -v 1.0.0` |
+| RubyGems | `vdevice` | `gem install vdevice -v 1.0.1` |
 | Packagist | `titancsa/vdevice` | `composer require titancsa/vdevice:1.0.0` |
 
 ## Configuration vcpkg et Conan

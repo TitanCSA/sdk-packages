@@ -12,14 +12,10 @@ fn main() {
         "cargo:rerun-if-changed={}",
         dir.join("VdeviceJsonSDK.dll").display()
     );
-    let out = PathBuf::from(env::var_os("OUT_DIR").unwrap());
-    let profile = out.ancestors().nth(3).unwrap();
-    for target in [profile.to_path_buf(), profile.join("deps")] {
-        fs::create_dir_all(&target).unwrap();
-        fs::copy(
-            dir.join("VdeviceJsonSDK.dll"),
-            target.join("VdeviceJsonSDK.dll"),
-        )
-        .expect("Download the complete release or build VdeviceJsonSDK first");
-    }
+    let out = PathBuf::from(env::var_os("OUT_DIR").expect("Cargo must set OUT_DIR"));
+    let dll = "VdeviceJsonSDK.dll";
+    // Cargo adds link-search paths under OUT_DIR to the loader path for run and test.
+    fs::copy(dir.join(dll), out.join(dll))
+        .unwrap_or_else(|error| panic!("Could not stage {dll}: {error}"));
+    println!("cargo:rustc-link-search=native={}", out.display());
 }
