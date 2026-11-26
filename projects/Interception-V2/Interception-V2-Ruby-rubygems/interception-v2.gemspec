@@ -1,3 +1,18 @@
 Gem::Specification.new do |s|
- s.name='interception-v2';s.version='1.0.0';s.summary='Windows x64 Interception-V2 direct SDK';s.description='Product native SDK operations through a UTF-8 JSON C ABI; driver installed separately.';s.authors=['TitanCSA'];s.license='LGPL-3.0-or-later';s.homepage='https://github.com/TitanCSA/Interception-V2';s.required_ruby_version='>=3.1';s.files=Dir['lib/**/*','native/*','docs/*','README.md','LICENSE'];s.require_paths=['lib'];s.add_runtime_dependency 'fiddle','>=1.1','<2';s.metadata={'source_code_uri'=>s.homepage,'documentation_uri'=>s.homepage+'/tree/main/Interception-V2-Ruby-rubygems/docs','allowed_push_host'=>'https://rubygems.org'}
+  s.name='interception-v2'
+  s.version = '1.0.1'
+  s.summary='Windows x64 Interception-V2 direct SDK'
+  s.description='Product native SDK operations through a UTF-8 JSON C ABI; driver installed separately.'
+  s.authors=['TitanCSA']
+  s.license='LGPL-3.0-or-later'
+  s.homepage='https://github.com/TitanCSA/Interception-V2'
+  s.required_ruby_version='>=3.1'
+  s.files=Dir['lib/**/*','native/*','docs/*','README.md','LICENSE']
+  s.require_paths=['lib']
+  s.add_runtime_dependency 'fiddle','>=1.1','<2'
+  s.metadata = {
+    'source_code_uri' => 'https://github.com/TitanCSA/sdk-packages/tree/main/projects/Interception-V2/Interception-V2-Ruby-rubygems',
+    'documentation_uri' => 'https://github.com/TitanCSA/sdk-packages/tree/main/projects/Interception-V2/Interception-V2-Ruby-rubygems#readme',
+    'allowed_push_host' => 'https://rubygems.org'
+  }
 end
