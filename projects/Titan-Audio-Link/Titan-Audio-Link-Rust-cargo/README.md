@@ -1,6 +1,8 @@
 # Titan-Audio-Link Rust SDK
 
-Use the public Rust SDK guide for distribution options. To use this source locally, run `cargo add --path PATH_TO_THIS_CRATE` in your Rust project.
+`cargo add titan-audio-link@=1.0.1`
+
+For the standalone example, see the [Rust ZIP quickstarts](https://github.com/TitanCSA/sdk-packages/releases/tag/rust-quickstarts-v1.0.1).
 
 Windows x64 MSVC Rust1.82+. Bundled DLL/import library; copy native DLL beside deployed executable.
 

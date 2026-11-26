@@ -14,6 +14,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | NuGet | `TitanAudioLink.SDK` | `dotnet add package TitanAudioLink.SDK --version 1.0.0` |
 | PyPI | `titan-audio-link` | Commande prevue apres publication : `python -m pip install titan-audio-link==1.0.0` |
 | Conda | `titan-audio-link` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge titan-audio-link` (canal TitanCSA) |
+| crates.io | [titan-audio-link](https://crates.io/crates/titan-audio-link/1.0.1) | `cargo add titan-audio-link@=1.0.1` |
 | GitHub | [Rust 1.0.1 quickstart ZIP](https://github.com/TitanCSA/sdk-packages/releases/download/rust-quickstarts-v1.0.1/titan-audio-link-1.0.1-rust-first-check.zip) | Extract the ZIP, then run `cargo run --locked` in its folder. |
 | npm | `titan-audio-link` | Commande prevue apres publication : `npm install titan-audio-link@1.0.0` |
 | Maven Central | `io.github.titancsa:titan-audio-link` | `io.github.titancsa:titan-audio-link:1.0.0 (pom.xml / Gradle)` |
