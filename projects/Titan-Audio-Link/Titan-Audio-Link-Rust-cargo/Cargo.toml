@@ -1,6 +1,6 @@
 [package]
 name="titan-audio-link"
-version="1.0.0"
+version="1.0.1"
 edition="2021"
 rust-version="1.82"
 description="Windows x64 Titan-Audio-Link direct native SDK"

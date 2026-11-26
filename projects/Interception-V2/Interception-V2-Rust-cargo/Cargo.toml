@@ -1,6 +1,6 @@
 [package]
 name="interception-v2"
-version="1.0.0"
+version="1.0.1"
 edition="2021"
 rust-version="1.82"
 description="Windows x64 Interception-V2 direct native SDK"
