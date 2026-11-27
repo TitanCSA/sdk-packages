@@ -12,7 +12,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `interceptor-gamepad-controller` | `conan install --requires=interceptor-gamepad-controller/1.0.13 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Interceptor-Gamepad-Controller.Native` | `Install-Package Interceptor-Gamepad-Controller.Native -Version 1.0.13` |
 | NuGet | `InterceptorGamepadController.SDK` | `dotnet add package InterceptorGamepadController.SDK --version 1.0.0` |
-| PyPI | `interceptor-gamepad-controller` | Commande prevue apres publication : `python -m pip install interceptor-gamepad-controller==1.0.0` |
+| Archive GitHub | `interceptor-gamepad-controller` 1.0.0 | [Télécharger le paquet Python Windows x64 et vérifier son pilote](https://titancsa.github.io/fr/remapper-manette-windows/#python-sdk) |
 | Conda | `interceptor-gamepad-controller` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interceptor-gamepad-controller` (canal TitanCSA) |
 | crates.io | `interceptor-gamepad-controller` | `cargo add interceptor-gamepad-controller@=1.0.1` |
 | npm | `interceptor-gamepad-controller` | `npm install interceptor-gamepad-controller@1.0.1` |

@@ -12,7 +12,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `interceptor-keyboard-mouse` | `conan install --requires=interceptor-keyboard-mouse/1.0.5 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Interceptor-Keyboard-Mouse.Native` | `Install-Package Interceptor-Keyboard-Mouse.Native -Version 1.0.5` |
 | NuGet | `InterceptorKeyboardMouse.SDK` | `dotnet add package InterceptorKeyboardMouse.SDK --version 1.0.0` |
-| PyPI | `interceptor-keyboard-mouse` | Commande prevue apres publication : `python -m pip install interceptor-keyboard-mouse==1.0.0` |
+| Archive GitHub | `interceptor-keyboard-mouse` 1.0.0 | [Télécharger le paquet Python Windows x64 et vérifier son pilote](https://titancsa.github.io/fr/tester-deux-claviers-windows/#python-sdk) |
 | Conda | `interceptor-keyboard-mouse` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interceptor-keyboard-mouse` (canal TitanCSA) |
 | crates.io | `interceptor-keyboard-mouse` | `cargo add interceptor-keyboard-mouse@=1.0.1` |
 | npm | `interceptor-keyboard-mouse-sdk` | `npm install interceptor-keyboard-mouse-sdk@1.0.1` |
