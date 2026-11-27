@@ -3,7 +3,7 @@
 Use PowerShell 7.4 or newer on 64-bit Windows.
 
 ```powershell
-Install-Module InterceptionV2 -Scope CurrentUser -RequiredVersion 1.0.0
+Install-Module InterceptionV2 -Repository PSGallery -RequiredVersion 1.0.0 -Scope CurrentUser
 Import-Module InterceptionV2 -RequiredVersion 1.0.0
 $client = Connect-InterceptionV2SDK
 try {
