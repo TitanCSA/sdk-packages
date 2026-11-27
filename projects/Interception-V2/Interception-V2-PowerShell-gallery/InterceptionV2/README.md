@@ -1,10 +1,20 @@
-# Interception-V2 PowerShell SDK
+# Interception V2 PowerShell SDK
 
-PowerShell7.4+ Windows x64. `Install-Module InterceptionV2 -Scope CurrentUser`.
+Use PowerShell 7.4 or newer on 64-bit Windows.
 
 ```powershell
-$client=Connect-InterceptionV2SDK
-try { Invoke-InterceptionV2SDK -Client $client -Operation check -Arguments @{device=1} } finally { Disconnect-InterceptionV2SDK -Client $client }
+Install-Module InterceptionV2 -Scope CurrentUser -RequiredVersion 1.0.0
+Import-Module InterceptionV2 -RequiredVersion 1.0.0
+$client = Connect-InterceptionV2SDK
+try {
+    Invoke-InterceptionV2SDK -Client $client -Operation check -Arguments @{ device = 1 }
+} finally {
+    Disconnect-InterceptionV2SDK -Client $client
+}
 ```
 
-Use -Arguments with a hashtable matching [schema](docs/API.md). Native errors retain their Windows code through the inner exception. Matching driver installed separately.
+The check returns `keyboard: true` for slot 1. It can run before driver setup. Install the driver separately and follow the [Interception V2 first-run guide](https://titancsa.github.io/guides/interception-v2-migration/) to check devices connected to Windows.
+
+Use the [API reference](docs/API.md) to build the argument hashtable. Native errors carry the Windows error code in the inner exception.
+
+The Gallery 1.0.0 package includes the [LGPL 3.0 terms](LICENSE). The [original license text](https://github.com/TitanCSA/Interception-V2/blob/main/licenses/non-commercial-usage/LGPL%203.0.txt) matches that copy.
