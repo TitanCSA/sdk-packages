@@ -12,7 +12,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `titan-audio-link` | `conan install --requires=titan-audio-link/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Titan-Audio-Link.Native` | `Install-Package Titan-Audio-Link.Native -Version 0.1.1` |
 | NuGet | `TitanAudioLink.SDK` | `dotnet add package TitanAudioLink.SDK --version 1.0.0` |
-| PyPI | `titan-audio-link` | Commande prevue apres publication : `python -m pip install titan-audio-link==1.0.0` |
+| Archive GitHub | `titan-audio-link` 1.0.0 | [Télécharger le paquet Python Windows x64 et vérifier la paire audio](https://titancsa.github.io/fr/micro-virtuel-titan-audio-link/#python-sdk) |
 | Conda | `titan-audio-link` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge titan-audio-link` (canal TitanCSA) |
 | crates.io | [titan-audio-link](https://crates.io/crates/titan-audio-link/1.0.1) | `cargo add titan-audio-link@=1.0.1` |
 | GitHub | [Rust 1.0.1 quickstart ZIP](https://github.com/TitanCSA/sdk-packages/releases/download/rust-quickstarts-v1.0.1/titan-audio-link-1.0.1-rust-first-check.zip) | Extract the ZIP, then run `cargo run --locked` in its folder. |
