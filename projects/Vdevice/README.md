@@ -12,7 +12,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `vdevice` | `conan install --requires=vdevice/1.0.5 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | [Vdevice.Native](https://www.nuget.org/packages/Vdevice.Native/1.0.6) | `Install-Package Vdevice.Native -Version 1.0.6` (Visual Studio, C++ x64, avec [le pilote de démo signé](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.1-demo) à installer séparément) |
 | NuGet | `Vdevice.SDK` | `dotnet add package Vdevice.SDK --version 1.0.0` |
-| PyPI | `vdevice` | Commande prevue apres publication : `python -m pip install vdevice==1.0.0` |
+| Archive GitHub | `vdevice` 1.0.0 | [Télécharger le paquet Python Windows x64 et faire le premier test](https://titancsa.github.io/fr/souris-usb-virtuelle-vdevice/#python-sdk) |
 | Conda | `vdevice` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge vdevice` (canal TitanCSA) |
 | crates.io | `vdevice` | `cargo add vdevice@=1.0.1` |
 | npm | `vdevice` | Commande prevue apres publication : `npm install vdevice@1.0.0` |
