@@ -12,7 +12,7 @@ Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe p
 | Conan | `interception-v2` | `conan install --requires=interception-v2/2.0.0 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Interception-V2.Native` | `Install-Package Interception-V2.Native -Version 2.0.1` |
 | NuGet | `InterceptionV2.SDK` | `dotnet add package InterceptionV2.SDK --version 1.0.0` |
-| PyPI | `interception-v2` | Commande prevue apres publication : `python -m pip install interception-v2==1.0.0` |
+| Archive GitHub | `interception-v2` 1.0.0 | [Télécharger le paquet Python Windows x64 et faire le premier test](https://titancsa.github.io/fr/migrer-interception-v2/#python-sdk) |
 | Conda | `interception-v2` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge interception-v2` (canal TitanCSA) |
 | crates.io | [interception-v2](https://crates.io/crates/interception-v2/1.0.1) | `cargo add interception-v2@=1.0.1` |
 | GitHub | [Rust 1.0.1 quickstart ZIP](https://github.com/TitanCSA/sdk-packages/releases/download/rust-quickstarts-v1.0.1/interception-v2-1.0.1-rust-first-check.zip) | Extract the ZIP, then run `cargo run --locked` in its folder. |
